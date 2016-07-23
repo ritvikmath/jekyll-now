@@ -12,7 +12,7 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ## Background
 
-At UCLA, students living in the residential dorms use a unit of currently called swipes, loaded onto their student IDs, to get access to dining halls and quick service restaurants. 
+At UCLA, students living in the residential dorms use a unit of currency called swipes, loaded onto their student IDs, to get access to dining halls and quick service restaurants. 
 
 There are two fundamentally different meal plan styles that students are able to choose between, standard and premier. 
 
