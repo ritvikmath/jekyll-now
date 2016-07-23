@@ -47,7 +47,7 @@ This all boils down to a problem in Natural Language Processing (NLP), the art o
 ## Easy Case
 
 <center>
-   **`buying 3 swipes at De neve at 12, $5 each, PM me~`**
+   buying 3 swipes at De neve at 12, $5 each, PM me~ 
 </center>
 
 We wish all posts were as easy to analyze as the one above. This post is nice for many reasons including: 
