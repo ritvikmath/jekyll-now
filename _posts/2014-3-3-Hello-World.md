@@ -28,7 +28,7 @@ With an adequate number of suppliers and demanders for any product, a structured
 
 # The Data
 
-Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The fields used from the scraped data include the time when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
+Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, ranging from 2013-2016, includes fields such as when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
 
 This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relavant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
 
@@ -60,6 +60,15 @@ The post above is more confusing for a few reasons:
 This post is very clear to a human but very hard for a computer to understand for a few reasons:
 * Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really use if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
 * After reading the latter half of the post, it is clear to a human that this person is raising money for their friend's project and thus must be selling swipes, as we might have suspected. But, this is a very very special case and a computer will find it very hard to pick up on this nuance. For this reason, posts such as these are tagged neither with a 'b' for buyer or 's' for seller but rather  with an 'n' for 'not sure', in order to avoid misclassification. 
+
+# Whew. Enough of all the words, let's see some Graphs!
+
+All this data begs some immediate (and some not so immediate) questions. Let's ask each one and answer it with a cool graph!
+
+# What is the activity of the swipe market over time?
+
+The activity of any economic market, even a black market, relies on when supply is available and demand is high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations ? Lets find out.
+
 
 
 <!--
