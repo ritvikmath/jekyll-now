@@ -123,7 +123,7 @@ Let's see what our data says:
 </center>
 </figure>
 
-The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve in the middle takes is the Middle estimate, simply an average of the two mentioned extremes. 
+The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve in the middle takes is the Middle estimate, simply an average of prices of a Breakfast, Lunch, and Dinner swipe and comes out to $13.08 each. 
 
 We see that indeed lost revenues stagnate in the breaks betweeen academic quarters but also rise sharply in finals week, as we predicted. 
 
