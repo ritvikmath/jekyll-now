@@ -54,6 +54,7 @@ This all boils down to a problem in Natural Language Processing (NLP), the art o
 
 
 We wish all posts were as easy to analyze as the one above. This post is nice for many reasons including: 
+
 * The post clearly starts with 'buying' indicating that this person wishes to buy a swipe
 * The post clearly mentions that '3 swipes' are needed
 * The post clearly mentions the name of the dining hall, De neve dining hall
@@ -81,6 +82,7 @@ The post above is more confusing for a few reasons:
 
 
 This post is very clear to a human but very hard for a computer to understand for a few reasons:
+
 * Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really use if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
 * After reading the latter half of the post, it is clear to a human that this person is raising money for their friend's project and thus must be selling swipes, as we might have suspected. But, this is a very very special case and a computer will find it very hard to pick up on this nuance. For this reason, posts such as these are tagged neither with a 'b' for buyer or 's' for seller but rather  with an 'n' for 'not sure', in order to avoid misclassification. 
 
@@ -153,6 +155,7 @@ We see that indeed lost revenues stagnate in the breaks betweeen academic quarte
 Looking at the bottom chart, we see that lost revenue per academic year is also on the rise, rising in a roughly linear fashion. 
 
 The exact values of lost revenue by year are:
+
 * **$2276** for the 2013-14 Year
 * **$12256** for the 2014-15 Year
 * **$23567** for the 2015 - 16 Year
