@@ -75,7 +75,7 @@ For example, at the beginning of the quarter, students are likely less dependent
 
 <figure>
 <center>
-   <a> href="/images/post_volume.jpg"><img width="80%" src="/images/post_volume.jpg"></a>
+   <a href="/images/post_volume.jpg"><img width="80%" src="/images/post_volume.jpg"></a>
 </center>
 </figure>
 
@@ -91,7 +91,7 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 
 <figure>
 <center>
-   <a> href="/images/pie_loc.jpg"><img width="80%" src="/images/pie_loc.jpg"></a>
+   <a href="/images/pie_loc.jpg"><img width="80%" src="/images/pie_loc.jpg"></a>
 </center>
 </figure>
 
@@ -107,7 +107,7 @@ To answer the question we will focus only on people who buy swipes to dining hal
 
 <figure>
 <center>
-   <a> href="/images/dining_prices.png"><img width="80%" src="/images/dining_prices.png"></a>
+   <a href="/images/dining_prices.png"><img width="80%" src="/images/dining_prices.png"></a>
 </center>
 </figure>
 
@@ -119,7 +119,7 @@ Let's see what our data says:
 
 <figure>
 <center>
-   <a> href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg"></a>
+   <a href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg"></a>
 </center>
 </figure>
 
