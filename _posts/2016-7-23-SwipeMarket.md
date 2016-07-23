@@ -100,7 +100,7 @@ For example, at the beginning of the quarter, students are likely less dependent
 
 <figure>
 <center>
-   <a href="/images/post_volume.jpg"><img width="80%" src="/images/post_volume.jpg"></a>
+   <a href="/images/post_volume.jpg"><img width="100%" src="/images/post_volume.jpg"></a>
 </center>
 </figure>
 
@@ -144,7 +144,7 @@ Let's see what our data says:
 
 <figure>
 <center>
-   <a href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg"></a>
+   <a href="/images/lost_rev.jpg"><img width="100%" src="/images/lost_rev.jpg"></a>
 </center>
 </figure>
 
