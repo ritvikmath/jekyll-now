@@ -107,7 +107,7 @@ To answer the question we will focus only on people who buy swipes to dining hal
 
 <figure>
 <center>
-   <a> href="/images/dining_prices.png"><img width="80%" src="/images/dining_prices.png></a>
+   <a> href="/images/dining_prices.png"><img width="80%" src="/images/dining_prices.png"></a>
 </center>
 </figure>
 
@@ -119,7 +119,7 @@ Let's see what our data says:
 
 <figure>
 <center>
-   <a> href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg></a>
+   <a> href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg"></a>
 </center>
 </figure>
 
