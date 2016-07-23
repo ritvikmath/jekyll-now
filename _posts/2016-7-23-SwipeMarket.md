@@ -47,8 +47,7 @@ This all boils down to a problem in Natural Language Processing (NLP), the art o
 ## Easy Case
 
 <center>
-|buying 3 swipes at De neve at 12, $5 each, PM me~
-|hello|
+**buying 3 swipes at De neve at 12, $5 each, PM me~**
 </center>
 
 We wish all posts were as easy to analyze as the one above. This post is nice for many reasons including: 
@@ -60,7 +59,7 @@ We wish all posts were as easy to analyze as the one above. This post is nice fo
 ## Medium Case
 
 <center>
-### **`Anyone need Late night Swipes? I have 7 swipes i got to get rid of. $5 - Los Angeles, CA (90024)`**
+**Anyone need Late night Swipes? I have 7 swipes i got to get rid of. $5 - Los Angeles, CA (90024)**
 </center>
 
 The post above is more confusing for a few reasons:
@@ -73,7 +72,7 @@ The post above is more confusing for a few reasons:
 ## Hard Case
 
 <center>
-### **`swipes bplate 1pm, $5 - los angeles california, help me raise money for my friend's unicamp project! thanks!`**
+**swipes bplate 1pm, $5 - los angeles california, help me raise money for my friend's unicamp project! thanks!**
 </center>
 
 This post is very clear to a human but very hard for a computer to understand for a few reasons:
