@@ -67,14 +67,12 @@ All this data begs some immediate (and some not so immediate) questions. Let's a
 
 # What is the activity of the swipe market over time?
 
-The activity of any economic market, even a black market, relies on when supply is available and demand is high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations ? Lets find out.
+The activity of any economic market, even a black market, relies on supply being available and demand being high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations ? Lets find out.
 
+## Number of Posts to Facebook Page by Day
 
-
-<!--
 <figure>
 <center>
-   <a href="/images/test.jpg"><img width="80%" src="/images/test.jpg"></a>
+   <a href="/images/volume.jpg"><img width="80%" src="/images/volume.jpg"></a>
 </center>
 </figure>
--->
