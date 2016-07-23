@@ -73,6 +73,6 @@ The activity of any economic market, even a black market, relies on supply being
 
 <figure>
 <center>
-   <a href="/images/swipe_volume.jpg"><img width="80%" src="/images/swipe_volume.jpg"></a>
+   <a href="/images/post_volume.jpg"><img width="80%" src="/images/post_volume.jpg"></a>
 </center>
 </figure>
