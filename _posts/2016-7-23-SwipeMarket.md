@@ -21,11 +21,11 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 At UCLA, students living in the residential dorms use a unit of currency called swipes, loaded onto their student IDs, to get access to dining halls and quick service restaurants. 
 
-There are two fundamentally different meal plan styles that students are able to choose between, standard and premier. 
+There are two fundamentally different meal plan styles that students are able to choose from, standard and premier. 
 
 Standard meal plans allocate a set number of swipes at the start of each week (11, 14, or 19), and allow the student to swipe at most one time per meal period (Breakfast, Lunch, Dinner, Late Night). All unused swipes at the end of the week are lost and the student will be allocated another set of swipes at the start of the following week.
 
-In contrast, premier meal plan holders pay a cash premium which gives them increased flexibility in using their swipes. For example, a student who has meal plan 14P (P for premier) is allocated 154 swipes (14 swipes per week for the 11 weeks of the quarter) all at the start of the quarter, with no restriction on when or how many swipes s/he can use per dining period. One reason students often elect to purchase this premier plans is to allow for visiting family or friends to enter dining facilities with them. 
+In contrast, premier meal plan holders pay a cash premium which gives them increased flexibility in using their swipes. For example, a student who has meal plan 14P (P for premier) is allocated 154 swipes (14 swipes per week for the 11 weeks of the quarter) all at the start of the quarter, with no restriction on when or how many swipes s/he can use per dining period. One reason students often elect to purchase this premier plan is to allow for guests to enter dining facilities with them. 
 
 ## The Problem
 
@@ -87,7 +87,7 @@ This post is very clear to a human but very hard for a computer to understand fo
 * Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really use if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
 * After reading the latter half of the post, it is clear to a human that this person is raising money for their friend's project and thus must be selling swipes, as we might have suspected. But, this is a very very special case and a computer will find it very hard to pick up on this nuance. For this reason, posts such as these are tagged neither with a 'b' for buyer or 's' for seller but rather  with an 'n' for 'not sure', in order to avoid misclassification. 
 
-# Whew. Enough of all the words, let's see some Graphs!
+# Whew. Enough of all the words, let's see some graphs!
 
 All this data begs some immediate (and some not so immediate) questions. Let's ask each one and answer it with a cool graph!
 
