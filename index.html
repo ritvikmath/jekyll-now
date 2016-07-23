@@ -1,83 +1,18 @@
 ---
 layout: default
 ---
-<!--
-<head>
-  <meta charset='utf-8' />
-  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-  <meta name="description" content="Slate is a responsive theme for GitHub Pages" />
 
-  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-  <title>Slate : A responsive theme for GitHub Pages</title>
-</head>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-<body>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-   
-  <div id="header_wrap" class="outer">
-    <header class="inner">
-      this is a header
-    </header>
-  </div>
-   
-   
-  <div id="main_content" class="inner">
-  
-    <section>
-      <div class="posts">
-        {% for post in site._posts %}
-          <article class="post">
-      
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      
-            <div class="entry">
-              {{ post.excerpt }}
-            </div>
-      
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-          </article>
-        {% endfor %}
-      </div> 
-    </section>  
-  </div>
-
-</body>
--->
-<!DOCTYPE html>
-<html>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          HEADER
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>A simple, legible layout.</h1>
-          <div class="posts">
-          {% for post in site._posts %}
-            <article class="post">
-        
-              <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        
-              <div class="entry">
-                {{ post.excerpt }}
-              </div>
-        
-              <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-            </article>
-          {% endfor %}
-        </div> 
-        
-      </section>
-    </div>
-  </body>
-</html>
-
-
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
