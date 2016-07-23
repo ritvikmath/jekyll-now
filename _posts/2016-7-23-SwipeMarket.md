@@ -89,6 +89,10 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 
 ## Demand for UCLA Restaurants
 
-
+<figure>
+<center>
+   <a href="/images/pie_loc.jpg"><img width="80%" src="/images/pie_loc.jpg"></a>
+</center>
+</figure>
 
 
