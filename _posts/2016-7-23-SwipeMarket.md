@@ -163,14 +163,3 @@ The exact values of lost revenue by year are:
 
 If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** worth of revenues in the 2016-17 Year.
 
-<div id="disqus_thread></div>
-<script>
-
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//ritvikmath.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
