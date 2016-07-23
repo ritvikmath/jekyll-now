@@ -17,28 +17,28 @@ layout: default
   <!-- HEADER -->
   <div id="header_wrap" class="outer">
     <header class="inner">
-      this is a header here
+      this is a header
     </header>
   </div>
   
   <div id="main_content" class="inner">
   
-  <section>
-    <div class="posts">
-      {% for post in site.posts_ %}
-        <article class="post">
-    
-          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    
-          <div class="entry">
-            {{ post.excerpt }}
-          </div>
-    
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-      {% endfor %}
-    </div> 
-  </section>  
-</div>
+    <section>
+      <div class="posts">
+        {% for post in site.posts_ %}
+          <article class="post">
+      
+            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      
+            <div class="entry">
+              {{ post.excerpt }}
+            </div>
+      
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          </article>
+        {% endfor %}
+      </div> 
+    </section>  
+  </div>
 
 </body>
