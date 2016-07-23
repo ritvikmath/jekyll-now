@@ -12,6 +12,12 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ## Background
 
+<figure>
+<center>
+   <a href="/images/dining_hall2.png"><img width="80%" src="/images/dining_hall2.png"></a>
+</center>
+</figure>
+
 At UCLA, students living in the residential dorms use a unit of currency called swipes, loaded onto their student IDs, to get access to dining halls and quick service restaurants. 
 
 There are two fundamentally different meal plan styles that students are able to choose between, standard and premier. 
@@ -21,6 +27,12 @@ Standard meal plans allocate a set number of swipes at the start of each week (1
 In contrast, premier meal plan holders pay a cash premium which gives them increased flexibility in using their swipes. For example, a student who has meal plan 14P (P for premier) is allocated 154 swipes (14 swipes per week for the 11 weeks of the quarter) all at the start of the quarter, with no restriction on when or how many swipes s/he can use per dining period. One reason students often elect to purchase this premier plans is to allow for visiting family or friends to enter dining facilities with them. 
 
 ## The Problem
+
+<figure>
+<center>
+   <a href="/images/dining_hall2.jpg"><img width="80%" src="/images/dining_hall2.jpg"></a>
+</center>
+</figure>
 
 All too often, students who purchase premier meal plans find themselves with an extreme surplus of swipes with no chance of using them all by the quarter’s end, when all remaining swipes are lost. Faced with this situation, students elect to sell their remaining swipes, and there is more than enough demand in this black market for swipes. Students living off campus, without access to a meal plan, make up a large chunk of the consumers in the market for swipes. 
 
