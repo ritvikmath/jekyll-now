@@ -28,7 +28,7 @@ With an adequate number of suppliers and demanders for any product, a structured
 
 # The Data
 
-Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, ranging from 2013-2016, includes fields such as when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
+Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, consisting of ~17000 posts ranging from 2013-2016, includes fields such as when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
 
 This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relavant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
 
@@ -81,13 +81,13 @@ For example, at the beginning of the quarter, students are likely less dependent
 
 Indeed our predicitons were right! The green vertical lines indicate the end of each academic quarter and are indeed the naturaly stopping points for upward trends in the graph. We see that the 2014 - 2015 academic year saw a huge growth in the swipe market with a potential decline in the 2015 - 2016 academic year.
 
-# Where are buyers eating?
+## Where are buyers eating?
 
 One often cited problem with schools that use the swipe system for meals is that a swipe at one dining location will buy a completely different dining experience than a swipe at another dining location. For example, one swipe at the popular quick service restaurant Bruin Cafe will can buy a carton of Thrifty ice cream, which I can pick up for $2.50, at my local RiteAid. One swipe will also get me access to an all-you-can-eat dining hall such as De Neve, where I can indulge in college student (not so) guilty pleasure food such as pizza, burgers, fries, and as much ice cream as my heart desires, valued at $14.50 for non-meal-plan-carrying folk. 
 
 Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat experience and paying $5 to a freshman who grossly miscalculated how many swipes she would need this quarter, it is evident what students are choosing. We thus expect the high-value dining halls, Covel (CO), De Neve (DN), Bruin Plate (BP), and Feast (FE) to dominate the locations which swipe buyers frequent. The three quick service restaurants, Rendevous (RN), Cafe 1919 (19), and Bruin Cafe (BC) should make up a very small fraction of the swipe market.
 
-## Demand for UCLA Restaurants
+### Demand for UCLA Restaurants
 
 <figure>
 <center>
@@ -96,3 +96,45 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 </figure>
 
 From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In my opinion, improving) coming in last. 
+
+## How much does UCLA Dining lose?
+
+As with many black markets (illegal music, pirated DVDs, etc.) the original creator of the product never sees revenue from underground transactions. The natural question is then: how much revenue does UCLA Dining lose from the operation of the swipe market?
+
+Better yet, let's think about how much revenue is lost and when it is lost. We know that in times between quarters, winter, spring, and summer breaks, there are fewer transactions taking place and thus there is less revenue being lost. But, we also know that around the end of academic quarters, especially in finals week, we see a surge of trades in the market, and should thus expect to see a surge of lost revenue. But, then again, maybe not ... Maybe students who are buying swipes at the end of quarters are mostly buying swipes to quick service restaurants because it takes up less valuable study/sleep time during finals week. If that is the case, we might not see a surge in lost revenue around finals week. 
+
+To answer the question we will focus only on people who buy swipes to dining halls (the Big 4 in the donut plot above) and use the following pricing information provided by UCLA dining:
+
+<figure>
+<center>
+   <a href="/images/dining_prices.png"><img width="80%" src="/images/dining_prices.png></a>
+</center>
+</figure>
+
+We use the prices from Non-OCH (On Campus Houising) Residents since these make up the bulk of consumers, UCLA students without meal plans of their own.
+
+Let's see what our data says:
+
+### Lost Revenue Over Time
+
+<figure>
+<center>
+   <a href="/images/lost_rev.jpg"><img width="80%" src="/images/lost_rev.jpg></a>
+</center>
+</figure>
+
+The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve in the middle takes is the Middle estimate, simply an average of the two mentioned extremes. 
+
+We see that indeed lost revenues stagnate in the breaks betweeen academic quarters but also rise sharply in finals week, as we predicted. 
+
+Looking at the bottom chart, we see that lost revenue per academic year is also on the rise, rising in a roughly linear fashion. 
+
+The exact values of lost revenue by year are:
+* **$2276** for the 2013-14 Year
+* **$12256** for the 2014-15 Year
+* **$23567** for the 2015 - 16 Year
+
+If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** in the 2016-17 Year
+
+
+### Lost Revenue Over Time
