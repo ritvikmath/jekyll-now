@@ -76,3 +76,5 @@ The activity of any economic market, even a black market, relies on supply being
    <a href="/images/post_volume.jpg"><img width="80%" src="/images/post_volume.jpg"></a>
 </center>
 </figure>
+
+Indeed our predicitons were right! The green vertical lines indicate the end of each academic quarter and are indeed the naturaly stopping points for upward trends in the graph. We see that the 2014 - 2015 academic year saw a huge growth in the swipe market with a potential decline in the 2015 - 2016 academic year.
