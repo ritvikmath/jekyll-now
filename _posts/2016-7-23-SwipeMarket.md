@@ -85,7 +85,7 @@ Indeed our predicitons were right! The green vertical lines indicate the end of 
 
 One often cited problem with schools that use the swipe system for meals is that a swipe at one dining location will buy a completely different dining experience than a swipe at another dining location. For example, one swipe at the popular quick service restaurant Bruin Cafe will can buy a carton of Thrifty ice cream, which I can pick up for $2.50, at my local RiteAid. One swipe will also get me access to an all-you-can-eat dining hall such as De Neve, where I can indulge in college student (not so) guilty pleasure food such as pizza, burgers, fries, and as much ice cream as my heart desires, valued at $14.50 for non-meal-plan-carrying folk. 
 
-Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat experience and paying $5 to a freshman who grossly miscalculated how many swipes she would need this quarter, it is evident what students are choosing. We thus expect the high-value dining halls, Covel (CO), De Neve (DN), Bruin Plate (BP), and Feast (FE) to dominate the locations which swipe buyers frequent. The three quick service restaurants, Rendevous (RN), Cafe 1919 (1919), and Bruin Cafe (BC) should make up a very small fraction of the swipe market.
+Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat experience and paying $5 to a freshman who grossly miscalculated how many swipes she would need this quarter, it is evident what students are choosing. We thus expect the high-value dining halls, Covel (CO), De Neve (DN), Bruin Plate (BP), and Feast (FE) to dominate the locations which swipe buyers frequent. The three quick service restaurants, Rendevous (RN), Cafe 1919 (19), and Bruin Cafe (BC) should make up a very small fraction of the swipe market.
 
 ## Demand for UCLA Restaurants
 
@@ -95,4 +95,4 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 </center>
 </figure>
 
-
+From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In my opinion, improving) coming in last. 
