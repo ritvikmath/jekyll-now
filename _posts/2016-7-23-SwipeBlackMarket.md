@@ -10,9 +10,9 @@ title: Analyzing the UCLA Swipes Black Market
 </center>
 </figure>
 
-{:center: style="text-align: center"}
-<font size="6"><b>Studying the Mechanisms of a Black Market Economy</b></font>
-{:center}
+<center>
+<font size="5"><b>Studying the Mechanisms of a <br> Black Market Economy</b></font>
+</center>
 
 ---
 
