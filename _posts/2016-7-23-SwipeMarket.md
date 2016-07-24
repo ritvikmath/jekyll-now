@@ -180,3 +180,64 @@ The exact values of average lost revenue by year are:
 
 If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** worth of revenues in the 2016-17 Year.
 
+# How much is a swipe worth throughout the year?
+
+Let's drill deeper into the data. If we extract price and quantity information from the posts, we can get how many swipes each author is trying to buy/sell and at what price. 
+
+Lets define some basic terminology.
+
+* **Bid Price** for a swipe: How much a buyer would pay for a swipe
+* **Ask Price** for a swipe: How much a seller wants for a swipe
+
+Something very interesting happens when we plot the average Bid and Ask prices for each day in the three academic years we have data for. Let's see.
+
+## 2013 - 2014 Year
+
+<figure>
+<center>
+   <a href="/images/prices14.jpg"><img width="100%" src="/images/prices14.jpg"></a>
+</center>
+</figure>
+
+This is a pretty boring graph. First off, this market for swipes started in December 2013 so we have no data for the preceding Fall Quarter. Second, the ask prices seems to be relatively stable around $4 while the bid price is more volatile but still somewhat stable around $4 as well. At the least, this indicates that in the early stages of this market, while there wasn't much interesting stuff going on, it seems buyers and sellers seemed to more or less agree on a $4 swipe.
+
+## 2014 - 2015 Year
+
+<figure>
+<center>
+   <a href="/images/prices15jpg"><img width="100%" src="/images/prices15.jpg"></a>
+</center>
+</figure>
+
+A market rises! The 2014 - 2015 year seems to be the transition period between the rudimentary bartering system of 2013-14 and the full blown market we will see in 2015-16. Perhaps the biggest change in the 2014-15 year is the rise in both ask and bid price from around $4 to $5. Swipes just got more expensive. 
+
+Also, while the ask prices are still pretty rigid over time, with sporatic diversions from the mean, we clearly see the bid prices adopting an intricate pattern. Indeed, by the Spring 2015 quarter (Late March to Early June), we see key patterns emerging in the market, one of which is the decline in bid price at a quarter's end.
+
+## 2015 - 2016 Year
+
+<figure>
+<center>
+   <a href="/images/prices16.jpg"><img width="100%" src="/images/prices16.jpg"></a>
+</center>
+</figure>
+
+Before we get into all the intricacies in the 2015-16 swipe market, let's note that while the bid price continues to hover around $5, the ask price has actually started to hover around a slightly higher value, something like $5.50. It seems sellers are demanding more for their precious swipes while buyers are not willing to meet that higher price point.
+
+This 2015-16 graph really shows us key dynamics in the market. The key feature here is the apparent fall in both bid and ask prices in the last week of each quarter. But what does this really mean? Quick Econ 101 lesson:
+
+* When there is a positive shock to supply, such as at the end of a quarter when students flood the market with unused swipes, price should drop
+* When there is a positive shock to demand, such as at the end of a quarter when students need quick, cheap food amidst studying for final exams, price should rise
+
+Since price falls at the end of each quarter in the 2015-16 year, we know that the supply effect beats the demand effect. In more basic terms, the market is flooded with extra swipes quicker than consumers can buy those swipes.
+
+## Market Friction
+
+<figure>
+<center>
+   <a href="/images/overlay_prices.jpg"><img width="100%" src="/images/overlay_prices.jpg"></a>
+</center>
+</figure>
+
+Taking a look at ask and bid prices overlayed above, we see that although both price curves follow roughly the same pattern over time, the red ask price curve is usually above the blue bid price curve. This results in a condition called "market friction" where swipes are not able to be traded fairly at the given ask and bid prices. Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are only selling $6 swipes, it will likely take a greater time cost to both parties to negotiate the deal or perhaps the deal will fail altogether.
+
+
