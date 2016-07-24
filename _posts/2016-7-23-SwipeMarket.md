@@ -3,8 +3,6 @@ layout: post
 comments: true
 title: Analyzing the UCLA Swipes Black Market
 ---
-![smiley](../images/header.jpg)!
-
 
 <figure>
 <center>
@@ -24,7 +22,7 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 <figure>
 <center>
-   <a href="/images/dining_hall2.png"><img width="80%" src="/images/dining_hall2.png"></a>
+   <a href="/images/dining_hall2.png"><img width="100%" src="/images/dining_hall2.png"></a>
 </center>
 </figure>
 
