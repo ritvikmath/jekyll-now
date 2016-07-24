@@ -1,4 +1,5 @@
 ---
+cover_image = /images/header.jpg
 layout: post
 comments: true
 title: Analyzing the UCLA Swipes Black Market
