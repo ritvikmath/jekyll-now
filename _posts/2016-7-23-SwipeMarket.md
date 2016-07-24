@@ -257,3 +257,57 @@ Maybe it's the case that maket friction is only an issue on certain days of the 
 Remember that when ask price exceeds bid price, we have market friction. This seems to be the case on Monday, Wednesday, Friday, and Saturday on average. The opposite case, when ask price is lower than bid price, is favorable for the fluidity of the market and occurs on Tuesday, Thursday, and Sunday on average. The follow up question is then: When are there the most bid and ask posts to the Facebook page? It turns out, looking at the lower bars, that Thursday and Friday are have very high median posts per day for buyers and relatively high median posts per day for sellers as well. 
 
 It's interesting that one of these days is often prone to market friction while the other is not.
+
+# So What?
+
+The black market for swipes is, in the end, driven by the same supply and demand economics that govern all markets for goods. As we have seen, this market is leading to larger and larger lost revenues for UCLA and is potentially drifting towards market friction issues. This author proposes two possible remedies, one targetting supply and one demand, which seek to weaken this black market and benefit the consumer, supplier, and establishment. Consequences of either remedy will be discussed.
+
+## Plan 1: Shock Supply
+
+The reason there is great supply in the market for swipes is that premier-meal-plan-equipped students often find themselves at the end of a quarter with more swipes than they can use. They immediately try and cut their losses by selling swipes to those who are willing to buy them. The reason this panic occurs at the end of each quarter is that if the reamining swipes are not used, they will be erased. 
+
+This author proposes the following plan: ** Allow students to transfer some fraction of unused swipes from this quarter into next quarter. **
+
+Under the current regime, where there is a 0% transfer rate of remaining swipes from one quarter to the next, we get these massive supply shocks at the end of each quarter. Under a regime where there is a 100% transfer of remaining swipes from one quarter to the next, the panic might subside at the end of Fall and Winter quarter, since students know that their swipes will carry forward. But, there will likely be an enormous shock at the end of the academic year, when studnets have accumulated 3 quarters worth of swipes. This is not favorable either. Some compromise between 0% and 100% carryover may help to curb the end-of-quarter supply shocks and give students the freedom the data shows they need.
+
+## Plan 2: Shock Demand
+
+On the other end of the spectrum are the off-campus students who buy swipes, espcially in high demand periods such as finals week. These students choose to buy swipes because it is cheaper to do so than to purchse the same meal at often 3 to 4 times the price from UCLA Dining. 
+
+UCLA Dining does offer non-resident meal plans which give non On Campus Housing students the option to buy a meal plan for the quarter, but there is an issue with the pricing of these plans.
+
+The prices for the upcoming 2016 Fall quarter were found on the UCLA Ask Housing website and are reproduced below:
+
+<figure>
+<center>
+   <a href="/images/nrmp.jpg"><img width="100%" src="/images/nrmp.jpg"></a>
+</center>
+</figure>
+
+Let's break each plan down:
+
+* $1722 / (14 meals per week \* 11 weeks) = ** $11.18 / meal **
+* $1260 / (10 meals per week \* 11 weeks) = ** $11.45 / meal **
+* $861 / (7 meals per week \* 11 weeks) = ** $11.18 / meal **
+* $630 / (5 meals per week \* 11 weeks) = ** $11.45 / meal **
+
+An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without recieving any reduction in unit price. 
+
+How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.
+
+A single occupancy classic residence dorm room with a 14P meal plan costs **$17,426.04** per year
+A single occupancy classic residence dorm room with a 19P meal plan costs **$17,685.96** per year
+
+The difference is **$259.92** which is the cost of the difference between these two products, 5 completely flexible meals per week. 
+
+$259.92 / (5 meals per week \* 11 weeks per quarter \* 3 quarters) = ** $1.58 / meal **
+
+No wonder On Campus Housing students are comfortable selling their meals for $5, ** they are actually making a nice $3.42 profit per swipe! **
+
+This author proposes the following plan: ** Lower off campus student meal plan rates **
+
+And this does not mean lowering them to $5, but just enough so that off campus students start to viably consider the profitability of buying a long term guarenteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guarenteed meal at any meal period during the day.
+
+As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to off campus students is clearly too high for many students to justify buying the meal plans. If the market for swipes for off campus students is elastic (lowering price causes a large increase in demand) then lowering the price per unit for these students will actually increase revenues for UCLA Dining while giving these students more affordable and secure access to meals.
+
+This author does not have any data on how profitable the off campus meal plans are for UCLA Dining (but would love to know), but will offer the following plan: Reducing off campus meal plan prices 
