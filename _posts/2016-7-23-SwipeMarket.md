@@ -310,4 +310,14 @@ And this does not mean lowering them to $5, but just enough so that off campus s
 
 As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to off campus students is clearly too high for many students to justify buying the meal plans. If the market for swipes for off campus students is elastic (lowering price causes a large increase in demand) then lowering the price per unit for these students will actually increase revenues for UCLA Dining while giving these students more affordable and secure access to meals.
 
-This author does not have any data on how profitable the off campus meal plans are for UCLA Dining (but would love to know), but will offer the following plan: Reducing off campus meal plan prices 
+# A Combined Effect
+
+Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while also giving on campus students increased flexibility in their meals while simultaneiously giving off campus students affordable access to on campus meals.
+
+# Notes
+
+* One key assumption in the lost revenue analysis was that all requests to buy swipes on the facebook page were met with a seller for swipes. This is clearly not the case 100% of the time, but scrolling through the page, it is often the case. It is also the reason that this author included the low, medium, and high estimates of lost revenue.
+* All code and data used in this analysis will be available soon on my GitHub 
+* UCLA Dining does an extremely good job at accomodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
+
+- Thanks for reading
