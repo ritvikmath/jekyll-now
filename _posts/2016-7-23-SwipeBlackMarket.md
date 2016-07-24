@@ -150,7 +150,7 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 
 From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In this author's opinion, improving) coming in last. 
 
-<h2 id="lostrev"</h2>
+<h1 id="lostrev"</h1>
 
 ## How much does UCLA Dining lose?
 
