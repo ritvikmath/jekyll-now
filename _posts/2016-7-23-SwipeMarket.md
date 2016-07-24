@@ -56,7 +56,7 @@ We see a snapsot of the data below:
 
 <figure>
 <center>
-   <a href="/images/data.jpg"><img width="100%" src="/images/data.jpg"></a>
+   <a href="/images/data.jpg"><img width="80%" src="/images/data.jpg"></a>
 </center>
 </figure>
 
