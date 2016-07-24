@@ -6,7 +6,7 @@ title: Analyzing the UCLA Swipes Black Market
 
 <figure>
 <center>
-   <a href="/images/header.jpg"><img width="200%" src="/images/header.jpg"></a>
+   <a href="/images/header.jpg"><img width="100%" src="/images/header.jpg"></a>
 </center>
 </figure>
 
