@@ -50,7 +50,7 @@ With an adequate number of suppliers and demanders for any product, a structured
 
 Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, consisting of ~17000 posts ranging from 2013-2016, includes fields such as when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
 
-This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relavant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
+This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
 
 ## Easy Case
 
@@ -78,7 +78,7 @@ We wish all posts were as easy to analyze as the one above. This post is nice fo
 The post above is more confusing for a few reasons:
 
 * It is clear to human that this person wants to sell swipes, as indicated by "Anyone need ... ?" but the word "sell" is nowhere mentioned, making this task more difficult for a computer
-* Furthremore, the word 'need' is used, which is typically used by buyers i.e. "I need swipes"
+* Furthermore, the word 'need' is used, which is typically used by buyers i.e. "I need swipes"
 * It is clear again to a human that this person is willing to sell 7 swipes at $5 each but the word 'each' is never explicitly used which, is not properly checked, might cause a naive computer to believe this author is selling 7 swipes for a total of $5, clearly not the case
 * Still we can manage to work this one out with some clever rules such as picking up on the fact that the word 'need' is used but that the sentence ends in a '?' or that it is probabaly illogical for someone to sell 7 swipes at $5 total, yielding a value of less than $1 per swipe.
  
@@ -102,7 +102,7 @@ All this data begs some immediate (and some not so immediate) questions. Let's a
 
 The activity of any economic market, even a black market, relies on supply being available and demand being high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. 
 
-For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations ? Lets find out.
+For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations? Let’s find out.
 
 ### Number of Posts to Facebook Page by Day
 
@@ -112,7 +112,7 @@ For example, at the beginning of the quarter, students are likely less dependent
 </center>
 </figure>
 
-Indeed our predicitons were right! The green vertical lines indicate the end of each academic quarter and are indeed the naturaly stopping points for upward trends in the graph. We see that the 2014 - 2015 academic year saw a huge growth in the swipe market with a potential decline in the 2015 - 2016 academic year.
+Indeed our predictions were right! The green vertical lines indicate the end of each academic quarter and are indeed the natural stopping points for upward trends in the graph. We see that the 2014 - 2015 academic year saw a huge growth in the swipe market with a potential decline in the 2015 - 2016 academic year.
 
 ## Where are buyers eating?
 
@@ -144,7 +144,7 @@ To answer the question we will focus only on people who buy swipes to dining hal
 </center>
 </figure>
 
-We use the prices from Non-OCH (On Campus Houising) Residents since these make up the bulk of consumers, UCLA students without meal plans of their own.
+We use the prices from Non-OCH (On Campus Housing) Residents since these make up the bulk of consumers, UCLA students without meal plans of their own.
 
 Let's see what our data says:
 
@@ -158,7 +158,7 @@ Let's see what our data says:
 
 The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve in the middle takes is the Middle estimate, simply an average of prices of a Breakfast, Lunch, and Dinner swipe and comes out to $13.08 each. 
 
-We see that indeed lost revenues stagnate in the breaks betweeen academic quarters but also rise sharply in finals week, as we predicted. 
+We see that indeed lost revenues stagnate in the breaks between academic quarters but also rise sharply in finals week, as we predicted. 
 
 Looking at the bottom chart, we see that lost revenue per academic year is also on the rise, rising in a roughly linear fashion. 
 
