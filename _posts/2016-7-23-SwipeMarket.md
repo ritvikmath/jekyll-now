@@ -48,9 +48,7 @@ With an adequate number of suppliers and demanders for any product, a structured
 
 # The Data
 
-Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, consisting of ~17000 posts ranging from 2013-2016, includes fields such as when a post was written and the content of the post. The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, which dining facility the post author wanted to buy/sell swipes for.
-
-This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
+Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, consisting of ~17000 posts ranging from 2013-2016, includes fields such as when a post was written and the content of the post. 
 
 We see a snapsot of the data below:
 
@@ -59,6 +57,10 @@ We see a snapsot of the data below:
    <a href="/images/data.jpg"><img width="80%" src="/images/data.jpg"></a>
 </center>
 </figure>
+
+The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the post's author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, and which dining facility the post author wanted to buy/sell swipes for.
+
+This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
 
 ## Easy Case
 
@@ -74,7 +76,7 @@ We wish all posts were as easy to analyze as the one above. This post is nice fo
 * The post clearly starts with 'buying' indicating that this person wishes to buy a swipe
 * The post clearly mentions that '3 swipes' are needed
 * The post clearly mentions the name of the dining hall, De neve dining hall
-* The post uses a '$' symbol and the word 'each' to clearly convey how much the swipe will be for
+* The post uses a '$' symbol and the word 'each' 
 
 ## Medium Case
 
@@ -110,7 +112,7 @@ All this data begs some immediate (and some not so immediate) questions. Let's a
 
 The activity of any economic market, even a black market, relies on supply being available and demand being high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. 
 
-For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all you can eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes and so supply shoots up around the end of the quarter as well. Are we right with our expectations? Let’s find out.
+For example, at the beginning of the quarter, students are likely less dependent on buying swipes and have their fridges stocked (with health food for their ephemeral diets). But, as any student knows, when midterms, and especially finals come around, cooking is not a top priority. A potentially cheap all-you-can-eat meal at a dining hall sounds like a great option. Indeed, we expect demand for swipes to rise at the end of each quarter. Expanding on the supply side, we also expect more meal-plan-equipped students to realize their daunting surplus of swipes towards a quarter's end and so supply surges around this time as well. Are we right with our expectations? Let’s find out.
 
 ### Number of Posts to Facebook Page by Day
 
@@ -136,13 +138,13 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 </center>
 </figure>
 
-From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In my opinion, improving) coming in last. 
+From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In this author's opinion, improving) coming in last. 
 
 ## How much does UCLA Dining lose?
 
 As with many black markets (illegal music, pirated DVDs, etc.) the original creator of the product never sees revenue from underground transactions. The natural question is then: how much revenue does UCLA Dining lose from the operation of the swipe market?
 
-Better yet, let's think about how much revenue is lost and when it is lost. We know that in times between quarters, winter, spring, and summer breaks, there are fewer transactions taking place and thus there is less revenue being lost. But, we also know that around the end of academic quarters, especially in finals week, we see a surge of trades in the market, and should thus expect to see a surge of lost revenue. But, then again, maybe not ... Maybe students who are buying swipes at the end of quarters are mostly buying swipes to quick service restaurants because it takes up less valuable study/sleep time during finals week. If that is the case, we might not see a surge in lost revenue around finals week. 
+Better yet, let's think about lost revenue as a function of time. We know that in times between quarters, winter, spring, and summer breaks, there are fewer transactions taking place and thus there is less revenue being lost. But, we also know that around the end of academic quarters, especially in finals week, we see a surge of trades in the market, and should thus expect to see a surge of lost revenue. But, then again, maybe not ... maybe students who are buying swipes at the end of quarters are mostly buying swipes to quick service restaurants because it takes up less valuable study/sleep time during finals week. If that is the case, we might not see a surge in lost revenue around finals week. 
 
 To answer the question we will focus only on people who buy swipes to dining halls (the Big 4 in the donut plot above) and use the following pricing information provided by UCLA dining:
 
@@ -152,7 +154,7 @@ To answer the question we will focus only on people who buy swipes to dining hal
 </center>
 </figure>
 
-We use the prices from Non-OCH (On Campus Housing) Residents since these make up the bulk of consumers, UCLA students without meal plans of their own.
+We use the prices for Non-OCH (On Campus Housing) Residents since these are the consumers that comprise the bulk of the market.
 
 Let's see what our data says:
 
@@ -164,15 +166,15 @@ Let's see what our data says:
 </center>
 </figure>
 
-The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve in the middle takes is the Middle estimate, simply an average of prices of a Breakfast, Lunch, and Dinner swipe and comes out to $13.08 each. 
+The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve is the Middle estimate, simply an average of prices of a Breakfast, Lunch, and Dinner swipe, and comes out to $13.08 each. 
 
 We see that indeed lost revenues stagnate in the breaks between academic quarters but also rise sharply in finals week, as we predicted. 
 
 Looking at the bottom chart, we see that lost revenue per academic year is also on the rise, rising in a roughly linear fashion. 
 
-The exact values of lost revenue by year are:
+The exact values of average lost revenue by year are:
 
-* **$2276** for the 2013-14 Year
+* **$2276**  for the 2013-14 Year
 * **$12256** for the 2014-15 Year
 * **$23567** for the 2015 - 16 Year
 
