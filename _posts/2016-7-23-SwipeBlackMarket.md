@@ -24,7 +24,7 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ---
 
-* <a href="html_tips.html#lostrev">How much revenue does UCLA lose?</a>
+* <a href="#lostrev">Lost Revenues</a>
 
 # Motivation
 
