@@ -22,6 +22,10 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 *The only person authorized to use a UCLA Dining Meal Plan card is the owner of the card. UCLA Housing and Hospitality Services is the sole vendor of meal plans and dining meals. Dining Plan meals are non-transferable. Meal plan holders may not pass, loan, trade or sell meals or their ID card to anyone for any reason.*
 
+---
+
+* <a href="html_tips.html#lostrev">How much revenue does UCLA lose?</a>
+
 # Motivation
 
 ## Background
@@ -145,6 +149,8 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 </figure>
 
 From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In this author's opinion, improving) coming in last. 
+
+<h2 id="lostrev"</h2>
 
 ## How much does UCLA Dining lose?
 
