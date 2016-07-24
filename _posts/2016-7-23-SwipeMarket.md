@@ -242,4 +242,18 @@ Taking a look at ask and bid prices overlayed above, we see that although both p
 
 Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are only selling $6 swipes, it will likely take a greater time cost to both parties to negotiate the deal or perhaps the deal will fail altogether.
 
+### How fluid is the market on different days of the week?
 
+Maybe it's the case that maket friction is only an issue on certain days of the week or maybe it's a peristent problem accross the board. Let's turn to the data.
+
+#### Mean Price per Day and Median Posts per Day
+
+<figure>
+<center>
+   <a href="/images/dow_data.jpg"><img width="100%" src="/images/dow_data.jpg"></a>
+</center>
+</figure>
+
+Remember that when ask price exceeds bid price, we have market friction. This seems to be the case on Monday, Wednesday, Friday, and Saturday on average. The opposite case, when ask price is lower than bid price, is favorable for the fluidity of the market and occurs on Tuesday, Thursday, and Sunday on average. The follow up question is then: When are there the most bid and ask posts to the Facebook page? It turns out, looking at the lower bars, that Thursday and Friday are have very high median posts per day for buyers and relatively high median posts per day for sellers as well. 
+
+It's interesting that one of these days is often prone to market friction while the other is not.
