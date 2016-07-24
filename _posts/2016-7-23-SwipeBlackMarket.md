@@ -24,15 +24,15 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ---
 
-Quick Links:
+Quick Links:  
 [Motivation](#mot)  
 [The Data](#dat)  
-* [What is the activity of the swipe market over time?](#act)
-* [Where are buyers eating?](#loc)
-* [How much does UCLA Dining lose?](#lr)
-* [How much is a swipe worth throughout the year?](#val)
-* [So What?](#so)
-* [Notes](#not)
+[What is the activity of the swipe market over time?](#act)  
+[Where are buyers eating?](#loc)  
+[How much does UCLA Dining lose?](#lr)  
+[How much is a swipe worth throughout the year?](#val)  
+[So What?](#so)  
+* [Notes](#not)  
 
 ---
 
@@ -341,10 +341,10 @@ Let's break each plan down:
 
 An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without receiving any reduction in unit price. 
 
-How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.
+How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.  
 
-A single occupancy classic residence dorm room with a 14P meal plan costs **$17,426.04** per year
-A single occupancy classic residence dorm room with a 19P meal plan costs **$17,685.96** per year
+A single occupancy classic residence dorm room with a 14P meal plan costs **$17,426.04** per year  
+A single occupancy classic residence dorm room with a 19P meal plan costs **$17,685.96** per year  
 
 The difference is **$259.92** which is the cost of the difference between these two products, 5 completely flexible meals per week. 
 
