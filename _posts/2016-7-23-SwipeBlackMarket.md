@@ -25,8 +25,8 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 ---
 
 Quick Links:
-* [Motivation](#mot)
-* [The Data](#dat)
+[Motivation](#mot)
+[The Data](#dat)
 * [What is the activity of the swipe market over time?](#act)
 * [Where are buyers eating?](#loc)
 * [How much does UCLA Dining lose?](#lr)
