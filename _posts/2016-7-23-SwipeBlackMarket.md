@@ -32,7 +32,7 @@ Quick Links:
 [How much does UCLA Dining lose?](#lr)  
 [How much is a swipe worth throughout the year?](#val)  
 [So What?](#so)  
-* [Notes](#not)  
+*[Notes](#not)  
 
 ---
 
