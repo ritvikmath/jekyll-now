@@ -45,7 +45,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/dining_hall2.png"><img width="100%" src="/images/dining_hall2.png"></a>
+   <a href="/images/dining_hall3.jpg"><img width="100%" src="/images/dining_hall3.jpg"></a>
 </center>
 </figure>
 
