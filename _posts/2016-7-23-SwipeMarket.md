@@ -266,7 +266,7 @@ The black market for swipes is, in the end, driven by the same supply and demand
 
 The reason there is great supply in the market for swipes is that premier-meal-plan-equipped students often find themselves at the end of a quarter with more swipes than they can use. They immediately try and cut their losses by selling swipes to those who are willing to buy them. The reason this panic occurs at the end of each quarter is that if the reamining swipes are not used, they will be erased. 
 
-This author proposes the following plan: ** Allow students to transfer some fraction of unused swipes from this quarter into next quarter. **
+This author proposes the following plan: **Allow students to transfer some fraction of unused swipes from this quarter into next quarter.**
 
 Under the current regime, where there is a 0% transfer rate of remaining swipes from one quarter to the next, we get these massive supply shocks at the end of each quarter. Under a regime where there is a 100% transfer of remaining swipes from one quarter to the next, the panic might subside at the end of Fall and Winter quarter, since students know that their swipes will carry forward. But, there will likely be an enormous shock at the end of the academic year, when studnets have accumulated 3 quarters worth of swipes. This is not favorable either. Some compromise between 0% and 100% carryover may help to curb the end-of-quarter supply shocks and give students the freedom the data shows they need.
 
@@ -286,10 +286,10 @@ The prices for the upcoming 2016 Fall quarter were found on the UCLA Ask Housing
 
 Let's break each plan down:
 
-* $1722 / (14 meals per week \* 11 weeks) = ** $11.18 / meal **
-* $1260 / (10 meals per week \* 11 weeks) = ** $11.45 / meal **
-* $861 / (7 meals per week \* 11 weeks) = ** $11.18 / meal **
-* $630 / (5 meals per week \* 11 weeks) = ** $11.45 / meal **
+* $1722 / (14 meals per week \* 11 weeks) = **$11.18 / meal**
+* $1260 / (10 meals per week \* 11 weeks) = **$11.45 / meal**
+* $861 / (7 meals per week \* 11 weeks) = **$11.18 / meal**
+* $630 / (5 meals per week \* 11 weeks) = **$11.45 / meal**
 
 An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without recieving any reduction in unit price. 
 
@@ -300,11 +300,11 @@ A single occupancy classic residence dorm room with a 19P meal plan costs **$17,
 
 The difference is **$259.92** which is the cost of the difference between these two products, 5 completely flexible meals per week. 
 
-$259.92 / (5 meals per week \* 11 weeks per quarter \* 3 quarters) = ** $1.58 / meal **
+$259.92 / (5 meals per week \* 11 weeks per quarter \* 3 quarters) = **$1.58 / meal**
 
-No wonder On Campus Housing students are comfortable selling their meals for $5, ** they are actually making a nice $3.42 profit per swipe! **
+No wonder On Campus Housing students are comfortable selling their meals for $5, **they are actually making a nice $3.42 profit per swipe!**
 
-This author proposes the following plan: ** Lower off campus student meal plan rates **
+This author proposes the following plan: **Lower off campus student meal plan rates**
 
 And this does not mean lowering them to $5, but just enough so that off campus students start to viably consider the profitability of buying a long term guarenteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guarenteed meal at any meal period during the day.
 
@@ -320,4 +320,4 @@ Taken together, these shocks to supply and demand would cause quantity of swipes
 * All code and data used in this analysis will be available soon on my GitHub 
 * UCLA Dining does an extremely good job at accomodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
 
-- Thanks for reading
+Thanks for reading
