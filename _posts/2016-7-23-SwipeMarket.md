@@ -221,7 +221,7 @@ Also, while the ask prices are still pretty rigid over time, with sporatic diver
 </center>
 </figure>
 
-Before we get into all the intricacies in the 2015-16 swipe market, let's note that while the bid price continues to hover around $5, the ask price has actually started to hover around a slightly higher value, something like $5.50. It seems sellers are demanding more for their precious swipes while buyers are not willing to meet that higher price point.
+Before we get into all the intricacies in the 2015-16 swipe market, let's note that while the bid price continues to hover around $5, the ask price has actually started to hover around a slightly higher value, something like $5.50. It seems sellers are demanding more for their precious swipes while buyers are not willing to meet that higher price.
 
 This 2015-16 graph really shows us key dynamics in the market. The key feature here is the apparent fall in both bid and ask prices in the last week of each quarter. But what does this really mean? Quick Econ 101 lesson:
 
