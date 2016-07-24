@@ -238,6 +238,8 @@ Since price falls at the end of each quarter in the 2015-16 year, we know that t
 </center>
 </figure>
 
-Taking a look at ask and bid prices overlayed above, we see that although both price curves follow roughly the same pattern over time, the red ask price curve is usually above the blue bid price curve. This results in a condition called "market friction" where swipes are not able to be traded fairly at the given ask and bid prices. Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are only selling $6 swipes, it will likely take a greater time cost to both parties to negotiate the deal or perhaps the deal will fail altogether.
+Taking a look at ask and bid prices overlayed above, we see that although both price curves follow roughly the same pattern over time, the red ask price curve is usually above the blue bid price curve. This results in a condition called "market friction" where swipes are not able to be traded at the given ask and bid prices. 
+
+Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are only selling $6 swipes, it will likely take a greater time cost to both parties to negotiate the deal or perhaps the deal will fail altogether.
 
 
