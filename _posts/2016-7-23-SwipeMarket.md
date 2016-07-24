@@ -4,6 +4,9 @@ comments: true
 title: Analyzing the UCLA Swipes Black Market
 ---
 
+[head]: header.jpg
+{: height="36px" width="36px"}
+
 <figure>
 <center>
    <a href="/images/header.jpg"><img width="100%" src="/images/header.jpg"></a>
