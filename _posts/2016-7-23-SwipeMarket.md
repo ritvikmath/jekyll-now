@@ -3,9 +3,8 @@ layout: post
 comments: true
 title: Analyzing the UCLA Swipes Black Market
 ---
+![smiley](../images/header.jpg)!
 
-[head]: /images/header.jpg
-{: height="36px" width="36px"}
 
 <figure>
 <center>
