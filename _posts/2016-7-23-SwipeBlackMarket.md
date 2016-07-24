@@ -85,9 +85,9 @@ We see a snapsot of the data below:
 </center>
 </figure>
 
-The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the post's author aimed to buy/sell swipes for, how many swipes the post author (typically in the case of a buyer) wanted, and which dining facility the post author wanted to buy/sell swipes for.
+The crux of the following analysis relied on a careful and methodical extraction of various fields from the text portion of each Facebook post. In particular, the following features were extracted from each post: whether the post was by a buyer or seller of swipes, how much the post's author aimed to buy/sell swipes for, how many swipes the author (typically in the case of a buyer) wanted, and which dining facility the author wanted to buy/sell swipes for.
 
-This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
+This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will look at an easy, medium, and hard post to extract information from.
 
 ## Easy Case
 
@@ -128,7 +128,7 @@ The post above is more confusing for a few reasons:
 
 This post is very clear to a human but very hard for a computer to understand for a few reasons:
 
-* Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really use if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
+* Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really sure if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
 * After reading the latter half of the post, it is clear to a human that this person is raising money for their friend's project and thus must be selling swipes, as we might have suspected. But, this is a very very special case and a computer will find it very hard to pick up on this nuance. For this reason, posts such as these are tagged neither with a 'b' for buyer or 's' for seller but rather  with an 'n' for 'not sure', in order to avoid misclassification. 
 
 # Whew. Enough of all the words, let's see some graphs!
@@ -207,7 +207,7 @@ Let's see what our data says:
 </center>
 </figure>
 
-The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve is the Middle estimate, simply an average of prices of a Breakfast, Lunch, and Dinner swipe, and comes out to $13.08 each. 
+The upper plot shows three estimates: Low, Middle, and High. The Low estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought breakfast swipes, which have the cheapest value at $11.00 each. This is clearly not close to accurate. The green High estimate is the lost revenue if all the people in the data who bought Dining Hall swipes bought dinner swipes, valued at $14.50 each, which is also not realistic but likely more realistic than the Low estimate case. The yellow curve is the Middle estimate, based on the average price of a Breakfast, Lunch, and Dinner swipe ($13.08). 
 
 We see that indeed lost revenues stagnate in the breaks between academic quarters but also rise sharply in finals week, as we predicted. 
 
@@ -291,7 +291,7 @@ Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are 
 
 Maybe it's the case that market friction is only an issue on certain days of the week or maybe it's a persistent problem across the board. Let's turn to the data.
 
-#### Mean Price per Day and Median Posts per Day
+#### Mean Price per Day and Median Posts per Day (2015 - 2016 Year)
 
 <figure>
 <center>
