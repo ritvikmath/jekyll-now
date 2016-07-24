@@ -11,7 +11,7 @@ title: Analyzing the UCLA Swipes Black Market
 </figure>
 
 {:center: style="text-align: center"}
-**Studying the Mechanisms of a Black Market Economy**
+<font size="6"><b>Studying the Mechanisms of a Black Market Economy</b></font>
 {:center}
 
 ---
