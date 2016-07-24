@@ -280,7 +280,7 @@ The prices for the upcoming 2016 Fall quarter were found on the UCLA Ask Housing
 
 <figure>
 <center>
-   <a href="/images/nrmp.jpg"><img width="100%" src="/images/nrmp.jpg"></a>
+   <a href="/images/nrmp.jpg"><img width="60%" src="/images/nrmp.jpg"></a>
 </center>
 </figure>
 
