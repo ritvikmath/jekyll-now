@@ -52,6 +52,14 @@ Data for this analysis was scraped from a Facebook group designed to connect buy
 
 This all boils down to a problem in Natural Language Processing (NLP), the art of extracting relevant and accurate information from everyday speech. As a gentle introduction to this process, we will share an easy, medium, and hard post to extract information from.
 
+We see a snapsot of the data below:
+
+<figure>
+<center>
+   <a href="/images/data.jpg"><img width="100%" src="/images/data.jpg"></a>
+</center>
+</figure>
+
 ## Easy Case
 
 {:center: style="text-align: center"}
