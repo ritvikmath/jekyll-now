@@ -77,7 +77,7 @@ With an adequate number of suppliers and demanders for any product, a structured
 
 Data for this analysis was scraped from a Facebook group designed to connect buyers and sellers of swipes. The data, consisting of ~17000 posts ranging from 2013-2016, includes fields such as when a post was written and the content of the post. 
 
-We see a snapsot of the data below:
+We see a snapshot of the data below:
 
 <figure>
 <center>
@@ -117,7 +117,7 @@ The post above is more confusing for a few reasons:
 * It is clear to human that this person wants to sell swipes, as indicated by "Anyone need ... ?" but the word "sell" is nowhere mentioned, making this task more difficult for a computer
 * Furthermore, the word 'need' is used, which is typically used by buyers i.e. "I need swipes"
 * It is clear again to a human that this person is willing to sell 7 swipes at $5 each but the word 'each' is never explicitly used which, is not properly checked, might cause a naive computer to believe this author is selling 7 swipes for a total of $5, clearly not the case
-* Still we can manage to work this one out with some clever rules such as picking up on the fact that the word 'need' is used but that the sentence ends in a '?' or that it is probabaly illogical for someone to sell 7 swipes at $5 total, yielding a value of less than $1 per swipe.
+* Still we can manage to work this one out with some clever rules such as picking up on the fact that the word 'need' is used but that the sentence ends in a '?' or that it is probably illogical for someone to sell 7 swipes at $5 total, yielding a value of less than $1 per swipe.
  
 ## Hard Case
 
@@ -128,7 +128,7 @@ The post above is more confusing for a few reasons:
 
 This post is very clear to a human but very hard for a computer to understand for a few reasons:
 
-* Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really sure if this person is in need of swipes at at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
+* Even for a human, just reading the first part is a bit confusing. That is, if we just read up to: "...los angeles california" we are not really sure if this person is in need of swipes at bplate (a dining hall) at 1pm or will be selling swipes at bplate at 1pm. We might lean towards selling
 * After reading the latter half of the post, it is clear to a human that this person is raising money for their friend's project and thus must be selling swipes, as we might have suspected. But, this is a very very special case and a computer will find it very hard to pick up on this nuance. For this reason, posts such as these are tagged neither with a 'b' for buyer or 's' for seller but rather  with an 'n' for 'not sure', in order to avoid misclassification. 
 
 # Whew. Enough of all the words, let's see some graphs!
@@ -163,7 +163,7 @@ Indeed our predictions were right! The green vertical lines indicate the end of 
 
 One often cited problem with schools that use the swipe system for meals is that a swipe at one dining location will buy a completely different dining experience than a swipe at another dining location. For example, one swipe at the popular quick service restaurant Bruin Cafe will can buy a carton of Thrifty ice cream, which I can pick up for $2.50, at my local RiteAid. One swipe will also get me access to an all-you-can-eat dining hall such as De Neve, where I can indulge in college student (not so) guilty pleasure food such as pizza, burgers, fries, and as much ice cream as my heart desires, valued at $14.50 for non-meal-plan-carrying folk. 
 
-Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat experience and paying $5 to a freshman who grossly miscalculated how many swipes she would need this quarter, it is evident what students are choosing. We thus expect the high-value dining halls, Covel (CO), De Neve (DN), Bruin Plate (BP), and Feast (FE) to dominate the locations which swipe buyers frequent. The three quick service restaurants, Rendevous (RN), Cafe 1919 (19), and Bruin Cafe (BC) should make up a very small fraction of the swipe market.
+Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat experience and paying $5 to a freshman who grossly miscalculated how many swipes she would need this quarter, it is evident what students are choosing. We thus expect the high-value dining halls, Covel (CO), De Neve (DN), Bruin Plate (BP), and Feast (FE) to dominate the locations which swipe buyers frequent. The three quick service restaurants, Rendezvous (RN), Cafe 1919 (19), and Bruin Cafe (BC) should make up a very small fraction of the swipe market.
 
 ### Demand for UCLA Restaurants
 
@@ -340,7 +340,7 @@ Let's break each plan down:
 * $861 / (7 meals per week \* 11 weeks) = **$11.18 / meal**
 * $630 / (5 meals per week \* 11 weeks) = **$11.45 / meal**
 
-An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without receiving any reduction in unit price. 
+An off-campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without receiving any reduction in unit price. 
 
 How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.  
 
@@ -353,15 +353,15 @@ $259.92 / (5 meals per week \* 11 weeks per quarter \* 3 quarters) = **$1.58 / m
 
 No wonder On Campus Housing students are comfortable selling their meals for $5, **they are actually making a nice $3.42 profit per swipe!**
 
-This author proposes the following plan: **Lower off campus student meal plan rates**
+This author proposes the following plan: **Lower off-campus student meal plan rates**
 
-And this does not mean lowering them to $5, but just enough so that off campus students start to viably consider the profitability of buying a long term guaranteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guaranteed meal at any meal period during the day.
+And this does not mean lowering them to $5, but just enough so that off-campus students start to viably consider the profitability of buying a long term guaranteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guaranteed meal at any meal period during the day.
 
-As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to off campus students is clearly too high for many students to justify buying the meal plans. If the market for swipes for off campus students is elastic (lowering price causes a large increase in demand) then lowering the price per unit for these students will actually increase revenues for UCLA Dining while giving these students more affordable and secure access to meals.
+As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to off-campus students is clearly too high for many students to justify buying the meal plans. If the market for swipes for off-campus students is elastic (lowering price causes a large increase in demand) then the new consumers of the cheaper meal plans will actually lead to increased revenues for UCLA Dining while giving these students more affordable and secure access to meals.
 
 # A Combined Effect
 
-Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while also giving on campus students increased flexibility in their meals while simultaneously giving off campus students affordable access to on campus meals.
+Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while giving on-campus students increased flexibility in their meal plans and giving off-campus students affordable access to on-campus meals.
 
 ---
 
@@ -370,7 +370,7 @@ Taken together, these shocks to supply and demand would cause quantity of swipes
 # Notes
 
 * One key assumption in the lost revenue analysis was that all requests to buy swipes on the Facebook page were met with a seller for swipes. This is clearly not the case 100% of the time, but scrolling through the page, it is often the case. It is also the reason that this author included the low, medium, and high estimates of lost revenue.
-* Much of the above analysis is dependent on a correct extraction of information from each post. Altough this extraction can never be 100% accurate (if it were, we might have a revolution in NLP on our hands), this author has quality tested random samples of posts repeatedly and ironed out all bugs as they arose. The error rate is expected to be ~3%. All code and data used in this analysis will be available soon on my GitHub 
-* UCLA Dining does an extremely good job at accommodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is not meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
+* Much of the above analysis is dependent on a correct extraction of information from each post. Although this extraction can never be 100% accurate (if it were, we might have a revolution in NLP on our hands), this author has quality tested random samples of posts repeatedly and ironed out all bugs as they arose. The error rate is expected to be ~3%. All code and data used in this analysis will be available soon on my GitHub. 
+* UCLA Dining does an extremely good job at accommodating the On Campus Student body in all areas including providing a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is not meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
 
-Thanks for reading and please leave commments!
+Thanks for reading and please leave comments!
