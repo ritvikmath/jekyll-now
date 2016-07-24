@@ -320,4 +320,4 @@ Taken together, these shocks to supply and demand would cause quantity of swipes
 * All code and data used in this analysis will be available soon on my GitHub 
 * UCLA Dining does an extremely good job at accommodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is not meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
 
-Thanks for reading
+Thanks for reading and please leave commments!
