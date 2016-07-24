@@ -25,14 +25,14 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 ---
 
 Quick Links:  
-[Motivation](#mot)  
+[* Motivation](#mot)  
 [The Data](#dat)  
 [What is the activity of the swipe market over time?](#act)  
 [Where are buyers eating?](#loc)  
 [How much does UCLA Dining lose?](#lr)  
 [How much is a swipe worth throughout the year?](#val)  
 [So What?](#so)  
-*[Notes](#not)  
+[Notes](#not)  
 
 ---
 
