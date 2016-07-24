@@ -1,16 +1,14 @@
-
+---
+layout: post
+comments: true
+title: Analyzing the UCLA Swipes Black Market
+---
 
 <figure>
 <center>
    <a href="/images/header.jpg"><img width="90%" src="/images/header.jpg"></a>
 </center>
 </figure>
-
----
-layout: post
-comments: true
-title: Analyzing the UCLA Swipes Black Market
----
 
 # Disclaimer
 
