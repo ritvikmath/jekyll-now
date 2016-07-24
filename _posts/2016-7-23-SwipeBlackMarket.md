@@ -24,8 +24,9 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ---
 
-Quick Links:  
-* d [Motivation](#mot)  
+Quick Links: 
+
+* [Motivation](#mot)  
 [The Data](#dat)  
 [What is the activity of the swipe market over time?](#act)  
 [Where are buyers eating?](#loc)  
