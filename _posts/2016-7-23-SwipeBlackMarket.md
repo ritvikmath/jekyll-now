@@ -61,7 +61,7 @@ In contrast, premier meal plan holders pay a cash premium which gives them incre
 
 <figure>
 <center>
-   <a href="/images/dining_hall.jpg"><img width="80%" src="/images/dining_hall.jpg"></a>
+   <a href="/images/cartoon.jpg"><img width="80%" src="/images/cartoon.jpg"></a>
 </center>
 </figure>
 
