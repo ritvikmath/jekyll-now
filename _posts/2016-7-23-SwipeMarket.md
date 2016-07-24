@@ -3,6 +3,12 @@ layout: post
 comments: true
 title: Analyzing the UCLA Swipes Black Market
 ---
+<figure>
+<center>
+   <a href="/images/header.jpg"><img width="80%" src="/images/header.jpg"></a>
+</center>
+</figure>
+
 # Disclaimer
 
 The purpose of this post is to analyze, elucidate, and understand the market for UCLA Dining swipes through the years. The author DOES NOT endorse the selling of swipes as this is a clear violation of UCLA On Campus Housing Regulations, Section C.7.a, copied below:
