@@ -184,7 +184,7 @@ If lost revenues continue to follow this pattern, a naive, back-of-the-envelope 
 
 Let's drill deeper into the data. If we extract price and quantity information from the posts, we can get how many swipes each author is trying to buy/sell and at what price. 
 
-Lets define some basic terminology.
+Let’s define some basic terminology.
 
 * **Bid Price** for a swipe: How much a buyer would pay for a swipe
 * **Ask Price** for a swipe: How much a seller wants for a swipe
@@ -211,7 +211,7 @@ This is a pretty boring graph. First off, this market for swipes started in Dece
 
 A market rises! The 2014 - 2015 year seems to be the transition period between the rudimentary bartering system of 2013-14 and the full blown market we will see in 2015-16. Perhaps the biggest change in the 2014-15 year is the rise in both ask and bid price from around $4 to $5. Swipes just got more expensive. 
 
-Also, while the ask prices are still pretty rigid over time, with sporatic diversions from the mean, we clearly see the bid prices adopting an intricate pattern. Indeed, by the Spring 2015 quarter (Late March to Early June), we see key patterns emerging in the market, one of which is the decline in bid price at a quarter's end.
+Also, while the ask prices are still pretty rigid over time, with sporadic diversions from the mean, we clearly see the bid prices adopting an intricate pattern. Indeed, by the Spring 2015 quarter (Late March to Early June), we see key patterns emerging in the market, one of which is the decline in bid price at a quarter's end.
 
 ## 2015 - 2016 Year
 
@@ -238,13 +238,13 @@ Since price falls at the end of each quarter in the 2015-16 year, we know that t
 </center>
 </figure>
 
-Taking a look at ask and bid prices overlayed above, we see that although both price curves follow roughly the same pattern over time, the red ask price curve is usually above the blue bid price curve. This results in a condition called "market friction" where swipes are not able to be traded at the given ask and bid prices. 
+Taking a look at ask and bid prices overlaid above, we see that although both price curves follow roughly the same pattern over time, the red ask price curve is usually above the blue bid price curve. This results in a condition called "market friction" where swipes are not able to be traded at the given ask and bid prices. 
 
 Basically, if I, as a buyer, want to buy a $5 swipe but sellers at the time are only selling $6 swipes, it will likely take a greater time cost to both parties to negotiate the deal or perhaps the deal will fail altogether.
 
 ### How fluid is the market on different days of the week?
 
-Maybe it's the case that maket friction is only an issue on certain days of the week or maybe it's a peristent problem accross the board. Let's turn to the data.
+Maybe it's the case that market friction is only an issue on certain days of the week or maybe it's a persistent problem across the board. Let's turn to the data.
 
 #### Mean Price per Day and Median Posts per Day
 
@@ -260,19 +260,19 @@ It's interesting that one of these days is often prone to market friction while 
 
 # So What?
 
-The black market for swipes is, in the end, driven by the same supply and demand economics that govern all markets for goods. As we have seen, this market is leading to larger and larger lost revenues for UCLA and is potentially drifting towards market friction issues. This author proposes two possible remedies, one targetting supply and one demand, which seek to weaken this black market and benefit the consumer, supplier, and establishment. Consequences of either remedy will be discussed.
+The black market for swipes is, in the end, driven by the same supply and demand economics that govern all markets for goods. As we have seen, this market is leading to larger and larger lost revenues for UCLA and is potentially drifting towards market friction issues. This author proposes two possible remedies, one targeting supply and one demand, which seek to weaken this black market and benefit the consumer, supplier, and establishment. Consequences of either remedy will be discussed.
 
 ## Plan 1: Shock Supply
 
-The reason there is great supply in the market for swipes is that premier-meal-plan-equipped students often find themselves at the end of a quarter with more swipes than they can use. They immediately try and cut their losses by selling swipes to those who are willing to buy them. The reason this panic occurs at the end of each quarter is that if the reamining swipes are not used, they will be erased. 
+The reason there is great supply in the market for swipes is that premier-meal-plan-equipped students often find themselves at the end of a quarter with more swipes than they can use. They immediately try and cut their losses by selling swipes to those who are willing to buy them. The reason this panic occurs at the end of each quarter is that if the remaining swipes are not used, they will be erased. 
 
 This author proposes the following plan: **Allow students to transfer some fraction of unused swipes from this quarter into next quarter.**
 
-Under the current regime, where there is a 0% transfer rate of remaining swipes from one quarter to the next, we get these massive supply shocks at the end of each quarter. Under a regime where there is a 100% transfer of remaining swipes from one quarter to the next, the panic might subside at the end of Fall and Winter quarter, since students know that their swipes will carry forward. But, there will likely be an enormous shock at the end of the academic year, when studnets have accumulated 3 quarters worth of swipes. This is not favorable either. Some compromise between 0% and 100% carryover may help to curb the end-of-quarter supply shocks and give students the freedom the data shows they need.
+Under the current regime, where there is a 0% transfer rate of remaining swipes from one quarter to the next, we get these massive supply shocks at the end of each quarter. Under a regime where there is a 100% transfer of remaining swipes from one quarter to the next, the panic might subside at the end of Fall and Winter quarter, since students know that their swipes will carry forward. But, there will likely be an enormous shock at the end of the academic year, when students have accumulated 3 quarters worth of swipes. This is not favorable either. Some compromise between 0% and 100% carryover may help to curb the end-of-quarter supply shocks and give students the freedom the data shows they need.
 
 ## Plan 2: Shock Demand
 
-On the other end of the spectrum are the off-campus students who buy swipes, espcially in high demand periods such as finals week. These students choose to buy swipes because it is cheaper to do so than to purchse the same meal at often 3 to 4 times the price from UCLA Dining. 
+On the other end of the spectrum are the off-campus students who buy swipes, especially in high demand periods such as finals week. These students choose to buy swipes because it is cheaper to do so than to purchase the same meal at often 3 to 4 times the price from UCLA Dining. 
 
 UCLA Dining does offer non-resident meal plans which give non On Campus Housing students the option to buy a meal plan for the quarter, but there is an issue with the pricing of these plans.
 
@@ -291,7 +291,7 @@ Let's break each plan down:
 * $861 / (7 meals per week \* 11 weeks) = **$11.18 / meal**
 * $630 / (5 meals per week \* 11 weeks) = **$11.45 / meal**
 
-An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without recieving any reduction in unit price. 
+An off campus student would much prefer to buy the proven $5 swipe than to buy swipes in bulk without receiving any reduction in unit price. 
 
 How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.
 
@@ -306,18 +306,18 @@ No wonder On Campus Housing students are comfortable selling their meals for $5,
 
 This author proposes the following plan: **Lower off campus student meal plan rates**
 
-And this does not mean lowering them to $5, but just enough so that off campus students start to viably consider the profitability of buying a long term guarenteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guarenteed meal at any meal period during the day.
+And this does not mean lowering them to $5, but just enough so that off campus students start to viably consider the profitability of buying a long term guaranteed contract with UCLA Dining rather than have to scramble to find someone selling swipes last minute. The per unit premium above $5 would be the security premium associated with a guaranteed meal at any meal period during the day.
 
 As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to off campus students is clearly too high for many students to justify buying the meal plans. If the market for swipes for off campus students is elastic (lowering price causes a large increase in demand) then lowering the price per unit for these students will actually increase revenues for UCLA Dining while giving these students more affordable and secure access to meals.
 
 # A Combined Effect
 
-Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while also giving on campus students increased flexibility in their meals while simultaneiously giving off campus students affordable access to on campus meals.
+Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while also giving on campus students increased flexibility in their meals while simultaneously giving off campus students affordable access to on campus meals.
 
 # Notes
 
-* One key assumption in the lost revenue analysis was that all requests to buy swipes on the facebook page were met with a seller for swipes. This is clearly not the case 100% of the time, but scrolling through the page, it is often the case. It is also the reason that this author included the low, medium, and high estimates of lost revenue.
+* One key assumption in the lost revenue analysis was that all requests to buy swipes on the Facebook page were met with a seller for swipes. This is clearly not the case 100% of the time, but scrolling through the page, it is often the case. It is also the reason that this author included the low, medium, and high estimates of lost revenue.
 * All code and data used in this analysis will be available soon on my GitHub 
-* UCLA Dining does an extremely good job at accomodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
+* UCLA Dining does an extremely good job at accommodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is not meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
 
 Thanks for reading
