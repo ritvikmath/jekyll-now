@@ -24,7 +24,19 @@ The purpose of this post is to analyze, elucidate, and understand the market for
 
 ---
 
-* [Lost Revenues](#lr)
+Quick Links:
+* [Motivation] (#mot)
+* [The Data] (#dat)
+* [What is the activity of the swipe market over time?] (#act)
+* [Where are buyers eating?] (#loc)
+* [How much does UCLA Dining lose?] (#lr)
+* [How much is a swipe worth throughout the year?] (#val)
+* [So What?] (#so)
+* [Notes] (#not)
+
+---
+
+<a name="mot"></a>
 
 # Motivation
 
@@ -55,6 +67,10 @@ In contrast, premier meal plan holders pay a cash premium which gives them incre
 All too often, students who purchase premier meal plans find themselves with an extreme surplus of swipes with no chance of using them all by the quarter’s end, when all remaining swipes are lost. Faced with this situation, students elect to sell their remaining swipes, and there is more than enough demand in this black market for swipes. Students living off campus, without access to a meal plan, make up a large chunk of the consumers in the market for swipes. 
 
 With an adequate number of suppliers and demanders for any product, a structured market is bound to arise. This market for swipes will be the focus of analysis for the remainder of this post.
+
+---
+
+<a name="dat"></a>
 
 # The Data
 
@@ -118,6 +134,10 @@ This post is very clear to a human but very hard for a computer to understand fo
 
 All this data begs some immediate (and some not so immediate) questions. Let's ask each one and answer it with a cool graph!
 
+---
+
+<a name="act"></a>
+
 ## What is the activity of the swipe market over time?
 
 The activity of any economic market, even a black market, relies on supply being available and demand being high. The supply side is easy. Students only have meal premier plans during academic quarters, Fall, Winter, and Spring. So we expect a huge drop (theoretically) down to zero between quarters and in the summer. The demand side is a bit more nuanced. Obviously, students demand swipes mainly during academic quarters but there are more subtleties going on here. 
@@ -134,6 +154,10 @@ For example, at the beginning of the quarter, students are likely less dependent
 
 Indeed our predictions were right! The green vertical lines indicate the end of each academic quarter and are indeed the natural stopping points for upward trends in the graph. We see that the 2014 - 2015 academic year saw a huge growth in the swipe market with a potential decline in the 2015 - 2016 academic year.
 
+---
+
+<a name="loc"></a>
+
 ## Where are buyers eating?
 
 One often cited problem with schools that use the swipe system for meals is that a swipe at one dining location will buy a completely different dining experience than a swipe at another dining location. For example, one swipe at the popular quick service restaurant Bruin Cafe will can buy a carton of Thrifty ice cream, which I can pick up for $2.50, at my local RiteAid. One swipe will also get me access to an all-you-can-eat dining hall such as De Neve, where I can indulge in college student (not so) guilty pleasure food such as pizza, burgers, fries, and as much ice cream as my heart desires, valued at $14.50 for non-meal-plan-carrying folk. 
@@ -149,6 +173,10 @@ Also, given the choice between paying UCLA Dining $14.50 for an all-you-can-eat 
 </figure>
 
 From the chart, we see that altogether the three quick service restaurants, where the dollar value of a swipe is relatively low, are frequented only 4% of the time. The Big 4 Dining Halls make up the overwhelming majority of the locations in the market for swipes. Feast (Asian Cuisine) is frequented most often, then Bruin Plate (Healthy Food), followed by De Neve (Tasty Junk Food), with Covel (In this author's opinion, improving) coming in last. 
+
+<a name="lr"></a>
+
+---
 
 <a name="lr"></a>
 
@@ -191,6 +219,10 @@ The exact values of average lost revenue by year are:
 * **$23567** for the 2015 - 16 Year
 
 If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** worth of revenues in the 2016-17 Year.
+
+---
+
+<a name="val"></a>
 
 # How much is a swipe worth throughout the year?
 
@@ -270,6 +302,10 @@ Remember that when ask price exceeds bid price, we have market friction. This se
 
 It's interesting that one of these days is often prone to market friction while the other is not.
 
+---
+
+<a name="so"></a>
+
 # So What?
 
 The black market for swipes is, in the end, driven by the same supply and demand economics that govern all markets for goods. As we have seen, this market is leading to larger and larger lost revenues for UCLA and is potentially drifting towards market friction issues. This author proposes two possible remedies, one targeting supply and one demand, which seek to weaken this black market and benefit the consumer, supplier, and establishment. Consequences of either remedy will be discussed.
@@ -325,6 +361,10 @@ As it stands now, the $6+ premium above $5 that UCLA Dining charges per unit to 
 # A Combined Effect
 
 Taken together, these shocks to supply and demand would cause quantity of swipes supplied on the UCLA swipes black market to decrease while also giving on campus students increased flexibility in their meals while simultaneously giving off campus students affordable access to on campus meals.
+
+---
+
+<a name="not"></a>
 
 # Notes
 
