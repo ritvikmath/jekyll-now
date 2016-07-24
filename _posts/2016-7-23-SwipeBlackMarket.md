@@ -299,7 +299,7 @@ Maybe it's the case that market friction is only an issue on certain days of the
 </center>
 </figure>
 
-Remember that when ask price exceeds bid price, we have market friction. This seems to be the case on Monday, Wednesday, Friday, and Saturday on average. The opposite case, when ask price is lower than bid price, is favorable for the fluidity of the market and occurs on Tuesday, Thursday, and Sunday on average. The follow up question is then: When are there the most bid and ask posts to the Facebook page? It turns out, looking at the lower bars, that Thursday and Friday are have very high median posts per day for buyers and relatively high median posts per day for sellers as well. 
+Remember that when ask price exceeds bid price, we have market friction. This seems to be the case on Monday, Wednesday, Friday, and Saturday on average. The opposite case, when ask price is lower than bid price, is favorable for the fluidity of the market and occurs on Tuesday, Thursday, and Sunday on average. The follow up question is then: When are there the most bid and ask posts to the Facebook page? It turns out, looking at the lower bars, that Thursday and Friday have very high median posts per day for buyers and a moderate median posts per day for sellers. 
 
 It's interesting that one of these days is often prone to market friction while the other is not.
 
@@ -344,8 +344,8 @@ An off campus student would much prefer to buy the proven $5 swipe than to buy s
 
 How much does an On Campus Housing resident pay per swipe? Since meal plans are included in housing prices, we need to control for housing style and tease out the underlying per unit meal cost.  
 
-A single occupancy classic residence dorm room with a 14P meal plan costs **$17,426.04** per year  
-A single occupancy classic residence dorm room with a 19P meal plan costs **$17,685.96** per year  
+* A single occupancy classic residence dorm room with a 14P meal plan costs **$17,426.04** per year  
+* A single occupancy classic residence dorm room with a 19P meal plan costs **$17,685.96** per year  
 
 The difference is **$259.92** which is the cost of the difference between these two products, 5 completely flexible meals per week. 
 
