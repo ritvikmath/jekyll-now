@@ -323,7 +323,7 @@ Taken together, these shocks to supply and demand would cause quantity of swipes
 # Notes
 
 * One key assumption in the lost revenue analysis was that all requests to buy swipes on the Facebook page were met with a seller for swipes. This is clearly not the case 100% of the time, but scrolling through the page, it is often the case. It is also the reason that this author included the low, medium, and high estimates of lost revenue.
-* All code and data used in this analysis will be available soon on my GitHub 
+* Much of the above analysis is dependent on a correct extraction of information from each post. Altough this extraction can never be 100% accurate (if it were, we might have a revolution in NLP on our hands), this author has quality tested random samples of posts repeatedly and ironed out all bugs as they arose. The error rate is expected to be ~3%. All code and data used in this analysis will be available soon on my GitHub 
 * UCLA Dining does an extremely good job at accommodating the On Campus Student body in all areas including a gluten free pantry, Halal and Kosher meals, a wide variety of vegetarian options, and diverse menus each and every day. This analysis is not meant to point fingers but rather to shed light on an issue and quantify it so that action can be taken for the benefit of all parties.
 
 Thanks for reading and please leave commments!
