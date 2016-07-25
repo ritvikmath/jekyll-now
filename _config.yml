@@ -11,6 +11,8 @@ description: drilling into data
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/rlogo.jpg
 
+site_favicon: /images/favicon.ico
+
 #
 # Flags below are optional
 #
@@ -85,4 +87,4 @@ exclude:
   - README.md
   - CNAME
   
-site_favicon: favicon.ico
+
