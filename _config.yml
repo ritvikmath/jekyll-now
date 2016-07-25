@@ -84,3 +84,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+site_favicon: images/favicon.ico
