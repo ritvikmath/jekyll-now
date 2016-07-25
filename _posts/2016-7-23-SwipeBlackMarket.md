@@ -219,7 +219,7 @@ The exact values of average lost revenue by year are:
 * **$12256** for the 2014-15 Year
 * **$23567** for the 2015 - 16 Year
 
-If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** worth of revenues in the 2016-17 Year.
+If lost revenues continue to follow this pattern, a naive, back-of-the-envelope estimate says that UCLA Dining should expect to lose **$36209** worth of potential revenues in the 2016-17 Year.
 
 ---
 
