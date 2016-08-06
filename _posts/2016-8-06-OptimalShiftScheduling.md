@@ -48,6 +48,12 @@ The number of people scheduled for ON and IN shifts each night varies with the s
 
 These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs fill out preferences for the coming weeks about which days they would prefer to have an ON shift, which days they would prefer to have an IN shift, which days they cannot have any shift (perhaps because they have other plans that night), and which days they are ambivalent about getting assigned a shift. 
 
+<figure>
+<center>
+   <a href="/images/sched_hard.jpg"><img width="70%" src="/images/sched_hard.jpg"></a>
+</center>
+</figure>
+
 Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts accross the board. This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are resonsible also for scheduling themselves, a potential conflict of interest. 
 
 But worry not!
