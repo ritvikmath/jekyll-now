@@ -29,6 +29,7 @@ Quick Links:
 * [Motivation and Background](#mot)  
 * [The Current System](#curr)
 * [What are the Variables?](#var)
+* [Hard Constraints](#hard)
 
 ---
 
@@ -112,9 +113,23 @@ and we want to schedule them for the 27 day period **Sunday May 15th 2016 - Frid
 
 If we know that 
 
-$$ON_{Bruce, Jun 1} = 1 \text{ and } IN_{Clark, Jun 1} = 0$$
+$$ON_{Bruce, Jun 1} = 1 \text{   and   } IN_{Clark, Jun 1} = 0$$
 
 then we know that Bruce is ON duty on the night of June 1st and Clark is **not** IN duty on the night of June 1st. 
+
+How many of these variables are there? Well there are 24 possibilities for the RA and 27 possibilities for the day so we get a total of 24 times 27 or 648 variables. *Whoa! I thought we said this would be simple!* Don't stress, it will be, and it's all because these variables, as many of them as we have, can only be 0 or 1, which is the key structure we will take advantage of when formulating our problem. Let's turn our attention to the different kinds of constraints we have for these variables.
+
+<a name="hard"></a>
+
+# Hard Constraints
+
+There are a couple of hard constraints when we try and solve this scheduling problem. Let's define what this means/
+
+**Hard Constraint**: A rule that, if violated, makes for an invalid schedule
+
+Let's go through each constraint and see how a human would state it and how we can express it with our variables.
+
+## Sufficient Staff Constraint
 
 
 
