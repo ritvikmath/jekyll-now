@@ -157,7 +157,7 @@ and
 
 $$IN_{Ash, j} + IN_{Bruce, j} + ... + IN_{Xavier, j} + IN_{Zeus, j} = 3$$
 
-where j is each day from May 15th to June 10th. 
+where $j$ is each day from May 15th to June 10th. 
 
 Cool, that wasn't too painless, and now we have our first constraint. Let's press on!
 
@@ -183,7 +183,7 @@ and ensure that this sum is either 3 or 4. We do the same for IN shifts.
 
 To satisfy Hard Constraint 3, we need only do ensure that: 
 
-$$7 \le [ON_{Vader, May 15} + IN_{Vader, May 15}] + [ON_{Vader, May 16} + IN_{Vader, May 15}] + ... + [ON_{Vader, Jun 9} + IN_{Vader, May 15}] + [ON_{Vader, Jun 10} + IN_{Vader, May 15}] \le 8.$$
+$$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + IN_{Vader, May 15}) \le 8.$$
 
 
 
