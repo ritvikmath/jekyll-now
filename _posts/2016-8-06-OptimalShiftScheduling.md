@@ -203,7 +203,9 @@ Even if we assure that two RAs have the same number of ON shifts, let's say thre
 
 You're probabaly asking, where did these numbers come from? For a specific instance of this problem, with some historical shift preference data, I found that these were the highest numbers that still resulted in a valid schedule. For this reason, the fine tuning of these numbers is built into the model and it will keep trying to build schedules until it maximizes each of these three numbers. More on this later on. 
 
-The question for now is how to express these constraints using our variables. It seems
+The question for now is how to express these constraints using our variables. It seems a bit difficult at first since our variables only tell us whether or not an RA is working on a given day, not the time between shifts. But, we can be a little creative here. Let's start simple. 
+
+Let's say we wan't to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. Then, if we move this seven day window forward by 1, to get the range May 16 - May 22, we know that she can also have at most one ON shift in this range, for the same reason as before. We just keep rolling this seven day window through the full 27 days and set the same less than or equal to 1 ON shift constraint for each window.
 
 
 
