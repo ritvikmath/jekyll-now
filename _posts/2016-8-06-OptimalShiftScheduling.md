@@ -132,12 +132,58 @@ Let's go through each constraint and see how a human would state it and how we c
 ## Sufficient Staff Constraint
 
 {:center: style="text-align: center"}
-**We need exactly three RAs with ON shifts and three RAs with IN shifts each night**
+**Hard Constraint 1: We need exactly three RAs with ON shifts and three RAs with IN shifts each night**
 {:center}
 
-Hmm ... how do we express this with our variables. Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and 0 if not, all we need to do is sum up 
+Hmm ... how do we express this with our variables. Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and $0$ if not, all we need to do is sum up the May 15 variable for all the RAs:
 
 $$ON_{Ash, May 15} + ON_{Bruce, May 15} + ... + ON_{Xavier, May 15} + ON_{Zeus, May 15}$$
 
 and that will tell us how many RAs have ON shifts for May 15th. 
+
+For some proposed schedule, if the sum is 2, we reject that schedule since not enough RAs are staffed ON that night. If that sum is 4, we also reject that schedule since too many RAs are staffed ON that night. We need it to be exactly 3. So we need 
+
+$$ON_{Ash, May 15} + ON_{Bruce, May 15} + ... + ON_{Xavier, May 15} + ON_{Zeus, May 15} = 3$$
+
+and similarly, 
+
+$$IN_{Ash, May 15} + IN_{Bruce, May 15} + ... + IN_{Xavier, May 15} + IN_{Zeus, May 15} = 3.$$
+
+But, we can just do this for each of the 27 days since we have the same constraint every night. So, in a nutshell
+
+$$ON_{Ash, j} + ON_{Bruce, j} + ... + ON_{Xavier, j} + ON_{Zeus, j} = 3$$
+
+and
+
+$$IN_{Ash, j} + IN_{Bruce, j} + ... + IN_{Xavier, j} + IN_{Zeus, j} = 3$$
+
+where j is each day from May 15th to June 10th. 
+
+Cool, that wasn't too painless, and now we have our first constraint. Let's press on!
+
+## Equal Work Constraint ##
+
+Let's do a quick calculation of roughly how many ON shifts each RA should have in this time period. There are 27 days with 3 ON shifts per day for a total of 81 ON shifts spead accross 24 RAs for a total of **3.375 ON shifts per RA**. Well, we cant give partial ON shifts to an RA, so we want that each RA has either 3 or 4 ON shifts. The same holds for IN shifts. 
+
+{:center: style="text-align: center"}
+**Hard Constraint 2: Each RA has either 3 or 4 ON shifts and either 3 or 4 IN shifts**
+{:center}
+
+We could imagine that even with this constraint, Bruce, for example, might get lucky with 3 ON and 3 IN duties and Clark might get very unlucky with 4 ON and 4 IN constraints. This seems a bit unfair so we want the total number of duties (ON + IN) for each RA to be either 7 or 8. This is basically saying that no RA should get away with having just 3 ON shifts and 3 IN shifts. 
+
+{:center: style="text-align: center"}
+**Hard Constraint 3: Each RA has either 7 or 8 total shifts**
+{:center}
+
+Now, how do we translate these using our variables? The number of total ON shifts any given RA has is calculated by adding up their $$ON$$ variables (which is 1 if they have an ON shift on a given day and 0 if not) for 27 days. For example, if we want to know how many ON shifts Vader has for the 27 day period, we need to sum:
+
+$$ON_{Vader, May 15} + ON_{Vader, May 16} + ... + ON_{Vader, Jun 9} + ON_{Vader, Jun 10}$$
+
+and ensure that this sum is either 3 or 4. We do the same for IN shifts. 
+
+To satisfy Hard Constraint 3, we need only do ensure that: 
+
+$$7 \le [ON_{Vader, May 15} + IN_{Vader, May 15}] + [ON_{Vader, May 16} + IN_{Vader, May 15}] + ... + [ON_{Vader, Jun 9} + IN_{Vader, May 15}] + [ON_{Vader, Jun 10} + IN_{Vader, May 15}] \le 8.$$
+
+
 
