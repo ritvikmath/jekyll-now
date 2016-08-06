@@ -219,7 +219,7 @@ This can be confusing with just words so let's see some pics. The first window l
 
 <figure>
 <center>
-   <a href="/images/FirstRoll.jpg"><img width="90%" src="/images/FirstRoll.jpg"></a>
+   <a href="/images/FirstRoll.jpg"><img width="70%" src="/images/FirstRoll.jpg"></a>
 </center>
 </figure>
 
@@ -227,7 +227,7 @@ Then we add another day to the end of the window and remove one from the beginni
 
 <figure>
 <center>
-   <a href="/images/SecondRoll.jpg"><img width="90%" src="/images/SecondRoll.jpg"></a>
+   <a href="/images/SecondRoll.jpg"><img width="70%" src="/images/SecondRoll.jpg"></a>
 </center>
 </figure>
 
@@ -235,7 +235,7 @@ And then continue ...
 
 <figure>
 <center>
-   <a href="/images/ThirdRoll.jpg"><img width="90%" src="/images/ThirdRoll.jpg"></a>
+   <a href="/images/ThirdRoll.jpg"><img width="70%" src="/images/ThirdRoll.jpg"></a>
 </center>
 </figure>
 
