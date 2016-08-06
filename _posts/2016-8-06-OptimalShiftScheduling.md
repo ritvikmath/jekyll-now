@@ -50,7 +50,7 @@ These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs
 
 <figure>
 <center>
-   <a href="/images/sched_hard.jpg"><img width="70%" src="/images/sched_hard.jpg"></a>
+   <a href="/images/sched_hard.jpg"><img width="90%" src="/images/sched_hard.jpg"></a>
 </center>
 </figure>
 
