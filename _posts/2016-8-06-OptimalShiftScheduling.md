@@ -187,14 +187,25 @@ $$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + 
 
 ## Burnout Constraint
 
-We don't want our RAs to burnout, which can happen if they have too many shifts in a short period of time. For example, if Tom has 3 ON shifts on three consecutive days while Jerry has 3 ON shifts with each 7 days apart, they have the same number of total shifts, but Tom's stress level will be much higher than that of Jerry. We will use these hard constraints:
+Even if we assure that two RAs have the same number of ON shifts, let's say three each, we say nothing about how those shifts are spread out. For example, if Clark has three ON shifts on May 15, May 30, and June 10, he enjoys a relatively spead out workload. If Bruce, on the other hand, has three ON shifts on May 15, May 16, and May 17, he faces three continuous days of work and has a much greater stress level. We thus want the following three hard constraints:
 
 {:center: style="text-align: center"}
-**Hard Constraint 4: ON shifts are 7 days apart **
+**Hard Constraint 4: Each RA has at least 7 days between ON shifts**
 {:center}
 
 {:center: style="text-align: center"}
-**Hard Constraint 4: ON shifts are 7 days apart **
+**Hard Constraint 5: Each RA has at least 7 days between IN shifts**
 {:center}
 
-This seems like a really complicated one to encode using our variables since it doesn't seem like we can express something about the distance between shifts given only whether an RA had a shift on a given day. 
+{:center: style="text-align: center"}
+**Hard Constraint 6: Each RA has at least 2 days between an ON shift and an IN shift**
+{:center}
+
+You're probabaly asking, where did these numbers come from? For a specific instance of this problem, with some historical shift preference data, I found that these were the highest numbers that still resulted in a valid schedule. For this reason, the fine tuning of these numbers is built into the model and it will keep trying to build schedules until it maximizes each of these three numbers. More on this later on. 
+
+The question for now is how to express these constraints using our variables. It seems
+
+
+
+
+
