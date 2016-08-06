@@ -20,6 +20,7 @@ title: Building an Efficient Job Shift Scheduler
 Quick Links: 
 
 * [Motivation and Background](#mot)  
+* [The Current System](#curr)
 
 ---
 
@@ -39,9 +40,13 @@ If I am assigned to an ON duty on a given night, I am responsible for patroling 
 
 On the other hand, if I am assigned to an IN shift on a given night, I am not responsible for patrolling any part of the building and will only be contacted to respond to an incident if all the people with ON shifts that night are busy dealing with incidents. 
 
-The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. For example, I work in one of the larger buildings with a larger resident population and so there are three RAs scheduled ON and three RAs scheduled IN every day. Medium size buildings have two of each shift type per night and the smallest buildings have only one each. Furthermore, for buildings with more than one ON shift per night, the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3. Each shift is responsible for different floors and special areas of the building. ON 1's special area is the lobby, ON 2's is the basement, and ON 3's is the courtyard outside the building. It is apparent that during the cold winter, it is much more prefereable for RAs to patrol indoors than outdoors.
+The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. Larger buildings have three ON duties and three IN duties per night with smaller ones having fewer of each type of shift. Furthermore the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3 and are responsible for patrolling, among other areas, the lobby, the basement, and the courtyard, respectively. It is apparent that during the winter, it is much more prefereable for RAs to patrol indoors than outdoors.
 
-These ON and IN shifts are not randomly assigned however. Every three to four weeks, RAs fill out preferences for the coming weeks about which days they would prefer to have an ON shift, which days they would prefer to have an IN shift, which days they cannot have any shift (perhaps because they have other plans that night), and which days they are ambivalent about getting assigned a shift. 
+<a name="curr"></a>
+
+# The Current System
+
+These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs fill out preferences for the coming weeks about which days they would prefer to have an ON shift, which days they would prefer to have an IN shift, which days they cannot have any shift (perhaps because they have other plans that night), and which days they are ambivalent about getting assigned a shift. 
 
 Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts accross the board. This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are resonsible also for scheduling themselves, a potential conflict of interest. 
 
