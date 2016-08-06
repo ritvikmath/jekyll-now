@@ -3,12 +3,6 @@ layout: post
 comments: true
 title: Building an Efficient Job Shift Scheduler
 ---
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
-</script>
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
-</script>
 
 <figure>
 <center>
@@ -19,6 +13,13 @@ title: Building an Efficient Job Shift Scheduler
 <center>
 <font size="5"><b>A Fast and Simple Scheduling Method</b></font>
 </center>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
 
 ---
 
@@ -84,5 +85,20 @@ ON_{i,j} =
       1 & \text{if RA i scheduled ON for day j} \\
       0 & \text{if not} \\
 \end{array} 
-\right. 
+\right
+.$$
+
+and 
+
 $$
+IN_{i,j} = 
+\left\{
+\begin{array}{ll}
+      1 & \text{if RA i scheduled IN for day j} \\
+      0 & \text{if not} \\
+\end{array} 
+\right
+.$$
+
+
+
