@@ -112,9 +112,7 @@ and we want to schedule them for the 27 day period **Sunday May 15th 2016 - Frid
 
 If we know that 
 
-$$ON_{Bruce, Jun 1} = 1$$
-and 
-$$IN_{Clark, Jun 1} = 0$$
+$$ON_{Bruce, Jun 1} = 1 \text{and} IN_{Clark, Jun 1} = 0$$
 
 then we know that Bruce is ON duty on the night of June 1st and Clark is **not** IN duty on the night of June 1st. 
 
