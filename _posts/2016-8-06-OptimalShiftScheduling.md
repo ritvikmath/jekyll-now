@@ -79,11 +79,11 @@ In fact, the choice of variables is even more basic and will implicitly be able 
 
 $$
 ON_{i,j} = 
-\left\{
+\[ \left\{
 \begin{array}{ll}
       1 & RA i is scheduled ON for day j\\
       0 & if not \\
 \end{array} 
-\right
+\right \]
 $$
 
