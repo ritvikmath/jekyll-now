@@ -21,6 +21,7 @@ Quick Links:
 
 * [Motivation and Background](#mot)  
 * [The Current System](#curr)
+* [What are the Variables?](#var)
 
 ---
 
@@ -60,5 +61,24 @@ But worry not!
 
 This problem, creating an optimal schedule subject to many hard, and some softer constraints, belongs nicely to a family of problems called Constraing Satisfaction Problems (CSPs) which computers are really really good at solving fast. 
 
-The only challenge for us is to take this very human problem, and translate it into a problem that a computer can understand and then solve. If you think this sounds crazy complicated, don't worry. I promise it will be much easier than you think. Let's get started.
+The only challenge for us is to take this very human problem, and translate it into a problem that a computer can understand and then solve. If you think this sounds crazy complicated, don't worry. I promise it will be much easier than you think. Let's get started!
 
+<a name="var"></a>
+
+# What are the Variables?
+
+In order to translate this scheduling problem into something a computer can solve, we need to figure out what our variables are going to be. At first thought, this seems to be too broad of a problem. Should we think about how many shifts each RA gets? Should we try and use the number of days between shifts as our variables? How about the order of the shifts by RA? 
+
+In fact, the choice of variables is even more basic and will implicitly be able to take all these questions into account. Given some number of RAs in the building, let's say 24 for now, and some number of days to schedule, let's say 14 days, we will define:
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+</head>
+<body>
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+</body>
