@@ -205,9 +205,46 @@ You're probabaly asking, where did these numbers come from? For a specific insta
 
 The question for now is how to express these constraints using our variables. It seems a bit difficult at first since our variables only tell us whether or not an RA is working on a given day, not the time between shifts. But, we can be a little creative here. Let's start simple. 
 
-Let's say we wan't to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. Then, if we move this seven day window forward by 1, to get the range May 16 - May 22, we know that she can also have at most one ON shift in this range, for the same reason as before. We just keep rolling this seven day window through the full 27 days and set the same less than or equal to 1 ON shift constraint for each window.
+Let's say we wan't to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. So we need:
 
+$$ON_{Elsa, May 15} + ON_{Elsa, May 17} + ... + ON_{Elsa, May 20} + ON_{Elsa, May 21} \le 1$$
 
+Then, if we move this seven day window forward by 1, to get the range May 16 - May 22, we know that she can also have at most one ON shift in this range, for the same reason as before.
 
+$$ON_{Elsa, May 16} + ON_{Elsa, May 18} + ... + ON_{Elsa, May 21} + ON_{Elsa, May 22} \le 1$$
 
+We just keep rolling this seven day window through the full 27 days and set the same less than or equal to 1 ON shift constraint for each window.
+
+This can be confusing with just words so let's see some pics. The first window looks like this:
+
+<figure>
+<center>
+   <a href="/images/FirstRoll.jpg"><img width="90%" src="/images/FirstRoll.jpg"></a>
+</center>
+</figure>
+
+Then we add another day to the end of the window and remove one from the beginning:
+
+<figure>
+<center>
+   <a href="/images/SecondRoll.jpg"><img width="90%" src="/images/SecondRoll.jpg"></a>
+</center>
+</figure>
+
+And then continue ...
+
+<figure>
+<center>
+   <a href="/images/ThirdRoll.jpg"><img width="90%" src="/images/ThirdRoll.jpg"></a>
+</center>
+</figure>
+
+We make sure that in each seven day window, each RA has no more then one ON shift.
+
+We do the analysis for IN shifts in the same way, since Hard Constraint 5 requires also 7 days. To meet Hard Constraint 6, we need to make sure that the sum of all the $ON$ and $IN$ variables for each RA for each two day window is no more than 1. For example, for Elsa, we need that:
+
+$$ON_{Elsa, May 15} + IN_{Elsa, May 15} + ON_{Elsa, May 16} + IN_{Elsa, May 16} \le 1$$
+$$ON_{Elsa, May 16} + IN_{Elsa, May 16} + ON_{Elsa, May 17} + IN_{Elsa, May 17} \le 1$$
+$$...$$
+$$ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9} + ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10} \le 1$$
 
