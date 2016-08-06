@@ -76,7 +76,7 @@ The only challenge for us is to take this very human problem, and translate it i
 
 In order to translate this scheduling problem into something a computer can solve, we need to figure out what our variables are going to be. At first thought, this seems to be too broad of a problem. Should we think about how many shifts each RA gets? Should we try and use the number of days between shifts as our variables? How about the order of the shifts by RA? 
 
-In fact, the choice of variables is even more basic and will implicitly be able to take all these questions into account. Given some number of RAs in the building, let's say 24 for now, and some number of days to schedule, let's say 14 days, we will define:
+In fact, the choice of variables is even more basic and will implicitly be able to take all these questions into account. Given some number of RAs in the building, let's say 24 for now, and some number of days to schedule, let's say 27 days, we will define:
 
 $$
 ON_{i,j} = 
@@ -99,6 +99,18 @@ IN_{i,j} =
 \end{array} 
 \right
 .$$
+
+So, assume we have the following list of RAs
+
+<figure>
+<center>
+   <a href="/images/RAs.jpg"><img width="90%" src="/images/RAs.jpg"></a>
+</center>
+</figure>
+
+and we want to schedule them for the 27 day period Sunday May 15th 2016 - Friday June 10th 2016.
+
+If we know that $ON_{Bruce, Jun 1} = 1$ and $IN_{Clark, Jun 1} = 0$, then we know that Bruce is ON duty on the night of June 1st and Clark is **not** IN duty on the night of June 1st. 
 
 
 
