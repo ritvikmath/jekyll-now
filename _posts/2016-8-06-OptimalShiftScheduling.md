@@ -100,7 +100,7 @@ IN_{i,j} =
 \right
 .$$
 
-So, assume we have the following list of RAs
+So, assume we have the following list of 24 RAs
 
 <figure>
 <center>
@@ -108,9 +108,15 @@ So, assume we have the following list of RAs
 </center>
 </figure>
 
-and we want to schedule them for the 27 day period Sunday May 15th 2016 - Friday June 10th 2016.
+and we want to schedule them for the 27 day period **Sunday May 15th 2016 - Friday June 10th 2016**.
 
-If we know that $ON_{Bruce, Jun 1} = 1$ and $IN_{Clark, Jun 1} = 0$, then we know that Bruce is ON duty on the night of June 1st and Clark is **not** IN duty on the night of June 1st. 
+If we know that 
+
+$$ON_{Bruce, Jun 1} = 1$$
+and 
+$$IN_{Clark, Jun 1} = 0$$
+
+then we know that Bruce is ON duty on the night of June 1st and Clark is **not** IN duty on the night of June 1st. 
 
 
 
