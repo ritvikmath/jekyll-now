@@ -131,5 +131,13 @@ Let's go through each constraint and see how a human would state it and how we c
 
 ## Sufficient Staff Constraint
 
+{:center: style="text-align: center"}
+**We need exactly three RAs with ON shifts and three RAs with IN shifts each night**
+{:center}
 
+Hmm ... how do we express this with our variables. Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and 0 if not, all we need to do is sum up 
+
+$$ON_{Ash, May 15} + ON_{Bruce, May 15} + ... + ON_{Xavier, May 15} + ON_{Zeus, May 15}$$
+
+and that will tell us how many RAs have ON shifts for May 15th. 
 
