@@ -185,5 +185,16 @@ To satisfy Hard Constraint 3, we need only do ensure that:
 
 $$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + IN_{Vader, May 15}) \le 8.$$
 
+## Burnout Constraint
 
+We don't want our RAs to burnout, which can happen if they have too many shifts in a short period of time. For example, if Tom has 3 ON shifts on three consecutive days while Jerry has 3 ON shifts with each 7 days apart, they have the same number of total shifts, but Tom's stress level will be much higher than that of Jerry. We will use these hard constraints:
 
+{:center: style="text-align: center"}
+**Hard Constraint 4: ON shifts are 7 days apart **
+{:center}
+
+{:center: style="text-align: center"}
+**Hard Constraint 4: ON shifts are 7 days apart **
+{:center}
+
+This seems like a really complicated one to encode using our variables since it doesn't seem like we can express something about the distance between shifts given only whether an RA had a shift on a given day. 
