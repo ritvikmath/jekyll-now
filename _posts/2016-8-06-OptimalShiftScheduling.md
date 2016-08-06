@@ -241,10 +241,12 @@ And then continue ...
 
 We make sure that in each seven day window, each RA has no more then one ON shift.
 
-We do the analysis for IN shifts in the same way, since Hard Constraint 5 requires also 7 days. To meet Hard Constraint 6, we need to make sure that the sum of all the $ON$ and $IN$ variables for each RA for each two day window is no more than 1. For example, for Elsa, we need that:
+We do the analysis for IN shifts in the same way since Hard Constraint 5 requires also 7 days. To meet Hard Constraint 6, we need to make sure that the sum of all the $ON$ and $IN$ variables for each RA for each two day window is no more than 1. For example, for Elsa, we need that:
 
-$$ON_{Elsa, May 15} + IN_{Elsa, May 15} + ON_{Elsa, May 16} + IN_{Elsa, May 16} \le 1$$
-$$ON_{Elsa, May 16} + IN_{Elsa, May 16} + ON_{Elsa, May 17} + IN_{Elsa, May 17} \le 1$$
+$$(ON_{Elsa, May 15} + IN_{Elsa, May 15}) + (ON_{Elsa, May 16} + IN_{Elsa, May 16}) \le 1$$
+$$(ON_{Elsa, May 16} + IN_{Elsa, May 16}) + (ON_{Elsa, May 17} + IN_{Elsa, May 17}) \le 1$$
+
 $$...$$
-$$ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9} + ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10} \le 1$$
+
+$$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) \le 1$$
 
