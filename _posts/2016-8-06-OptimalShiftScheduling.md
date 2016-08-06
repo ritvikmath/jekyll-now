@@ -29,7 +29,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/ra_hero.jpg"><img width="90%" src="/images/ra_hero.jpg"></a>
+   <a href="/images/ra_hero.jpg"><img width="70%" src="/images/ra_hero.jpg"></a>
 </center>
 </figure>
 
