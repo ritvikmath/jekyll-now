@@ -78,7 +78,6 @@ In order to translate this scheduling problem into something a computer can solv
 In fact, the choice of variables is even more basic and will implicitly be able to take all these questions into account. Given some number of RAs in the building, let's say 24 for now, and some number of days to schedule, let's say 14 days, we will define:
 
 $$
-ON_{i,j} = 
 \[ \left\{
 \begin{array}{ll}
       1 & RA i is scheduled ON for day j\\
