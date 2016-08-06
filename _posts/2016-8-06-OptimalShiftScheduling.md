@@ -81,8 +81,8 @@ $$
 ON_{i,j} = 
 \left\{
 \begin{array}{ll}
-      1 & if RA i scheduled ON for day j \\
-      0 & if not \\
+      1 & \text{if RA i scheduled ON for day j} \\
+      0 & \text{if not} \\
 \end{array} 
 \right. 
 $$
