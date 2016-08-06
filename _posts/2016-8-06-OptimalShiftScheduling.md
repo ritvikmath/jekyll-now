@@ -169,7 +169,7 @@ Let's do a quick calculation of roughly how many ON shifts each RA should have i
 **Hard Constraint 2: Each RA has either 3 or 4 ON shifts and either 3 or 4 IN shifts**
 {:center}
 
-We could imagine that even with this constraint, Bruce, for example, might get lucky with 3 ON and 3 IN duties and Clark might get very unlucky with 4 ON and 4 IN constraints. This seems a bit unfair so we want the total number of duties (ON + IN) for each RA to be either 7 or 8. This is basically saying that no RA should get away with having just 3 ON shifts and 3 IN shifts. 
+We could imagine that even with this constraint, Bruce, for example, might get lucky with 3 ON and 3 IN duties and Clark might get very unlucky with 4 ON and 4 IN constraints. This seems a bit unfair so we want the total number of duties (ON + IN) for each RA to be either 7 or 8. This is basically saying that no RA should get away with having 3 ON shifts and 3 IN shifts. 
 
 {:center: style="text-align: center"}
 **Hard Constraint 3: Each RA has either 7 or 8 total shifts**
