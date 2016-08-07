@@ -35,6 +35,7 @@ Quick Links:
 * [Looking Back to Optimize Forward](#back)
 * [Let's See Some Results](#result)
 * [So How Fast Is It?](#speed)
+* [How Do I Use It?](#using)
 
 ---
 
@@ -474,7 +475,34 @@ Wow! Even if we are trying to schedule the entire 10 week quarter at once, we ca
 
 We expect that as we schedule more weeks, the time the scheduler takes will go up so it might seem a bit odd that we have the dip between 7 and 8 weeks. It can be possibly explained as follows. Suppose we are trying to schedule one week and half our RAs have mainly put OFF preferences, making it really hard to schedule them in. Thus, it takes a long time to schedule. Now let's say we are trying to schedule two weeks, where in the second week the problematic RAs are very free. This makes it a lot easier to build an overall two week schedule and solves some of the issues with scheduling just one week. So in a nutshell, its a symptom of the preferences and might change with different preferences.
 
+<a name="using"></a>
 
+# How Do I Use It?
+
+The scheduler is freely available on my GitHub, linked at the bottom of this page. It is called **SADIE** (Scheduling All Duties Incredibly Efficiently). Here are the steps to building optimal schedules for your own company / staff / organization.
+
+**Getting Worker Preferences**
+
+1. From my GitHub download a file called **example_preferences.csv**
+2. This file shows how the scheduler wants the preferences to look. The time period in this example document is the same we have used through this post for convenience
+3. You mainly need to replace the names with your own worker's names and change the date range to what you prefer. You should add / remove weeks if neeeded
+4. Please keep the preferences in csv format and rename the file to whatever name you prefer
+
+**Making the Optimal Schedule**
+
+1. From my GitHub download a file called **SADIE.exe**
+2. Put SADIE.exe in the same folder as your preferences csv document
+3. Run SADIE.exe 
+4. SADIE will ask you some questions including:
+	- What day you want to start scheduling
+	- How many days you want to schedule
+	- How many ON / IN shifts there should be per day
+5. SADIE will then run for a while depending on how strict the preferences are and how many weeks you are trying to schedule
+6. Once SADIE is done, you will have a file called duty_sched.csv in the same folder that SADIE.exe is in
+7. duty_sched.csv contains the optimized shift schedule 
+8. There is a chance that, if your staff's preferences make for an impossible schedule, SADIE will inform you that there is no possible schedule, in which case you will need to change the preferences csv file and try again
+
+Thanks for Reading!
 
 
 
