@@ -56,13 +56,15 @@ If I am assigned to an ON duty on a given night, I am responsible for patrolling
 
 On the other hand, if I am assigned to an IN shift on a given night, I am not responsible for patrolling any part of the building and will only be contacted to respond to an incident if all the people with ON shifts that night are busy dealing with incidents. 
 
-The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. Larger buildings have three ON duties and three IN duties per night with smaller ones having fewer of each type of shift. Furthermore the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3 and are responsible for patrolling, among other areas, the lobby, the basement, and the courtyard, respectively. It is apparent that during the winter, it is much more preferable for RAs to patrol indoors than outdoors.
+The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. Larger buildings have three ON duties and three IN duties per night with smaller ones having fewer of each type of shift. 
+
+Furthermore the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3 and are responsible for patrolling, among other areas, the lobby, the basement, and the courtyard, respectively. It is apparent that during the winter, it is much more preferable for RAs to patrol indoors than outdoors.
 
 <a name="curr"></a>
 
 # The Current System
 
-These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs fill out preferences for the coming weeks about which days they would prefer to have an ON shift, which days they would prefer to have an IN shift, which days they cannot have any shift (perhaps because they have other plans that night), and which days they are ambivalent about getting assigned a shift. 
+These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs fill out preferences for the coming weeks about which days they would prefer to have an ON shift, which days they would prefer to have an IN shift, which days they cannot have any shift (perhaps because they have other plans that night), and which days they are indifferent about getting assigned a shift. 
 
 <figure>
 <center>
@@ -70,7 +72,9 @@ These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs
 </center>
 </figure>
 
-Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts across the board. This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are responsible also for scheduling themselves, a potential conflict of interest. 
+Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts across the board. 
+
+This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are responsible also for scheduling themselves, a potential conflict of interest. 
 
 But worry not!
 
@@ -142,7 +146,7 @@ Let's go through each constraint and see how a human would state it and how we c
 **Hard Constraint 1: We need exactly three RAs with ON shifts and three RAs with IN shifts each night**
 {:center}
 
-Hmm ... how do we express this with our variables? Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and $0$ if not, all we need to do is sum up the May 15 variable for all the RAs:
+Hmm ... how do we express this with our variables? Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA $i$ is ON and $0$ if not, all we need to do is sum up the May 15 variable for all the RAs:
 
 $$ON_{Ash, May 15} + ON_{Bruce, May 15} + ... + ON_{Xavier, May 15} + ON_{Zeus, May 15}$$
 
@@ -190,7 +194,7 @@ and ensure that this sum is either 3 or 4. We do the same for IN shifts.
 
 To satisfy Hard Constraint 3, we need only do ensure that: 
 
-$$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + IN_{Vader, May 15}) \le 8.$$
+$$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + IN_{Vader, Jun 10}) \le 8.$$
 
 ## Burnout Constraint
 
@@ -212,13 +216,13 @@ You're probably asking, where did these numbers come from? For a specific instan
 
 The question for now is how to express these constraints using our variables. It seems a bit difficult at first since our variables only tell us whether or not an RA is working on a given day, not the time between shifts. But, we can be a little creative here. Let's start simple. 
 
-Let's say we want to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. So we need:
+Let's say we want to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most one ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. So we need:
 
-$$ON_{Elsa, May 15} + ON_{Elsa, May 17} + ... + ON_{Elsa, May 20} + ON_{Elsa, May 21} \le 1$$
+$$ON_{Elsa, May 15} + ON_{Elsa, May 16} + ... + ON_{Elsa, May 20} + ON_{Elsa, May 21} \le 1$$
 
 Then, if we move this seven day window forward by 1, to get the range May 16 - May 22, we know that she can also have at most one ON shift in this range, for the same reason as before.
 
-$$ON_{Elsa, May 16} + ON_{Elsa, May 18} + ... + ON_{Elsa, May 21} + ON_{Elsa, May 22} \le 1$$
+$$ON_{Elsa, May 16} + ON_{Elsa, May 17} + ... + ON_{Elsa, May 21} + ON_{Elsa, May 22} \le 1$$
 
 We just keep rolling this seven day window through the full 27 days and set the same less than or equal to 1 ON shift constraint for each window.
 
@@ -271,8 +275,11 @@ which violates the final constraint in the preceding section.
 So far, we have only encoded constraints that are globally applicable across all RAs. But, as we said before, RAs submit preferences about which shifts they would like to have on each day. These preferences are as follows:
 
 **ON Preference**: I would prefer to have an ON shift this day 
+
 **IN Preference**: I would prefer to have an IN shift this day but if not, do **NOT** schedule me to work this day at all
-**OFF Preference**: I cannot work this day 
+
+**OFF Preference**: Do **NOT** schedule me for work this day
+
 **NO Preference**: Anything you assign to me this day is fine
 
 We care right now about the IN and OFF Preferences, which give rise to our two last Hard Constraints.
