@@ -170,7 +170,7 @@ $$IN_{Ash, j} + IN_{Bruce, j} + ... + IN_{Xavier, j} + IN_{Zeus, j} = 3$$
 
 where $j$ is each day from May 15th to June 10th. 
 
-Cool, that wasn't too painless, and now we have our first constraint. Let's press on!
+Cool, that was pretty painless, and now we have our first constraint. Let's press on!
 
 ## Equal Work Constraint ##
 
