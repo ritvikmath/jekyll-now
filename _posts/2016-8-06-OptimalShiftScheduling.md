@@ -454,7 +454,7 @@ Lets look at the same schedule for Sulu.
 </center>
 </figure>
 
-Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Also, we were able to give Sulu one of each type of ON shift.
+Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Still, we were able to give Sulu one of each type of ON shift. Furthremore, we matched five of his six shifts to his preferences!
 
 <a name="speed"></a>
 
