@@ -33,6 +33,8 @@ Quick Links:
 * [Picking the Best of the Best](#soft)
 * [Varying Shift Types](#types)
 * [Looking Back to Optimize Forward](#back)
+* [Let's See Some Results](#result)
+* [So How Fast Is It?](#speed)
 
 ---
 
@@ -258,7 +260,7 @@ $$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}
 
 Even though it is evident to a human that we cannot assign the same person for two different shifts in a given day, the computer will not know that unless we state it as a constraint. We have "accidentally" set this constraint implicit in Hard Constraints 4 through 6. For example, if we propose a schedule where Elsa is scheduled to be ON and IN for June 10, we will have that  
 
-$$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) \eq 2$$
+$$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) = 2$$
 
 which violates the final constraint in the preceding section. 
 
@@ -453,4 +455,26 @@ Lets look at the same schedule for Sulu.
 </figure>
 
 Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Also, we were able to give Sulu one of each type of ON shift.
+
+<a name="speed"></a>
+
+# So How Fast Is It?
+
+The burning question for many of you is probabaly *"How fast is all this?* This is a great question since our main motivation for doing all this was to improve upon the speed and accuracy of the current by-hand process. We have seen that we are doing pretty well in the accuracy department mainly because of our Hard Constraints and optimization via our Soft Constraint. As for speed, this graph tells it all.
+
+<figure>
+<center>
+   <a href="/images/speedchart.jpg"><img width="70%" src="/images/speedchart.jpg"></a>
+</center>
+</figure>
+
+Wow! Even if we are trying to schedule the entire 10 week quarter at once, we can get results in about 5 minutes. In the more likely case, where we are scheduling 3 to 4 weeks at a time, we get our results in under a minute. It's around the 7 week mark where the time really starts to shoot upwards as the problem gets harder to solve. It seems we have acheived our goal! 
+
+## Why the Dip?
+
+We expect that as we schedule more weeks, the time the scheduler takes will go up so it might seem a bit odd that we have the dip between 7 and 8 weeks. It can be possibly explained as follows. Suppose we are trying to schedule one week and half our RAs have mainly put OFF preferences, making it really hard to schedule them in. Thus, it takes a long time to schedule. Now let's say we are trying to schedule two weeks, where in the second week the problematic RAs are very free. This makes it a lot easier to build an overall two week schedule and solves some of the issues with scheduling just one week. So in a nutshell, its a symptom of the preferences and might change with different preferences.
+
+
+
+
 
