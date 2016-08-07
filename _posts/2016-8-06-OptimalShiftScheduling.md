@@ -31,6 +31,8 @@ Quick Links:
 * [What are the Variables?](#var)
 * [Rules for Scheduling](#hard)
 * [Picking the Best of the Best](#soft)
+* [Varying Shift Types](#types)
+* [Looking Back to Optimize Forward](#back)
 
 ---
 
@@ -44,13 +46,13 @@ Quick Links:
 </center>
 </figure>
 
-I currently work as as a Resident Assistant (RA) at my university. My responsibilities include organizing engaging and fun events for residents who live on my floor, serving as an academic and emotional resource for these students, and completing nighttime work shifts, which RAs call "duties", on a rotating basis. These duties are divided into two types, ON duties and IN duties. 
+I currently work as a Resident Assistant (RA) at my university. My responsibilities include organizing engaging and fun events for residents who live on my floor, serving as an academic and emotional resource for these students, and completing nighttime work shifts, which RAs call "duties", on a rotating basis. These duties are divided into two types, ON duties and IN duties. 
 
-If I am assigned to an ON duty on a given night, I am responsible for patroling various floors of my building multiple times, ensuring that students are not violating housing policies, and checking for maintainance issues. These ON duties last from 7PM until 7AM during which time I can be contacted at any time to respond to anything from an innocuous noise complaint to an unconcious resident who needs immediate medical attention. From my experience, these shifts can be taxing and too many of them in a short time frame can impact sleep patterns, alertness, and even academic performance.
+If I am assigned to an ON duty on a given night, I am responsible for patrolling various floors of my building multiple times, ensuring that students are not violating housing policies, and checking for maintenance issues. These ON duties last from 7PM until 7AM during which time I can be contacted at any time to respond to anything from an innocuous noise complaint to an unconscious resident who needs immediate medical attention. From my experience, these shifts can be taxing and too many of them in a short time frame can impact sleep patterns, alertness, and even academic performance.
 
 On the other hand, if I am assigned to an IN shift on a given night, I am not responsible for patrolling any part of the building and will only be contacted to respond to an incident if all the people with ON shifts that night are busy dealing with incidents. 
 
-The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. Larger buildings have three ON duties and three IN duties per night with smaller ones having fewer of each type of shift. Furthermore the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3 and are responsible for patrolling, among other areas, the lobby, the basement, and the courtyard, respectively. It is apparent that during the winter, it is much more prefereable for RAs to patrol indoors than outdoors.
+The number of people scheduled for ON and IN shifts each night varies with the size of the particular building. Larger buildings have three ON duties and three IN duties per night with smaller ones having fewer of each type of shift. Furthermore the particular number of the ON shift makes a difference. For example, in my building the shifts are designated ON 1, ON 2, and ON 3 and are responsible for patrolling, among other areas, the lobby, the basement, and the courtyard, respectively. It is apparent that during the winter, it is much more preferable for RAs to patrol indoors than outdoors.
 
 <a name="curr"></a>
 
@@ -64,11 +66,11 @@ These ON and IN shifts are not randomly assigned. Every three to four weeks, RAs
 </center>
 </figure>
 
-Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts accross the board. This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are resonsible also for scheduling themselves, a potential conflict of interest. 
+Once these preferences are recorded, a team of two or three RAs attempts to create a harmonious schedule which balances the workload for each RA, ensures ample time between ON shifts, ensures a reasonable time between IN shifts, and balances the types of ON shifts across the board. This is no simple task and it can often take hours to iron out all the inefficiencies in the resulting schedule. Additionally, it is somewhat worrisome that the RAs creating the schedule are responsible also for scheduling themselves, a potential conflict of interest. 
 
 But worry not!
 
-This problem, creating an optimal schedule subject to many hard, and some softer constraints, belongs nicely to a family of problems called Constraing Satisfaction Problems (CSPs) which computers are really really good at solving fast. 
+This problem, creating an optimal schedule subject to many hard, and some softer constraints, belongs nicely to a family of problems called Constraint Satisfaction Problems (CSPs) which computers are really really good at solving fast. 
 
 The only challenge for us is to take this very human problem, and translate it into a problem that a computer can understand and then solve. If you think this sounds crazy complicated, don't worry. I promise it will be much easier than you think. Let's get started!
 
@@ -124,7 +126,7 @@ How many of these variables are there? Well there are 24 possibilities for the R
 
 # Rules for Scheduling
 
-There are a couple of hard constraints when we try and solve this scheduling problem. Let's define what this means/
+There are a couple of hard constraints when we try and solve this scheduling problem. Let's define what this means.
 
 **Hard Constraint**: A rule that, if violated, makes for an invalid schedule
 
@@ -136,7 +138,7 @@ Let's go through each constraint and see how a human would state it and how we c
 **Hard Constraint 1: We need exactly three RAs with ON shifts and three RAs with IN shifts each night**
 {:center}
 
-Hmm ... how do we express this with our variables. Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and $0$ if not, all we need to do is sum up the May 15 variable for all the RAs:
+Hmm ... how do we express this with our variables? Well, starting simple, we can choose a day, say May 15th. We know that exactly (no more, no less) than three RAs need to have ON shifts on May 15th. How do we count how many people will be ON for May 15th? Well since  $ON_{i, May 15} = 1$  if RA i is ON and $0$ if not, all we need to do is sum up the May 15 variable for all the RAs:
 
 $$ON_{Ash, May 15} + ON_{Bruce, May 15} + ... + ON_{Xavier, May 15} + ON_{Zeus, May 15}$$
 
@@ -164,7 +166,7 @@ Cool, that wasn't too painless, and now we have our first constraint. Let's pres
 
 ## Equal Work Constraint ##
 
-Let's do a quick calculation of roughly how many ON shifts each RA should have in this time period. There are 27 days with 3 ON shifts per day for a total of 81 ON shifts spead accross 24 RAs for a total of **3.375 ON shifts per RA**. Well, we cant give partial ON shifts to an RA, so we want that each RA has either 3 or 4 ON shifts. The same holds for IN shifts. 
+Let's do a quick calculation of roughly how many ON shifts each RA should have in this time period. There are 27 days with 3 ON shifts per day for a total of 81 ON shifts spread across 24 RAs for a total of **3.375 ON shifts per RA**. Well, we can’t give partial ON shifts to an RA, so we want that each RA has either 3 or 4 ON shifts. The same holds for IN shifts. 
 
 {:center: style="text-align: center"}
 **Hard Constraint 2: Each RA has either 3 or 4 ON shifts and either 3 or 4 IN shifts**
@@ -188,7 +190,7 @@ $$7 \le (ON_{Vader, May 15} + IN_{Vader, May 15}) + ... + (ON_{Vader, Jun 10} + 
 
 ## Burnout Constraint
 
-Even if we assure that two RAs have the same number of ON shifts, let's say three each, we say nothing about how those shifts are spread out. For example, if Clark has three ON shifts on May 15, May 30, and June 10, he enjoys a relatively spead out workload. If Bruce, on the other hand, has three ON shifts on May 15, May 16, and May 17, he faces three continuous days of work and has a much greater stress level. We thus want the following three hard constraints:
+Even if we assure that two RAs have the same number of ON shifts, let's say three each, we say nothing about how those shifts are spread out. For example, if Clark has three ON shifts on May 15, May 30, and June 10, he enjoys a relatively spread out workload. If Bruce, on the other hand, has three ON shifts on May 15, May 16, and May 17, he faces three continuous days of work and has a much greater stress level. We thus want the following three hard constraints:
 
 {:center: style="text-align: center"}
 **Hard Constraint 4: Each RA has at least 7 days between ON shifts**
@@ -202,11 +204,11 @@ Even if we assure that two RAs have the same number of ON shifts, let's say thre
 **Hard Constraint 6: Each RA has at least 2 days between an ON shift and an IN shift**
 {:center}
 
-You're probabaly asking, where did these numbers come from? For a specific instance of this problem, with some historical shift preference data, I found that these were the highest numbers that still resulted in a valid schedule. For this reason, the fine tuning of these numbers is built into the model and it will keep trying to build schedules until it maximizes each of these three numbers. More on this later on. 
+You're probably asking, where did these numbers come from? For a specific instance of this problem, with some historical shift preference data, I found that these were the highest numbers that still resulted in a valid schedule. For this reason, the fine tuning of these numbers is built into the model and it will keep trying to build schedules until it maximizes each of these three numbers. More on this later on. 
 
 The question for now is how to express these constraints using our variables. It seems a bit difficult at first since our variables only tell us whether or not an RA is working on a given day, not the time between shifts. But, we can be a little creative here. Let's start simple. 
 
-Let's say we wan't to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. So we need:
+Let's say we want to enforce Hard Constraint 4 for Elsa. We know that for the first seven days of the scheduling period, May 15 - May 21, she can have at most ON shift. If she had two or more, then these shifts would be less than 7 days apart and we would be violating the constraint. So we need:
 
 $$ON_{Elsa, May 15} + ON_{Elsa, May 17} + ... + ON_{Elsa, May 20} + ON_{Elsa, May 21} \le 1$$
 
@@ -240,7 +242,7 @@ And then continue ...
 </center>
 </figure>
 
-We make sure that in each seven day window, each RA has no more then one ON shift.
+We make sure that in each seven day window, each RA has no more than one ON shift.
 
 We do the analysis for IN shifts in the same way since Hard Constraint 5 requires also 7 days. To meet Hard Constraint 6, we need to make sure that the sum of all the $ON$ and $IN$ variables for each RA for each two day window is no more than 1. For example, for Elsa, we need that:
 
@@ -251,7 +253,7 @@ $$(ON_{Elsa, May 16} + IN_{Elsa, May 16}) + (ON_{Elsa, May 17} + IN_{Elsa, May 1
 $$...$$
 
 $$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) \le 1$$
-
+	
 ### Serendipitous Sidenote
 
 Even though it is evident to a human that we cannot assign the same person for two different shifts in a given day, the computer will not know that unless we state it as a constraint. We have "accidentally" set this constraint implicit in Hard Constraints 4 through 6. For example, if we propose a schedule where Elsa is scheduled to be ON and IN for June 10, we will have that  
@@ -262,12 +264,12 @@ which violates the final constraint in the preceding section.
 
 ## Preference Constraints
 
-So far, we have only encoded constraints that are globally applicable accross all RAs. But, as we said before, RAs submit preferences about which shifts they would like to have on each day. These preferences are as follows:
+So far, we have only encoded constraints that are globally applicable across all RAs. But, as we said before, RAs submit preferences about which shifts they would like to have on each day. These preferences are as follows:
 
 **ON Preference**: I would prefer to have an ON shift this day 
 **IN Preference**: I would prefer to have an IN shift this day but if not, do **NOT** schedule me to work this day at all
 **OFF Preference**: I cannot work this day 
-**NO Prference**: Anything you assign to me this day is fine
+**NO Preference**: Anything you assign to me this day is fine
 
 We care right now about the IN and OFF Preferences, which give rise to our two last Hard Constraints.
 
@@ -297,13 +299,13 @@ And with that, we have all our Hard Constraints. Any proposed schedule that meet
 
 # Picking the Best of the Best
 
-But, there are probabaly many such perfectly acceptable schedules and we want to be a bit picky. We wan't to pick the one which maximizes some value which is linked to how many ON Preference and IN Preferences we satisfy. That is, out of all the acceptable schedules, we want to pick the one which gives the most RAs their preferred choice of shift accross the 27 days. 
+But, there are probably many such perfectly acceptable schedules and we want to be a bit picky. We want to pick the one which maximizes some value which is linked to how many ON Preference and IN Preferences we satisfy. That is, out of all the acceptable schedules, we want to pick the one which gives the most RAs their preferred choice of shift across the 27 days. 
 
 We encode this preference through a Soft Constraint, defined below.
 
 **Soft Constraint**: A rule that says how to pick the best schedule out of all acceptable ones
 
-We want this rule to be some function of how many times we match up an ON preference with an ON shift and how many times we match up an IN preference with an IN shift accross all RAs and all days. To make this a bit easier, we will define a new measure for each RA as follows:
+We want this rule to be some function of how many times we match up an ON preference with an ON shift and how many times we match up an IN preference with an IN shift across all RAs and all days. To make this a bit easier, we will define a new measure for each RA as follows:
 
 $$A_{i} = \text{Number of ON shifts for RA $i$ which s/he had put an ON preference for}$$
 
@@ -313,9 +315,9 @@ Given these two new measures, we can define the following function, $K$:
 
 $$ K = (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus} $$
 
-What does this measure? This sum tells us how many total shift preference matches there were for an acceptable schedule accross all RAs and all 27 days.
+What does this measure? This sum tells us how many total shift preference matches there were for an acceptable schedule across all RAs and all 27 days.
 
-Let's make one slight modification to this function before we define our Soft Constraint. In the above function we are weigting matches for ON shifts the same as matches for IN shifts. But, in reality, we would value a match for an ON shift more than one for an IN shift. This is because matching an ON shift alleviates some stress by virtue of having the shift on a more ideal day. We will thus use the following modified function, $K'$:
+Let's make one slight modification to this function before we define our Soft Constraint. In the above function we are weighting matches for ON shifts the same as matches for IN shifts. But, in reality, we would value a match for an ON shift more than one for an IN shift. This is because matching an ON shift alleviates some stress by virtue of having the shift on a more ideal day. We will thus use the following modified function, $K'$:
 
 $$ K' = 2 \times (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus} $$
 
@@ -331,7 +333,7 @@ Let's take a step back and go over what we have done.
 2. We then look at the list of preferences by each RA for which shifts they want on which day. 
 3. Of these constraints, we enforce those which disqualify certain RAs from working certain shifts on certain days. 
 4. Given all these constraints, we have multiple schedules which all are perfectly acceptable. 
-5. Wanting to do even better, we pick from these acceptable schedule the one which maximizes a measure of matching betwen preferences and assigned shifts, with a higher weight on matching ON shifts. 
+5. Wanting to do even better, we pick from these acceptable schedules the one which maximizes a measure of matching between preferences and assigned shifts, with a higher weight on matching ON shifts. 
 
 In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* because it is possible that given some RA preferences, an optimal schedule might not be possible. In an extreme case, assume that there is some big festival on June 4 and 21 of the 26 RAs have put OFF preference for that day. This leaves only 5 RAs who can work that day, not enough to fill the three ON shifts and three IN shifts that day. These cases will likely not occur, but if they do, staff members must work out a solution before turning again to the scheduling algorithm. 
 
@@ -339,9 +341,9 @@ In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* b
 
 # Varying Shift Types
 
-A keen reader will notice that at the beginning of the post, it was stated that we also want to have an even spread between the diffent types of ON shifts, ON 1, ON 2, and ON 3, since these shifts patrol different areas of the building. Currently this is nowhere in our scheduling method. This is mainly because it can be done independently of all other constaints. Since RAs list preferences only for wanting an ON shift and not for which particular ON shift, and because permuting the three different ON shifts between three RAs in a given day cannot violate any Hard Constraints, we are safe to assign the particular ON shift after picking an optimal schedule.
+A keen reader will notice that at the beginning of the post, it was stated that we also want to have an even spread between the different types of ON shifts, ON 1, ON 2, and ON 3, since these shifts patrol different areas of the building. Currently this is nowhere in our scheduling method. This is mainly because it can be done independently of all other constraints. Since RAs list preferences only for wanting an ON shift and not for which particular ON shift, and because permuting the three different ON shifts between three RAs in a given day cannot violate any Hard Constraints, we are safe to assign the particular ON shift after picking an optimal schedule.
 
-The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 7. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
+The question is then how we will go about evening out the different ON shifts across all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have distributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 7. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
 
 <figure>
 <center>
@@ -375,7 +377,7 @@ We are really interested in which ON shift types have the lowest numbers for eac
 </center>
 </figure>
 
-The boldface numbers tell us which of the three types of ON shifts each RA is *really* lacking, since they are the ones most below the target values. This tells us which shifts to prioritize when deciding what to assign. We will start with the RA most in need, indicated by the lowest of all boldfaced numbers. This is Kenobi, with a -1 for his ON 1 shifts. We will assign ON 1 for June 7 to Kenobi. We then see that the rest of the boldfaced numbers are all of the same magnitude so we will randomly assign between the other two shifts. In the end, out updated ON shifts per RA looks like this.
+The boldface numbers tell us which of the three types of ON shifts each RA is *really* lacking, since they are the ones most below the target values. This tells us which shifts to prioritize when deciding what to assign. We will start with the RA most in need, indicated by the lowest of all boldfaced numbers. This is Kenobi, with a -1 for his ON 1 shifts. We will assign ON 1 for June 7 to Kenobi. We then see that the rest of the boldfaced numbers are all of the same magnitude so we will randomly assign between the other two shifts. In the end, our updated ON shifts per RA looks like this.
 
 <figure>
 <center>
@@ -383,7 +385,7 @@ The boldface numbers tell us which of the three types of ON shifts each RA is *r
 </center>
 </figure>
 
-We see that we are getting a lot closer to a fully balanced distribution.
+We see that we are getting a lot closer to a fully balanced distribution. Note that even though it is less important which IN shifts (IN 1, IN 2, IN 3) RAs get assigned to since the roles are not really different, we still perform the same equal distribution analysis for IN shifts since it somehow makes RAs feel better.
 
 ## A More Extreme Case
 
@@ -398,7 +400,15 @@ For example's sake, let's pretend that we are trying to decide what to assign fo
 We see that all three RAs really need an ON 1 shift, but we give it to Kenobi since the number is the lowest. We then give Frodo an ON 2 shift since that is the next best shift we can assign to him. We are then forced to give Ash the ON 3 shift even though it doesn't really help his distribution. But since Ash's distribution is now more uneven, when it comes time to again assign him a shift, his difference numbers will indicate a greater need for an ON 1 shift than other RAs. 
 
 
+<a name="back"></a>
 
+# Looking Back to Optimize Forward
+
+Let's say we use our schedule for the first 27 days of the year and get a nice optimized schedule as balanced as possible. We say "as possible" since there are somethings that just cannot be perfectly balanced. A prime example is the number of ON shifts per RA. We said that we can get the difference in ON shifts down to 1, but we physically cannot assign every RA the same number of ON shifts because we cannot have fractional shifts.
+
+Now, let's say that at the end of our 27 days, we want to make a schedule for another 27 days. If we ignore the past and pretend like we are starting fresh, we will definitely introduce biases and inequalities for some RAs. Take the following case. Assume Mickey was assigned 4 ON shifts in the first scheduling period, while Ross was assigned only 3. This is acceptable since we allow the number of ON shifts to be off by one. It would be unfair though if in the second scheduling period, we again assigned Mickey 4 ON shifts and Ross 3 ON shifts. 
+
+It is thus very important to keep some record of the past including how many ON shifts each RA has going into a new scheduling period, how many IN shifts they have, and what kind of ON shifts they have. We can use this history to correct for previously inevitable inequalities.  
 
 
 
