@@ -341,13 +341,64 @@ In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* b
 
 A keen reader will notice that at the beginning of the post, it was stated that we also want to have an even spread between the diffent types of ON shifts, ON 1, ON 2, and ON 3, since these shifts patrol different areas of the building. Currently this is nowhere in our scheduling method. This is mainly because it can be done independently of all other constaints. Since RAs list preferences only for wanting an ON shift and not for which particular ON shift, and because permuting the three different ON shifts between three RAs in a given day cannot violate any Hard Constraints, we are safe to assign the particular ON shift after picking an optimal schedule.
 
-The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 1. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
+The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 7. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
+
+<figure>
+<center>
+   <a href="/images/OnDistr.jpg"><img width="70%" src="/images/OnDistr.jpg"></a>
+</center>
+</figure>
+
+We see that there is an imbalance, especially since Frodo has only ON 1 shifts. To try and choose the best assignment of ON shifts for June 7, we will first calculate the target number of ON shifts by type for each RA. This is simply done by taking the total number of ON shifts for that RA so far and dividing by 3, the number of types of ON shifts. This gives us the following table.
+
+<figure>
+<center>
+   <a href="/images/OnDistrMean.jpg"><img width="70%" src="/images/OnDistrMean.jpg"></a>
+</center>
+</figure>
+
+This tells us, for example, that Kenobi should ideally have 1 ON shift of each type and that Ash and Frodo should ideal have 0.667 ON shifts of each type, which is of course impossible, but gives us our target for an equal allocation. 
+
+Now, we will calculate the difference of each type of ON shift for each of these three RAs from their target number. For example, Kenobi should have 1 of each type and in reality he has zero ON 1 shifts so the difference is 0 - 1 = -1. We see the rest of the numbers below:
+
+<figure>
+<center>
+   <a href="/images/OnDistrDevs.jpg"><img width="70%" src="/images/OnDistrDevs.jpg"></a>
+</center>
+</figure>
+
+We are really interested in which ON shift types have the lowest numbers for each RA, shown below.
+
+<figure>
+<center>
+   <a href="/images/OnDistrChoice.jpg"><img width="70%" src="/images/OnDistrChoice.jpg"></a>
+</center>
+</figure>
+
+The boldface numbers tell us which of the three types of ON shifts each RA is *really* lacking, since they are the ones most below the target values. This tells us which shifts to prioritize when deciding what to assign. We will start with the RA most in need, indicated by the lowest of all boldfaced numbers. This is Kenobi, with a -1 for his ON 1 shifts. We will assign ON 1 for June 7 to Kenobi. We then see that the rest of the boldfaced numbers are all of the same magnitude so we will randomly assign between the other two shifts. In the end, out updated ON shifts per RA looks like this.
+
+<figure>
+<center>
+   <a href="/images/OnDistrAft.jpg"><img width="70%" src="/images/OnDistrAft.jpg"></a>
+</center>
+</figure>
+
+We see that we are getting a lot closer to a fully balanced distribution.
+
+## A More Extreme Case
+
+For example's sake, let's pretend that we are trying to decide what to assign for a day when the difference table looks like this.
+
+<figure>
+<center>
+   <a href="/images/OnDistrEx.jpg"><img width="70%" src="/images/OnDistrEx.jpg"></a>
+</center>
+</figure>
+
+We see that all three RAs really need an ON 1 shift, but we give it to Kenobi since the number is the lowest. We then give Frodo an ON 2 shift since that is the next best shift we can assign to him. We are then forced to give Ash the ON 3 shift even though it doesn't really help his distribution. But since Ash's distribution is now more uneven, when it comes time to again assign him a shift, his difference numbers will indicate a greater need for an ON 1 shift than other RAs. 
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
 
 
 
