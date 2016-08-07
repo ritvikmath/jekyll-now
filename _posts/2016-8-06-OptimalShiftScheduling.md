@@ -493,7 +493,7 @@ We expect that as we schedule more weeks, the time the scheduler takes will go u
 
 # How Do I Use It?
 
-The scheduler is freely available on my GitHub, linked at the bottom of this page. It is called **SADIE** (**S**cheduling **A**ll **D**uties **I**ncredibly **E**fficiently). Here are the steps to building optimal schedules for your own company / staff / organization.
+The scheduler is freely available in the SADIE folder on my GitHub, linked at the bottom of this page. **SADIE** stands for **S**cheduling **A**ll **D**uties **I**ncredibly **E**fficiently. Here are the steps to building optimal schedules for your own company / staff / organization.
 
 **Getting Worker Preferences**
 
