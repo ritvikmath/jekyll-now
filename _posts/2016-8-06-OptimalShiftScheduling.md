@@ -410,12 +410,47 @@ Now, let's say that at the end of our 27 days, we want to make a schedule for an
 
 It is thus very important to keep some record of the past including how many ON shifts each RA has going into a new scheduling period, how many IN shifts they have, and what kind of ON shifts they have. We can use this history to correct for previously inevitable inequalities.  
 
+<a name="result"></a>
 
+# Let's See Some Results
 
+Whew! That was a lot of work. Hopefully it was all worth it and we can build nice evenly spread out schedules for the RAs. Let's try and build a schedule for four weeks using some historical preference data. First a quick note. 
 
+## Note
 
+Remember our Hard Constraints about the time between ON and IN shifts? For our example we picked 7 days between ON shifts, 7 days between IN shifts, and 2 days between an ON and IN shift. IN reality, this will not always be possible and we will have to reduce the number of days between shifts to get a valid schedule. How the scheduler works is by starting very optimistic and setting the time between ON and IN shifts to 7 as well as setting the time between an ON and IN shift to 7. If it succeeds in building a valid schedule with those constraints, it is done. If it cannot build one, it reduces all three numbers by 1, so we are at 6 days between each kind of shift. It continues until it finds a triple where a valid schedule can be build.
 
+Let's say that triple is (2,2,2) so that the schedule has 2 days between ON shifts, 2 days between IN shifts, and 2 days between ON and IN shifts. It then boosts the time between ON shifts as much as possible and then does the same for the time between in shifts so the final triple might look something like (7,5,2) where the time between ON shifts is 7, time between IN shifts is 5, and the time between an ON and IN shift is 2. 
 
+## Four Week Schedule
 
+Let's see the results of scheduling four weeks. 
 
+<figure>
+<center>
+   <a href="/images/Output.jpg"><img width="90%" src="/images/Output.jpg"></a>
+</center>
+</figure>
+
+We can't really decipher much by looking at it overall, so let's focus on two RAs and see how well we scheduled them.
+
+Lets first look at Hermione. Her shifts are highlighted in yellow and the ones where we matched her preference to her actual shift are bolded and underlined.
+
+<figure>
+<center>
+   <a href="/images/HermioneSched.jpg"><img width="90%" src="/images/HermioneSched.jpg"></a>
+</center>
+</figure>
+
+Her shifts look fairly spread out and we were even able to match four of her six shifts to her preferences. Also, she was assigned one of each type of ON shift and one of each type of IN shift, a perfect spread! 
+
+Lets look at the same schedule for Sulu.
+
+<figure>
+<center>
+   <a href="/images/SuluSched.jpg"><img width="70%" src="/images/SuluSched.jpg"></a>
+</center>
+</figure>
+
+Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Also, we were able to give Sulu one of each type of ON shift.
 
