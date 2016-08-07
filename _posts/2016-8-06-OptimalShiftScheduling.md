@@ -430,7 +430,7 @@ Let's see the results of scheduling four weeks.
 
 <figure>
 <center>
-   <a href="/images/Output.jpg"><img width="90%" src="/images/Output.jpg"></a>
+   <a href="/images/Output.jpg"><img width="70%" src="/images/Output.jpg"></a>
 </center>
 </figure>
 
@@ -440,7 +440,7 @@ Lets first look at Hermione. Her shifts are highlighted in yellow and the ones w
 
 <figure>
 <center>
-   <a href="/images/HermioneSched.jpg"><img width="90%" src="/images/HermioneSched.jpg"></a>
+   <a href="/images/HermioneSched.jpg"><img width="70%" src="/images/HermioneSched.jpg"></a>
 </center>
 </figure>
 
@@ -464,7 +464,7 @@ The burning question for many of you is probabaly *"How fast is all this?* This 
 
 <figure>
 <center>
-   <a href="/images/speedchart.jpg"><img width="70%" src="/images/speedchart.jpg"></a>
+   <a href="/images/speedchart.jpg"><img width="100%" src="/images/speedchart.jpg"></a>
 </center>
 </figure>
 
