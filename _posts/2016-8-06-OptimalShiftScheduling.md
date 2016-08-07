@@ -339,10 +339,14 @@ We thus specify our single Soft Constraint.
 Let's take a step back and go over what we have done. 
 
 **1.** We start by enforcing universal constraints which need to be satisfied for a valid schedule
-**2.** We then look at the list of preferences by each RA for which shifts they want on which day. 
-**3.** Of these constraints, we enforce those which disqualify certain RAs from working certain shifts on certain days. 
-**4.** Given all these constraints, we have multiple schedules which all are perfectly acceptable. 
-**5.** Wanting to do even better, we pick from these acceptable schedules the one which maximizes a measure of matching between preferences and assigned shifts, with a higher weight on matching ON shifts. 
+
+**2.** We then look at the list of preferences by each RA for which shifts they want on which day
+
+**3.** Of these constraints, we enforce those which disqualify certain RAs from working certain shifts on certain days
+
+**4.** Given all these constraints, we have multiple schedules which all are perfectly acceptable
+
+**5.** Wanting to do even better, we pick from these acceptable schedules the one which maximizes a measure of matching between preferences and assigned shifts, with a higher weight on matching ON shifts
 
 In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* because it is possible that given some RA preferences, an optimal schedule might not be possible. In an extreme case, assume that there is some big festival on June 4 and 21 of the 26 RAs have put OFF preference for that day. This leaves only 5 RAs who can work that day, not enough to fill the three ON shifts and three IN shifts that day. These cases will likely not occur, but if they do, staff members must work out a solution before turning again to the scheduling algorithm. 
 
