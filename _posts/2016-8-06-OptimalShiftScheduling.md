@@ -251,3 +251,73 @@ $$...$$
 
 $$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) \le 1$$
 
+### Serendipitous Sidenote
+
+Even though it is evident to a human that we cannot assign the same person for two different shifts in a given day, the computer will not know that unless we state it as a constraint. We have "accidentally" set this constraint implicit in Hard Constraints 4 through 6. For example, if we propose a schedule where Elsa is scheduled to be ON and IN for June 10, we will have that  
+
+$$(ON_{Elsa, Jun 9} + IN_{Elsa, Jun 9}) + (ON_{Elsa, Jun 10} + IN_{Elsa, Jun 10}) \eq 2$$
+
+which violates the final constraint in the preceding section. 
+
+## Preference Constraints
+
+So far, we have only encoded constraints that are globally applicable accross all RAs. But, as we said before, RAs submit preferences about which shifts they would like to have on each day. These preferences are as follows:
+
+**ON Preference**: I would prefer to have an ON shift this day 
+**IN Preference**: I would prefer to have an IN shift this day but if not, do **NOT** schedule me to work this day at all
+**OFF Preference**: I cannot work this day 
+**NO Prference**: Anything you assign to me this day is fine
+
+We care right now about the IN and OFF Preferences, which give rise to our two last Hard Constraints.
+
+{:center: style="text-align: center"}
+**Hard Constraint 7: Never schedule someone for an ON shift if they put an IN preference**
+{:center}
+
+{:center: style="text-align: center"}
+**Hard Constraint 8: Never schedule someone for an ON or IN shift if they put an OFF preference**
+{:center}
+
+These are pretty simple to encode. For example, if Yoda put an IN Preference on May 15, we simply need that:
+
+$$ON_{Yoda, May 15} = 0.$$
+
+And if Patrick had put an OFF preference on June 10, we simply need that:
+
+$$ON_{Patrick, Jun 10} = 0$$
+
+and 
+
+$$IN_{Patrick, Jun 10} = 0.$$
+
+And with that, we have all our Hard Constraints. Any proposed schedule that meets all eight of these Hard Constraints is a perfectly acceptable schedule and we can use it for the next 27 days. 
+
+<a name="soft"></a>
+
+# Soft Constraint
+
+But, there are probabaly many such perfectly acceptable schedules and we want to be a bit picky. We wan't to pick the one which maximizes some value which is linked to how many ON Preference and IN Preferences we satisfy. That is, out of all the acceptable schedules, we want to pick the one which gives the most RAs their preferred choice of shift accross the 27 days. 
+
+We encode this preference through a Soft Constraint, defined below.
+
+**Soft Constraint**: A rule that says how to pick the best schedule out of all acceptable ones
+
+We want this rule to be some function of how many times we match up an ON preference with an ON shift and how many times we match up an IN preference with an IN shift accross all RAs and all days. To make this a bit easier, we will define a new measure for each RA as follows:
+
+$$A_{i} = \text{Number of ON shifts for RA $i$ which s/he had put an ON preference for}$$
+$$B_{i} = \text{Number of IN shifts for RA $i$ which s/he had put an IN preference for}$$
+
+Given these two new measures, we can define the following function:
+
+$$ (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus} $$
+
+What does this measure? This sum tells us how many total shift preference matches there were for an acceptable schedule 
+
+
+
+
+
+
+
+
+
