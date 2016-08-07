@@ -437,7 +437,7 @@ Let's see the results of scheduling four weeks.
 
 We can't really decipher much by looking at it overall, so let's focus on two RAs and see how well we scheduled them.
 
-Lets first look at Hermione. Her shifts are highlighted in yellow and the ones where we matched her preference to her actual shift are bolded and underlined.
+Let’s first look at Hermione. Her shifts are highlighted in yellow and the ones where we matched her preference to her actual shift are bolded and underlined.
 
 <figure>
 <center>
@@ -455,13 +455,13 @@ Lets look at the same schedule for Sulu.
 </center>
 </figure>
 
-Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Still, we were able to give Sulu one of each type of ON shift. Furthremore, we matched five of his six shifts to his preferences!
+Sulu's schedule looks pretty good too but we might be worried that its bunched up more than Hermione's is. When we look at the preferences data though, we see that Sulu listed an OFF preference for each day from June 6 - June 10, so the scheduling procedure did its best given that it was effectively trying to schedule the same amount of shifts for Sulu with five less days. Still, we were able to give Sulu one of each type of ON shift. Furthermore, we matched five of his six shifts to his preferences!
 
 <a name="speed"></a>
 
 # So How Fast Is It?
 
-The burning question for many of you is probabaly *"How fast is all this?* This is a great question since our main motivation for doing all this was to improve upon the speed and accuracy of the current by-hand process. We have seen that we are doing pretty well in the accuracy department mainly because of our Hard Constraints and optimization via our Soft Constraint. As for speed, this graph tells it all.
+The burning question for many of you is probably *"How fast is all this?* This is a great question since our main motivation for doing all this was to improve upon the speed and accuracy of the current by-hand process. We have seen that we are doing pretty well in the accuracy department mainly because of our Hard Constraints and optimization via our Soft Constraint. As for speed, this graph tells it all.
 
 <figure>
 <center>
@@ -469,23 +469,23 @@ The burning question for many of you is probabaly *"How fast is all this?* This 
 </center>
 </figure>
 
-Wow! Even if we are trying to schedule the entire 10 week quarter at once, we can get results in about 5 minutes. In the more likely case, where we are scheduling 3 to 4 weeks at a time, we get our results in under a minute. It's around the 7 week mark where the time really starts to shoot upwards as the problem gets harder to solve. It seems we have acheived our goal! 
+Wow! Even if we are trying to schedule the entire 10 week quarter at once, we can get results in about 5 minutes. In the more likely case, where we are scheduling 3 to 4 weeks at a time, we get our results in under a minute. It's around the 7 week mark where the time really starts to shoot upwards as the problem gets harder to solve. It seems we have achieved our goal! 
 
 ## Why the Dip?
 
-We expect that as we schedule more weeks, the time the scheduler takes will go up so it might seem a bit odd that we have the dip between 7 and 8 weeks. It can be possibly explained as follows. Suppose we are trying to schedule one week and half our RAs have mainly put OFF preferences, making it really hard to schedule them in. Thus, it takes a long time to schedule. Now let's say we are trying to schedule two weeks, where in the second week the problematic RAs are very free. This makes it a lot easier to build an overall two week schedule and solves some of the issues with scheduling just one week. So in a nutshell, its a symptom of the preferences and might change with different preferences.
+We expect that as we schedule more weeks, the time the scheduler takes will go up so it might seem a bit odd that we have the dip between 7 and 8 weeks. It can be possibly explained as follows. Suppose we are trying to schedule one week and half our RAs have mainly put OFF preferences, making it really hard to schedule them in. Thus, it takes a long time to schedule. Now let's say we are trying to schedule two weeks, where in the second week the problematic RAs are very free. This makes it a lot easier to build an overall two week schedule and solves some of the issues with scheduling just one week. So in a nutshell, it’s a symptom of the preferences and might change with different preferences.
 
 <a name="using"></a>
 
 # How Do I Use It?
 
-The scheduler is freely available on my GitHub, linked at the bottom of this page. It is called **SADIE** (Scheduling All Duties Incredibly Efficiently). Here are the steps to building optimal schedules for your own company / staff / organization.
+The scheduler is freely available on my GitHub, linked at the bottom of this page. It is called **SADIE** (**S**cheduling **A**ll **D**uties **I**ncredibly **E**fficiently). Here are the steps to building optimal schedules for your own company / staff / organization.
 
 **Getting Worker Preferences**
 
 1. From my GitHub download a file called **example_preferences.csv**
 2. This file shows how the scheduler wants the preferences to look. The time period in this example document is the same we have used through this post for convenience
-3. You need to replace the names with your own worker's names and change the date range to what you prefer. You should add / remove weeks if neeeded
+3. You need to replace the names with your own worker's names and change the date range to what you prefer. You should add / remove weeks if needed
 4. Workers should put **one of four things** in each cell corresponding to their name. They can put:
 	- 'ON PREF': Please try and schedule me ON that day
 	- 'IN PREF': Please try and schedule me IN that day but do NOT schedule me ON
@@ -517,7 +517,7 @@ It is totally up to you how much of SADIE's suggestions about optimal schedule y
 4. For the dates you are trying to schedule (eg. Jun 11 - Jun 30), you just need to make sure all workers have put 'ON PREF', 'IN PREF', 'OFF'
 5. Run SADIE as usual, making sure to input the start schedule date and number of days to schedule properly
 
-Thanks For Reading!
+Thanks for Reading!
 
 
 
