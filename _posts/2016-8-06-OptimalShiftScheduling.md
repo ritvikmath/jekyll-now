@@ -344,10 +344,10 @@ A keen reader will notice that at the beginning of the post, it was stated that 
 The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 1. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
 
 
-| First cell|Second cell|Third cell
-| First | Second | Third |
-
-First | Second | | Fourth |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
