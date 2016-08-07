@@ -29,7 +29,8 @@ Quick Links:
 * [Motivation and Background](#mot)  
 * [The Current System](#curr)
 * [What are the Variables?](#var)
-* [Hard Constraints](#hard)
+* [Rules for Scheduling](#hard)
+* [Picking the Best of the Best](#soft)
 
 ---
 
@@ -121,7 +122,7 @@ How many of these variables are there? Well there are 24 possibilities for the R
 
 <a name="hard"></a>
 
-# Hard Constraints
+# Rules for Scheduling
 
 There are a couple of hard constraints when we try and solve this scheduling problem. Let's define what this means/
 
@@ -294,7 +295,7 @@ And with that, we have all our Hard Constraints. Any proposed schedule that meet
 
 <a name="soft"></a>
 
-# Soft Constraint
+# Picking the Best of the Best
 
 But, there are probabaly many such perfectly acceptable schedules and we want to be a bit picky. We wan't to pick the one which maximizes some value which is linked to how many ON Preference and IN Preferences we satisfy. That is, out of all the acceptable schedules, we want to pick the one which gives the most RAs their preferred choice of shift accross the 27 days. 
 
@@ -333,6 +334,18 @@ Let's take a step back and go over what we have done.
 
 In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* because it is possible that given some RA preferences, an optimal schedule might not be possible. In an extreme case, assume that there is some big festival on June 4 and 21 of the 26 RAs have put OFF preference for that day. This leaves only 5 RAs who can work that day, not enough to fill the three ON shifts and three IN shifts that day. These cases will likely not occur, but if they do, staff members must work out a solution before turning again to the scheduling algorithm. 
 
+<a name="types"></a>
+
+# Varying Shift Types
+
+A keen reader will notice that at the beginning of the post, it was stated that we also want to have an even spread between the diffent types of ON shifts, ON 1, ON 2, and ON 3, since these shifts patrol different areas of the building. Currently this is nowhere in our scheduling method. This is mainly because it can be done independently of all other constaints. Since RAs list preferences only for wanting an ON shift and not for which particular ON shift, and because permuting the three different ON shifts between three RAs in a given day cannot violate any Hard Constraints, we are safe to assign the particular ON shift after picking an optimal schedule.
+
+The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 1. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
+
+**Ash: 
+ON 1: 1
+ON 2: 1
+ON 3: 0**
 
 
 
