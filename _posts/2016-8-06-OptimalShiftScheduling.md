@@ -306,6 +306,7 @@ We encode this preference through a Soft Constraint, defined below.
 We want this rule to be some function of how many times we match up an ON preference with an ON shift and how many times we match up an IN preference with an IN shift accross all RAs and all days. To make this a bit easier, we will define a new measure for each RA as follows:
 
 $$A_{i} = \text{Number of ON shifts for RA $i$ which s/he had put an ON preference for}$$
+
 $$B_{i} = \text{Number of IN shifts for RA $i$ which s/he had put an IN preference for}$$
 
 Given these two new measures, we can define the following function, $K$:
@@ -343,9 +344,9 @@ A keen reader will notice that at the beginning of the post, it was stated that 
 The question is then how we will go about evening out the different ON shifts accross all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have disributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 1. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
 
 **Ash: 
-ON 1: 1
-ON 2: 1
-ON 3: 0**
+| ON 1   | 1 |
+| ON 2 | 1 |
+| ON 3    | 0 |**
 
 
 
