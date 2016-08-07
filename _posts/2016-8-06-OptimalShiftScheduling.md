@@ -300,8 +300,6 @@ And if Patrick had put an OFF preference on June 10, we simply need that:
 
 $$ON_{Patrick, Jun 10} = 0$$
 
-and 
-
 $$IN_{Patrick, Jun 10} = 0.$$
 
 And with that, we have all our Hard Constraints. Any proposed schedule that meets all eight of these Hard Constraints is a perfectly acceptable schedule and we can use it for the next 27 days. 
@@ -322,15 +320,15 @@ $$A_{i} = \text{Number of ON shifts for RA $i$ which s/he had put an ON preferen
 
 $$B_{i} = \text{Number of IN shifts for RA $i$ which s/he had put an IN preference for}$$
 
-Given these two new measures, we can define the following function, $K$:
+Given these two new measures, we can define the following measure, $K$:
 
-$$ K = (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus} $$
+$$ K = (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus}) $$
 
 What does this measure? This sum tells us how many total shift preference matches there were for an acceptable schedule across all RAs and all 27 days.
 
-Let's make one slight modification to this function before we define our Soft Constraint. In the above function we are weighting matches for ON shifts the same as matches for IN shifts. But, in reality, we would value a match for an ON shift more than one for an IN shift. This is because matching an ON shift alleviates some stress by virtue of having the shift on a more ideal day. We will thus use the following modified function, $K'$:
+Let's make one slight modification to this function before we define our Soft Constraint. In the above function we are weighting matches for ON shifts the same as matches for IN shifts. But, in reality, we would value a match for an ON shift more than one for an IN shift. This is because matching an ON shift alleviates some stress by virtue of having the shift on a more ideal day. We will thus use the following modified measure, $K'$:
 
-$$ K' = 2 \times (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus} $$
+$$ K' = 2 \times (A_{Ash} + A_{Bruce} + ... + A_{Zeus}) + (B_{Ash} + B_{Bruce} + ... + B_{Zeus}) $$
 
 This effectively puts double the weight on matches for ON shifts than matches for IN shifts and these weights can be modified according to situation.
 
@@ -340,11 +338,11 @@ We thus specify our single Soft Constraint.
 
 Let's take a step back and go over what we have done. 
 
-1. We start by enforcing universal constraints which need to be satisfied for a valid schedule
-2. We then look at the list of preferences by each RA for which shifts they want on which day. 
-3. Of these constraints, we enforce those which disqualify certain RAs from working certain shifts on certain days. 
-4. Given all these constraints, we have multiple schedules which all are perfectly acceptable. 
-5. Wanting to do even better, we pick from these acceptable schedules the one which maximizes a measure of matching between preferences and assigned shifts, with a higher weight on matching ON shifts. 
+**1.** We start by enforcing universal constraints which need to be satisfied for a valid schedule
+**2.** We then look at the list of preferences by each RA for which shifts they want on which day. 
+**3.** Of these constraints, we enforce those which disqualify certain RAs from working certain shifts on certain days. 
+**4.** Given all these constraints, we have multiple schedules which all are perfectly acceptable. 
+**5.** Wanting to do even better, we pick from these acceptable schedules the one which maximizes a measure of matching between preferences and assigned shifts, with a higher weight on matching ON shifts. 
 
 In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* because it is possible that given some RA preferences, an optimal schedule might not be possible. In an extreme case, assume that there is some big festival on June 4 and 21 of the 26 RAs have put OFF preference for that day. This leaves only 5 RAs who can work that day, not enough to fill the three ON shifts and three IN shifts that day. These cases will likely not occur, but if they do, staff members must work out a solution before turning again to the scheduling algorithm. 
 
@@ -354,7 +352,9 @@ In the end, we *hopefully* have a fully optimized schedule. We say *hopefully* b
 
 A keen reader will notice that at the beginning of the post, it was stated that we also want to have an even spread between the different types of ON shifts, ON 1, ON 2, and ON 3, since these shifts patrol different areas of the building. Currently this is nowhere in our scheduling method. This is mainly because it can be done independently of all other constraints. Since RAs list preferences only for wanting an ON shift and not for which particular ON shift, and because permuting the three different ON shifts between three RAs in a given day cannot violate any Hard Constraints, we are safe to assign the particular ON shift after picking an optimal schedule.
 
-The question is then how we will go about evening out the different ON shifts across all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. Let's make this more concrete with an example. Suppose we have distributed the various types of ON shifts for May 15 through May 31 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 7. Suppose the three RAs scheduled ON for June 1 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
+The question is then how we will go about evening out the different ON shifts across all RAs. We will use a greedy approach where we go day by day in the optimal schedule and give a particular ON shift to the person who most needs it of those scheduled ON that day. 
+
+Let's make this more concrete with an example. Suppose we have distributed the various types of ON shifts for May 15 through June 6 and are now looking to distribute the three types of ON shifts to those scheduled ON for June 7. Suppose the three RAs scheduled ON for June 7 are Ash, Frodo, and Kenobi. And suppose the number of ON shift types so far is as follows:
 
 <figure>
 <center>
@@ -370,7 +370,7 @@ We see that there is an imbalance, especially since Frodo has only ON 1 shifts. 
 </center>
 </figure>
 
-This tells us, for example, that Kenobi should ideally have 1 ON shift of each type and that Ash and Frodo should ideal have 0.667 ON shifts of each type, which is of course impossible, but gives us our target for an equal allocation. 
+This tells us, for example, that Kenobi should ideally have 1 ON shift of each type and that Ash and Frodo should ideally have 0.667 ON shifts of each type, which is of course impossible, but gives us our target for an equal allocation. 
 
 Now, we will calculate the difference of each type of ON shift for each of these three RAs from their target number. For example, Kenobi should have 1 of each type and in reality he has zero ON 1 shifts so the difference is 0 - 1 = -1. We see the rest of the numbers below:
 
@@ -396,7 +396,7 @@ The boldface numbers tell us which of the three types of ON shifts each RA is *r
 </center>
 </figure>
 
-We see that we are getting a lot closer to a fully balanced distribution. Note that even though it is less important which IN shifts (IN 1, IN 2, IN 3) RAs get assigned to since the roles are not really different, we still perform the same equal distribution analysis for IN shifts since it somehow makes RAs feel better.
+We see that we are getting a lot closer to a fully balanced distribution. Note that even though it is less important which IN shifts (IN 1, IN 2, IN 3) RAs get assigned to since the roles are not really different, we still perform the same equal distribution analysis for IN shifts since it is not very computationally expensive.
 
 ## A More Extreme Case
 
@@ -415,7 +415,7 @@ We see that all three RAs really need an ON 1 shift, but we give it to Kenobi si
 
 # Looking Back to Optimize Forward
 
-Let's say we use our schedule for the first 27 days of the year and get a nice optimized schedule as balanced as possible. We say "as possible" since there are somethings that just cannot be perfectly balanced. A prime example is the number of ON shifts per RA. We said that we can get the difference in ON shifts down to 1, but we physically cannot assign every RA the same number of ON shifts because we cannot have fractional shifts.
+Let's say we use our schedule for the first 27 days of the year and get a nice optimized schedule as balanced as possible. We say "as possible" since there are some things that just cannot be perfectly balanced. A prime example is the number of ON shifts per RA. We said that we can get the difference in ON shifts down to 1, but we physically cannot assign every RA the same number of ON shifts because we cannot have fractional shifts.
 
 Now, let's say that at the end of our 27 days, we want to make a schedule for another 27 days. If we ignore the past and pretend like we are starting fresh, we will definitely introduce biases and inequalities for some RAs. Take the following case. Assume Mickey was assigned 4 ON shifts in the first scheduling period, while Ross was assigned only 3. This is acceptable since we allow the number of ON shifts to be off by one. It would be unfair though if in the second scheduling period, we again assigned Mickey 4 ON shifts and Ross 3 ON shifts. 
 
@@ -429,7 +429,9 @@ Whew! That was a lot of work. Hopefully it was all worth it and we can build nic
 
 ## Note
 
-Remember our Hard Constraints about the time between ON and IN shifts? For our example we picked 7 days between ON shifts, 7 days between IN shifts, and 2 days between an ON and IN shift. IN reality, this will not always be possible and we will have to reduce the number of days between shifts to get a valid schedule. How the scheduler works is by starting very optimistic and setting the time between ON and IN shifts to 7 as well as setting the time between an ON and IN shift to 7. If it succeeds in building a valid schedule with those constraints, it is done. If it cannot build one, it reduces all three numbers by 1, so we are at 6 days between each kind of shift. It continues until it finds a triple where a valid schedule can be build.
+Remember our Hard Constraints about the time between ON and IN shifts? For our example we picked 7 days between ON shifts, 7 days between IN shifts, and 2 days between an ON and IN shift. IN reality, this will not always be possible and we will have to reduce the number of days between shifts to get a valid schedule. 
+
+How the scheduler works is by starting very optimistic and setting the time between ON and IN shifts to 7 as well as setting the time between an ON and IN shift to 7. If it succeeds in building a valid schedule with those constraints, it is done. If it cannot build one, it reduces all three numbers by 1, so we are at 6 days between each kind of shift. It continues until it finds a triple where a valid schedule can be build.
 
 Let's say that triple is (2,2,2) so that the schedule has 2 days between ON shifts, 2 days between IN shifts, and 2 days between ON and IN shifts. It then boosts the time between ON shifts as much as possible and then does the same for the time between in shifts so the final triple might look something like (7,5,2) where the time between ON shifts is 7, time between IN shifts is 5, and the time between an ON and IN shift is 2. 
 
@@ -469,7 +471,7 @@ Sulu's schedule looks pretty good too but we might be worried that its bunched u
 
 # So How Fast Is It?
 
-The burning question for many of you is probably *"How fast is all this?* This is a great question since our main motivation for doing all this was to improve upon the speed and accuracy of the current by-hand process. We have seen that we are doing pretty well in the accuracy department mainly because of our Hard Constraints and optimization via our Soft Constraint. As for speed, this graph tells it all.
+The burning question for many of you is probably *"How fast is all this?"* This is a great question since our main motivation for doing all this was to improve upon the speed and accuracy of the current by-hand process. We have seen that we are doing pretty well in the accuracy department mainly because of our Hard Constraints and optimization via our Soft Constraint. As for speed, this graph tells it all.
 
 <figure>
 <center>
@@ -525,7 +527,7 @@ It is totally up to you how much of SADIE's suggestions about optimal schedule y
 4. For the dates you are trying to schedule (eg. Jun 11 - Jun 30), you just need to make sure all workers have put 'ON PREF', 'IN PREF', 'OFF'
 5. Run SADIE as usual, making sure to input the start schedule date and number of days to schedule properly
 
-Thanks for Reading!
+Thanks for Reading and Leave Comments!
 
 
 
