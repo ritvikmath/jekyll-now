@@ -8,8 +8,8 @@ title: Analyzing the UCLA Swipes Black Market
 
 ## Can you see them?
 
-<center>
 
+{:center: style="text-align: center"}
 <iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 1000px; height: 1500px"></iframe>
+{:center}
 
-</center>
