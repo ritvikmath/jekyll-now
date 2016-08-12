@@ -10,6 +10,6 @@ title: Analyzing the UCLA Swipes Black Market
 
 <center>
 
-<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 700px; height: 1000px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 1000px; height: 1000px"></iframe>
 
 </center>
