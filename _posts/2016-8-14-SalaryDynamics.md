@@ -160,7 +160,7 @@ If there is no graph, give it a second. 1.5 million rows of data takes a bit of 
 
 <center>
 <div>
-<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 900px; height: 550px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 900px; height: 570px"></iframe>
 </div>
 </center>
     
