@@ -42,6 +42,7 @@ Quick Links:
 * [Background](#back)  
 * [The Data](#data)
 * [Who is paid the most at each school?](#highpay)
+* [How to UC campuses compare at a globally?](#global)
 
 
 ---
@@ -66,7 +67,7 @@ The data for this analysis came from the [Compensation at the University of Cali
 </center>
 </figure>
 
-The data spans the years 2010 until 2015 and includes all ten UC Schools as well as the University of California Office of the President. In total there are about 1.5 million rows in the table, where each row corresponds to a particular employee in a particular year. 
+The data spans the years **2010 until 2015** and includes all ten UC Schools as well as the University of California Office of the President. In total there are about **1.5 million rows** in the table, where each row corresponds to a particular employee in a particular year. 
 
 ## Brief Notes on the Data
 
@@ -126,6 +127,15 @@ Perhaps the most strinking thing about this table is that the sum of the five lo
 
 Let's now step back and look at our plethora of data as a whole.
 
+<a name="global"></a>
+
+# How do UC campuses compare globally? 
+
+There are inherent disparities between salaries at UC campuses and moreover, these disparities change over time. Use the tool below to explore for yourself some of these differences in salaries over time and between campuses.
+
+<center>
+<iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 440px; height: 500px"></iframe>
+</center>
 
     
 
