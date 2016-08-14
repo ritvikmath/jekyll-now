@@ -131,12 +131,36 @@ Let's now step back and look at our plethora of data as a whole.
 
 # How do UC campuses compare globally? 
 
-There are inherent disparities between salaries at UC campuses and moreover, these disparities change over time. Use the tool below to explore for yourself some of these differences in salaries over time and between campuses.
+There are inherent disparities between salaries at UC campuses and moreover, these disparities change over time. 
+
+Use the tool below to explore for yourself some of these differences in salaries over time and between campuses. 
 
 
 <center>
 <div>
 <iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 850px; height: 700px"></iframe>
+</div>
+</center>
+
+There are a few key points about this global data:
+
+* Number of students and employees generally goes up over time, the UC system is growing.
+* There is actually a huge difference between median and mean salary.For example, UC Merced's mean salary in 2015 is around \\$28,000 but its median salary is only \\$8,850. Big difference between medians and means usualy indicate strong presence of outliers (high salary earners) pulling the mean to high values.
+* The fact that UC San Francisco is a graduate school really shows as it has few students and few employees but makes has by far the highest mean and median salaries.
+* There seems to be a somewhat positive correlation between number of students / employees and mean / median campus salary.
+* There seems to be a somewhat negative correlation between number of students / employees and unemployment rate. Hmm .... more on this later.
+
+a name="distr"></a>
+
+# What is the distribution of salaries for each campus?
+
+Let's zoom in a bit and look at the distribution of salaries within each campus and over time. As you play with the tool below think about questions like *"Does the salary distribution shift over time towards higher or lower earners?"*, *"Which campus has the most equality in pay?"*, *"Are there intermediate peaks or valleys in these distributions?"*. 
+
+If there is no graph, give it a second. 1.5 million rows of data takes a bit of time to load!
+
+<center>
+<div>
+<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 850px; height: 700px"></iframe>
 </div>
 </center>
     
