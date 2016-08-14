@@ -195,7 +195,7 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 Let's look at a real employee from the data.
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
+<script type="text/javascript">
       google.charts.load('current', {'packages':['timeline']});
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
@@ -237,7 +237,7 @@ Let's look at a real employee from the data.
 </script>
 
 <center>
-    <div id="timeline-tooltip" style="height: 240px;"></div>
+<div id="timeline-tooltip" style="height: 240px;"></div>
 </center>
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
