@@ -116,9 +116,9 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
 text-align: center !important;
 }
 </style>
-
+<center>
 <div id="table_div"></div>
-    
+</center>
     
 
 
