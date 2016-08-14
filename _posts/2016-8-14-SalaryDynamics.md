@@ -226,13 +226,8 @@ Let's look at a real employee from the data.
 				
 				}
 				};
-		  
-		  //[(2010.0, 'Los Angeles', 41967.699999999997), (2011.0, 'Los Angeles', 32781.330000000002), 
-		  //(2011.0, 'Santa Barbara', 10936.389999999999), (2012.0, 'Santa Barbara', 39296.650000000001),
-		  //(2013.0, 'Santa Barbara', 41364.0), (2013.0, 'Irvine', 44913.0), (2014.0, 'Irvine', 86017.0), 
-		  //(2014.0, 'Santa Barbara', 31513.0), (2015.0, 'Irvine', 87954.0)]
 
-        chart.draw(dataTable, options);
+	chart.draw(dataTable, options);
       }
 </script>
 
