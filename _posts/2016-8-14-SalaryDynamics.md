@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Salary Dynamics in the University of California System
+title: Salary Dynamics in the University of California
 ---
 
 <figure>
