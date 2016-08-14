@@ -27,15 +27,7 @@ title: Salary Dynamics in the University of California System
 Quick Links: 
 
 * [Motivation and Background](#mot)  
-* [The Current System](#curr)
-* [What are the Variables?](#var)
-* [Rules for Scheduling](#hard)
-* [Picking the Best of the Best](#soft)
-* [Varying Shift Types](#types)
-* [Looking Back to Optimize Forward](#back)
-* [Let's See Some Results](#result)
-* [So How Fast Is It?](#speed)
-* [How Do I Use It?](#using)
+
 
 ---
 
