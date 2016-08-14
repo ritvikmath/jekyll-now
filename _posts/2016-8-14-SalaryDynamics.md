@@ -51,7 +51,9 @@ Quick Links:
 
 # Background
 
-The University of California (UC) system is a public university system comprising of ten campuses, with the oldest being UC Berkeley, founded in 1868 and the newest being UC Merced, founded in 2005. The UC System was allocated a budget of **\\$25.5 billion** in 2015, **\\$13.1 billion** of which went towards paying its around **180,000 employees**. Of course, there are various factors that impact each individual employee's salary such as position and years of experience. 
+The University of California (UC) system is a public university system comprising of ten campuses, with the oldest being UC Berkeley, founded in 1868 and the newest being UC Merced, founded in 2005. Nine of the ten schools in the UC system admit both undergraduate and graduate students, with the exception of UC San Francisco, which admits only graduate students. 
+
+The UC System was allocated a budget of **\\$25.5 billion** in 2015, **\\$13.1 billion** of which went towards paying its around **180,000 employees**. Of course, there are various factors that impact each individual employee's salary such as position and years of experience. 
 
 But, there may be more, underlying, factors which impact employee salary, all else held constant, such as UC Campus, city unemployment rate, and cost of living. This post aims to dive deep into the intricacies of the distribution of salaries throughout the UC system, offering an interactive way to explore the key dynamics at play.
 
@@ -163,6 +165,16 @@ If there is no graph, give it a second. 1.5 million rows of data takes a bit of 
 <iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 900px; height: 575px"></iframe>
 </div>
 </center>
+
+There is a lot to be said about these distributions but let's note some of the more prevalent points:
+
+* In general the histograms display an expected exponential decay-like pattern, with many employees having lower salaries and with fewer and fewer employees having high salaries. 
+* Some UC schools such as UC Los Angeles and UC Davis have a "middle-earner" bump around \\$50,000 in 2015 while other schools such as UC Berkeley do not show this pattern.
+* This bump is most profound in UC San Francisco, which has a very unique salary distribution compared to all the other schools. In fact, most employees at UC San Francisco earn around \\$50,000, much higher than at other UC schools.
+* Many UC schools, such as Irvine, went from having clear twin peaks in 2010-2011 to having much smoother distributions. That second peak around \\$30,000 seems to have been absorbed into lower salary brackets over time.
+* The UC Office of the President (UCOP) displays a very unique salary pattern with many more employees earning in higher salary brackets than at the main UC campuses.
+
+
     
 
 
