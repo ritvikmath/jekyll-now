@@ -43,7 +43,7 @@ Quick Links:
 * [The Data](#data)
 * [Who is paid the most at each school?](#highpay)
 * [How to UC campuses compare at a globally?](#global)
-
+* [What is the distribution of salaries for each campus?](#distr)
 
 ---
 
@@ -150,7 +150,7 @@ There are a few key points about this global data:
 * There seems to be a somewhat positive correlation between number of students / employees and mean / median campus salary.
 * There seems to be a somewhat negative correlation between number of students / employees and unemployment rate. Hmm .... more on this later.
 
-a name="distr"></a>
+<a name="distr"></a>
 
 # What is the distribution of salaries for each campus?
 
@@ -160,7 +160,7 @@ If there is no graph, give it a second. 1.5 million rows of data takes a bit of 
 
 <center>
 <div>
-<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 850px; height: 700px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 950px; height: 600px"></iframe>
 </div>
 </center>
     
