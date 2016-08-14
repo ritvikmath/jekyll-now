@@ -265,7 +265,7 @@ But, there may be more, underlying, factors which impact employee salary, all el
 
 # The Data
 
-The data for this analysis came from the [Compensation at the University of California](https://ucannualwage.ucop.edu/wage/) website. The data includes employee names, campus of employment, job title, and gross pay. A snapshot of the data is shown below.
+The data for this analysis came from the <a href="https://ucannualwage.ucop.edu/wage/" target="_blank">Compensation at the University of California</a> website. The data includes employee names, campus of employment, job title, and gross pay. A snapshot of the data is shown below.
 
 <figure>
 <center>
