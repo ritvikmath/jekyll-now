@@ -130,7 +130,7 @@ text-align: center !important;
 <div id="table_div"></div>
 </center>
 </body>
-</html>
+
 
 By clicking on the column names, you can sort the table by salary, position, or campus. 
 
@@ -209,7 +209,6 @@ This employee started off at UC Los Angeles in 2010 and worked there for two yea
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if  employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
-<html>
 <head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
