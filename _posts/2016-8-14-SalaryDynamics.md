@@ -375,6 +375,8 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 
 Let's look at a real employee from the data. Hover over each bar to see salary information.
 
+<br>
+
 <html>
 
    <div id="timeline-tooltip" style="height: 240px;"></div>
