@@ -137,7 +137,7 @@ title: Salary Dynamics in the University of California
 
         // Sets chart options.
         var options = {
-          width: 700,
+          width: 725,
 		  sankey:{
 			  node: {
 				label: {
@@ -389,12 +389,14 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 
 Let's take a look at how much value each UC school lost to each other UC school in our six year period. Hover over each link to explore the value flows between UC schools.
 
+<br><br>
 <html>
 
 
    <div id="sankey_basic" style="width:400px; height: 500px;"></div>
 
 </html>
+<br><br>
 
 Some notes about this chart:
 
