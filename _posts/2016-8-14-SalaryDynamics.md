@@ -1,4 +1,3 @@
-<!---
 ---
 layout: post
 comments: true
@@ -189,7 +188,59 @@ There is a lot to be said about these distributions but let's note some of the m
 
 # How does value flow between UC schools?
 
---->
+So far, we have been looking at each UC campus individually, independent of its connections to other UC institutions. But, there are fundamental links between campuses though which value flows over time. Let's elaborate a bit.
+
+There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. Furthremore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the fist half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
+
+Let's look at a real employee from the data.
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['timeline']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var container = document.getElementById('timeline-tooltip');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+		dataTable.addColumn({ type: 'string', id: 'ID' });
+        dataTable.addColumn({ type: 'string', id: 'Campus' });
+		dataTable.addColumn({ type: 'string', role: 'tooltip' });
+        dataTable.addColumn({ type: 'date', id: 'Start' });
+        dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows([
+          ['1','UCLA', 'Total Income: $74,758', new Date(2010,0,1), new Date(2011,11,31) ],
+          ['2','UCSB', 'Total Income: $123,109',      new Date(2011,0,1),  new Date(2014,11,31) ],
+          ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
+		  
+		  var options = {
+			width: 1000,
+			colors: ['red', 'blue', 'green'],
+			
+			timeline: { 
+				showRowLabels: false,
+				barLabelStyle:{
+				fontName: 'Arial',
+				fontSize: 14}
+				
+				
+				}
+				};
+		  
+		  //[(2010.0, 'Los Angeles', 41967.699999999997), (2011.0, 'Los Angeles', 32781.330000000002), 
+		  //(2011.0, 'Santa Barbara', 10936.389999999999), (2012.0, 'Santa Barbara', 39296.650000000001),
+		  //(2013.0, 'Santa Barbara', 41364.0), (2013.0, 'Irvine', 44913.0), (2014.0, 'Irvine', 86017.0), 
+		  //(2014.0, 'Santa Barbara', 31513.0), (2015.0, 'Irvine', 87954.0)]
+
+        chart.draw(dataTable, options);
+      }
+</script>
+
+<center>
+    <div id="timeline-tooltip" style="height: 240px;"></div>
+</center>
+
+If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
 
 
