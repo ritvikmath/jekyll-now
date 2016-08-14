@@ -245,7 +245,7 @@ Quick Links:
 * [How to UC campuses compare globally?](#global)
 * [What is the distribution of salaries for each campus?](#distr)
 * [How does value flow between UC schools?](#transfers)
-* [How does Salary Correlate with Other Things?](#correl)
+* [How does salary correlate with other things?](#correl)
 * [Notes](#notes)
 
 ---
@@ -374,7 +374,7 @@ So far, we have been looking at each UC campus individually, independent of thei
 
 There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. 
 
-Furthermore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the fist half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
+Furthermore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the first half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
 
 Let's look at a real employee from the data. Hover over each bar to see salary information.
 
@@ -442,9 +442,9 @@ A few takeaways:
 
 # Notes
 
-* There are a lot of combinations of charts, graphs, and plots you can generate using the tools in this post, but it is important to remember the old adage: "correlation does not imploy causation". The relationships we talked about in this post are based on a mixture of past research, data, and intuition but may very well not be causal. 
+* There are a lot of combinations of charts, graphs, and plots you can generate using the tools in this post, but it is important to remember the old adage: "correlation does not imply causation". The relationships we talked about in this post are based on a mixture of past research, data, and intuition but may very well not be causal. 
 * The chart showing flow of value through the UC system has many assumptions including that salary is actually a measure of value to each UC school, that no employee was fired, and that each UC school is willing to hire employees who work part time at that UC school and part time at another UC school.
-* If you are having trouble finding position titles, it is likely because they are so vague. Your best bet is probabaly to go to the UC Compensation website linked in the Data section of this post and look for the position title you want and then enter it into the tool. 
+* If you are having trouble finding position titles, it is likely because they are so vague. Your best bet is probably to go to the UC Compensation website linked in the Data section of this post and look for the position title you want and then enter it into the tool. 
 
 Thanks for reading and please leave comments!
 
