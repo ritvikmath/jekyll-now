@@ -246,6 +246,7 @@ Quick Links:
 * [What is the distribution of salaries for each campus?](#distr)
 * [How does value flow between UC schools?](#transfers)
 * [How does Salary Correlate with Other Things?](#correl)
+* [Notes](#notes)
 
 ---
 
