@@ -344,9 +344,7 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 
 
 <html>
-<body>
-<center>
+
    <div id="sankey_basic" style="width:400px; height: 500px;"></div>
-</center>
-</body>
+
 </html>
