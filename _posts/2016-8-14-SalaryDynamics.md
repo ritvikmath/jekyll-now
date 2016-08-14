@@ -136,7 +136,7 @@ title: Salary Dynamics in the University of California
 
         // Sets chart options.
         var options = {
-          width: 850,
+          width: 750,
 		  sankey:{
 			  node: {
 				label: {
@@ -184,6 +184,43 @@ title: Salary Dynamics in the University of California
 		
         table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
 		
+      }
+      
+      
+      
+      
+      
+      function drawChart() {
+        var container = document.getElementById('timeline-tooltip');
+        var chart = new google.visualization.Timeline(container);
+        var dataTable = new google.visualization.DataTable();
+
+		dataTable.addColumn({ type: 'string', id: 'ID' });
+        dataTable.addColumn({ type: 'string', id: 'Campus' });
+		dataTable.addColumn({ type: 'string', role: 'tooltip' });
+        dataTable.addColumn({ type: 'date', id: 'Start' });
+        dataTable.addColumn({ type: 'date', id: 'End' });
+        dataTable.addRows([
+          ['1','UCLA --- Total Income: $74,758', '', new Date(2010,0,1), new Date(2011,11,31) ],
+          ['2','UCSB --- Total Income: $123,109', '',      new Date(2011,0,1),  new Date(2014,11,31) ],
+          ['3','UCI --- Total Income: $218,884', '',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
+		  
+		  var options = {
+			width: 1000,
+			colors: ['red', 'blue', 'green'],
+			
+			timeline: { 
+				showRowLabels: false,
+				barLabelStyle:{
+				fontName: 'Arial',
+				fontSize: 14}
+				
+				
+				}
+				};
+		  
+
+        chart.draw(dataTable, options);
       }
     </script>
 </head>
@@ -331,20 +368,24 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 
 Let's look at a real employee from the data.
 
-<figure>
+<html>
 <center>
-   <a href="/images/timeline.jpg"><img width="100%" src="/images/timeline.jpg"></a>
+   <div id="timeline-tooltip" style="height: 240px;"></div>
 </center>
-</figure>
+</html>
 
 This employee started off at UC Los Angeles in 2010 and worked there for two years. In 2011, during which the employee was still employed at UCLA for some part of the year, he began working at UC Santa Barbara. He continued to work there until 2014. Additionally, we see that in 2013, he started to work at UC Irvine at some point during the year and continued to work there into 2015. We see that this employees total income at each consecutive UC school went up over time.
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if  employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
-
+Let's take a look at how much value each UC school lost to each other UC school in our six year period. Hover over each link to explore the value flows between UC schools.
 
 <html>
+<center>
 
    <div id="sankey_basic" style="width:400px; height: 500px;"></div>
-
+</center>
 </html>
+
+
+
