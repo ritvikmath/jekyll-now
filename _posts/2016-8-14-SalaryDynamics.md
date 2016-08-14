@@ -134,6 +134,7 @@ Let's now step back and look at our plethora of data as a whole.
 There are inherent disparities between salaries at UC campuses and moreover, these disparities change over time. Use the tool below to explore for yourself some of these differences in salaries over time and between campuses.
 
 <center>
+{center}
 <iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 950px; height: 700px"></iframe>
 </center>
 
