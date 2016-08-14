@@ -32,8 +32,9 @@ title: Salary Dynamics in the University of California
 <head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('43', {'packages':['sankey']});
+      google.charts.load('43', {'packages':['sankey', 'table']});
       google.charts.setOnLoadCallback(drawChart);
+      google.charts.setOnLoadCallback(drawTable);
 
       function drawChart() {
         var data = new google.visualization.DataTable();
@@ -149,10 +150,40 @@ title: Salary Dynamics in the University of California
 			}
 		  
         };
+        
+        
 
         // Instantiates and draws our chart, passing in some options.
         var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
+      }
+      
+      
+      
+      
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Campus');
+        data.addColumn('string', 'Top Paid Position');
+        data.addColumn('number', '2015 Salary');
+        data.addRows([
+          ['Berkeley', 'Head Coach' , {v: 2038733, f: '$2,038,733'}],
+          ['Davis', 'CEO Medical Center' , {v: 1114446, f: '$1,114,446'}],
+          ['Irvine', 'Professor - Health Sciences' , {v: 1234771, f: '$1,234,771'}],
+          ['Los Angeles', 'Head Coach' , {v: 3514771, f: '$3,514,771'}],
+		  ['Merced', 'Chancellor' , {v: 404896, f: '$404,896'}],
+		  ['Riverside', 'Dean - School of Medicine' , {v: 698608, f: '$698,608'}],
+		  ['San Diego', 'Professor - Health Sciences' , {v: 1569475, f: '$1,569,475'}],
+		  ['San Francisco', 'Health Sciences Clinical Instructor' , {v: 1753731, f: '$1,753,731'}],
+		  ['Santa Barbara', 'Professor in Residence' , {v: 468571, f: '$468,571'}],
+		  ['Santa Cruz', 'Chancellor' , {v: 392076, f: '$392,076'}],
+		  ['Office of the President', 'Chief Investment Officer' , {v: 1106688, f: '$1,106,688'}]
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+		
+        table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
+		
       }
     </script>
 </head>
@@ -227,38 +258,6 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 One of the burning questions readers probabaly have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
 
 <html>
-<head>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<script type="text/javascript">
-      google.charts.load('current', {'packages':['table']});
-      google.charts.setOnLoadCallback(drawTable);
-
-      function drawTable() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Campus');
-        data.addColumn('string', 'Top Paid Position');
-        data.addColumn('number', '2015 Salary');
-        data.addRows([
-          ['Berkeley', 'Head Coach' , {v: 2038733, f: '$2,038,733'}],
-          ['Davis', 'CEO Medical Center' , {v: 1114446, f: '$1,114,446'}],
-          ['Irvine', 'Professor - Health Sciences' , {v: 1234771, f: '$1,234,771'}],
-          ['Los Angeles', 'Head Coach' , {v: 3514771, f: '$3,514,771'}],
-		  ['Merced', 'Chancellor' , {v: 404896, f: '$404,896'}],
-		  ['Riverside', 'Dean - School of Medicine' , {v: 698608, f: '$698,608'}],
-		  ['San Diego', 'Professor - Health Sciences' , {v: 1569475, f: '$1,569,475'}],
-		  ['San Francisco', 'Health Sciences Clinical Instructor' , {v: 1753731, f: '$1,753,731'}],
-		  ['Santa Barbara', 'Professor in Residence' , {v: 468571, f: '$468,571'}],
-		  ['Santa Cruz', 'Chancellor' , {v: 392076, f: '$392,076'}],
-		  ['Office of the President', 'Chief Investment Officer' , {v: 1106688, f: '$1,106,688'}]
-        ]);
-
-        var table = new google.visualization.Table(document.getElementById('table_div'));
-		
-        table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
-		
-      }
-</script>
-</head>   
 <style>
 .google-visualization-table-td {
 text-align: center !important;
