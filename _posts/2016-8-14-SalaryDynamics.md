@@ -87,6 +87,8 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 
 One of the burning questions readers probabaly have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
 
+<html>
+<head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
       google.charts.load('current', {'packages':['table']});
@@ -117,15 +119,18 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
 		
       }
 </script>
-    
+</head>   
 <style>
 .google-visualization-table-td {
 text-align: center !important;
 }
 </style>
+<body>
 <center>
 <div id="table_div"></div>
 </center>
+</body>
+</html>
 
 By clicking on the column names, you can sort the table by salary, position, or campus. 
 
