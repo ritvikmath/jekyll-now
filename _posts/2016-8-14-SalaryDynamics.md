@@ -195,6 +195,7 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 Let's look at a real employee from the data.
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 <script type="text/javascript">
       google.charts.load('current', {'packages':['timeline']});
       google.charts.setOnLoadCallback(drawChart);
@@ -203,9 +204,9 @@ Let's look at a real employee from the data.
         var chart = new google.visualization.Timeline(container);
         var dataTable = new google.visualization.DataTable();
 
-		dataTable.addColumn({ type: 'string', id: 'ID' });
+	dataTable.addColumn({ type: 'string', id: 'ID' });
         dataTable.addColumn({ type: 'string', id: 'Campus' });
-		dataTable.addColumn({ type: 'string', role: 'tooltip' });
+	dataTable.addColumn({ type: 'string', role: 'tooltip' });
         dataTable.addColumn({ type: 'date', id: 'Start' });
         dataTable.addColumn({ type: 'date', id: 'End' });
         dataTable.addRows([
@@ -213,19 +214,19 @@ Let's look at a real employee from the data.
           ['2','UCSB', 'Total Income: $123,109',      new Date(2011,0,1),  new Date(2014,11,31) ],
           ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
 		  
-		  var options = {
-			width: 1000,
-			colors: ['red', 'blue', 'green'],
+	var options = {
+	width: 1000,
+	colors: ['red', 'blue', 'green'],
 			
-			timeline: { 
-				showRowLabels: false,
-				barLabelStyle:{
-				fontName: 'Arial',
-				fontSize: 14}
+	timeline: { 
+	showRowLabels: false,
+	barLabelStyle:{
+	fontName: 'Arial',
+	fontSize: 14}
 				
 				
-				}
-				};
+	}
+	};
 
 	chart.draw(dataTable, options);
       }
