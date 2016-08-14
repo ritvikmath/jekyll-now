@@ -242,7 +242,7 @@ Quick Links:
 * [Background](#back)  
 * [The Data](#data)
 * [Who is paid the most at each school?](#highpay)
-* [How to UC campuses compare at a globally?](#global)
+* [How to UC campuses compare globally?](#global)
 * [What is the distribution of salaries for each campus?](#distr)
 * [How does value flow between UC schools?](#transfers)
 * [How does Salary Correlate with Other Things?](#correl)
@@ -279,7 +279,7 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 
 * Employees who are concurrenly students have their names listed as '*****' in order to protect their privacy. For this reason, we will use them when calculating summary statistics for each campus, but must remove them when we try and track certain employees through time since we have no unique identifier for them.
 * The job titles are not very specific and usually are limited to things like 'COACH' or 'PROF' without much more detail about which sport, department, etc. the employee is a part of.
-* There are a few missing values in the data for salaries. This author chose to use median imputation to fill in these missing values. Basically, the missing values for any column involving salaries is filled in with the median of existing entries in that column.
+* There are a few missing values in the data for salaries. This author chose to use median imputation to fill in these missing values. Basically, missing values for any column are filled in with the median of existing entries in that column.
 
 ---
 
@@ -368,7 +368,7 @@ So far, we have been looking at each UC campus individually, independent of its 
 
 There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. Furthremore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the fist half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
 
-Let's look at a real employee from the data.
+Let's look at a real employee from the data. Hover over each bar to see salary information.
 
 <html>
 
@@ -392,12 +392,15 @@ Let's take a look at how much value each UC school lost to each other UC school 
 Some notes about this chart:
 
 * UC Berkeley is generally ranked the highest in university rankings such as the US News & World Report rankings. While it is up to debate whether these rankings are at all accurate, they to definitely sway public opinion. This is a likely reason that in our chart, UC Berkeley loses very little value for a school of its size but is the target for a lot of value from other UC schools.
-* We see that UC Los Angeles and UC San Francisco serve as the major sources of value loss most of UC Los Angeles' lost value going to UC Davis and UC Berkeley and most of UC San Francisco's lost value going to UC Los Angeles and UC Berkeley. 
+* We see that UC Los Angeles and UC San Francisco serve as the major sources of value loss with most of UC Los Angeles' lost value going to UC Davis and UC Berkeley and most of UC San Francisco's lost value going to UC Los Angeles and UC Berkeley. 
 * It it perhaps worth noting that geographic proximity might affect where lost value goes. For example, UC Irvien and UC Los Angeles are relatively close, which might be why most of UC Irvine's lost value goes to UC Los Angeles. Employees perhaps look for jobs close to where they already are. We see a similar pattern with most of UC Davis' lost value going to UC Berkeley.
 
 <a name="correl"></a>
 
 # How does Salary Correlate with Other Things?
+
+
+
 
 As we started to talk about at the start of this post, salary is a function of many factors. The key questions are then *What are those factors?* and *How strongly do they correlate with salary?*.
 
