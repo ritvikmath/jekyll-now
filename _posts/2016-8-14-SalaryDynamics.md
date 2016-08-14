@@ -319,6 +319,7 @@ There are inherent disparities between salaries at UC campuses and moreover, the
 
 Use the tool below to explore for yourself some of these differences in salaries over time and between campuses. 
 
+<br><br>
 
 <center>
 <div>
