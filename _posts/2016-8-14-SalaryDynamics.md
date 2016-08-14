@@ -378,9 +378,14 @@ Let's look at a real employee from the data. Hover over each bar to see salary i
 <br>
 
 <html>
-
+<style>
+.google-visualization-table-td {
+text-align: center !important;
+}
+</style>
+<center>
    <div id="timeline-tooltip" style="height: 240px;"></div>
-
+</center>
 </html>
 
 This employee started off at UC Los Angeles in 2010 and worked there for two years. In 2011, during which the employee was still employed at UCLA for some part of the year, he began working at UC Santa Barbara. He continued to work there until 2014. Additionally, we see that in 2013, he started to work at UC Irvine at some point during the year and continued to work there into 2015. We see that this employees total income at each consecutive UC school went up over time.
@@ -391,10 +396,15 @@ Let's take a look at how much value each UC school lost to each other UC school 
 
 <br><br>
 <html>
+<style>
+.google-visualization-table-td {
+text-align: center !important;
+}
+</style>
+<center>
 
-
-   <div id="sankey_basic" style="width:400px; height: 500px;"></div>
-
+<div id="sankey_basic" style="width:400px; height: 500px;"></div>
+</center>
 </html>
 <br><br>
 
