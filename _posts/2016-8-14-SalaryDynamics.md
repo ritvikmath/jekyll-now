@@ -277,7 +277,7 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 
 ## Brief Notes on the Data
 
-* Employees who are concurrenly students have their names listed as '*****' in order to protect their privacy. For this reason, we will use them when calculating summary statistics for each campus, but must remove them when we try and track certain employees through time since we have no unique identifier for them.
+* Employees who are concurrently students have their names listed as '*****' in order to protect their privacy. For this reason, we will use them when calculating summary statistics for each campus, but must remove them when we try and track certain employees through time since we have no unique identifier for them.
 * The job titles are not very specific and usually are limited to things like 'COACH' or 'PROF' without much more detail about which sport, department, etc. the employee is a part of.
 * There are a few missing values in the data for salaries. This author chose to use median imputation to fill in these missing values. Basically, missing values for any column are filled in with the median of existing entries in that column.
 
@@ -287,7 +287,7 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 
 # Who is paid the most at each school?
 
-One of the burning questions readers probabaly have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
+One of the burning questions readers probably have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
 
 <html>
 <style>
@@ -305,7 +305,7 @@ text-align: center !important;
 
 By clicking on the column names, you can sort the table by salary, position, or campus. 
 
-Perhaps the most strinking thing about this table is that the sum of the five lowest salaries still is less than the top salary, that of a head coach at UC Los Angeles. 
+Perhaps the most striking thing about this table is that the sum of the five lowest salaries still is less than the top salary, that of a head coach at UC Los Angeles. 
 
 Let's now step back and look at our plethora of data as a whole.
 
@@ -329,7 +329,7 @@ Use the tool below to explore for yourself some of these differences in salaries
 There are a few key points about this global data:
 
 * Number of students and employees generally goes up over time, the UC system is growing.
-* There is actually a huge difference between median and mean salary.For example, UC Merced's mean salary in 2015 is around \\$28,000 but its median salary is only \\$8,850. Big difference between medians and means usualy indicate strong presence of outliers (high salary earners) pulling the mean to high values.
+* There is actually a huge difference between median and mean salary. For example, UC Merced's mean salary in 2015 is around \\$28,000 but its median salary is only \\$8,850. Big difference between medians and means usually indicate strong presence of outliers (high salary earners) pulling the mean to high values.
 * The fact that UC San Francisco is a graduate school really shows as it has few students and few employees but makes has by far the highest mean and median salaries.
 * There seems to be a somewhat positive correlation between number of students / employees and mean / median campus salary.
 * There seems to be a somewhat negative correlation between number of students / employees and unemployment rate. Hmm .... more on this later.
@@ -366,7 +366,7 @@ There is a lot to be said about these distributions but let's note some of the m
 
 So far, we have been looking at each UC campus individually, independent of its connections to other UC institutions. But, there are fundamental links between campuses though which value flows over time. Let's elaborate a bit.
 
-There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. Furthremore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the fist half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
+There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. Furthermore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the fist half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
 
 Let's look at a real employee from the data. Hover over each bar to see salary information.
 
@@ -378,7 +378,7 @@ Let's look at a real employee from the data. Hover over each bar to see salary i
 
 This employee started off at UC Los Angeles in 2010 and worked there for two years. In 2011, during which the employee was still employed at UCLA for some part of the year, he began working at UC Santa Barbara. He continued to work there until 2014. Additionally, we see that in 2013, he started to work at UC Irvine at some point during the year and continued to work there into 2015. We see that this employees total income at each consecutive UC school went up over time.
 
-If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if  employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
+If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
 Let's take a look at how much value each UC school lost to each other UC school in our six year period. Hover over each link to explore the value flows between UC schools.
 
@@ -393,7 +393,7 @@ Some notes about this chart:
 
 * UC Berkeley is generally ranked the highest in university rankings such as the US News & World Report rankings. While it is up to debate whether these rankings are at all accurate, they to definitely sway public opinion. This is a likely reason that in our chart, UC Berkeley loses very little value for a school of its size but is the target for a lot of value from other UC schools.
 * We see that UC Los Angeles and UC San Francisco serve as the major sources of value loss with most of UC Los Angeles' lost value going to UC Davis and UC Berkeley and most of UC San Francisco's lost value going to UC Los Angeles and UC Berkeley. 
-* It it perhaps worth noting that geographic proximity might affect where lost value goes. For example, UC Irvien and UC Los Angeles are relatively close, which might be why most of UC Irvine's lost value goes to UC Los Angeles. Employees perhaps look for jobs close to where they already are. We see a similar pattern with most of UC Davis' lost value going to UC Berkeley.
+* It is perhaps worth noting that geographic proximity might affect where lost value goes. For example, UC Irvine and UC Los Angeles are relatively close, which might be why most of UC Irvine's lost value goes to UC Los Angeles. Employees perhaps look for jobs close to where they already are. We see a similar pattern with most of UC Davis' lost value going to UC Berkeley.
 
 <a name="correl"></a>
 
@@ -418,7 +418,7 @@ A few takeaways:
 
 * There seems to be a (if only a slight) positive correlation between years of experience and salary, which we expect
 * There seems to be a (again if only slight) negative correlation between city unemployment rate and salary. The logic is likely as follows. If unemployment rate in a city is high, employees are not as picky about how much they are paid to work. Knowing that jobs are scarce, employers also have less incentive to offer bigger salaries since they know employees don't have many other options.
-* The most fun of these graphs is the graph of past year's salary vs this year's salary. We see a very strogn positive correlation, pretty much no matter what job we subset by.
+* The most fun of these graphs is the graph of past year's salary vs this year's salary. We see a very strong positive correlation, pretty much no matter what job we subset by.
 * Here's an interesting comparison. Pick 2015 and choose 'nurse' as the job title. Set your max displayed salary to something around \\$250,000. Notice that for lower salary levels, there's a much greater variability between last year's salary and this year's salary than for higher salary levels, where the relationship is much more linear. It seems like your salary is more stable the higher it is (at least for nurses).
 
 
