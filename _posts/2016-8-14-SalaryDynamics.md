@@ -106,7 +106,7 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
 		
-        table.draw(data, {cssClassNames: {oddTableRow: 'bigAndBoldClass'}, allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
+        table.draw(data, {allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
 		
       }
 </script>
