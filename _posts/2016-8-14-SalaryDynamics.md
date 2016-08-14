@@ -207,7 +207,7 @@ title: Salary Dynamics in the University of California
           ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
 		  
 		  var options = {
-			width: 600,
+			width: 800,
 			colors: ['red', 'blue', 'green'],
 			
 			timeline: { 
