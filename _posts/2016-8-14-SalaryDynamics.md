@@ -435,5 +435,15 @@ A few takeaways:
 * The most fun of these graphs is the graph of past year's salary vs this year's salary. We see a very strong positive correlation, pretty much no matter what job we subset by.
 * Here's an interesting comparison. Pick 2015 and choose 'nurse' as the job title. Set your max displayed salary to something around \\$250,000. Notice that for lower salary levels, there's a much greater variability between last year's salary and this year's salary than for higher salary levels, where the relationship is much more linear. It seems like your salary is more stable the higher it is (at least for nurses).
 
+<a name="notes"></a>
+
+# Notes
+
+* There are a lot of combinations of charts, graphs, and plots you can generate using the tools in this post, but it is important to remember the old adage: "correlation does not imploy causation". The relationships we talked about in this post are based on a mixture of past research, data, and intuition but may very well not be causal. 
+* If you are having trouble finding position titles, it is likely because they are so vague. Your best best is probabaly to go to the UC Compensation website linked in the Data section of this post and looking for the position title you want and then entering it into the tool. 
+
+Thanks for reading and please leave comments!
+
+
 
 
