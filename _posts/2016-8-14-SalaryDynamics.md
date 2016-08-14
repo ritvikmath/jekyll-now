@@ -206,6 +206,7 @@ Quick Links:
 * [Who is paid the most at each school?](#highpay)
 * [How to UC campuses compare at a globally?](#global)
 * [What is the distribution of salaries for each campus?](#distr)
+* [How does value flow between UC schools?](#transfer)
 
 ---
 
@@ -345,7 +346,7 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 <html>
 <body>
 <center>
-   <div id="sankey_basic" style="width:700px; height: 500px;"></div>
+   <div id="sankey_basic" style="width:400px; height: 500px;"></div>
 </center>
 </body>
 </html>
