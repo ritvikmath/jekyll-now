@@ -81,7 +81,7 @@ The data spans the years 2010 until 2015 and includes all ten UC Schools as well
 One of the burning questions readers probabaly have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
+<script type="text/javascript">
       google.charts.load('current', {'packages':['table']});
       google.charts.setOnLoadCallback(drawTable);
 
@@ -109,14 +109,14 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
         table.draw(data, {cssClassNames: {headerRow: 'bigAndBoldClass', oddTableRow: 'bigAndBoldClass'}, allowHtml: true, showRowNumber: false, width: '50%', height: '50%', alternatingRowStyle: true});
 		
       }
-    </script>
+</script>
     
-    <style>
+<style>
 .google-visualization-table-td {
 text-align: center !important;
 }
 </style>
-    <div id="table_div"></div>
+<div id="table_div"></div>
     
     
 
