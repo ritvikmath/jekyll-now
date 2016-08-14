@@ -28,6 +28,144 @@ title: Salary Dynamics in the University of California
 
 ---
 
+<html>
+<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('43', {'packages':['sankey']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Cash Flow ($)');
+        data.addRows([
+			['Berkeley', 'Merced ',204610.75],
+			['Los Angeles', 'San Francisco ',5596154.98],
+			['San Francisco', 'Irvine ',5173040.77],
+			['Riverside', 'San Francisco ',288976.54],
+			['Irvine', 'Santa Cruz ',376994.07],
+			['Santa Barbara', 'Los Angeles ',3678216.01],
+			['Santa Barbara', 'Irvine ',1226523.27],
+			['Los Angeles', 'Riverside ',728745.95],
+			['Los Angeles', 'Santa Cruz ',242523.37],
+			['Berkeley', 'Riverside ',550135.51],
+			['Riverside', 'Davis ',1779005.94],
+			['Irvine', 'Davis ',5163490.09],
+			['Davis', 'Riverside ',469373.57],
+			['Merced', 'Irvine ',117168.53],
+			['Santa Barbara', 'San Francisco ',3429610.29],
+			['Santa Cruz', 'Irvine ',587243.36],
+			['San Francisco', 'Santa Barbara ',180452.33],
+			['Irvine', 'San Francisco ',3858790.39],
+			['San Diego', 'Riverside ',1466960.05],
+			['Merced', 'Riverside ',9266.0],
+			['San Francisco', 'Merced ',340883.43],
+			['Berkeley', 'Santa Barbara ',667363.19],
+			['San Diego', 'Berkeley ',8119863.2],
+			['Santa Cruz', 'Davis ',2446185.5],
+			['Davis', 'Irvine ',1802835.13],
+			['Los Angeles', 'Santa Barbara ',443462.51],
+			['Santa Cruz', 'Riverside ',275019.38],
+			['San Francisco', 'Los Angeles ',19064008.87],
+			['San Francisco', 'San Diego ',6722212.57],
+			['Los Angeles', 'Davis ',15948937.62],
+			['Berkeley', 'San Diego ',3127750.39],
+			['San Francisco', 'Davis ',8924355.94],
+			['Davis', 'San Francisco ',5729109.6],
+			['Davis', 'Los Angeles ',6498228.37],
+			['Berkeley', 'Davis ',1538656.59],
+			['Riverside', 'Los Angeles ',3411537.64],
+			['Merced', 'Santa Barbara ',0.0],
+			['Santa Cruz', 'San Diego ',1226707.86],
+			['Riverside', 'San Diego ',670425.48],
+			['San Diego', 'Irvine ',5718269.42],
+			['Irvine', 'Los Angeles ',9856235.68],
+			['Santa Cruz', 'Los Angeles ',2436479.4],
+			['Riverside', 'Merced ',221031.56],
+			['Merced', 'Berkeley ',173051.86],
+			['Santa Barbara', 'Riverside ',361188.12],
+			['Davis', 'Santa Cruz ',414144.06],
+			['San Francisco', 'Riverside ',1353037.19],
+			['Berkeley', 'Irvine ',815067.46],
+			['Santa Cruz', 'Santa Barbara ',294598.46],
+			['Irvine', 'Riverside ',960777.56],
+			['Santa Cruz', 'San Francisco ',1299063.8],
+			['San Francisco', 'Santa Cruz ',63425.92],
+			['Santa Cruz', 'Merced ',104522.63],
+			['Riverside', 'Santa Barbara ',102365.74],
+			['Los Angeles', 'Irvine ',10489456.51],
+			['Merced', 'San Francisco ',145432.69],
+			['Berkeley', 'San Francisco ',2203174.05],
+			['Merced', 'Davis ',265860.91],
+			['Los Angeles', 'Merced ',503016.34],
+			['Santa Barbara', 'Davis ',1172051.18],
+			['San Francisco', 'Berkeley ',15466184.04],
+			['Riverside', 'Irvine ',1443443.26],
+			['Los Angeles', 'Berkeley ',12819136.67],
+			['Riverside', 'Santa Cruz ',82400.64],
+			['Santa Barbara', 'Santa Cruz ',68433.89],
+			['Berkeley', 'Los Angeles ',7646682.33],
+			['Santa Barbara', 'Berkeley ',2973997.24],
+			['Davis', 'Santa Barbara ',418556.55],
+			['San Diego', 'San Francisco ',1847340.83],
+			['Davis', 'Merced ',652987.76],
+			['Berkeley', 'Santa Cruz ',150775.69],
+			['Santa Barbara', 'Merced ',216791.77],
+			['San Diego', 'Los Angeles ',20884907.63],
+			['San Diego', 'Santa Barbara ',140208.72],
+			['Merced', 'San Diego ',105670.8],
+			['Merced', 'Santa Cruz ',351404.32],
+			['Irvine', 'Merced ',178941.7],
+			['Santa Barbara', 'San Diego ',2272846.5],
+			['Davis', 'Berkeley ',11038815.43],
+			['Los Angeles', 'San Diego ',2659686.0],
+			['San Diego', 'Merced ',335286.73],
+			['San Diego', 'Santa Cruz ',147158.94],
+			['Irvine', 'Berkeley ',7265728.26],
+			['Riverside', 'Berkeley ',2133922.95],
+			['Irvine', 'San Diego ',4011584.36],
+			['Irvine', 'Santa Barbara ',367405.57],
+			['Santa Cruz', 'Berkeley ',1830375.88],
+			['San Diego', 'Davis ',6648574.51],
+			['Davis', 'San Diego ',2461115.77],
+			['Merced', 'Los Angeles ',915179.98]
+        ]);
+
+        // Sets chart options.
+        var options = {
+          width: 1000,
+		  sankey:{
+			  node: {
+				label: {
+				  fontSize: 18,
+				  bold: true
+				}},
+	
+			link: {colorMode: 'source',
+				color: {fillOpacity: 1,  strokeWidth: 1}
+			}
+			}
+		  
+        };
+
+        // Instantiates and draws our chart, passing in some options.
+        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+        chart.draw(data, options);
+      }
+    </script>
+	</head>
+
+  <body>
+	<center>
+    <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
+	</center>
+  </body>
+</html>
+
+---
+
 # Disclaimer
 
 The raw data used for this analysis is publically available and contains names, job titles, and salaries for all University of California Employees from 2010 until 2015. Before performing any analysis on the data, this author encrypted all names. If this data is released, the encryption will remain in place and no names will be published.
@@ -209,140 +347,6 @@ This employee started off at UC Los Angeles in 2010 and worked there for two yea
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if  employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
-<html>
-<head>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('43', {'packages':['sankey']});
-      google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'From');
-        data.addColumn('string', 'To');
-        data.addColumn('number', 'Cash Flow ($)');
-        data.addRows([
-			['Berkeley', 'Merced ',204610.75],
-			['Los Angeles', 'San Francisco ',5596154.98],
-			['San Francisco', 'Irvine ',5173040.77],
-			['Riverside', 'San Francisco ',288976.54],
-			['Irvine', 'Santa Cruz ',376994.07],
-			['Santa Barbara', 'Los Angeles ',3678216.01],
-			['Santa Barbara', 'Irvine ',1226523.27],
-			['Los Angeles', 'Riverside ',728745.95],
-			['Los Angeles', 'Santa Cruz ',242523.37],
-			['Berkeley', 'Riverside ',550135.51],
-			['Riverside', 'Davis ',1779005.94],
-			['Irvine', 'Davis ',5163490.09],
-			['Davis', 'Riverside ',469373.57],
-			['Merced', 'Irvine ',117168.53],
-			['Santa Barbara', 'San Francisco ',3429610.29],
-			['Santa Cruz', 'Irvine ',587243.36],
-			['San Francisco', 'Santa Barbara ',180452.33],
-			['Irvine', 'San Francisco ',3858790.39],
-			['San Diego', 'Riverside ',1466960.05],
-			['Merced', 'Riverside ',9266.0],
-			['San Francisco', 'Merced ',340883.43],
-			['Berkeley', 'Santa Barbara ',667363.19],
-			['San Diego', 'Berkeley ',8119863.2],
-			['Santa Cruz', 'Davis ',2446185.5],
-			['Davis', 'Irvine ',1802835.13],
-			['Los Angeles', 'Santa Barbara ',443462.51],
-			['Santa Cruz', 'Riverside ',275019.38],
-			['San Francisco', 'Los Angeles ',19064008.87],
-			['San Francisco', 'San Diego ',6722212.57],
-			['Los Angeles', 'Davis ',15948937.62],
-			['Berkeley', 'San Diego ',3127750.39],
-			['San Francisco', 'Davis ',8924355.94],
-			['Davis', 'San Francisco ',5729109.6],
-			['Davis', 'Los Angeles ',6498228.37],
-			['Berkeley', 'Davis ',1538656.59],
-			['Riverside', 'Los Angeles ',3411537.64],
-			['Merced', 'Santa Barbara ',0.0],
-			['Santa Cruz', 'San Diego ',1226707.86],
-			['Riverside', 'San Diego ',670425.48],
-			['San Diego', 'Irvine ',5718269.42],
-			['Irvine', 'Los Angeles ',9856235.68],
-			['Santa Cruz', 'Los Angeles ',2436479.4],
-			['Riverside', 'Merced ',221031.56],
-			['Merced', 'Berkeley ',173051.86],
-			['Santa Barbara', 'Riverside ',361188.12],
-			['Davis', 'Santa Cruz ',414144.06],
-			['San Francisco', 'Riverside ',1353037.19],
-			['Berkeley', 'Irvine ',815067.46],
-			['Santa Cruz', 'Santa Barbara ',294598.46],
-			['Irvine', 'Riverside ',960777.56],
-			['Santa Cruz', 'San Francisco ',1299063.8],
-			['San Francisco', 'Santa Cruz ',63425.92],
-			['Santa Cruz', 'Merced ',104522.63],
-			['Riverside', 'Santa Barbara ',102365.74],
-			['Los Angeles', 'Irvine ',10489456.51],
-			['Merced', 'San Francisco ',145432.69],
-			['Berkeley', 'San Francisco ',2203174.05],
-			['Merced', 'Davis ',265860.91],
-			['Los Angeles', 'Merced ',503016.34],
-			['Santa Barbara', 'Davis ',1172051.18],
-			['San Francisco', 'Berkeley ',15466184.04],
-			['Riverside', 'Irvine ',1443443.26],
-			['Los Angeles', 'Berkeley ',12819136.67],
-			['Riverside', 'Santa Cruz ',82400.64],
-			['Santa Barbara', 'Santa Cruz ',68433.89],
-			['Berkeley', 'Los Angeles ',7646682.33],
-			['Santa Barbara', 'Berkeley ',2973997.24],
-			['Davis', 'Santa Barbara ',418556.55],
-			['San Diego', 'San Francisco ',1847340.83],
-			['Davis', 'Merced ',652987.76],
-			['Berkeley', 'Santa Cruz ',150775.69],
-			['Santa Barbara', 'Merced ',216791.77],
-			['San Diego', 'Los Angeles ',20884907.63],
-			['San Diego', 'Santa Barbara ',140208.72],
-			['Merced', 'San Diego ',105670.8],
-			['Merced', 'Santa Cruz ',351404.32],
-			['Irvine', 'Merced ',178941.7],
-			['Santa Barbara', 'San Diego ',2272846.5],
-			['Davis', 'Berkeley ',11038815.43],
-			['Los Angeles', 'San Diego ',2659686.0],
-			['San Diego', 'Merced ',335286.73],
-			['San Diego', 'Santa Cruz ',147158.94],
-			['Irvine', 'Berkeley ',7265728.26],
-			['Riverside', 'Berkeley ',2133922.95],
-			['Irvine', 'San Diego ',4011584.36],
-			['Irvine', 'Santa Barbara ',367405.57],
-			['Santa Cruz', 'Berkeley ',1830375.88],
-			['San Diego', 'Davis ',6648574.51],
-			['Davis', 'San Diego ',2461115.77],
-			['Merced', 'Los Angeles ',915179.98]
-        ]);
-
-        // Sets chart options.
-        var options = {
-          width: 1000,
-		  sankey:{
-			  node: {
-				label: {
-				  fontSize: 18,
-				  bold: true
-				}},
-	
-			link: {colorMode: 'source',
-				color: {fillOpacity: 1,  strokeWidth: 1}
-			}
-			}
-		  
-        };
-
-        // Instantiates and draws our chart, passing in some options.
-        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
-        chart.draw(data, options);
-      }
-    </script>
-	</head>
-
-  <body>
-	<center>
-    <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
-	</center>
-  </body>
-</html>
 
 
