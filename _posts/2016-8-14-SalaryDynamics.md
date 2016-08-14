@@ -207,7 +207,7 @@ title: Salary Dynamics in the University of California
           ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
 		  
 		  var options = {
-			width: 800,
+			width: 700,
 			colors: ['red', 'blue', 'green'],
 			
 			timeline: { 
@@ -319,7 +319,7 @@ There are inherent disparities between salaries at UC campuses and moreover, the
 
 Use the tool below to explore for yourself some of these differences in salaries over time and between campuses. 
 
-<br><br>
+<br><br><br><br>
 
 <center>
 <div>
@@ -345,11 +345,15 @@ Let's zoom in a bit and look at the distribution of salaries within each campus 
 
 If there is no graph, give it a second. 1.5 million rows of data takes a bit of time to load!
 
+<br><br><br><br>
+
 <center>
 <div>
 <iframe src="https://ritvikmath.shinyapps.io/TestShiny/" style="border: none; width: 900px; height: 575px"></iframe>
 </div>
 </center>
+
+<br><br><br><br>
 
 There is a lot to be said about these distributions but let's note some of the more prevalent points:
 
@@ -400,14 +404,13 @@ Some notes about this chart:
 
 # How does Salary Correlate with Other Things?
 
-
-
-
 As we started to talk about at the start of this post, salary is a function of many factors. The key questions are then *What are those factors?* and *How strongly do they correlate with salary?*.
 
 The tool below will help answer some of those questions. You can pick between three potential factors which might (or might not) correlate with salary and look at how these patterns change over time and also by job title. 
 
 Again, we're pulling 1.5 million rows here, so if there isn't a chart there, it'll show up soon!
+
+<br><br><br><br>
 
 <center>
 <div>
