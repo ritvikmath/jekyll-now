@@ -202,12 +202,12 @@ title: Salary Dynamics in the University of California
         dataTable.addColumn({ type: 'date', id: 'Start' });
         dataTable.addColumn({ type: 'date', id: 'End' });
         dataTable.addRows([
-          ['1','UCLA --- Total Income: $74,758', '', new Date(2010,0,1), new Date(2011,11,31) ],
-          ['2','UCSB --- Total Income: $123,109', '',      new Date(2011,0,1),  new Date(2014,11,31) ],
-          ['3','UCI --- Total Income: $218,884', '',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
+          ['1','UCLA', 'Total Income: $74,758', new Date(2010,0,1), new Date(2011,11,31) ],
+          ['2','UCSB', 'Total Income: $123,109',      new Date(2011,0,1),  new Date(2014,11,31) ],
+          ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
 		  
 		  var options = {
-			width: 1000,
+			width: 600,
 			colors: ['red', 'blue', 'green'],
 			
 			timeline: { 
@@ -244,7 +244,8 @@ Quick Links:
 * [Who is paid the most at each school?](#highpay)
 * [How to UC campuses compare at a globally?](#global)
 * [What is the distribution of salaries for each campus?](#distr)
-* [How does value flow between UC schools?](#transfer)
+* [How does value flow between UC schools?](#transfers)
+* [How does Salary Correlate with Other Things?](#correl)
 
 ---
 
@@ -370,9 +371,9 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 Let's look at a real employee from the data.
 
 <html>
-<center>
+
    <div id="timeline-tooltip" style="height: 240px;"></div>
-</center>
+
 </html>
 
 This employee started off at UC Los Angeles in 2010 and worked there for two years. In 2011, during which the employee was still employed at UCLA for some part of the year, he began working at UC Santa Barbara. He continued to work there until 2014. Additionally, we see that in 2013, he started to work at UC Irvine at some point during the year and continued to work there into 2015. We see that this employees total income at each consecutive UC school went up over time.
@@ -382,16 +383,40 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 Let's take a look at how much value each UC school lost to each other UC school in our six year period. Hover over each link to explore the value flows between UC schools.
 
 <html>
-<center>
+
 
    <div id="sankey_basic" style="width:400px; height: 500px;"></div>
-</center>
+
 </html>
 
 Some notes about this chart:
 
 * UC Berkeley is generally ranked the highest in university rankings such as the US News & World Report rankings. While it is up to debate whether these rankings are at all accurate, they to definitely sway public opinion. This is a likely reason that in our chart, UC Berkeley loses very little value for a school of its size but is the target for a lot of value from other UC schools.
-* 
+* We see that UC Los Angeles and UC San Francisco serve as the major sources of value loss most of UC Los Angeles' lost value going to UC Davis and UC Berkeley and most of UC San Francisco's lost value going to UC Los Angeles and UC Berkeley. 
+* It it perhaps worth noting that geographic proximity might affect where lost value goes. For example, UC Irvien and UC Los Angeles are relatively close, which might be why most of UC Irvine's lost value goes to UC Los Angeles. Employees perhaps look for jobs close to where they already are. We see a similar pattern with most of UC Davis' lost value going to UC Berkeley.
+
+<a name="correl"></a>
+
+# How does Salary Correlate with Other Things?
+
+As we started to talk about at the start of this post, salary is a function of many factors. The key questions are then *What are those factors?* and *How strongly do they correlate with salary?*.
+
+The tool below will help answer some of those questions. You can pick between three potential factors which might (or might not) correlate with salary and look at how these patterns change over time and also by job title. 
+
+Again, we're pulling 1.5 million rows here, so if there isn't a chart there, it'll show up soon!
+
+<center>
+<div>
+<iframe src="https://ritvikmath.shinyapps.io/NewScatter/" style="border: none; width: 850px; height: 700px"></iframe>
+</div>
+</center>
+
+A few takeaways:
+
+* There seems to be a (if only a slight) positive correlation between years of experience and salary, which we expect
+* There seems to be a (again if only slight) negative correlation between city unemployment rate and salary. The logic is likely as follows. If unemployment rate in a city is high, employees are not as picky about how much they are paid to work. Knowing that jobs are scarce, employers also have less incentive to offer bigger salaries since they know employees don't have many other options.
+* The most fun of these graphs is the graph of past year's salary vs this year's salary. We see a very strogn positive correlation, pretty much no matter what job we subset by.
+* Here's an interesting comparison. Pick 2015 and choose 'nurse' as the job title. Set your max displayed salary to something around \\$250,000. Notice that for lower salary levels, there's a much greater variability between last year's salary and this year's salary than for higher salary levels, where the relationship is much more linear. It seems like your salary is more stable the higher it is (at least for nurses).
 
 
 
