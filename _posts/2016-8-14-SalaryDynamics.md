@@ -57,6 +57,8 @@ The UC System was allocated a budget of **\\$25.5 billion** in 2015, **\\$13.1 b
 
 But, there may be more, underlying, factors which impact employee salary, all else held constant, such as UC Campus, city unemployment rate, and cost of living. This post aims to dive deep into the intricacies of the distribution of salaries throughout the UC system, offering an interactive way to explore the key dynamics at play.
 
+---
+
 <a name="data"></a>
 
 # The Data
@@ -76,6 +78,8 @@ The data spans the years **2010 until 2015** and includes all ten UC Schools as 
 * Employees who are concurrenly students have their names listed as '*****' in order to protect their privacy. For this reason, we will use them when calculating summary statistics for each campus, but must remove them when we try and track certain employees through time since we have no unique identifier for them.
 * The job titles are not very specific and usually are limited to things like 'COACH' or 'PROF' without much more detail about which sport, department, etc. the employee is a part of.
 * There are a few missing values in the data for salaries. This author chose to use median imputation to fill in these missing values. Basically, the missing values for any column involving salaries is filled in with the median of existing entries in that column.
+
+---
 
 <a name="highpay"></a>
 
@@ -129,6 +133,8 @@ Perhaps the most strinking thing about this table is that the sum of the five lo
 
 Let's now step back and look at our plethora of data as a whole.
 
+---
+
 <a name="global"></a>
 
 # How do UC campuses compare globally? 
@@ -152,6 +158,8 @@ There are a few key points about this global data:
 * There seems to be a somewhat positive correlation between number of students / employees and mean / median campus salary.
 * There seems to be a somewhat negative correlation between number of students / employees and unemployment rate. Hmm .... more on this later.
 
+---
+
 <a name="distr"></a>
 
 # What is the distribution of salaries for each campus?
@@ -173,6 +181,12 @@ There is a lot to be said about these distributions but let's note some of the m
 * This bump is most profound in UC San Francisco, which has a very unique salary distribution compared to all the other schools. In fact, most employees at UC San Francisco earn around \\$50,000, much higher than at other UC schools.
 * Many UC schools, such as Irvine, went from having clear twin peaks in 2010-2011 to having much smoother distributions. That second peak around \\$30,000 seems to have been absorbed into lower salary brackets over time.
 * The UC Office of the President (UCOP) displays a very unique salary pattern with many more employees earning in higher salary brackets than at the main UC campuses.
+
+---
+
+<a name="transfers"></a>
+
+# How does value flow between UC schools?
 
 
     
