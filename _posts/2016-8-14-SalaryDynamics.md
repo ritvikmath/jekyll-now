@@ -212,22 +212,8 @@ Let's look at a real employee from the data.
           ['1','UCLA', 'Total Income: $74,758', new Date(2010,0,1), new Date(2011,11,31) ],
           ['2','UCSB', 'Total Income: $123,109',      new Date(2011,0,1),  new Date(2014,11,31) ],
           ['3','UCI', 'Total Income: $218,884',  new Date(2013,0,1),  new Date(2015,11,31) ]]);
-		  
-	var options = {
-	width: 1000,
-	colors: ['red', 'blue', 'green'],
-			
-	timeline: { 
-	showRowLabels: false,
-	barLabelStyle:{
-	fontName: 'Arial',
-	fontSize: 14}
-				
-				
-	}
-	};
-
-	chart.draw(dataTable, options);
+		
+	chart.draw(dataTable);
       }
 </script>
 
