@@ -3,12 +3,11 @@
 layout: post
 comments: true
 title: Salary Dynamics in the University of California System
-author: Ritvik Kharkar
 ---
 
 <figure>
 <center>
-   <a href="/images/sankey.jpg"><img width="90%" src="/images/sankey.jpg"></a>
+   <a href="/images/sankey.jpg"><img width="60%" src="/images/sankey.jpg"></a>
 </center>
 </figure>
 
