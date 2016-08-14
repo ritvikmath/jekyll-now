@@ -204,7 +204,7 @@ This employee started off at UC Los Angeles in 2010 and worked there for two yea
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if  employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
-
+<html>
 <head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
@@ -332,23 +332,12 @@ If we assume that salary is a measure of how much value a campus puts on an empl
       }
     </script>
 	</head>
+	</html>
   <body>
 	<center>
     <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
 	</center>
   </body>
-  
-
-    
-<style>
-.google-visualization-table-td {
-text-align: center !important;
-}
-</style>
-<center>
-<div id="table_div"></div>
-</center>
-
 
 
 
