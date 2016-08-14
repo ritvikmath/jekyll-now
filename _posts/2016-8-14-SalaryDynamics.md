@@ -135,7 +135,7 @@ There are inherent disparities between salaries at UC campuses and moreover, the
 
 
 <center>
-<iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 950px; height: 700px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 1100px; height: 700px"></iframe>
 </center>
     
 
