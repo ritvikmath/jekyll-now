@@ -206,7 +206,7 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('current', {'packages':['sankey']});
+      google.charts.load("43", {'packages':['sankey']});
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
