@@ -231,6 +231,11 @@ Let's look at a real employee from the data.
       }
 </script>
 
+<style>
+.google-visualization-table-td {
+text-align: center !important;
+}
+</style>
 <div id="timeline-tooltip"></div>
 
 If we assume that salary is a measure of how much value a campus puts on an employee, when that employee leaves that campus, they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
