@@ -28,8 +28,6 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  display:block;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -276,6 +274,7 @@ nav {
 div, iframe {
     margin: 0 auto;
     display:block;
+    text-align: center;
 }
 
 .wrapper-footer {
