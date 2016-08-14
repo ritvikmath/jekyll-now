@@ -195,7 +195,6 @@ There are many employees in our dataset who work at multiple UC campuses over ou
 Let's look at a real employee from the data.
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
 <script type="text/javascript">
       google.charts.load('current', {'packages':['timeline']});
       google.charts.setOnLoadCallback(drawChart);
@@ -231,7 +230,6 @@ Let's look at a real employee from the data.
 	chart.draw(dataTable, options);
       }
 </script>
-
 <center>
 <div id="timeline-tooltip" style="height: 240px;"></div>
 </center>
