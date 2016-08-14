@@ -332,12 +332,12 @@ If we assume that salary is a measure of how much value a campus puts on an empl
       }
     </script>
 	</head>
-	</html>
+
   <body>
 	<center>
     <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
 	</center>
   </body>
-
+</html>
 
 
