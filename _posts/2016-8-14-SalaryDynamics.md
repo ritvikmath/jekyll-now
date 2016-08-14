@@ -407,7 +407,7 @@ Again, we're pulling 1.5 million rows here, so if there isn't a chart there, it'
 
 <center>
 <div>
-<iframe src="https://ritvikmath.shinyapps.io/NewScatter/" style="border: none; width: 900px; height: 700px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/NewScatter/" style="border: none; width: 925px; height: 700px"></iframe>
 </div>
 </center>
 
