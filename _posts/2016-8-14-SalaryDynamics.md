@@ -32,9 +32,10 @@ title: Salary Dynamics in the University of California
 <head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('43', {'packages':['sankey', 'table']});
+      google.charts.load('43', {'packages':['sankey', 'table', 'timeline']});
       google.charts.setOnLoadCallback(drawChart);
       google.charts.setOnLoadCallback(drawTable);
+      google.charts.setOnLoadCallback(drawTimeline);
 
       function drawChart() {
         var data = new google.visualization.DataTable();
@@ -190,7 +191,7 @@ title: Salary Dynamics in the University of California
       
       
       
-      function drawChart() {
+      function drawTimeline() {
         var container = document.getElementById('timeline-tooltip');
         var chart = new google.visualization.Timeline(container);
         var dataTable = new google.visualization.DataTable();
@@ -386,6 +387,11 @@ Let's take a look at how much value each UC school lost to each other UC school 
    <div id="sankey_basic" style="width:400px; height: 500px;"></div>
 </center>
 </html>
+
+Some notes about this chart:
+
+* UC Berkeley is generally ranked the highest in university rankings such as the US News & World Report rankings. While it is up to debate whether these rankings are at all accurate, they to definitely sway public opinion. This is a likely reason that in our chart, UC Berkeley loses very little value for a school of its size but is the target for a lot of value from other UC schools.
+* 
 
 
 
