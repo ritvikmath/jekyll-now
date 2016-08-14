@@ -187,16 +187,8 @@ title: Salary Dynamics in the University of California
       }
     </script>
 </head>
-
- <body>
-<center>
-   <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
-</center>
-</body>
 </html>
 
-
----
 
 # Disclaimer
 
@@ -350,4 +342,10 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 
 
 
-
+<html>
+<body>
+<center>
+   <div id="sankey_basic" style="width:1000px; height: 500px;"></div>
+</center>
+</body>
+</html>
