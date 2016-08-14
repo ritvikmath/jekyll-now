@@ -106,7 +106,7 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
 
         var table = new google.visualization.Table(document.getElementById('table_div'));
 		
-        table.draw(data, {cssClassNames: {oddTableRow: 'bigAndBoldClass'}, allowHtml: true, showRowNumber: false, width: '100%', height: '80%', alternatingRowStyle: true});
+        table.draw(data, {cssClassNames: {oddTableRow: 'bigAndBoldClass'}, allowHtml: true, showRowNumber: false, width: '100%', height: '150%', alternatingRowStyle: true});
 		
       }
 </script>
@@ -119,6 +119,14 @@ text-align: center !important;
 <center>
 <div id="table_div"></div>
 </center>
+
+By clicking on the column names, you can sort the table by salary, position, or campus. 
+
+Perhaps the most strinking thing about this table is that the sum of the five lowest salaries still is less than the top salary, that of a head coach at UC Los Angeles. 
+
+Let's now step back and look at our plethora of data as a whole.
+
+
     
 
 
