@@ -396,15 +396,11 @@ Let's take a look at how much value each UC school lost to each other UC school 
 
 <br><br>
 <html>
-<style>
-.google-visualization-table-td {
-text-align: center !important;
-}
-</style>
-<center>
+
+
 
 <div id="sankey_basic" style="width:400px; height: 500px;"></div>
-</center>
+
 </html>
 <br><br>
 
