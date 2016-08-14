@@ -6,7 +6,7 @@ title: Salary Dynamics in the University of California
 
 <figure>
 <center>
-   <a href="/images/sankey.jpg"><img width="90%" src="/images/sankey.jpg"></a>
+   <a href="/images/sankey.jpg"><img width="100%" src="/images/sankey.jpg"></a>
 </center>
 </figure>
 
