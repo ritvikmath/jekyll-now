@@ -112,7 +112,7 @@ One of the burning questions readers probabaly have is *"Who is paid the most at
 </script>
     
 <style>
-.google-visualization-table-td {
+google-visualization-table-td {
 text-align: center !important;
 }
 </style>
