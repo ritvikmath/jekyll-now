@@ -206,10 +206,10 @@ If we assume that salary is a measure of how much value a campus puts on an empl
 
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load("43", {'packages':['sankey']});
+      google.charts.load('44', {'packages':['sankey']});
       google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
+	function drawChart() {
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'From');
         data.addColumn('string', 'To');
@@ -311,7 +311,7 @@ If we assume that salary is a measure of how much value a campus puts on an empl
         var options = {
           width: 1000,
 		  sankey:{
-			  node: {
+			node: {
 				label: {
 				  fontSize: 18,
 				  bold: true
@@ -325,7 +325,7 @@ If we assume that salary is a measure of how much value a campus puts on an empl
         };
 
         // Instantiates and draws our chart, passing in some options.
-        var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
+       	var chart = new google.visualization.Sankey(document.getElementById('sankey_basic'));
         chart.draw(data, options);
       }
     </script>
