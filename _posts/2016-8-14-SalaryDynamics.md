@@ -136,7 +136,7 @@ title: Salary Dynamics in the University of California
 
         // Sets chart options.
         var options = {
-          width: 750,
+          width: 850,
 		  sankey:{
 			  node: {
 				label: {
