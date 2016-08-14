@@ -40,6 +40,8 @@ Although all the data is available online, there is a fundamental difference bet
 Quick Links: 
 
 * [Background](#back)  
+* [The Data](#data)
+* [Who is paid the most at each school?](#highpay)
 
 
 ---
@@ -71,6 +73,52 @@ The data spans the years 2010 until 2015 and includes all ten UC Schools as well
 * Employees who are concurrenly students have their names listed as '*****' in order to protect their privacy. For this reason, we will use them when calculating summary statistics for each campus, but must remove them when we try and track certain employees through time since we have no unique identifier for them.
 * The job titles are not very specific and usually are limited to things like 'COACH' or 'PROF' without much more detail about which sport, department, etc. the employee is a part of.
 * There are a few missing values in the data for salaries. This author chose to use median imputation to fill in these missing values. Basically, the missing values for any column involving salaries is filled in with the median of existing entries in that column.
+
+<a name="highpay"></a>
+
+# Who is paid the most at each school?
+
+One of the burning questions readers probabaly have is *"Who is paid the most at each campus?"*. Let's answer this question before going much deeper into the data as a whole.
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['table']});
+      google.charts.setOnLoadCallback(drawTable);
+
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Campus');
+        data.addColumn('string', 'Top Paid Position');
+        data.addColumn('number', '2015 Salary');
+        data.addRows([
+          ['Berkeley', 'Head Coach' , {v: 2038733, f: '$2,038,733'}],
+          ['Davis', 'CEO Medical Center' , {v: 1114446, f: '$1,114,446'}],
+          ['Irvine', 'Professor - Health Sciences' , {v: 1234771, f: '$1,234,771'}],
+          ['Los Angeles', 'Head Coach' , {v: 3514771, f: '$3,514,771'}],
+		  ['Merced', 'Chancellor' , {v: 404896, f: '$404,896'}],
+		  ['Riverside', 'Dean - School of Medicine' , {v: 698608, f: '$698,608'}],
+		  ['San Diego', 'Professor - Health Sciences' , {v: 1569475, f: '$1,569,475'}],
+		  ['San Francisco', 'Health Sciences Clinical Instructor' , {v: 1753731, f: '$1,753,731'}],
+		  ['Santa Barbara', 'Professor in Residence' , {v: 468571, f: '$468,571'}],
+		  ['Santa Cruz', 'Chancellor' , {v: 392076, f: '$392,076'}],
+		  ['Office of the President', 'Chief Investment Officer' , {v: 1106688, f: '$1,106,688'}]
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+		
+        table.draw(data, {cssClassNames: {headerRow: 'bigAndBoldClass', oddTableRow: 'bigAndBoldClass'}, allowHtml: true, showRowNumber: false, width: '50%', height: '50%', alternatingRowStyle: true});
+		
+      }
+    </script>
+    
+    <style>
+.google-visualization-table-td {
+text-align: center !important;
+}
+</style>
+    <div id="table_div"></div>
+    
+    
 
 
 
