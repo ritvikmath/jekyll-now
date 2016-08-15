@@ -415,6 +415,8 @@ Some notes about this chart:
 
 <a name="correl"></a>
 
+---
+
 # How does Salary Correlate with Other Things?
 
 As we started to talk about at the start of this post, salary is a function of many factors. The key questions are then "*What are those factors?*" and "*How strongly do they correlate with salary?*"
@@ -439,6 +441,8 @@ A few takeaways:
 * Here's an interesting exploration. Pick 2015 and choose 'nurse' as the job title. Set your max displayed salary to something around \\$250,000. Notice that for lower salary levels, there's a much greater variability between last year's salary and this year's salary than for higher salary levels, where the relationship is much more linear. It seems like your salary is more stable the higher it is (at least for nurses).
 
 <a name="notes"></a>
+
+---
 
 # Notes
 
