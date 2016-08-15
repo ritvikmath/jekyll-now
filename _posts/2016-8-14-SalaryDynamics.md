@@ -332,7 +332,7 @@ There are a few key points about this global data:
 
 * Number of students and employees generally goes up over time, the UC system is growing.
 * There is actually a huge difference between median and mean salary. For example, UC Merced's mean salary in 2015 is around \\$28,000 but its median salary is only \\$8,850. Big differences between medians and means usually indicate strong presence of outliers (high salary earners) pulling the mean to high values.
-* The fact that UC San Francisco is a graduate school really shows as it has few students but makes has by far the highest mean and median salaries.
+* The fact that UC San Francisco is a graduate school really shows as it has few students but has by far the highest mean and median salaries.
 * There seems to be a somewhat positive correlation between number of students / employees and mean / median campus salary.
 * There seems to be a somewhat negative correlation between number of students / employees and unemployment rate. Hmm .... more on this later.
 
@@ -393,7 +393,7 @@ text-align: center !important;
 
 This employee started off at UC Los Angeles in 2010 and worked there for two years. In 2011, when the employee was still employed in Los Angeles for some part of the year, he began working at UC Santa Barbara. He continued to work there through 2014. In 2013, he started to work at UC Irvine and continued to work there into 2015. We see that this employee's total income at each consecutive UC school went up over time.
 
-If we assume that salary is a measure of how much value a campus puts on an employee, when an employee leaves a campus, they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
+If we assume that salary is a measure of how much value a campus gains from an employee, when an employee leaves a campus they reduce the net value of that campus by the amount of their salary. For example, if an employee makes \\$50,000 at UC Irvine in 2013 and then accepts a position at UC San Diego in 2014, UC Irvine effectively loses \\$50,000 worth of value via the loss of that employee. Note however, that this does not mean UC San Diego gains \\$50,000 since they may value this employee differently.
 
 Let's take a look at how much value each UC school lost to each other UC school in our six year period. Hover over each link to explore the value flows between UC schools.
 
@@ -443,7 +443,7 @@ A few takeaways:
 # Notes
 
 * There are a lot of combinations of charts, graphs, and plots you can generate using the tools in this post, but it is important to remember the old adage: "correlation does not imply causation". The relationships we talked about in this post are based on a mixture of past research, data, and intuition but may very well not be causal. 
-* The chart showing flow of value through the UC system has many assumptions including that salary is actually a measure of value to each UC school, that no employee was fired, and that each UC school is willing to hire employees who work part time at that UC school and part time at another UC school.
+* The chart showing flow of value through the UC system has many assumptions including that salary is actually a measure of value to each UC school, that few employees were fired, and that each UC school is willing to hire employees who work part time at that UC school and part time at another UC school.
 * If you are having trouble finding position titles, it is likely because they are so vague. Your best bet is probably to go to the UC Compensation website linked in the Data section of this post and look for the position title you want and then enter it into the tool. 
 
 Thanks for reading and please leave comments!
