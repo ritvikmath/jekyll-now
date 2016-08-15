@@ -417,7 +417,7 @@ Some notes about this chart:
 
 ---
 
-# How does Salary Correlate with Other Things?
+# How does salary correlate with other things?
 
 As we started to talk about at the start of this post, salary is a function of many factors. The key questions are then "*What are those factors?*" and "*How strongly do they correlate with salary?*"
 
