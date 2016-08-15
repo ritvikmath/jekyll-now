@@ -242,7 +242,7 @@ Quick Links:
 * [Background](#back)  
 * [The Data](#data)
 * [Who is paid the most at each school?](#highpay)
-* [How to UC campuses compare globally?](#global)
+* [How do UC campuses compare globally?](#global)
 * [What is the distribution of salaries for each campus?](#distr)
 * [How does value flow between UC schools?](#transfers)
 * [How does salary correlate with other things?](#correl)
