@@ -1,4 +1,4 @@
-# A Fast and Efficient Job Shift Scheduling Algorithm
+# SADIE, A Fast and Efficient Job Shift Scheduling Algorithm
 
 **Getting Worker Preferences**
 
