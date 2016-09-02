@@ -10,7 +10,8 @@
 	- 'IN PREF': Please try and schedule me IN that day but do NOT schedule me ON
 	- 'OFF': Do NOT schedule me that day
 	- blank: No preference, anything is fine
-5. Please keep the preferences in csv format and rename the file to whatever name you prefer
+5. You can also schedule "special days" where you want to fix the worker schedule and not leave it up to the scheduler. To do this for a given day, do not have the workers fill in any preferences. Instead simply put 'ON' or 'IN' for all workers who will work that day. Do not specify the ON or IN shift (eg. ON 1, IN 3, ..) as the scheduler will find the best allocation of specific ON and IN shifts.
+6. Please keep the preferences in csv format and rename the file to whatever name you prefer
 
 **Making the Optimal Schedule**
 
