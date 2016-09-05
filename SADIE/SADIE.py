@@ -1,9 +1,9 @@
 ###########################################
-##	RITVIK KHARKAR						  #	
-##  UCLA CLASS OF 2017					  #
-##  COMPUTATIONAL MATHEMATICS & ECONOMICS #
-##  www.ritvikmath.com					  #
-##  SEPT 2016							  #
+##	RITVIK KHARKAR						  
+##  UCLA CLASS OF 2017					  
+##  COMPUTATIONAL MATHEMATICS & ECONOMICS 
+##  www.ritvikmath.com					  
+##  SEPT 2016							  
 ###########################################
 
 
