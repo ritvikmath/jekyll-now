@@ -224,7 +224,7 @@ try:
 			prob += t_sum <= int(fair_amt_in) + in_tol[1]
 			prob += t_sum >= int(fair_amt_in) - in_tol[0]
 			t_sum = sum(on_vars[j]) + prev_shifts_on[key_names[j]] + sum(in_vars[j]) + prev_shifts_in[key_names[j]]
-			prob += t_sum <= int(fair_amt_on) + int(fair_amt_in) + tot_tol[1]
+			prob += t_sum <= int(fair_amt_on + fair_amt_in) + tot_tol[1]
 			prob += t_sum >= int(fair_amt_on) + int(fair_amt_in) - tot_tol[0]
 
 
