@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Salary Dynamics in the University of California
+title: The Rise and Demise of College Majors
 ---
 
 <figure>
