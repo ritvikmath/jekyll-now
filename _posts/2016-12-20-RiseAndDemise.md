@@ -34,7 +34,7 @@ Quick Links:
 * [Motivation](#mot)  
 * [The Data](#data)
 * [Is Your Major On the Rise or On the Demise?](#rod)
-* [Can We Group Majors by GPA Requirements and Admission Rates?](#group)
+* [Can We Group Majors by GPA and Admit Rate?](#group)
 * [Which Majors are Getting Farther From Reach?](#diff)
 * [Notes](#notes)
 
@@ -76,19 +76,27 @@ The tool above lets you go wild and explore which majors are on the rise in term
 
 * Majors which have a growing applicant rate, decreasing admission rate and a growing admission GPA can be thought of as having "increased demand". Indeed, these majors are attracting more and more applicants, which perhaps the university did not prepare for. In response, the university may have accepted a similar number of students from that major as before, which explains the lower admit rate. In addition, the university would have the ability to raise its admitted GPA with so many more applicants.
 * We can reverse the above story to find majors which are on the decline. Indeed, if fewer and fewer studentsa re applying to a major, the university might have to raise its admit rate to maintain a similar number of students from that major. It might also have less flexibility to choose very high performing students in this case.
-* We can also check the growth rates of applicants over time to find out which majors are attracting the most students over time.
+* We can also check the growth rates of applicants over time to find out which majors are attracting the most students over time. From a quick survey, we see that majors such as Computer Science and Economics fit this description. It is also important to note that there are majors which aren't necissarily growing in terms of percent applicants, but have a huge and stable share of the applicant pool over time. In particular, Psychology consistently has ~9\% share of the applicant pool over the last 14 years.
 
 ---
 
 <a name="group"></a>
 
-# Is Your Major On the Rise or On the Demise?
+# Can We Group Majors by GPA and Admit Rate?
 
 <figure>
 <center>
    <a href="/images/major_sun.png"><img width="100%" src="/images/major_sun.png"></a>
 </center>
 </figure>
+
+The figure above aims to group majors into four categories based on two factors, admit GPA and admit rate. The methodology is as follows. We compute the average admit GPA and the average admit rate for all majors over all years. We then check which majors are above and below each of these averages (with a margin of tolerance around the averages). For space reasons, we only display the majors in each of the four categories with the highest applicant rates. 
+
+How can you use this data to your advantage:
+
+* Let's say you're an applicant hoping to pursue the medical profession. Perhaps you don't care too much what your exact major is as long as it is within the medical field. Suppose also that you have a fairly high GPA. Which is the best major for you? Well, let's look at Biology and Mollecular Cell and Developmental Biology. Both require a high GPA, which you have. But, the latter has a high admit rate while the former does not. How stark is this difference? Well, looking at the data, Biology has an average **22\%** admit rate while for Mollecular Cell and Developmental Biology this figure is **51\%**, more than twice as much! Also, their average admit GPA is the same, at **3.67**. Applying to Mollecular Cell and Developmental Biology **boosts your odds of admission by a factor of 2.3** all else constant. 
+
+* 
 
 ---
 
