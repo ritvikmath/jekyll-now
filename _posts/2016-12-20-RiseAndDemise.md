@@ -143,7 +143,7 @@ Let's again first look at the **top 20 majors by applicant share**.
 
 <figure>
 <center>
-   <a href="/images/grobars.png"><img width="100%" src="/images/colbars.png"></a>
+   <a href="/images/grobars.png"><img width="100%" src="/images/grobars.png"></a>
 </center>
 </figure>
 
