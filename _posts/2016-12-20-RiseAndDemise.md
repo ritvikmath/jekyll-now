@@ -69,7 +69,7 @@ The data spans the years **2003 until 2016** and includes fields such as counts,
 
 <center>
 <div>
-<iframe src="https://ritvikmath.shinyapps.io/RiseAndDemise/" style="border: none; width: 850px; height: 700px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/RiseAndDemise/" style="border: none; width: 850px; height: 800px"></iframe>
 </div>
 </center>
 
