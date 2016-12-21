@@ -69,27 +69,11 @@ The data spans the years **2003 until 2016** and includes fields such as counts,
 
 <center>
 <div>
-<iframe src="https://ritvikmath.shinyapps.io/NewBubble/" style="border: none; width: 850px; height: 700px"></iframe>
+<iframe src="https://ritvikmath.shinyapps.io/RiseAndDemise/" style="border: none; width: 850px; height: 700px"></iframe>
 </div>
 </center>
 
 ---
-
-<a name="rod"></a>
-
-# How do UC campuses compare globally? 
-
-There are inherent disparities between salaries at UC campuses and moreover, these disparities change over time. 
-
-Use the tool below to explore for yourself some of these differences in salaries over time and between campuses. 
-
-<br><br><br><br>
-
-<center>
-<div>
-<iframe src="https://ritvikmath.shinyapps.io/RiseAndDemise/" style="border: none; width: 850px; height: 700px"></iframe>
-</div>
-</center>
 
 Thanks for reading and please leave comments!
 
