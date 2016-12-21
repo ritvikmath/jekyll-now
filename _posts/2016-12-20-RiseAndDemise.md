@@ -1,4 +1,3 @@
-
 ---
 layout: post
 comments: true
@@ -94,7 +93,7 @@ The figure above aims to group majors into four categories based on two factors,
 
 How can you use this data to your advantage:
 
-* Let's say you're an applicant hoping to pursue the medical profession. Perhaps you don't care too much what your exact major is as long as it is within the medical field. Suppose also that you have a fairly high GPA. Which is the best major for you? Well, let's look at Biology and Mollecular Cell and Developmental Biology. Both require a high GPA, which you have. But, the latter has a high admit rate while the former does not. How stark is this difference? Well, looking at the data, Biology has an average **22\%** admit rate while for Mollecular Cell and Developmental Biology this figure is **51\%**, more than twice as much! Also, their average admit GPA is the same, at **3.67**. Applying to Mollecular Cell and Developmental Biology **boosts your odds of admission by a factor of 2.3** all else constant. 
+* Let's say you're an applicant hoping to pursue the medical profession. Perhaps you don't care too much what your exact major is as long as it is within the medical field. Suppose also that you have a fairly high GPA. Which is the best major for you? Well, let's look at Biology and Mollecular Cell and Developmental Biology. Both require a high GPA, which you have. But, the latter has a high admit rate while the former does not. How stark is this difference? Well, looking at the data, Biology has an average **22%** admit rate while for Mollecular Cell and Developmental Biology this figure is **51/%**, more than twice as much! Also, their average admit GPA is the same, at **3.67**. Applying to Mollecular Cell and Developmental Biology **boosts your odds of admission by a factor of 2.3** all else constant. 
 
 * 
 
