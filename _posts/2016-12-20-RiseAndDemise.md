@@ -45,7 +45,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/majors.jpg"><img width="100%" src="/images/majors.jpg"></a>
+   <a href="/images/majors.jpg"><img width="50%" src="/images/majors.jpg"></a>
 </center>
 </figure>
 
@@ -181,7 +181,7 @@ Perhaps then the idea is to strike a medium. Yes, follow your passion but get cr
 
 <figure>
 <center>
-   <a href="/images/passion.jpg"><img width="100%" src="/images/passion.jpg"></a>
+   <a href="/images/passion.jpg"><img width="50%" src="/images/passion.jpg"></a>
 </center>
 </figure>
 
