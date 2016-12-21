@@ -165,6 +165,8 @@ Let's look now at **all majors**.
 
 * The purple low admit GPA, low admit rate majors tend to cluster around the very high growth rates and the very low growth rates.
 
+---
+
 <a name="sw"></a>
 
 # So What?
