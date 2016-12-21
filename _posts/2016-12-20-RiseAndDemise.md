@@ -49,9 +49,9 @@ Quick Links:
 </center>
 </figure>
 
-All undergraduate students are, at some point in their college careers, required to select a major, or field of study, which they would like to specialize in. This major is often a reflection of genuine, perceived lucrativeness, and even global shifts in interest. With that said, we might guess that demand for particular majors is not necessarily stable over time. 
+All undergraduate students are, at some point in their college careers, required to select a major, or field of study, which they would like to specialize in. This major is often a reflection of genuine passion, perceived lucrativeness, and even global shifts in interest. With that said, we might guess that demand for particular majors is not necessarily stable over time. 
 
-By identifying the majors for which demand is rapidly rising and those for which demand is rapidly declining, we can ask questions about what factors are causing this systematic education shift. All this begs the natural question of how to measure demand for a particular major. Should we look at college side admissions statistics? Should we look at student side application statistics? Is GPA a good indicator of demand? Well, they all seem like great ideas! 
+By identifying the majors for which demand is rapidly rising and those for which demand is rapidly declining, we can ask questions about what factors are causing this systematic education shift. All this begs the natural question of how to measure demand for a particular major. Should we look at college-side admissions statistics? Should we look at student-side application statistics? Is GPA a good indicator of demand? Well, they all seem like great ideas! 
 
 In this post, we will look at college applications to each major, college admissions by major, as well as the corresponding applicant and admittee GPAs, in order to analyze which majors are on the rise and which are on the demise.
 
@@ -61,7 +61,7 @@ In this post, we will look at college applications to each major, college admiss
 
 # The Data
 
-We will use admissions statistics from a major US University, the University of California at Los Angeles (UCLA) for our analysis. The data comes from the <a href="https://www.admission.ucla.edu/prospect/adm_tr/Tr_Prof03_mjr.htm" target="_blank">UCLA Admissions Website</a> website. 
+We will use admissions statistics from a major US University, the **University of California at Los Angeles (UCLA)** for our analysis. The data comes from the <a href="https://www.admission.ucla.edu/prospect/adm_tr/Tr_Prof03_mjr.htm" target="_blank">UCLA Admissions Website</a> website. 
 
 The data spans the years **2003 until 2016** and includes fields such as counts, GPAs, and units for applicants, admittees, and enrollees. The data for **Fall 2015** and **Fall 2016** contains a more limited view with only data for applicants and admittees. It is important to note that this data pertains to transfer students who transfer into UCLA from other universities, typically community colleges.
 
@@ -83,7 +83,7 @@ The tool above lets you go wild and explore which majors are on the rise in term
 
 * We can reverse the above story to find majors which are on the decline. Indeed, if fewer and fewer students are applying to a major, the university might have to raise its admit rate to maintain a similar number of students from that major. It might also have less flexibility to choose very high performing students in this case.
 
-* We can also check the growth rates of applicants over time to find out which majors are attracting the most students over time. From a quick survey, we see that majors such as Computer Science and Economics fit this description. It is also important to note that there are majors which aren't necessarily growing in terms of percent applicants, but have a huge and stable share of the applicant pool over time. In particular, Psychology consistently has ~9% share of the applicant pool over the last 14 years.
+* We can also check the growth rates of applicants over time to find out which majors are attracting the most students over time. From a quick survey, we see that majors such as Computer Science and Economics fit this description. It is also important to note that there are majors which aren't necessarily growing in terms of percent applicants, but have a huge and stable share of the applicant pool over time. In particular, **Psychology consistently has ~9%** share of the applicant pool over the last 14 years.
 
 ---
 
@@ -97,7 +97,7 @@ The tool above lets you go wild and explore which majors are on the rise in term
 </center>
 </figure>
 
-The figure above aims to group majors into four categories based on two factors, admit GPA and admit rate. The methodology is as follows. We compute the average admit GPA and the average admit rate for all majors over all years. We then check which majors are above and below each of these averages (with a margin of tolerance around the averages). For space reasons, we only display the majors in each of the four categories with the highest applicant rates. 
+The figure above aims to group majors into four categories based on two factors, **admit GPA and admit rate**. The methodology is as follows. We compute the average admit GPA and the average admit rate for all majors over all years. We then check which majors are above and below each of these averages (with a margin of tolerance around the averages). For space reasons, we only display the majors in each of the four categories with the highest applicant rates. 
 
 How can you use this data to your advantage:
 
@@ -113,7 +113,7 @@ How can you use this data to your advantage:
 
 After playing with the dashboard above and looking at applicant GPAs vs. admit GPAs, you have probably found that applicant GPAs tend to be lower, sometimes much lower. This itself is not a surprise since colleges usually pick the students in the applicant pool with the highest GPAs. But, it does lead to an interesting question: ** For which majors is the gap between admit GPA and applicant GPA getting larger over time. ** For majors where this gap is getting wider and wider, hopeful applicants just cannot get their GPAs to keep up with the GPAs that UCLA requires. 
 
-Perhaps there is the opposite trend as well. That is, perhaps there are majors where the applicant GPA is growing faster than the admit GPA, so that applicants are more than able to keep up with the GPA that a major demands. Before looking at growth though, let's get an idea of the size of this admit-applicant GPA gap for each major. We simply compute the gap for each year and then take the average across all years. We first show the results for the top 20 majors by share of applicants. 
+Perhaps there is the opposite trend as well. That is, perhaps there are majors where the applicant GPA is growing faster than the admit GPA, so that applicants are more than able to keep up with the GPA that a major demands. Before looking at growth though, let's get an idea of the size of this admit-applicant GPA gap for each major. We simply compute the gap for each year and then take the average across all years. We first show the results for the **top 20 majors by share of applicants**. 
 
 Note that the color of each bar corresponds to the colors in the figure in the previous section. 
 
@@ -127,7 +127,7 @@ Note that the color of each bar corresponds to the colors in the figure in the p
 
 * We see a well-defined clustering of the four colors.
 
-Let's look at all the majors now to see if there is any clustering of colors overall.
+Let's look at **all the majors** now to see if there is any clustering of colors overall.
 
 <figure>
 <center>
@@ -139,7 +139,7 @@ Let's look at all the majors now to see if there is any clustering of colors ove
 
 Now, let's get on to the main event, the growth in this gap over time. The methodology here was also simple. We fit an Ordinary Least Squares line to the data of Year vs. GPA gap and computed the slope of this line for all our majors. The steeper this line, the faster the gap is growing over time and the shallower the line, the slower the gap is growing. Negative values for slope indicate a trend that the gap is actually shrinking.
 
-Let's again first look at the top 20 majors by applicant share.
+Let's again first look at the **top 20 majors by applicant share**.
 
 <figure>
 <center>
@@ -151,7 +151,7 @@ Let's again first look at the top 20 majors by applicant share.
 
 * We see that although Theater has the lowest average gap in our above chart of 20 majors, here we see that this gap is actually increasing quickly over time.
 
-Let's look now at all majors.
+Let's look now at **all majors**.
 
 <figure>
 <center>
