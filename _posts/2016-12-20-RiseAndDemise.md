@@ -65,13 +65,43 @@ The data spans the years **2003 until 2016** and includes fields such as counts,
 
 # Is Your Major On the Rise or On the Demise?
 
-<br><br><br><br>
-
 <center>
 <div>
 <iframe src="https://ritvikmath.shinyapps.io/RiseAndDemise/" style="border: none; width: 850px; height: 800px"></iframe>
 </div>
 </center>
+
+The tool above lets you go wild and explore which majors are on the rise in terms of number of applicants, applicant GPA, admission rate, and admitted student GPA. Note that for space reasons, all majors are not displayed. Rather the top 9 in each of the four groups is displayed.
+
+---
+
+<a name="group"></a>
+
+# Is Your Major On the Rise or On the Demise?
+
+<figure>
+<center>
+   <a href="/images/major_sun.png"><img width="100%" src="/images/major_sun.png"></a>
+</center>
+</figure>
+
+---
+
+<a name="diff"></a>
+
+# Which Majors are Getting Farther From Reach?
+
+<figure>
+<center>
+   <a href="/images/colbars.png"><img width="100%" src="/images/colbars.png"></a>
+</center>
+</figure>
+
+<figure>
+<center>
+   <a href="/images/colbars_all.png"><img width="100%" src="/images/colbars_all.png"></a>
+</center>
+</figure>
 
 ---
 
