@@ -49,7 +49,7 @@ Quick Links:
 </center>
 </figure>
 
-All undergraduate students are, at some point in their college careers, required to select a major, or field of study, which they would like to specialize in. This major is often a reflection of genuine passion, percieved lucrativeness, and even global shifts in interest. With that said, we might guess that demand for particular majors is not necisarrily stable over time. 
+All undergraduate students are, at some point in their college careers, required to select a major, or field of study, which they would like to specialize in. This major is often a reflection of genuine, percieved lucrativeness, and even global shifts in interest. With that said, we might guess that demand for particular majors is not necisarrily stable over time. 
 
 By identifying the majors for which demand is rapidly rising and those for which demand is rapidly declining, we can ask questions about what factors are causing this systematic education shift. All this begs the natural question of how to measure demand for a particular major. Should we look at college side admissions statistics? Should we look at student side application statistics? Is GPA a good indicator of demand? Well, they all seem like great ideas! 
 
@@ -181,7 +181,7 @@ Perhaps then the idea is to strike a medium. Yes, follow your passion but get cr
 
 <figure>
 <center>
-   <a href="/images/passion.jpg"><img width="50%" src="/images/passion.jpg"></a>
+   <a href="/images/passion.png"><img width="50%" src="/images/passion.png"></a>
 </center>
 </figure>
 
