@@ -6,7 +6,7 @@ title: The Rise and Demise of College Majors
 
 <figure>
 <center>
-   <a href="/images/header_title_rod.png"><img width="100%" src="/header_title_rod.png"></a>
+   <a href="/images/header_title_rod.png"><img width="100%" src="/images/header_title_rod.png"></a>
 </center>
 </figure>
 
@@ -181,7 +181,7 @@ Perhaps then the idea is to strike a medium. Yes, follow your passion but get cr
 
 <figure>
 <center>
-   <a href="/images/passion.png"><img width="50%" src="/images/passion.png"></a>
+   <a href="/images/pas_2.jpg"><img width="50%" src="/images/pas_2.jpg"></a>
 </center>
 </figure>
 
