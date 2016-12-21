@@ -45,7 +45,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/majors.jpg"><img width="50%" src="/images/majors.jpg"></a>
+   <a href="/images/majors.jpg"><img width="75%" src="/images/majors.jpg"></a>
 </center>
 </figure>
 
