@@ -6,7 +6,7 @@ title: The Rise and Demise of College Majors
 
 <figure>
 <center>
-   <a href="/images/major_sun.png"><img width="100%" src="/images/major_sun.png"></a>
+   <a href="/images/header_title_rod.png"><img width="100%" src="/header_title_rod.png"></a>
 </center>
 </figure>
 
@@ -42,6 +42,12 @@ Quick Links:
 <a name="mot"></a>
 
 # Motivation
+
+<figure>
+<center>
+   <a href="/images/majors.jpg"><img width="100%" src="/images/majors.jpg"></a>
+</center>
+</figure>
 
 All undergraduate students are, at some point in their college careers, required to select a major, or field of study, which they would like to specialize in. This major is often a reflection of genuine passion, percieved lucrativeness, and even global shifts in interest. With that said, we might guess that demand for particular majors is not necisarrily stable over time. 
 
@@ -172,6 +178,12 @@ As students, we often find ourselves in academically intensive environments wher
 In reality, these metrics such as GPA and test scores are important, otherwise they would have been devalued by our educational institutions long ago. But, there are metrics regarding each majors that this post did not capture and perhaps resist capture altogether. These metrics, passion, feelings of accomplishment, drive to get out of bed in the morning are critical in the development of the self in ways that GPA can never be. 
 
 Perhaps then the idea is to strike a medium. Yes, follow your passion but get creative in how you do it. Do it in such a way that you are able to support yourself financially and remain relevant to this changing world. Do it without compromising your core values. Do it so that you challenge yourself each day. Perhaps that is where success lies. 
+
+<figure>
+<center>
+   <a href="/images/passion.jpg"><img width="100%" src="/images/passion.jpg"></a>
+</center>
+</figure>
 
 ---
 
