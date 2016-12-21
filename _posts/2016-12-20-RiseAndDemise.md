@@ -57,7 +57,7 @@ In this post, we will look at college applications to each major, college admiss
 
 We will use admissions statistics from a major US University, the University of California at Los Angeles (UCLA) for our analysis. The data comes from the <a href="https://www.admission.ucla.edu/prospect/adm_tr/Tr_Prof03_mjr.htm" target="_blank">UCLA Admissions Website</a> website. 
 
-The data spans the years **2003 until 2016** and includes fields such as Number of Applicants, Number of Admitees, Number of Enrolees, Average Applicant GPA, Average Admitee GPA, and Average Enrolee GPA. The data for **Fall 205** and **Fall 2016** contains a more limited view with only Number of Applicants, Number of Admitees, and information about Admitee GPA.
+The data spans the years **2003 until 2016** and includes fields such as Number of Applicants, Number of Admitees, Number of Enrolees, Average Applicant GPA, Average Admitee GPA, and Average Enrolee GPA. The data for **Fall 2015** and **Fall 2016** contains a more limited view with only Number of Applicants, Number of Admitees, and information about Admitee GPA.
 
 ## Brief Notes on the Data
 
