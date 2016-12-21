@@ -6,7 +6,7 @@ title: The Rise and Demise of College Majors
 
 <figure>
 <center>
-   <a href="/images/sankey.jpg"><img width="100%" src="/images/sankey.jpg"></a>
+   <a href="/images/sun.png"><img width="100%" src="/images/sun.png"></a>
 </center>
 </figure>
 
