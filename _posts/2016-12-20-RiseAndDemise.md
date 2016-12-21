@@ -58,7 +58,7 @@ In this post, we will look at college applications to each major, college admiss
 
 We will use admissions statistics from a major US University, the University of California at Los Angeles (UCLA) for our analysis. The data comes from the <a href="https://www.admission.ucla.edu/prospect/adm_tr/Tr_Prof03_mjr.htm" target="_blank">UCLA Admissions Website</a> website. 
 
-The data spans the years **2003 until 2016** and includes fields such as counts, GPAs, and units for applicants, admitees, and enrolees. The data for **Fall 2015** and **Fall 2016** contains a more limited view with only data for applicants and admitees.
+The data spans the years **2003 until 2016** and includes fields such as counts, GPAs, and units for applicants, admitees, and enrolees. The data for **Fall 2015** and **Fall 2016** contains a more limited view with only data for applicants and admitees. It is important to note that this data pertains to transfer students who transfer into UCLA from other universities, typically community colleges.
 
 ---
 
@@ -72,7 +72,11 @@ The data spans the years **2003 until 2016** and includes fields such as counts,
 </div>
 </center>
 
-The tool above lets you go wild and explore which majors are on the rise in terms of number of applicants, applicant GPA, admission rate, and admitted student GPA. Note that for space reasons, all majors are not displayed. Rather the top 9 in each of the four groups is displayed.
+The tool above lets you go wild and explore which majors are on the rise in terms of number of applicants, applicant GPA, admission rate, and admitted student GPA. There is a lot of information contained here but let's just highlight some of the key takeaways.
+
+* Majors which have a growing applicant rate, decreasing admission rate and a growing admission GPA can be thought of as having "increased demand". Indeed, these majors are attracting more and more applicants, which perhaps the university did not prepare for. In response, the university may have accepted a similar number of students from that major as before, which explains the lower admit rate. In addition, the university would have the ability to raise its admitted GPA with so many more applicants.
+* We can reverse the above story to find majors which are on the decline. Indeed, if fewer and fewer studentsa re applying to a major, the university might have to raise its admit rate to maintain a similar number of students from that major. It might also have less flexibility to choose very high performing students in this case.
+* We can also check the growth rates of applicants over time to find out which majors are attracting the most students over time.
 
 ---
 
