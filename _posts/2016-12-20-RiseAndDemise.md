@@ -111,7 +111,7 @@ How can you use this data to your advantage:
 
 # Which Majors are Getting Farther From Reach?
 
-After playing with the dashboard above and looking at applicant GPAs vs. admit GPAs, you have probably found that applicant GPAs tend to be lower, sometimes much lower. This itself is not a surprise since colleges usually pick the students in the applicant pool with the highest GPAs. But, it does lead to an interesting question: ** For which majors is the gap between admit GPA and applicant GPA getting larger over time. ** For majors where this gap is getting wider and wider, hopeful applicants just cannot get their GPAs to keep up with the GPAs that UCLA requires. 
+After playing with the dashboard above and looking at applicant GPAs vs. admit GPAs, you have probably found that applicant GPAs tend to be lower, sometimes much lower. This itself is not a surprise since colleges usually pick the students in the applicant pool with the highest GPAs. But, it does lead to an interesting question: **For which majors is the gap between admit GPA and applicant GPA getting larger over time?** For majors where this gap is getting wider and wider, hopeful applicants just cannot get their GPAs to keep up with the GPAs that UCLA requires. 
 
 Perhaps there is the opposite trend as well. That is, perhaps there are majors where the applicant GPA is growing faster than the admit GPA, so that applicants are more than able to keep up with the GPA that a major demands. Before looking at growth though, let's get an idea of the size of this admit-applicant GPA gap for each major. We simply compute the gap for each year and then take the average across all years. We first show the results for the **top 20 majors by share of applicants**. 
 
