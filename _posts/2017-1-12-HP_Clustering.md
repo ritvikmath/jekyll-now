@@ -40,6 +40,12 @@ Quick Links:
 
 # How Similar are Two Characters in the Wizarding World?
 
+<figure>
+<center>
+   <a href="/images/friends.png"><img width="100%" src="/images/friends.png"></a>
+</center>
+</figure>
+
 In the popular book series, *Harry Potter*, author J.K. Rowling brings to life countless diverse and exciting characters connected by their co-inhabitance in a wizarding world. It is clear to readers of even just the first book that the protagonist trio of wizards, Harry, Ron, and Hermione form a tight knit community within this universe. It may be more unclear however, the exact nature of the communities that many of the other inhabitants of this world belong to. This post aims to detect the underlying communities in the Harry Potter universe using a very intuitive measure: text distances. 
 
 Let's get into it with an example.
