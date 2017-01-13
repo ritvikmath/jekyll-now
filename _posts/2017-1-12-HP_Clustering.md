@@ -100,8 +100,8 @@ We can also rank each character in the wizarding world by relative importance. H
 Cool Stuff!:
 
 * We see Harry's closest friends and, well, Snape in the innermost region
-* One level further, we see some rather bad guys as well as some supporting characters
-* In the furthest rung, we see some supporting characters and poor old Hedwig the owl
+* One level further, we see some rather bad guys as well as some core supporting characters
+* In the furthest rung, we see some secondary supporting characters and poor old Hedwig the owl
 
 ---
 
