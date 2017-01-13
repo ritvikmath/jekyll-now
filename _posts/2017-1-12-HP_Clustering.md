@@ -42,7 +42,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/friends.png"><img width="100%" src="/images/friends.png"></a>
+   <a href="/images/friends.png"><img width="80%" src="/images/friends.png"></a>
 </center>
 </figure>
 
