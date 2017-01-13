@@ -93,7 +93,7 @@ We can also rank each character in the wizarding world by relative importance. H
 
 <figure>
 <center>
-   <a href="/images/radialpotter.png"><img width="150%" src="/images/radialpotter.png"></a>
+   <a href="/images/radialpotter.png"><img width="200%" src="/images/radialpotter.png"></a>
 </center>
 </figure>
 
