@@ -6,7 +6,7 @@ title: Detecting Communities in the Harry Potter Universe
 
 <figure>
 <center>
-   <a href="/images/g3.png"><img width="100%" src="/images/g3.png"></a>
+   <a href="/images/g3.png"><img width="60%" src="/images/g3.png"></a>
 </center>
 </figure>
 
