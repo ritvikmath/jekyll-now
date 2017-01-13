@@ -1,0 +1,86 @@
+---
+layout: post
+comments: true
+title: Detecting Communities in the Harry Potter Universe
+---
+
+<figure>
+<center>
+   <a href="/images/fullgraph.png"><img width="100%" src="/images/fullgraph.png"></a>
+</center>
+</figure>
+
+<center>
+<font size="5"><b>Using Text Distances to Cluster Characters in the Wizarding World</b></font>
+</center>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
+---
+
+Quick Links: 
+
+* [How Similar are two Characters in the Wizarding World?](#wiz)  
+* [Uncovering Hidden Wizarding Communities](#comm)
+* [How Important is each Character?](#imp)
+
+---
+
+<a name="wiz"></a>
+
+# How Similar are two Characters in the Wizarding World?
+
+In the popular book series, *Harry Potter*, author J.K. Rowling brings to life countless diverse and exciting characters connected by their coinhabitance in a wizarding world. It is clear to readers of even just the first book that the protagonist trio of wizards, Harry, Ron, and Hermione form a tight knit community within this universe. It may be more unclear however, the exact nature of the communities that many of the the other inhabitants of this world belong to. This post aims to detect the underlying communities in the Harry Potter universe using a very intuitive measure: text distances. 
+
+Let's get into it with an example.
+
+Suppose we wish to find the similarity betweenthe main protagonist, Harry Potter, and his best friend, Ron Weasley. We will measure this similarity accross all seven books in the series, one book at a time. 
+
+We start by scanning through the first book in the series, *The Sorceror's Stone* and creating a list of each index which is the word 'Harry'. For example, just for the sake of example, suppose 'Harry' is the 1st, 10th, 100th, and 1000th word of this book. Then, we get the list: [1, 10, 100, 1000]. 
+
+We now do the same for 'Ron'. Suppose we get [5, 20, 150] (note in our example, 'Ron' only occurs three times while 'Harry' occurs four times). 
+
+Now we wish to find the similarity between Harry and Ron. We do this in two steps, the results of which we average for our final answer. First, we scan through Harry's list, [1, 10, 100, 1000], and for each number, we find the smallest absolute difference with any number in Ron's list. If that sounds confusing, let's dive in and do the work! Since 1 is the first number in Harry's list, we look through Ron's list and subtract 1 from each number there. We then report back the smallest absolute value we find. We see that choosing Ron's 5 gives us an absolute difference of 4, choosing Ron' 20 gives an absolute differene of 19, and choosing Ron's 150 gives and absolute difference of 149, so we choose the 5 and record the absolute differene of 4 in another list: [4].
+
+Now, we look at Harry's second element, which is 10 and choose Ron's 5 again, so that our absolute difference list is now [4, 5]. We then consider Harry's 100 and 1000 so that our final absolute difference list reads: [4, 5, 50, 850]. Now, what do these numbers represent? They really represent the closet occurance of 'Ron' to each occurence of 'Harry'. If we wan't an 'average' of such measures, we can take the median of this list, which happens to be 27.5. That is, 'Ron' is, on average, 27.5 words away from Harry. 
+
+Now, we repeat this process but considering Ron first and Harry second. So, we consider Ron's 5, which is closest to Harry's 1, then consider Ron's 20, closest to Harry's 10, and finally Ron's 150, closest to Harry's 100. Then, Ron's absolute differences list is: [4, 10, 50], whose median is 10. So, on average 'Harry' is 10 words away from 'Ron' in our example. We now take the mean of our Harry-Ron distance and Ron-Harry distance to get our Harry and Ron similarity score. In this case it is the average of 27.5 and 10 which is 18.75. So, the simiarlity between Harry and Ron is 18.75. 
+
+We (or rather, a computer) can go through the process above for any two characters in the Harry Potter world and find one number which tells us how similar these two characters are. 
+
+And then, the fun can begin.
+
+---
+
+<a name="comm"></a>
+
+# Uncovering Hidden Wizarding Communities
+
+Based on the similarities we derived in the previous section, we can use a powerful mathematical grouping technique called 
+---
+
+<a name="imp"></a>
+
+# How Important is each Character?
+
+
+---
+
+
+Thanks for reading and please leave comments!
+
+
+
+
+
+
