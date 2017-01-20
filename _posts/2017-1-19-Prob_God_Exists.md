@@ -32,6 +32,12 @@ Here, we assume that:
 
 $$ A > 0, B < 0, C < 0, D > 0 $$
 
+since you being right about the existence/non-existence of a god is a gain while you being wrong about the existence/non-existence of a god is a loss.
+
+We will also assume that each person has their own probability, $ p $, that a god exists.
+
+
+
 
 
 
