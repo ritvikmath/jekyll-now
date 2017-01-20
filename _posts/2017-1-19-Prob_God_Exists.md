@@ -79,11 +79,19 @@ $$
 p > \frac{(D-B)}{(D-B) + (A-C)}
 $$
 
-But what is $(D-B)$? It is really the added benefit you get from switching from belief to disbelief in a world where there is no god. Let's say $G_{belief} = D-B$.
+But what is $(D-B)$? It is really the added benefit you get from switching from belief to disbelief in a world where there is no god. Let's say $G_{disbelief} = D-B$.
 
-And what is $(A-C)$? It's just the added benefit you get from switching from disbelief to beleif in a world where there is a god. Let's say $G_{disbelief} = A-C$.
+And what is $(A-C)$? It's just the added benefit you get from switching from disbelief to beleif in a world where there is a god. Let's say $G_{belief} = A-C$.
 
-So 
+So, if you choose to believe in a god:
+
+$$
+p > \frac{G_{disbelief}}{G_{disbelief} + G_{belief}}
+$$
+
+This makes sense since if $G_{belief}$, your gain from believing in a god, gets higher and higher, the quantity $\frac{G_{disbelief}}{G_{disbelief} + G_{belief}}$ will approach $0$ and you will choose to believe in a god even if your personal probability that a god exists, $p$, is small. In more casual terms, *if you think your life will be a lot better by believing in a god, you don't necissarily need great faith in the existence of a god to believe.*
+
+Let's flip that story. If $G_{disbelief}$, your gain from not believing in a god, gets higher and higher, the quantity $\frac{G_{disbelief}}{G_{disbelief} + G_{belief}}$ will approach $1$. In everyday terms this says that *if you think your life will be a lot better by not believing in a god, you would need a lot of faith in the existance of a god to believe.* 
 
 
 
