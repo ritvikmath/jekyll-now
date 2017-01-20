@@ -104,7 +104,10 @@ $$
 Q(G_{belief}, G_{disbelief}) = \frac{G_{disbelief}}{G_{disbelief} + G_{belief}}
 $$
 
-so that if $p > Q(G_{belief}, G_{disbelief})$, you choose to believe in a god and if $p < Q(G_{belief}, G_{disbelief})$, you choose to not believe in a god.
+so
+
+* if $p > Q(G_{belief}, G_{disbelief})$, you choose to believe in a god
+* if $p < Q(G_{belief}, G_{disbelief})$, you choose to not believe in a god.
 
 What happens if $G_{belief}$, your gain from believing in a god, gets higher and higher? Well, $Q$ will approach $0$ and you will choose to believe in a god even if your personal probability that a god exists, $p$, is small. In more casual terms, *if you think your life will be a lot better by believing in a god, you don't necissarily need great faith in the existence of a god to believe.*
 
