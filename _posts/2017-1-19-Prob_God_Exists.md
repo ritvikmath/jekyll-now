@@ -76,8 +76,14 @@ $$
 which simplifies down to:
 
 $$
-p > \frac{D-B}{(D-B) + (A-C)}
+p > \frac{(D-B)}{(D-B) + (A-C)}
 $$
+
+But what is $(D-B)$? It is really the added benefit you get from switching from belief to disbelief in a world where there is no god. Let's say $G_{belief} = D-B$.
+
+And what is $(A-C)$? It's just the added benefit you get from switching from disbelief to beleif in a world where there is a god. Let's say $G_{disbelief} = A-C$.
+
+So 
 
 
 
