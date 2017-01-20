@@ -37,7 +37,7 @@ We will also assume that each person has their own personal probability, $ p $, 
 Now what is your expected payoff if you choose to believe in a god? Well it should be a probability-weighted average of your reward in the case where you believe in a god and a god exists (Case A) and your loss in the case where you believe in a god but no god exists (Case B). In other words:
 
 $$
-Expected Payoff from Belief = p \times A + (1-p) \times B
+Expected \, Payoff \, from \, Belief = p \times A + (1-p) \times B
 $$
 
 
