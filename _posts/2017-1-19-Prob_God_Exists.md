@@ -30,7 +30,7 @@ Each case has an associated benefit (Case A and Case D) or cost (Case B and Case
 
 Here, we assume that:
 
-$$A > 0, B < 0, C < 0, D > 0$$
+$$ A > 0, B < 0, C < 0, D > 0 $$
 
 
 
