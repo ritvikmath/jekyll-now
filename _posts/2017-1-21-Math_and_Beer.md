@@ -68,6 +68,13 @@ title: How Many Beers Does it Take for Me to Suck at Math?
             fontSize: 50
             }
         },
+        
+        vAxis: {
+        title: 'Averate Time per Question',
+         textStyle: {
+            fontSize: 50
+            }
+        },
   
         width: 900,
         height: 500
