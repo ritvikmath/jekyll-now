@@ -57,6 +57,13 @@ title: How Many Beers Does it Take for Me to Suck at Math?
       ]);
      
     var options = {
+    
+    titleTextStyle: {
+       
+        fontSize: 20
+        
+    },
+    
     fontSize: 50, 
     
     chart: {
