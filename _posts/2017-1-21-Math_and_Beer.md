@@ -58,33 +58,14 @@ title: How Many Beers Does it Take for Me to Suck at Math?
      
     var options = {
     
-    titleTextStyle: {
-       
-        fontSize: 20
-        
-    },
-    
-    fontSize: 50, 
-    
     chart: {
           title: 'Average Time per Question',
           subtitle: 'in seconds',
-          fontSize: 50
         },
         
-       hAxis : { 
-        textStyle : {
-            fontSize: 20
-        }
+      
 
-    },
-        
-        vAxis: {
-        title: 'Averate Time per Question',
-         textStyle: {
-            fontSize: 50
-            }
-        },
+    
   
         width: 900,
         height: 500
