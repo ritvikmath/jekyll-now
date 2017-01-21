@@ -61,14 +61,10 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         width: 900,
         height: 500,
        
-        axes: {
-          // Adds labels to each axis; they don't have to match the axis names.
-          vAxis: {
-    
-      title:'Average Time per Question'
-    
+        hAxis: {title: 'Fluid Ounces of Beer'},
+        vAxis: {title: 'Average Seconds per Question'}
         }
-      };
+        
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
 
