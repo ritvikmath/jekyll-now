@@ -183,7 +183,11 @@ My biggest takeaway after all this is:
 
 which is probabaly why its so hard for me and lets face it, you, to split the check after a long night of drinking with friends or family.
 
-This made for a really interesting night and some pretty cool results. Still, the sample size as far as I know is 1 (me), so I'd love to see how this experiment fares for others (who carry it out safely). As for me, I will resign for the coming weeks to the books and leave the beers behind.
+---
+
+This made for a *really* interesting night and some pretty cool results. Still, the sample size as far as I know is 1 (me), so I'd love to see how this experiment fares for others (who carry it out safely). 
+
+As for me, I will resign for the coming weeks to the books and leave the beers behind.
 
 ---
 
