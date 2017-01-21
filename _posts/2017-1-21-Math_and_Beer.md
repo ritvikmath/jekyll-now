@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: How Many Beers Does it Take for Me to Suck at Math?
+title: How Many Beers Does it Take for Me to Get Bad at Math?
 ---
 
 <figure>
@@ -94,15 +94,7 @@ Then, I would drink 3 fluid ounces (floz) of beer, wait a couple of minutes, and
 
 ---
 
-# How does value flow between UC schools?
-
-So far, we have been looking at each UC campus individually, independent of their connections to other UC campuses. But, there are fundamental links between campuses though which value flows over time. Let's elaborate a bit.
-
-There are many employees in our dataset who work at multiple UC campuses over our six year period. Employees may transfer from one UC campus to another for a variety of reasons: better pay, geographic relocation, a new job, etc. 
-
-Furthermore, there are many employees who are employed at multiple UC campuses within a year. How can this be? It is best explained as a symptom of the fact that our data is annual. For example, if an employee works at UC Riverside for the first half of 2012 and UC Merced for the second half of 2012, she will be recorded as working at both Riverside and Merced in 2012.
-
-Let's look at a real employee from the data. Hover over each bar to see salary information.
+# TestGraph
 
 <br>
 
@@ -113,7 +105,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line-tooltip" style="height: 240px;"></div>
+   <div id="line_top_x" style="height: 240px;"></div>
 </center>
 </html>
 
