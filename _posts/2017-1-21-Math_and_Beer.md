@@ -56,10 +56,15 @@ title: How Many Beers Does it Take for Me to Get Bad at Math?
           subtitle: 'in millions of dollars (USD)'
         },
         width: 900,
-        height: 500
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
       };
 
-      var chart = new google.charts.Line(document.getElementById('linechart_material'));
+      var chart = new google.charts.Line(document.getElementById('line_top_x'));
 
       chart.draw(data, options);
     }
