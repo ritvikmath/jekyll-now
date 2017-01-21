@@ -61,8 +61,15 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         width: 900,
         height: 500,
        
-        hAxis: {title: 'Fluid Ounces of Beer'},
-        vAxis: {title: 'Average Seconds per Question'}
+        axes: {
+          x: {
+            0: {title: 'Fluid Ounces of Beer'}
+          },
+          
+          y: {
+            0: {title: 'Average Time per Question (Seconds)'}
+          }
+        }
         }
         
 
