@@ -120,7 +120,7 @@ text-align: center !important;
 </center>
 </html>
 
-* Without even considering the effects of the beer, it is clear that the difficulty in terms of time for the operations goes from Addition to Subtraction to Multiplication to Division where Division is much harder than the other three operations.
+* Without even considering the effects of the beer, it is clear that the difficulty in terms of time for the operations goes from Addition to Subtraction to Multiplication to Division where Division is much harder than the other three operations
 * For Addition and Subtraction, it doesn't seem like the beer has any real effect, I personally didn't find these to get harder as the night went on
 * With Multiplication, we see a slight upward trend
 * I can say right now that division DEFINITELY got harder as the night went on. The classic division algorithm started seeming longer and longer and towards the end, it was difficult to keep track of all the steps and make educated guesses about factorizing numbers
@@ -140,7 +140,7 @@ It wasn't just that I was getting slower at answering some of the questions, it 
 </figure>
 
 * Division just gets worse and worse over the night until it springs back a bit at the end. Subtraction follows a similar downward trend
-* Addition is strange, it starts getting worse and then halway through, springs back up and I get better at it
+* Addition is strange, it starts getting worse and then halfway through, springs back up and I get better at it
 * Multiplication actually seems to show an upward trend ... then again it is really volatile compared to the others
 
 ---
@@ -155,7 +155,7 @@ Let's take a look at the results in a scatterplot to see if there's any correlat
 </center>
 </figure>
 
-* Multipliction and Division definitely show upward trends: they get harder as I drank more beer, I can attest to that
+* Multiplication and Division definitely show upward trends: they get harder as I drank more beer, I can attest to that
 * Addition seems pretty stable, as we noted before
 * Subtraction actually seems to get easier in terms of time as I drank more beer but then again, my accuracy at subtraction was falling a lot over time too
 
@@ -181,7 +181,7 @@ My biggest takeaway after all this is:
 **division skills crash fast and crash hard**
 {:center}
 
-which is probabaly why its so hard for me and lets face it, you, to split the check after a long night of drinking with friends or family.
+which is probably why it’s so hard for me and let’s face it, you, to split the check after a long night of drinking with friends or family.
 
 ---
 
