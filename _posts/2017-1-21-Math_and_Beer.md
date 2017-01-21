@@ -63,14 +63,14 @@ title: How Many Beers Does it Take for Me to Suck at Math?
        
         axes: {
           x: {
-            label: 'Fluid Ounces of Beer'
-          },
+            0: {label: 'Fluid Ounces of Beer'}
+          }, 
           
-          y: {
-            label: 'Average Time per Question (Seconds)'
+          x: {
+            0: {label: 'Average Time per Question (Seconds)'}
           }
-        }
-        }
+         }
+        
         
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
