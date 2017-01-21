@@ -33,25 +33,15 @@ title: How Many Beers Does it Take for Me to Suck at Math?
       data.addColumn('number', 'Division');
 
       data.addRows([
-         [0.0, 7.2, 10.0, 13.9, 23.7],
-         [3.0, 8.6, 8.7, 10.0, 20.1],
-         [6.0, 8.4, 8.7, 14.7, 54.8]
+         [1, 7.2, 10.0, 13.9, 23.7],
+         [2, 8.6, 8.7, 10.0, 20.1],
+         [3, 8.4, 8.7, 14.7, 54.8]
       ]);
      
     var materialOptions = {
         width: 900,
         height: 500,
-        series: {
-          // Gives each series an axis name that matches the Y-axis below.
-          0: {axis: 'Fluid Ounces'},
-        },
-        axes: {
-          // Adds labels to each axis; they don't have to match the axis names.
-          y: {
-            Temps: {label: 'Fluid Ounces'},
-            Daylight: {label: 'Average Seconds per Question'}
-          }
-        }
+        
       };
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
