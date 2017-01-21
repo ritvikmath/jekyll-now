@@ -66,7 +66,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
             0: {label: 'Fluid Ounces of Beer'}
           }, 
           
-          x: {
+          y: {
             0: {label: 'Average Time per Question (Seconds)'}
           }
          }
