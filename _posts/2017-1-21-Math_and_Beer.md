@@ -63,10 +63,10 @@ title: How Many Beers Does it Take for Me to Suck at Math?
        
         axes: {
           // Adds labels to each axis; they don't have to match the axis names.
-          vAxes: {
-    1: {
+          vAxis: {
+    
       title:'Average Time per Question'
-    }
+    
         }
       };
 
