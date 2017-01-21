@@ -56,6 +56,19 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         [60.0, 7.9, 9.1, 13.8, 28.2]
       ]);
 
+      var options = {
+        chart: {
+          title: 'Box Office Earnings in First Two Weeks of Opening',
+          subtitle: 'in millions of dollars (USD)'
+        },
+        width: 900,
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
+      };
      
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
