@@ -175,7 +175,7 @@ Well, no graph here, but just wanted to compare my scratch work sober (left) and
 
 # So Why is Splitting the Check so Hard?
 
-My biggest takeaway after all this is that 
+My biggest takeaway after all this is:
 
 {:center: style="text-align: center"}
 **division skills crash fast and crash hard**
