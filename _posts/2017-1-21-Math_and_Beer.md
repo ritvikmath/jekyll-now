@@ -171,5 +171,16 @@ Well, no graph here, but just wanted to compare my scratch work sober (left) and
 </center>
 </figure>
 
+---
+
+# So Why is Splitting the Check so Hard?
+
+{:center: style="text-align: center"}
+
+My biggest takeaway after all this is that *division skills crash fast and crash hard* which is probabaly why its so hard for me and lets face it, you, to split the check after a long night of drinking with friends or family.
+
+{:center}
+
+
 
 
