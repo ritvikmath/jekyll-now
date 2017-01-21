@@ -114,7 +114,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_top_x" style="height: 240px;"></div>
+   <div id="line_bottom_x" style="height: 240px;"></div>
 </center>
 </html>
 
