@@ -61,6 +61,10 @@ title: How Many Beers Does it Take for Me to Suck at Math?
           title: 'Average Time per Question',
           subtitle: 'in seconds'
         },
+        
+        hAxis: {
+        fontSize: 20
+        },
   
         width: 900,
         height: 500
