@@ -107,6 +107,8 @@ A plethora of results follows.
 
 # Average Time per Question (seconds) vs. Fluid Ounces of Beer Consumed
 
+Hover, Click, Select!
+
 <br>
 
 <html>
