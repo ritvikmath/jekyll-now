@@ -26,7 +26,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
     function drawChart() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Fluid Ounces');
+      data.addColumn('number', 'Fluid Ounces of Beer');
       data.addColumn('number', 'Addition');
       data.addColumn('number', 'Subtraction');
       data.addColumn('number', 'Multiplication');
@@ -56,16 +56,19 @@ title: How Many Beers Does it Take for Me to Suck at Math?
          [60, 7.9, 9.1, 13.8, 28.2]
       ]);
      
-    var options = {
-    
-     width: 900,
+    var materialOptions = {
+  
+        width: 900,
         height: 500,
-        
-        hAxis: {
-          title: 'Fluid Ounces of Beer',
+        series: {
+          // Gives each series an axis name that matches the Y-axis below.
+          0: {axis: 'Time'}
         },
-        vAxis: {
-          title: 'Average Time per Question',
+        axes: {
+          // Adds labels to each axis; they don't have to match the axis names.
+          y: {
+            Time: {label: 'Average Time per Question'}
+          }
         }
       };
 
