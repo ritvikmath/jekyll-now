@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: How Many Beers Does it Take for Me to Get Bad at Math?
+title: How Many Beers Does it Take for Me to Suck at Math?
 ---
 
 <figure>
@@ -19,11 +19,10 @@ title: How Many Beers Does it Take for Me to Get Bad at Math?
 <html>
 <head>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('43', {'packages':['line']});
+      google.charts.load('current', {'packages':['line']});
       google.charts.setOnLoadCallback(drawChart);
-      google.charts.setOnLoadCallback(drawTable);
-      google.charts.setOnLoadCallback(drawTimeline);
 
       function drawChart() {
 
