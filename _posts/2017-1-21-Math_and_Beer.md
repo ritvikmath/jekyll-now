@@ -127,9 +127,11 @@ text-align: center !important;
 
 ---
 
+It wasn't just that I was getting slower at answering some of the questions, it was also that I was getting less and less accurate. Here, I'm measuring drinks as each batch of 12 fluid ounces (basically each beer).
+
 # Percent Questions Answered Correctly vs. Number of Drinks
 
-It wasn't just that I was getting slower at answering some of the questions, it was also that I was getting less and less accurate. Here, I'm measuring drinks as each batch of 12 fluid ounces (basically each beer).
+
 
 <figure>
 <center>
@@ -141,6 +143,33 @@ It wasn't just that I was getting slower at answering some of the questions, it 
 * Addition is strange, it starts getting worse and then halway through, springs back up and I get better at it
 * Multiplication actually seems to show an upward trend ... then again it is really volatile compared to the others
 
+---
+
+Let's take a look at the results in a scatterplot to see if there's any correlation between fluid ounces consumed and time per problem.
+
+# Time per Question (seconds) vs. Fluid Ounces of Beer Consumed
+
+<figure>
+<center>
+   <a href="/images/beerscatter.png"><img width="100%" src="/images/beerscatter.png"></a>
+</center>
+</figure>
+
+* Multipliction and Division definitely show upward trends: they get harder as I drank more beer, I can attest to that
+* Addition seems pretty stable, as we noted before
+* Subtraction actually seems to get easier in terms of time as I drank more beer but then again, my accuracy at subtraction was falling a lot over time too
+
+---
+
+# Messiness of Scratch Work vs. Number of Beers
+
+Well, no graph here, but just wanted to compare my scratch work sober (left) and after 5 drinks (right). Yikes.
+
+<figure>
+<center>
+   <a href="/images/scratch.png"><img width="100%" src="/images/scratch.png"></a>
+</center>
+</figure>
 
 
 
