@@ -26,7 +26,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
     function drawChart() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('string', 'Fluid Ounces');
+      data.addColumn('number', 'Fluid Ounces');
       data.addColumn('number', 'Addition');
       data.addColumn('number', 'Subtraction');
       data.addColumn('number', 'Multiplication');
