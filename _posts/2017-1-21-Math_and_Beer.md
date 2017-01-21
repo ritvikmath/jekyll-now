@@ -110,7 +110,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_ops" style="height: 240px;"></div>
+   <div id="line_ops"></div>
 </center>
 </html>
 
