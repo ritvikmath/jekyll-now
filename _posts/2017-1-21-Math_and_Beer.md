@@ -52,11 +52,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
        
         width: 900,
         height: 500,
-        axes: {
-          x: {
-            0: {side: 'top'}
-          }
-        }
+       
       };
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
