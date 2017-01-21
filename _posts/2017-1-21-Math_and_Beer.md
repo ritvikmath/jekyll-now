@@ -61,14 +61,10 @@ title: How Many Beers Does it Take for Me to Get Bad at Math?
       var options = {
         width: 900,
         height: 500,
-        axes: {
-          x: {
-            0: {side: 'bottom'}
-          }
         }
       };
 
-      var chart = new google.charts.Line(document.getElementById('line_bottom_x'));
+      var chart = new google.charts.Line(document.getElementById('line_ops'));
 
       chart.draw(data, options);
     }
@@ -114,7 +110,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_bottom_x" style="height: 240px;"></div>
+   <div id="line_ops" style="height: 240px;"></div>
 </center>
 </html>
 
