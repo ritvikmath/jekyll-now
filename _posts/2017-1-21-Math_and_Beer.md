@@ -56,19 +56,17 @@ title: How Many Beers Does it Take for Me to Suck at Math?
          [60, 7.9, 9.1, 13.8, 28.2]
       ]);
      
-    var materialOptions = {
+    var options = {
   
         width: 900,
         height: 500,
-        series: {
-          // Gives each series an axis name that matches the Y-axis below.
-          0: {axis: 'Time'}
-        },
+       
         axes: {
           // Adds labels to each axis; they don't have to match the axis names.
-          y: {
-            Time: {label: 'Average Time per Question'}
-          }
+          vAxes: {
+    1: {
+      title:'Average Time per Question'
+    }
         }
       };
 
