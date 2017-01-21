@@ -57,19 +57,16 @@ title: How Many Beers Does it Take for Me to Suck at Math?
       ]);
      
     var options = {
+    chart: {
+          title: 'Average Time per Question',
+          subtitle: 'in seconds'
+        },
   
         width: 900,
-        height: 500,
+        height: 500
+        }
        
-        axes: {
-          x: {
-            label: 'Fluid Ounces of Beer'
-          }, 
-          
-          y: {
-            label: 'Average Time per Question (Seconds)'
-          }
-         }
+       
         
         
 
