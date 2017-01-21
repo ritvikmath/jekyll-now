@@ -48,6 +48,16 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         [14,  4.2,  6.2,  3.4]
       ]);
      
+     var options = {
+       
+        width: 900,
+        height: 500,
+        axes: {
+          x: {
+            0: {side: 'top'}
+          }
+        }
+      };
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
 
