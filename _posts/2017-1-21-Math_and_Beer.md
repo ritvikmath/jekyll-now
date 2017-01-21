@@ -63,7 +63,9 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         },
         
         hAxis: {
-        fontSize: 20
+         textStyle: {
+            fontSize: 20
+            }
         },
   
         width: 900,
