@@ -26,21 +26,21 @@ title: How Many Beers Does it Take for Me to Suck at Math?
     function drawChart() {
 
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Fluid Ounces');
+      data.addColumn('string', 'Fluid Ounces');
       data.addColumn('number', 'Addition');
       data.addColumn('number', 'Subtraction');
       data.addColumn('number', 'Multiplication');
       data.addColumn('number', 'Division');
 
       data.addRows([
-         [0.0, 7.2, 10.0, 13.9, 23.7],
-         [3.0, 8.6, 8.7, 10.0, 20.1],
-         [6.0, 8.4, 8.7, 14.7, 54.8],
-         [9.0, 8.0, 9.2, 15.7, 26.9],
-         [12.0, 9.7, 9.4, 16.2, 35.8],
-         [15.0, 8.7, 11.1, 12.8, 15.4]
-         [18.0, 8.0, 10.0, 16.5, 24.2]
-         [21.0, 8.2, 8.3, 12.6, 53.6]
+         ['0', 7.2, 10.0, 13.9, 23.7],
+         ['3', 8.6, 8.7, 10.0, 20.1],
+         ['6', 8.4, 8.7, 14.7, 54.8],
+         ['9', 8.0, 9.2, 15.7, 26.9],
+         ['12', 9.7, 9.4, 16.2, 35.8],
+         ['15', 8.7, 11.1, 12.8, 15.4]
+         ['18', 8.0, 10.0, 16.5, 24.2]
+         ['21', 8.2, 8.3, 12.6, 53.6]
       ]);
      
      var options = {
