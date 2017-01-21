@@ -38,7 +38,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
          [3, 8.4, 8.7, 14.7, 54.8]
       ]);
      
-    var materialOptions = {
+    var options = {
         width: 900,
         height: 500,
         
