@@ -68,9 +68,6 @@ title: How Many Beers Does it Take for Me to Suck at Math?
     }
   </script>
 </head>
-<body>
-  <div id="line_top_x"></div>
-</body>
 </html>
 
 ---
