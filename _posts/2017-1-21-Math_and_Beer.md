@@ -33,9 +33,9 @@ title: How Many Beers Does it Take for Me to Suck at Math?
       data.addColumn('number', 'Division');
 
       data.addRows([
-         [1, 7.2, 10.0, 13.9, 23.7],
-         [2, 8.6, 8.7, 10.0, 20.1],
-         [3, 8.4, 8.7, 14.7, 54.8]
+         [0, 7.2, 10.0, 13.9, 23.7],
+         [3, 8.6, 8.7, 10.0, 20.1],
+         [6, 8.4, 8.7, 14.7, 54.8]
       ]);
      
     var options = {
