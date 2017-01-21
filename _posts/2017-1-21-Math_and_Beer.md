@@ -56,11 +56,20 @@ title: How Many Beers Does it Take for Me to Suck at Math?
          [60.0, 7.9, 9.1, 13.8, 28.2]
       ]);
      
-     var options = {
-       
-        width: 800,
-        height: 400,
-       
+    var materialOptions = {
+        width: 900,
+        height: 500,
+        series: {
+          // Gives each series an axis name that matches the Y-axis below.
+          0: {axis: 'Fluid Ounces'},
+        },
+        axes: {
+          // Adds labels to each axis; they don't have to match the axis names.
+          y: {
+            Temps: {label: 'Fluid Ounces'},
+            Daylight: {label: 'Average Seconds per Question'}
+          }
+        }
       };
 
       var chart = new google.charts.Line(document.getElementById('line_top_x'));
