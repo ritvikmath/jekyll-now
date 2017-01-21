@@ -6,7 +6,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
 
 <figure>
 <center>
-   <a href="/images/decbeer.jpg"><img width="100%" src="/images/decbeer.jpg"></a>
+   <a href="/images/cans.jpg"><img width="100%" src="/images/cans.jpg"></a>
 </center>
 </figure>
 
@@ -59,10 +59,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
      
     var options = {
     
-    chart: {
-          title: 'Average Time per Question',
-          subtitle: 'in seconds',
-        },
+   
         
       
 
@@ -86,7 +83,7 @@ title: How Many Beers Does it Take for Me to Suck at Math?
 
 ---
 
-# Why Would I Do This?
+# Why Even Do This?
 
 Something I've found going out to bars or restaurants with a large group of people is that it gets increasingly harder to calculate how much each person should pay (including tip, tax, etc.) after I've had increasingly many drinks. That really got me thinking just how much alcohol affects mathematical ability. And, so this experiment was born!
 
@@ -94,9 +91,9 @@ Something I've found going out to bars or restaurants with a large group of peop
 
 # The Experiment
 
-As a mathematician, I don't get to design a lot of experiments, but given this chance, I wanted to do it as precisely as possible. The setup was pretty simple. I would start sober and take a random 28 question math test which I had programmed into my computer. This test consisted of 7 addition, 7 subtraction, 7 multiplication, and 7 division questions, each of which was timed. I would work out the answer on some scratch paper and then my results (if I was correct and how much time it took) was sent to a spreadsheet.
+As a mathematician, I don't get to design a lot of experiments, but given this chance, I wanted to do it as precisely as possible. The setup was pretty simple. I would start sober and take a random 28 question math test which I had programmed into my computer. This test consisted of 7 addition, 7 subtraction, 7 multiplication, and 7 division questions, each of which was timed. I would work out the answer on some scratch paper and then my results (correctness and time taken) was sent to a spreadsheet.
 
-Then, I would drink 3 fluid ounces (floz) of beer, wait a couple of minutes, and then repeat the random 28 question test. All in all, I worked my way up through the night from 0 fluid ounces of beer to 60 fluid ounces of beer, taking the test each 3 fluid ounces (20 tests taken total). 
+Then, I would drink 3 fluid ounces (floz) of beer, wait a couple of minutes, and then repeat the random 28 question test. All in all, I worked my way up through the night from 0 fluid ounces of beer to 60 fluid ounces of beer, taking the test each 3 fluid ounces (21 tests taken total). 
 
 <figure>
 <center>
@@ -104,9 +101,11 @@ Then, I would drink 3 fluid ounces (floz) of beer, wait a couple of minutes, and
 </center>
 </figure>
 
+A plethora of results follows.
+
 ---
 
-# TestGraph
+# Average Time per Question (seconds) vs. Fluid Ounces of Beer Consumed
 
 <br>
 
@@ -121,7 +120,26 @@ text-align: center !important;
 </center>
 </html>
 
+* Without even considering the effects of the beer, it is clear that the difficulty in terms of time for the operations goes from Addition to Subtraction to Multiplication to Division where Division is much harder than the other three operations.
+* For Addition and Subtraction, it doesn't seem like the beer has any real effect, I personally didn't find these to get harder as the night went on
+* With Multiplication, we see a slight upward trend
+* I can say right now that division DEFINITELY got harder as the night went on. The classic division algorithm started seeming longer and longer and towards the end, it was difficult to keep track of all the steps and make educated guesses about factorizing numbers
 
+---
+
+# Percent Questions Answered Correctly vs. Number of Drinks
+
+It wasn't just that I was getting slower at answering some of the questions, it was also that I was getting less and less accurate. Here, I'm measuring drinks as each batch of 12 fluid ounces (basically each beer).
+
+<figure>
+<center>
+   <a href="/images/beercorr.png"><img width="100%" src="/images/beercorr.png"></a>
+</center>
+</figure>
+
+* Division just gets worse and worse over the night until it springs back a bit at the end. Subtraction follows a similar downward trend
+* Addition is strange, it starts getting worse and then halway through, springs back up and I get better at it
+* Multiplication actually seems to show an upward trend ... then again it is really volatile compared to the others
 
 
 
