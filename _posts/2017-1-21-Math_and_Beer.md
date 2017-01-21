@@ -65,12 +65,12 @@ title: How Many Beers Does it Take for Me to Suck at Math?
           fontSize: 50
         },
         
-        hAxis: {
-        title: 'Fluid Ounces of Beer',
-         textStyle: {
-            fontSize: 50
-            }
-        },
+       hAxis : { 
+        textStyle : {
+            fontSize: 20
+        }
+
+    },
         
         vAxis: {
         title: 'Averate Time per Question',
