@@ -57,6 +57,8 @@ title: How Many Beers Does it Take for Me to Suck at Math?
       ]);
      
     var options = {
+    fontSize: 50, 
+    
     chart: {
           title: 'Average Time per Question',
           subtitle: 'in seconds'
