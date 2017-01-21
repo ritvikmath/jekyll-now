@@ -167,7 +167,7 @@ Well, no graph here, but just wanted to compare my scratch work sober (left) and
 
 <figure>
 <center>
-   <a href="/images/scratch.png"><img width="100%" src="/images/scratch.png"></a>
+   <a href="/images/scratch.jpg"><img width="100%" src="/images/scratch.jpg"></a>
 </center>
 </figure>
 
