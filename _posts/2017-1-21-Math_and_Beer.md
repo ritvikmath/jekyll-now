@@ -57,22 +57,12 @@ title: How Many Beers Does it Take for Me to Suck at Math?
         [60.0, 7.903999999999999, 9.113714285714286, 13.869285714285715, 28.265000000000004]
       ]);
 
-      var options = {
-        width: 900,
-        height: 500,
-        }
-      };
 
-      var chart = new google.charts.Line(document.getElementById('line_ops'));
+      var chart = new google.charts.Line(document.getElementById('lineops'));
 
       chart.draw(data, options);
     }
-      
-      
-      
-      
-     
-    </script>
+  </script>
 </head>
 </html>
 
@@ -109,7 +99,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_ops"></div>
+   <div id="lineops"></div>
 </center>
 </html>
 
