@@ -55,6 +55,14 @@ What makes this data extra valuable is that there were follow up surveys of thes
 
 # What are Commonalities within Dating vs. Married Couples?
 
+We start by looking at the similarities between two people who are dating and two people who are married. Dating is often percieved as a stepping stone to a long term commitment and eventually marriage. We would thus expect there to be some stronger similarities, possibly even demographically, between married couples compared to dating couples. Let's look at these similarities on four axes: race, religion, political party, and college education.
+
+<figure>
+<center>
+   <a href="/images/sidebyside.png"><img width="90%" src="/images/sidebyside.png"></a>
+</center>
+</figure>
+
 
 ---
 
