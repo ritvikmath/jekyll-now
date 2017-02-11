@@ -6,7 +6,7 @@ title: The Length and Strength of Romantic Relationships
 
 <figure>
 <center>
-   <a href="/images/header_hearts.png"><img width="90%" src="/images/header_hearts.png"></a>
+   <a href="/images/title_hearts.png"><img width="90%" src="/images/title_hearts.png"></a>
 </center>
 </figure>
 
@@ -59,7 +59,7 @@ We start by looking at the similarities between two people who are dating and tw
 
 <figure>
 <center>
-   <a href="/images/sidebyside.png"><img width="90%" src="/images/sidebyside.png"></a>
+   <a href="/images/sidebyside.png"><img width="100%" src="/images/sidebyside.png"></a>
 </center>
 </figure>
 
