@@ -30,6 +30,7 @@ Quick Links:
 * [Notes](#not)  
 
 ---
+---
 
 <a name="mot"></a>
 
@@ -49,6 +50,7 @@ The data used in this analysis comes from the <a href="https://data.stanford.edu
 
 What makes this data extra valuable is that there were follow up surveys of these individuals in the subsequent years. That is, the original survey took place in 2009 and was followed by a second wave in 2010, a third in 2011, a fourth in 2013 and a final fifth between 2014 and 2015. This adds a great depth of value because we not only get a static snapshot of the survey particpants, but also a follow up history. Indeed, it is this time component that allows us to identify couples that broke up and start asking questions about what factors might have been correlated with this dissolution.
 
+---
 ---
 
 <a name="com"></a>
@@ -142,6 +144,26 @@ Stay tuned for more on this later in this post!
 
 # When is a Couple Most Likely to Break Up?
 
+This second portion of the post will focus on dissolution rates in dating couples (so we will not consider married couples here). We really want to find out forces make or break a couple so that in the third part of this post, we can use that information to build a predictive model for couple dissolution. 
+
+The first question on our minds concerns the tendency for a couple to break up based on how long they have already been together. Now, some of you might be saying, "well obviously the longer they have been together the less likely they are to break up!" Let's see what the data has to say.
+
+## Probability of Breakup Within 1 Year Based on Length of Relationship
+
+---
+
+<figure>
+<center>
+   <a href="/images/prob_breakup_overtime.png"><img width="100%" src="/images/prob_breakup_overtime.png"></a>
+</center>
+</figure>
+
+Hmm ... :
+* It seems you were mostly right! The probability of breakup does indeed tend to decrease with the length of the relationship, especially after 3 or more years, where the breakup rate is only at 14%! But, let's not ignore the elephant in the graph. What's up with that spike at 1-3 Months? This author believes this is attributable to the **"Honeymoon Phase"** where any real problems underlying a relationshps have not manifseted or are simply buried under the excitement of a new romance. This would explain the jump from the "Less than 1 Month" bin to the "1-3 Months Bin"
+
+* It is still worth noting though that breakup rates remain well above 50% for any relationship 3 months or newer.
+
+* Another point worth noting is that the breakup probability goes down by a good **5%** after the 1 Year mark but the  1-2 Years and 2-3 Years break up rates are nearly identical, indicating some sort of marginal returns to time. That is to say: **perhaps the probability of breakup continues to decrease as the relationship progresses, but decreases by less and less for each additional month of dating**. Put an even simpler way: The fact that a relationship lasts one year drives the breakup probability down a lot but the fact that it lasts another year after that doesnt drive the breakup probability down as much. And it goes down even less for each subsequent year thereafter.
 
 ---
 
