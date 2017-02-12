@@ -159,6 +159,7 @@ The first question on our minds concerns the tendency for a couple to break up b
 </figure>
 
 Hmm ... :
+
 * It seems you were mostly right! The probability of breakup does indeed tend to decrease with the length of the relationship, especially after 3 or more years, where the breakup rate is only at 14%! But, let's not ignore the elephant in the graph. What's up with that spike at 1-3 Months? This author believes this is attributable to the **"Honeymoon Phase"** where any real problems underlying a relationshps have not manifseted or are simply buried under the excitement of a new romance. This would explain the jump from the "Less than 1 Month" bin to the "1-3 Months Bin"
 
 * It is still worth noting though that breakup rates remain well above 50% for any relationship 3 months or newer.
