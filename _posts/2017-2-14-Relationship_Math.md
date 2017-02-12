@@ -57,8 +57,9 @@ What makes this data extra valuable is that there were follow up surveys of thes
 
 We start by looking at the similarities between two people who are dating and two people who are married. Dating is often percieved as a stepping stone to a long term commitment and eventually marriage. We would thus expect there to be some stronger similarities, possibly even demographically, between married couples compared to dating couples. Let's look at these similarities on four axes: race, religion, political party, and college education.
 
-## Dating Couples
 ---
+
+## Dating Couples
 
 <figure>
 <center>
@@ -66,8 +67,9 @@ We start by looking at the similarities between two people who are dating and tw
 </center>
 </figure>
 
-## Married Couples
 ---
+
+## Married Couples
 
 <figure>
 <center>
