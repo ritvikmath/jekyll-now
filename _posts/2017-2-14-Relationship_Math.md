@@ -57,18 +57,26 @@ What makes this data extra valuable is that there were follow up surveys of thes
 
 We start by looking at the similarities between two people who are dating and two people who are married. Dating is often percieved as a stepping stone to a long term commitment and eventually marriage. We would thus expect there to be some stronger similarities, possibly even demographically, between married couples compared to dating couples. Let's look at these similarities on four axes: race, religion, political party, and college education.
 
+## Dating Couples
 <figure>
 <center>
    <a href="/images/dating.png"><img width="75%" src="/images/dating.png"></a>
 </center>
 </figure>
 
+## Married Couples
 <figure>
 <center>
    <a href="/images/married.png"><img width="75%" src="/images/married.png"></a>
 </center>
 </figure>
 
+There are some very interesting key takeaways from comparing these two diagrams:
+
+* More than 3 out of every 4 dating couples are the same race and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that same-race couples tend to stay together and get married at a higher rate than do different-race couples. 
+* The story with religion is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, most couples are actually different in terms of their religious beliefs. 
+* Looking at political party, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of evidence supporting that political party is not a major factor in couple dissolution. We will come back to that point during the back half of this post.
+* Lastly, we see that for dating couples, the proportion who attended the same university is quite low at just around 15% but when we look at dating couples, this number more than doubles. This is an indication that couples who did not attend the same college or university tend to break up at a higher rate than those who did. This perhaps makes sense due to shared experiences, geographic proximity, etc.
 
 ---
 
