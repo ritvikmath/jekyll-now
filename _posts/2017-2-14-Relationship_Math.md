@@ -63,7 +63,7 @@ We start by looking at the similarities between two people who are dating and tw
 
 <figure>
 <center>
-   <a href="/images/dating.png"><img width="75%" src="/images/dating.png"></a>
+   <a href="/images/dating.png"><img width="100%" src="/images/dating.png"></a>
 </center>
 </figure>
 
@@ -73,7 +73,7 @@ We start by looking at the similarities between two people who are dating and tw
 
 <figure>
 <center>
-   <a href="/images/married.png"><img width="75%" src="/images/married.png"></a>
+   <a href="/images/married.png"><img width="100%" src="/images/married.png"></a>
 </center>
 </figure>
 
