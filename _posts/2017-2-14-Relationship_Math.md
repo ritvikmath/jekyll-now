@@ -203,7 +203,9 @@ Now, let's look at a form of dating that has gained popularity during the last f
 </center>
 </figure>
 
-The thing that probabaly fist caught your eye is that **only 18% of couples actually meet online** and the second thing that surely caught your eye is that **the couple dissolution rate for met-online couples is 6% higher than that of met-offline couples** (Met offline is just this author's way of saying couples that did not meet online). Just let that sink in for a second. That means that **for every 10 couples that meet online, about 3 break up within 1 year**. Whether these proportions will change as the future progresses and online dating becomes more (or less?) popular is up to debate. Leave your thoughts in the comments below!
+The thing that probabaly fist caught your eye is that **only 18% of couples actually meet online** and the second thing that surely caught your eye is that **the couple dissolution rate for met-online couples is 6% higher than that of met-offline couples** (Met offline is just this author's way of saying couples that did not meet online). 
+
+Just let that sink in for a second. That means that **for every 10 couples that meet online, about 3 break up within 1 year**. Whether these proportions will change as the future progresses and online dating becomes more (or less?) popular is up to debate. Leave your thoughts in the comments below!
 
 ---
 
@@ -211,7 +213,27 @@ The thing that probabaly fist caught your eye is that **only 18% of couples actu
 
 # How Likely is a Couple to Break Up Based On Where They Met?
 
+Remember when we looked at where dating couples and married couples met? Well, it's time to revisit this topic as promised. We now want to ask the natural next question, which is "How likely is a couple to break up within one year based on where they first met?". Indeed you might have your own preconceived notions of the disparties in the break up rate. 
 
+Do you think couples who meet in a bar/nightclub are more likely to break up than those who meet at church? Do you think that couples who meet at school are more or less likely to stay together than those who meet at work? Rank these breakup rates in your head before looking at the story the data tells below!
+
+Ready? 3..2..1..:
+
+<figure>
+<center>
+   <a href="/images/breakbars.png"><img width="100%" src="/images/breakbars.png"></a>
+</center>
+</figure>
+
+We can roughly split up the categories into high, medium, and low breakup rates:
+
+**High**: Social Organization, Personal Ads, Private Party
+**Medium**: Bar/Nightclub, Work
+**Low**: Travel, School, Church
+
+* It is maybe surprising that Bar/Nightclub and Work have narly identical breakup rates, especially given the previous figure on where Dating and Married couples meet. But, we need to again remember that these are only 1 year breakup rates and say little about what happens thereafter. For a further explanation of this phenomenon, see the [Notes](#not) section.
+
+* We see from the "Low" bin that the most stable relationships (at least at the 1 year cutoff) begin at school, at church, and surpisingly during travel. It would be interesting to see, perhaps in a later iteration of this work, if these low breakup rates persist at the 2-year, 3-year, etc. cutoffs. 
 ---
 
 <a name="model"></a>
