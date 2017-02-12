@@ -23,7 +23,7 @@ Quick Links:
 * [What are Commonalities within Dating vs. Married Couples?](#com)  
 * [At What Age Do People Meet their Significant Others?](#age)  
 * [Where Do Couples Meet?](#where)  
-* [When is a Couple Most Likely to Break Up?](#len)  
+* [How Far into the Relationship is a Couple Most Likely to Break Up?](#len)  
 * [What are the Breakup Rates Based on Race, Religion, etc.?](#break)
 * [How Likely is a Couple to Break Up Based On Where They Met?](#met) 
 * [Can We Build a Model to Predict Breakup?](#model)
@@ -50,7 +50,6 @@ The data used in this analysis comes from the <a href="https://data.stanford.edu
 
 What makes this data extra valuable is that there were follow up surveys of these individuals in the subsequent years. That is, the original survey took place in 2009 and was followed by a second wave in 2010, a third in 2011, a fourth in 2013 and a final fifth between 2014 and 2015. This adds a great depth of value because we not only get a static snapshot of the survey particpants, but also a follow up history. Indeed, it is this time component that allows us to identify couples that broke up and start asking questions about what factors might have been correlated with this dissolution.
 
----
 ---
 
 <a name="com"></a>
@@ -138,11 +137,10 @@ Cool stuff! :
 Stay tuned for more on this later in this post!
 
 ---
----
 
 <a name="len"></a>
 
-# When is a Couple Most Likely to Break Up?
+# How Far into the Relationship is a Couple Most Likely to Break Up?
 
 This second portion of the post will focus on dissolution rates in dating couples (so we will not consider married couples here). We really want to find out forces make or break a couple so that in the third part of this post, we can use that information to build a predictive model for couple dissolution. 
 
