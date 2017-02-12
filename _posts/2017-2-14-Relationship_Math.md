@@ -81,7 +81,7 @@ We start by looking at the similarities between two people who are dating and tw
 
 There are some very interesting key takeaways from comparing these two diagrams:
 
-* More than 3 out of every 4 dating couples are the same race and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that same-race couples tend to stay together and get married at a higher rate than do different-race couples.
+* More than 3 out of every 4 dating couples are the same **race** and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that same-race couples tend to stay together and get married at a higher rate than do different-race couples.
 
 * The story with religion is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, most couples are actually different in terms of their religious beliefs. 
 
