@@ -83,15 +83,31 @@ There are some very interesting key takeaways from comparing these two diagrams:
 
 * More than 3 out of every 4 dating couples are the same **race** and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that same-race couples tend to stay together and get married at a higher rate than do different-race couples.
 
-* The story with religion is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, most couples are actually different in terms of their religious beliefs. 
+* The story with **religion** is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, most couples are actually different in terms of their religious beliefs. 
 
-* Looking at political party, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of evidence supporting that political party is not a major factor in couple dissolution. We will come back to that point during the back half of this post.
+* Looking at **political party**, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of evidence supporting that political party is not a major factor in couple dissolution. We will come back to that point during the back half of this post.
 
-* Lastly, we see that for dating couples, the proportion who attended the same university is quite low at just around 15% but when we look at dating couples, this number more than doubles. This is an indication that couples who did not attend the same college or university tend to break up at a higher rate than those who did. This perhaps makes sense due to shared experiences, geographic proximity, etc.
+* Lastly, we see that for dating couples, the proportion who attended the same **university** is quite low at just around 15% but when we look at dating couples, this number more than doubles. This is an indication that couples who did not attend the same college or university tend to break up at a higher rate than those who did. This perhaps makes sense due to shared experiences, geographic proximity, etc.
 
 ---
 
 <a name="age"></a>
+
+Another question we can ask is at what age people meet their significant other. We first split up our population into four groups: dating males, dating females, married males, married females. We then ask, for each group, when each person met the person they are currently dating / married to, and analyze the results. The histograms below outline the results.
+
+<figure>
+<center>
+   <a href="/images/age_met_histo.png"><img width="100%" src="/images/ge_met_histo.png"></a>
+</center>
+</figure>
+
+Well, one of these graphs is not like the other three. Let's discuss the results:
+
+* Looking just at married couples, we can see the clear difference between females and males is that **most females meet their future spouse around age 22-23** while **most males meet their future spouse around age 25-26**. This is best attributable to the fact that the male is older than the female in a majority of heterosexual couples. 
+
+* We see some really surprising resluts looking now at the dating population. Namely, **dating females have a lower chance of meeting their partner later in life** whereas **dating males have a higher chance of meeting their partner later in life**. We can try to attribute this to the same trend as before, but given the huge difference between these tro graphs, there must be some other force at play. One idea is to attribute this to the social stigma against women dating when they get older, a stigma which seems to be weaker towards men dating later in life. 
+
+* There are also some easy-to-miss subtleties in these graphs. It is best illustrated with the Dating Female chart. We see that although the bars decline on average as the age gets larger, there seems to be an up-and-down pattern to the bars. Translating this to real-talk, it seems that the probability of meeting a parter goes up and down through a woman's 30's and 40's. It is unclear, at least to this author, what a possible cause might be. If you have an idea, post in the comments below!
 
 # At What Age Do People Meet their Significant Others?
 
