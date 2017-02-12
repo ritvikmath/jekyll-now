@@ -125,7 +125,17 @@ Another question we can ask is where couples tend to meet. We've all heard of  v
 </center>
 </figure>
 
+Cool stuff! :
 
+* We see that **the most popular places to meet a current partner are at work or a bar/nightclub** if we ignore the "Other" category.
+
+* But, **the most likely places for an eventual married couple to meet are at work or at school** again ignoring the "Other" bin.
+
+* These two findings together imply something that we will see proof of a bit later one, which is that the locations for which the blue married bar is lower than the grey dating bar should have a higher breakup rate. Furthermore, the relative sizes of these bars should provide an indication of how severe the breakup rate is. Just as one example, not many people meet their significant other at church, but relationships that start there tend to stay together, as evidenced by the corresponding marriage bar being nearly three times the height of the dating bar in the "Church" bin.
+
+Stay tuned for more on this later in this post!
+
+---
 ---
 
 <a name="len"></a>
