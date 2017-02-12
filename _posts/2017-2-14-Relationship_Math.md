@@ -181,7 +181,29 @@ Turning first to the quesiton on race:
 </center>
 </figure>
 
-* As we saw before and as is shown here, the majority of couples are same-race couples. But, from this figure, it seems like the 1-year breakup rate seems to be nearly identical for same-race vs. different-race couples. Some of you are surely scrathing your heads now: Didn't this author just mention in the beginning of this post that different-race couples tend to break up at a higher rate than same-race couples? Yes, and these two ideas are not necissarily contradicatory because of one important fact: we need to remember that the break up rate we are using is the 1 year break up rate. That is, if some couple stays together for 1.5 years before breaking up, they will be labeled as still together at the 1 year mark we measure. So, putting this all together, it seems that different-race couples do indeed break up at a higher rate than different-race couples but the different-race couples that do break up tend to stay together for at least one year.
+As we saw before and as is shown here, the majority of couples are same-race couples. But, from this figure, it seems like the 1-year breakup rate seems to be nearly identical for same-race vs. different-race couples. Some of you are surely scrathing your heads now: **Didn't this author just mention in the beginning of this post that different-race couples tend to break up at a higher rate than same-race couples?** 
+
+**Yes**, and these two ideas are not necissarily contradicatory because of one important fact: we need to remember that the break up rate we are using is the **1 year break up rate**. That is, if some couple stays together for 1.5 years before breaking up, they will be labeled as still together at the 1 year mark we measure. So, putting this all together, it seems that different-race couples do indeed break up at a higher rate than different-race couples but the **different-race couples that do break up tend to stay together for at least one year**.
+
+Let's switch our axis from race to religion:
+
+<figure>
+<center>
+   <a href="/images/religion_breakup.png"><img width="100%" src="/images/religion_breakup.png"></a>
+</center>
+</figure>
+
+We see here that the disparity between breakup rates gets a bit bigger. Namely, **a different-religion couple is 3% more likely to break up within a year than a same-religion couple**. It would be a bit hasty, armed with only this statistic, that relgion is a larger factor in couple dissolution than race, and we will indeed see evidence to the contrary when we start building a predictiv model in Part Three of this post.
+
+Now, let's look at a form of dating that has gained popularity during the last few years: online dating. Indeed, the online dating phenomenon including dating sties like Match.com or OkCupid.com and mobile apps like the (in)?-famous Tinder, has taken the world by storm, introducing a totally new way to meet others. But, what does the data say about the stability of these relationships in the one-year horizon?
+
+<figure>
+<center>
+   <a href="/images/online_breakup.png"><img width="100%" src="/images/online_breakup.png"></a>
+</center>
+</figure>
+
+The thing that probabaly fist caught your eye is that **only 18% of couples actually meet online** and the second thing that surely caught your eye is that **the couple dissolution rate for met-online couples is 6% higher than that of met-offline couples** (Met offline is just this author's way of saying couples that did not meet online). Just let that sink in for a second. That means that **for every 10 couples that meet online, about 3 break up within 1 year**. Whether these proportions will change as the future progresses and online dating becomes more (or less?) popular is up to debate. Leave your thoughts in the comments below!
 
 ---
 
