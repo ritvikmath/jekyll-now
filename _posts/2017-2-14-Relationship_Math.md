@@ -97,7 +97,7 @@ Another question we can ask is at what age people meet their significant other. 
 
 <figure>
 <center>
-   <a href="/images/age_met_histo.png"><img width="100%" src="/images/ge_met_histo.png"></a>
+   <a href="/images/age_met_histo.png"><img width="100%" src="/images/age_met_histo.png"></a>
 </center>
 </figure>
 
