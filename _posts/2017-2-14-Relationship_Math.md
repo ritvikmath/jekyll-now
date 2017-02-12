@@ -30,7 +30,6 @@ Quick Links:
 * [Notes](#not)  
 
 ---
----
 
 <a name="mot"></a>
 
@@ -146,7 +145,7 @@ This second portion of the post will focus on dissolution rates in dating couple
 
 The first question on our minds concerns the tendency for a couple to break up based on how long they have already been together. Now, some of you might be saying, "well obviously the longer they have been together the less likely they are to break up!" Let's see what the data has to say.
 
-## Probability of Breakup Within 1 Year Based on Length of Relationship
+## Probability of Breakup Based on Length of Relationship
 
 ---
 
