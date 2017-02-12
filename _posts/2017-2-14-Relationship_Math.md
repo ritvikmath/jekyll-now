@@ -81,13 +81,13 @@ We start by looking at the similarities between two people who are dating and tw
 
 There are some very interesting key takeaways from comparing these two diagrams:
 
-* More than 3 out of every 4 dating couples are the same **race** and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that same-race couples tend to stay together and get married at a higher rate than do different-race couples.
+* More than 3 out of every 4 dating couples are the same **race** and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that **same-race couples tend to stay together and get married at a higher rate than do different-race couples**.
 
-* The story with **religion** is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, most couples are actually different in terms of their religious beliefs. 
+* The story with **religion** is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, **most couples are actually different in terms of their religious beliefs**. 
 
-* Looking at **political party**, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of evidence supporting that political party is not a major factor in couple dissolution. We will come back to that point during the back half of this post.
+* Looking at **political party**, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of **evidence supporting that political party is not a major factor in couple dissolution**. We will come back to that point during the back half of this post.
 
-* Lastly, we see that for dating couples, the proportion who attended the same **university** is quite low at just around 15% but when we look at dating couples, this number more than doubles. This is an indication that couples who did not attend the same college or university tend to break up at a higher rate than those who did. This perhaps makes sense due to shared experiences, geographic proximity, etc.
+* Lastly, we see that for dating couples, the proportion who attended the same **university** is quite low at just around 15% but when we look at dating couples, this number more than doubles. This is an indication that **couples who did not attend the same college or university tend to break up at a higher rate than those who did**. This perhaps makes sense due to shared experiences, geographic proximity, etc.
 
 ---
 <a name="age"></a>
@@ -159,7 +159,7 @@ Hmm ... :
 
 * It seems you were mostly right! The probability of breakup does indeed tend to decrease with the length of the relationship, especially after 3 or more years, where the breakup rate is only at 14%! But, let's not ignore the elephant in the graph. What's up with that spike at 1-3 Months? This author believes this is attributable to the **"Honeymoon Phase"** where any real problems underlying a relationshps have not manifseted or are simply buried under the excitement of a new romance. This would explain the jump from the "Less than 1 Month" bin to the "1-3 Months Bin"
 
-* It is still worth noting though that breakup rates remain well above 50% for any relationship 3 months or newer.
+* It is still worth noting though that **breakup rates remain well above 50% for any relationship 3 months or newer**.
 
 * Another point worth noting is that the breakup probability goes down by a good **5%** after the 1 Year mark but the  1-2 Years and 2-3 Years break up rates are nearly identical, indicating some sort of marginal returns to time. That is to say: **perhaps the probability of breakup continues to decrease as the relationship progresses, but decreases by less and less for each additional month of dating**. Put an even simpler way: The fact that a relationship lasts one year drives the breakup probability down a lot but the fact that it lasts another year after that doesnt drive the breakup probability down as much. And it goes down even less for each subsequent year thereafter.
 
@@ -169,6 +169,19 @@ Hmm ... :
 
 # What are the Breakup Rates Based on Race, Religion, etc.?
 
+Some of you might argue that the section above was "so obvious" or "predictable". Well fine, let's get to the 'interesting stuff' about couple dissolution (although the marginal returns to breakup was pretty cool in my opinion). 
+
+We will now study how breakup rates differ for couples who are **same-race vs. different-race**, **same-relgion vs. different-religion**, and **met-online vs. met-offline**. 
+
+Turning first to the quesiton on race:
+
+<figure>
+<center>
+   <a href="/images/race_breakup.png"><img width="100%" src="/images/race_breakup.png"></a>
+</center>
+</figure>
+
+* As we saw before and as is shown here, the majority of couples are same-race couples. But, from this figure, it seems like the 1-year breakup rate seems to be nearly identical for same-race vs. different-race couples. Some of you are surely scrathing your heads now: Didn't this author just mention in the beginning of this post that different-race couples tend to break up at a higher rate than same-race couples? Yes, and these two ideas are not necissarily contradicatory because of one important fact: we need to remember that the break up rate we are using is the 1 year break up rate. That is, if some couple stays together for 1.5 years before breaking up, they will be labeled as still together at the 1 year mark we measure. So, putting this all together, it seems that different-race couples do indeed break up at a higher rate than different-race couples but the different-race couples that do break up tend to stay together for at least one year.
 
 ---
 
