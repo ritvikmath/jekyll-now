@@ -39,6 +39,12 @@ Romantic relationships, including their formation, continuation, and dissolution
 
 By getting to the root of the trends underlying the dissolution of romantic relationships, we can understand the main factors that lead a couple to break up or not break up. Then, given these factors, we can begin to build a model designed to measure the strength of a romantic relationship. We can then use this strength measure in predicting whether or not this couple will dissolve within some specified future period. 
 
+<figure>
+<center>
+   <a href="/images/lovegraph.png"><img width="100%" src="/images/lovegraph.png"></a>
+</center>
+</figure>
+
 ---
 
 <a name="dat"></a>
