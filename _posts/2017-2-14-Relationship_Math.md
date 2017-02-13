@@ -329,5 +329,11 @@ There are many things worth noting about the data we are using. These are import
 
 * There was of course a missing data issue throughout the course of this analysis, since we cannot expect that every one of these 4002 people answered every question. The way this author dealt with that was twofold. The first was to only use features which contained answers by over 85% of the sample. This was to avoid using a feature where only 50% of people gave an answer, which might lead to severe or more severe selection bias than we already have. The second way was to drop all rows with even one missing value after subsetting to only look at features where over 85% of the sample gave an answer. It seemed that the missing values were correlated (people who did not answer one question tended to not answer other questions and vice versa), so that this kind of data filter did not greatly diminish the size of the dataset much further than the 85% limit would have.
 
+Data Citation:
+
+Rosenfeld, Michael J., Reuben J. Thomas, and Maja Falcon. 2015. How Couples Meet and Stay Together, Waves 1, 2, and 3: Public version 3.04, plus wave 4 supplement version 1.02 and wave 5 supplement version 1.0 [Computer files]. Stanford, CA: Stanford University Libraries.
+
+---
+
 
 Thanks for reading and please leave comments!
