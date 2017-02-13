@@ -319,7 +319,7 @@ The important thing, I think, is really to build the courage to understand what 
 
 <figure>
 <center>
-   <a href="/images/arrow.jpg"><img width="75%" src="/images/arrow.jpg"></a>
+   <a href="/images/arrow.jpg"><img width="65%" src="/images/arrow.jpg"></a>
 </center>
 </figure>
 
