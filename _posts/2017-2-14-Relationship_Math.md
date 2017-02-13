@@ -62,7 +62,7 @@ What makes this data extra valuable is that there were **follow up surveys of th
 
 # What are Commonalities within Dating vs. Married Couples?
 
-We start by looking at the similarities between two people who are dating and two people who are married. Dating is often perceived as a stepping stone to a long term commitment and eventually marriage. We would thus expect there to be some stronger similarities, possibly even demographically, between married couples compared to dating couples. Let's look at these similarities on four axes: **race, religion, political party, and college education.**
+We start by looking at the similarities between two people who are dating and two people who are married. Dating is often perceived as a stepping stone to a long term commitment and eventually marriage. We would thus expect there to be some stronger similarities, possibly even demographically, between married couples compared to dating couples. Let's look at these similarities on four axes: **race, religion, political party, and university.**
 
 ---
 
@@ -90,7 +90,7 @@ There are some very interesting key takeaways from comparing these two diagrams:
 
 * More than 3 out of every 4 dating couples are the same **race** and that proportion jumps by over 10% when we look at married couples. It seems, from these figures, that **same-race couples tend to stay together and get married at a higher rate than do different-race couples**.
 
-* The story with **religion** is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, **most couples are actually different in terms of their religious beliefs**. 
+* The story with **religion** is similar in terms of proportion increase from dating to married couples but varies in one important way. Namely, whereas most couples were same race, **most couples are actually different in terms of their religious beliefs**. It is important to note here that the data gets fairly specific when asking about religion so two branches of a major religion are treated as different relgious beliefs.
 
 * Looking at **political party**, we see that about half of all dating couples share a political party and interestingly, this number does not go up by much when we look at married couples. It seems, thus, that we have some shreds of **evidence supporting that political party is not a major factor in couple dissolution**. We will come back to that point during the back half of this post.
 
@@ -115,7 +115,7 @@ Well, one of these graphs is not like the other three. Let's discuss the results
 
 * We see some really surprising results looking now at the dating population. Namely, **dating females have a lower chance of meeting their partner later in life** whereas **dating males have a higher chance of meeting their partner later in life**. We can try to attribute this to the same trend as before, but given the huge difference between these two graphs, there must be some other force at play. One idea is to attribute this to the social stigma against women dating when they get older, a stigma which seems to be weaker towards men dating later in life. 
 
-* There are also some easy-to-miss subtleties in these graphs. It is best illustrated with the Dating Female chart. We see that although the bars decline on average as the age gets larger, there seems to be an up-and-down pattern to the bars. Translating this to real-talk, it seems that the probability of meeting a partner goes up and down through a woman's 30's and 40's. It is unclear, at least to this author, what a possible cause might be. If you have an idea, **post in the comments below!**
+* There are also some easy-to-miss subtleties in these graphs. It is best illustrated with the Dating Female chart. We see that although the bars decline on average as the age gets larger, there seems to be an **up-and-down pattern** to the bars. Translating this to real-talk, it seems that the **probability of meeting a partner goes up and down through a woman's 30's and 40's**. It is unclear, at least to this author, what a possible cause might be. If you have an idea, **post in the comments below!**
 
 
 ---
@@ -138,7 +138,7 @@ Cool stuff! :
 
 * But, **the most likely places for an eventual married couple to meet are at work or at school** again ignoring the "Other" bin.
 
-* These two findings together imply something that we will see proof of a bit later one, which is that the locations for which the blue married bar is lower than the grey dating bar should have a higher breakup rate. Furthermore, **the relative sizes of these bars should provide an indication of how severe the breakup rate is**. Just as one example, not many people meet their significant other at church, but relationships that start there tend to stay together, as evidenced by the corresponding marriage bar being nearly three times the height of the dating bar in the "Church" bin.
+* These two findings together imply something that we will see proof of a bit later on, which is that the locations for which the blue married bar is lower than the grey dating bar should have a higher breakup rate. Furthermore, **the relative sizes of these bars should provide an indication of how severe the breakup rate is**. Just as one example, not many people meet their significant other at church, but relationships that start there tend to stay together, as evidenced by the corresponding marriage bar being nearly three times the height of the dating bar in the "Church" bin.
 
 Stay tuned for more on this later in this post!
 
@@ -164,11 +164,11 @@ The first question on our minds concerns the tendency for a couple to break up b
 
 **Hmm ...** :
 
-* It seems you were mostly right! The probability of breakup does indeed tend to decrease with the length of the relationship, especially after 3 or more years, where the breakup rate is only at 14%! But, let's not ignore the elephant in the graph. What's up with that spike at 1-3 Months? This author believes this is attributable to the **"Honeymoon Phase"** where any real problems underlying a relationships have not manifested or are simply buried under the excitement of a new romance. This would explain the jump from the "Less than 1 Month" bin to the "1-3 Months Bin"
+* It seems you were mostly right! The probability of breakup does indeed tend to decrease with the length of the relationship, especially after 3 or more years, where the breakup rate is only at 14%! But, let's not ignore the elephant in the graph. What's up with that spike at "1-3 Months" following the lower breakup rate at "Less Than 1 Month"? This author believes this is attributable to the **"Honeymoon Phase"** where any real problems underlying a relationships have not manifested or are simply buried under the excitement of a new romance. This would explain the jump from the "Less than 1 Month" bin to the "1-3 Months Bin"
 
 * It is still worth noting though that **breakup rates remain well above 50% for any relationship 3 months or newer**.
 
-* Another point worth noting is that the breakup probability goes down by a good **5%** after the 1 Year mark but the  1-2 Years and 2-3 Years break up rates are nearly identical, indicating some sort of marginal returns to time. That is to say: **perhaps the probability of breakup continues to decrease as the relationship progresses, but decreases by less and less for each additional month of dating**. Put an even simpler way: The fact that a relationship lasts one year drives the breakup probability down a lot but the fact that it lasts another year after that doesn’t drive the breakup probability down as much. And it goes down even less for each subsequent year thereafter.
+* Another point worth noting is that the breakup probability goes down by a good **4.4%** after the 1 Year mark but the  1-2 Years and 2-3 Years break up rates are nearly identical, indicating some sort of marginal returns to time. That is to say: **perhaps the probability of breakup continues to decrease as the relationship progresses, but decreases by less and less for each additional month of dating**. Put an even simpler way: The fact that a relationship lasts one year drives the breakup probability down a lot but the fact that it lasts another year after that doesn’t drive the breakup probability down as much. And it goes down even less for each subsequent year thereafter.
 
 ---
 
@@ -200,7 +200,7 @@ Let's switch our axis from race to **religion**:
 </center>
 </figure>
 
-We see here that the disparity between breakup rates gets a bit bigger. Namely, **a different-religion couple is 3% more likely to break up within a year than a same-religion couple**. It would be a bit hasty, armed with only this statistic, that religion is a larger factor in couple dissolution than race, and we will indeed see evidence to the contrary when we start building a predictive model in Part Three of this post.
+We see here that the disparity between breakup rates gets a bit bigger. Namely, **a different-religion couple is 3% more likely to break up within a year than a same-religion couple**. It would be a bit hasty, armed with only this statistic, to conclude that religion is a larger factor in couple dissolution than race, and we will indeed see evidence to the contrary when we start building a predictive model in Part Three of this post.
 
 Now, let's look at a form of dating that has gained popularity during the last few years: **online dating**. Indeed, the online dating phenomenon including dating sites like Match.com or OkCupid.com and mobile apps like the (in?)-famous Tinder, has taken the world by storm, introducing a totally new way to meet others. But, what does the data say about the stability of these relationships in the one-year horizon?
 
@@ -212,7 +212,7 @@ Now, let's look at a form of dating that has gained popularity during the last f
 
 The thing that probably first caught your eye is that **only 18% of couples actually meet online** and the second thing that surely caught your eye is that **the couple dissolution rate for met-online couples is 6% higher than that of met-offline couples** (Met offline is just this author's way of saying couples that did not meet online). 
 
-Just let that sink in for a second. That means that **for every 10 couples that meet online, about 3 break up within 1 year**. Whether these proportions will change as the future progresses and online dating becomes more (or less?) popular is up to debate. Leave your thoughts in the comments below!
+Just let that sink in for a second. That means that **for every 10 couples that meet online, about 3 break up within 1 year**. Whether these proportions will change as the future progresses and online dating becomes more (or less?) popular is up to debate. **Leave your thoughts in the comments below!**
 
 ---
 
@@ -224,7 +224,7 @@ Remember when we looked at where dating couples and married couples met? Well, i
 
 Do you think couples who meet in a bar/nightclub are more likely to break up than those who meet at church? Do you think that couples who meet at school are more or less likely to stay together than those who meet at work? **Rank these breakup rates in your head** before looking at the story the data tells below!
 
-Ready? **3..2..1..**:
+Ready? **3..2..1..**
 
 <figure>
 <center>
@@ -232,21 +232,21 @@ Ready? **3..2..1..**:
 </center>
 </figure>
 
+**How did your ranking match up with the results?**
+
 We can roughly split up the categories into high, medium, and low breakup rates:
 
-**High**: Social Organization, Personal Ads, Private Party
+**High Breakup Rate**: Social Organization, Personal Ads, Private Party
 
-**Medium**: Bar/Nightclub, Work
+**Medium Breakup Rate**: Bar/Nightclub, Work
 
-**Low**: Travel, School, Church
+**Low Breakup Rate**: Travel, School, Church
 
-* It is maybe surprising that **Bar/Nightclub and Work have nearly identical breakup rates**, especially given the previous figure on where Dating and Married couples meet. But, we need to again remember that these are only 1 year breakup rates and say little about what happens thereafter. For a further explanation of this phenomenon, see the [Notes](#not) section.
+* It is maybe surprising that **Bar/Nightclub and Work have nearly identical breakup rates**, especially given the previous figure on where Dating and Married couples meet. But, we need to again remember that these are only 1 year breakup rates and say little about what happens thereafter. For a further explanation of this phenomenon, see the discussion on biases in the data in the  [Notes](#not) section.
 
 * We see from the "Low" bin that the most stable relationships (at least at the 1 year cutoff) begin at **school, at church, and surprisingly during travel**. It would be interesting to see, perhaps in a later iteration of this work, if these low breakup rates persist at the 2-year, 3-year, etc. cutoffs.
 
 * This author found it curious why the **breakup rate for social organizations was so high compared to all the other bins**. Is it that these relationships are somehow tied to the organization so that when one or both parties leaves, the relationship tends to dissolve? Is it that a social organization is not as much of a commitment on average than school or church? These are all just hypotheses, **what do you think?** 
-
-How did your ranking match up with the results?
 
 ---
 
@@ -268,7 +268,7 @@ This author would like to be very transparent with the assumptions underlying th
 
 3. **Model Selection**: Once we define our features we will need to figure out which type of model is best in giving us a high accuracy. This is often referred to in machine learning as ***model selection***. In practice, we will iterate over many different types of models and combinations of features and pick the one which gives us the best accuracy on our testing set.
 
-4. **Measuring Performance**: If we get a model that is **75%** accuracy in predicting whether a couple will break up in a year, is that good? Actually no and here's why. It turns out that about **23% of couples break up within one year**. So, let's say that instead of using our model, we just predict that each and every couple will not break up in a year. What is our accuracy? Well, **77% of couples do not break up within a year**, so our accuracy will be **77%**, already higher than the **75%** we got with our hypothetical model. Basically, **if we do not get higher than 77%, we might as well just guess randomly and throw away our model**. How embarrassing would it be to get a 30% on a True-False test where you could have gotten 50% by random guessing?
+4. **Measuring Performance**: If we get a model that is **75%** accuracy in predicting whether a couple will break up in a year, is that good? **Actually no and here's why.** It turns out that about **23% of couples break up within one year**. So, let's say that instead of using our model, we just predict that each and every couple will not break up in a year. What is our accuracy? Well, **77% of couples do not break up within a year**, so our accuracy will be **77%**, already higher than the **75%** we got with our hypothetical model. Basically, **if we do not get higher than 77%, we might as well just guess randomly and throw away our model**. How embarrassing would it be to get a 30% on a True-False test where you could have gotten 50% by random guessing?
 
 This is the basic methodology behind our predictive model. After searching through various combinations of features and models, we find that the best model is one called a <a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forrest Classifier</a>. Without going too deep into the details, this model basically **asks a series of Yes-No questions** based on the importance of the feature. For example, it might ask as a first question **"Is this couple same-race?"** and as a second question **"Is the age difference between this couple greater than 3 years?"** because the first question gives more information than the second (hypothetically of course).
 
@@ -298,9 +298,9 @@ Now the question we (or at least I) have been waiting to answer: **What are the 
 
 * We see, maybe surprisingly, that the **respondent age is the best predictor of couple dissolution**. And from analyzing the data, we see that this correlation is a negative one. That is, **the older someone is, the lower the chance they break up with the person they are dating.** This author might attribute that to the fact that younger people "date-around" more often, something that is less of a phenomenon with older adults.
 
-* Other big predictors are **length of relationship** and **age difference** and **when romance started**. It is important to note that these, along with the **respondent age** are all categorized by time, as opposed to something like same-race, which is time independent. (sidenote: It was hard for this author to define exactly what **when romance started** means but, in terms of the data, it is usually, not always, an event that occurs after the relationship starts, so the best guess is that it is some indicator of when this person started "going steady" with their partner. Might be worth digging into a bit more)
+* Other big predictors are **length of relationship** and **age difference** and **when romance started**. It is important to note that these, along with the **respondent age** are all categorized by time, as opposed to something like same-race, which is time independent. (sidenote: It was hard for this author to define exactly what **when romance started** means but, in terms of the data, it is usually, not always, an event that occurs after the relationship starts, so the best guess is that it is some indicator of when this person started "going steady" with their partner. Might be worth digging into a bit more.)
 
-* Next come a lot of (at least somewhat) time-independent factors such as **years education**, **met-online**, **same-employment**, **same-race**, and **same-town**. By time independent, this author means that these are features that don’t strictly change over the course of a year. Indeed, employment status, or years of education ***might*** change over the course of a year, but something like respondent age ***will** change over the course of a year.
+* Next come a lot of (at least somewhat) time-independent factors such as **years education**, **met-online**, **same-employment**, **same-race**, and **same-town**. By time independent, this author means that these are features that don’t strictly change over the course of a year. Indeed, employment status, or years of education ***might*** change over the course of a year, but something like respondent age ***will*** change over the course of a year.
 
 * A final note on this chart is the relative sizes between our predictors. Namely, we see a pretty uniform decline in predictive power up until **respondent years education** and then a sudden decease when we consider **met-online**. Perhaps then the features on years of education do belong more in the "time-dependent" category. Of course, this is all assuming that this time dependence is actually a natural separator for predictive power.
 
@@ -309,13 +309,13 @@ Now the question we (or at least I) have been waiting to answer: **What are the 
 
 # Conclusions
 
-Wow! That was sure a lot. Maybe some of you are feeling good about the state of your relationship (or maybe the prospect of one) based on the findings above. Maybe some of you however, are feeling defeated or trapped in some sort of "statistical destiny". I speak now directly to you. 
+Wow! That was sure a lot. Maybe some of you are feeling good about the state of your relationship (or maybe the prospect of one) based on the findings above. Maybe some of you however, are feeling defeated or trapped in some sort of "statistical destiny". **I speak now directly to you.** 
 
-Love, as much as I have tried in this post to capture the trends and correlations underlying it, is **not something that can so easily be understood**. As someone who has himself once been in a different-race, different-religion, long-distance relationship, I understand that love is something which thrives on **communication, understanding, support, and compromise**, none of which are captured in the data (as if you could capture such things). 
+**Love**, as much as I have tried in this post to capture the trends and correlations underlying it, **is not something that can so easily be understood**. As someone who has himself once been in a different-race, different-religion, long-distance relationship, I understand that love is something which thrives on **communication, understanding, support, and compromise**, none of which are captured in the data (as if you could capture such things). 
 
 So, it is important to take the findings above with a grain (or a barrel if you prefer) of salt. The work above is very useful, enlightening, and surprising in understanding the disparities in breakup rates based on a variety of factors pertaining to couples, **especially in regards to those things people fundamentally identify with such as race, religion, and politics**. Still, remember that these disparities have an inherent **"all else held constant"** phrase. Even if you are a different-race, different-religion, different-party, etc. couple, if you have found some common ground, good on you. 
 
-The important thing, I think, is really to build the courage to understand what you truly want and **find the person, go to the place, achieve the goal, cross the barrier that will help you get there.** 
+The important thing, I think, is really to **build the courage** to understand what you truly want and **find the person, go to the place, achieve the goal, cross the barrier that will help you get there.** 
 
 <figure>
 <center>
