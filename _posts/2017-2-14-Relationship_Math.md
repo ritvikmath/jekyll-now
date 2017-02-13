@@ -259,6 +259,36 @@ This author would like to be very transparent with the assumptions underlying th
 
 4. **Measuring Performance**: If we get a model that is **75%** accurace in predicing whether a couple will break up in a year, is that good? Actually no and here's why. It turns out that about **23% of couples break up within one year**. So, let's say that instead of using our model, we just predict that each and every couple will not break up in a year. What is our accuracy. Well, **77% of couples do not break up within a year**, so our accuracy will be **77%**, already higher than the **75%** we got with our hypothetical model. Basically, **if we do not get higher than 77%, we might as well just guess randomly and throw away our model**. How embarassing would it be to get a 30% on a True-False test where you could have gotten 50% by random guessing?
 
+This is the basic methodology behind our predictive model. After searching through various combinations of features and models, we find that the best model is one called a <a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forrest Classifier</a>. Without going too deep into the details, this model basically asks a series of Yes-No questions based on the importance of the feature. For example, it might ask as a first question **"Is this couple same-race?"** and as a second question **"Is the age difference between this couple greather than 3 years?"** because the first question gives more information than the second (hypothetically of course).
+
+We can now look at how accurate our model is compared to the Baseline random guessing we described above. Let's take a look!
+
+## The Strength of Our Model
+---
+
+<figure>
+<center>
+   <a href="/images/acc_gain.png"><img width="100%" src="/images/acc_gain.png"></a>
+</center>
+</figure>
+
+Wow! It might seem like those 6 additional hearts we gain from our model are measly, but look again! Considering each one represents 464,000 couples, it turns out that we claffify an additional 2.8 million couples correctly compared to the random guessing model. 
+
+Now the question we (or at least I) have been waiting to answer: What are the best predictors of whether a couple will break up in the next year. Here they are:
+
+## Feature Importances in Our Model
+---
+
+<figure>
+<center>
+   <a href="/images/feature_importances.png"><img width="100%" src="/images/feature_importances.png"></a>
+</center>
+</figure>
+
+* We see, maybe surprisingly, that the **respondent age is the best predictor of couple dissolution**. And from analyzing the data, we see that this correlation is a negative one. That is, **the older someone is, the lower the chance they break up with the person they are dating.** This author might attribute that to the fact that younger people "date-around" more often, something that is less of a phenomenton with older adults.
+
+* Other big predictors are **length of relationship** and **age difference**. It is important to note that these, along with the **respondent age** are all categorized by time, as opposed to something like same-race, which is time independent. 
+
 ---
 
 <a name="not"></a>
