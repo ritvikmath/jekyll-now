@@ -251,7 +251,7 @@ Finally, we are here. It is time to use all this knowledge we have amassed about
 
 This author would like to be very transparent with the assumptions underlying this model in the interest of proper interpretation. Indeed, this author sincerely hopes that the model we show below is not some kind of be-all and end-all indicator for whather a couple will break up in a year. See the [Notes](#not) section for a further discussion. 
 
-1. **Define Our Features**: In the field of machine learning, ***features*** are defined as the predictors we hope to use in determining the value of some measure with some high accuracy. In this case, they are the attributes of couples that we will be using to assign a 1 or 0 label indicating that they will or will not break up within a year. We will use many of the **features outlined in this post** including: length of relationship, where a couple met, whether a couple is same-race, same-religion, same-political party, etc. We will also use some **features from the data that we did not explicitly mention** above including: years of education of both people in the relationship, whether both people are from the same town, how long ago the romance began between the two, and the age difference between the two. 
+1. **Define Our Features**: In the field of machine learning, ***features*** are defined as the predictors we hope to use in determining the value of some measure with some high accuracy. In this case, they are the attributes of couples that we will be using to assign a 1 or 0 label indicating that they will or will not break up within a year. We will use many of the **features outlined in this post** including: length of relationship, where a couple met, whether a couple is same-race, same-religion, same-political party, etc. We will also use some **features from the data that we did not explicitly mention** above including: years of education of both people in the relationship, whether both people are from the same town, whether they have the same empolyment stauts, how long ago the romance began between the two, and the age difference between the two. 
 
 2. **Training and Testing Sets**: We need to split our data into what is called a **training set** and a **testing set**. The idea is fairly simple. We will build our model using the data in our **training set** and test for the accuracy of this model on our **testing set**. It is crucial that these two sets do not share any data. Confused? It's OK! Let me explain using an example. Imagine you are preparing for a final exam using past final exams by this professor. It is crucial, at least for the professor, to use completely different questions on the actual final exam than those on the final exams you use for practice. Otherwise, the actual final exam will not measure student performance but rather just how well you can memorize questions. It's basically the same idea here.
 
@@ -287,7 +287,17 @@ Now the question we (or at least I) have been waiting to answer: What are the be
 
 * We see, maybe surprisingly, that the **respondent age is the best predictor of couple dissolution**. And from analyzing the data, we see that this correlation is a negative one. That is, **the older someone is, the lower the chance they break up with the person they are dating.** This author might attribute that to the fact that younger people "date-around" more often, something that is less of a phenomenton with older adults.
 
-* Other big predictors are **length of relationship** and **age difference**. It is important to note that these, along with the **respondent age** are all categorized by time, as opposed to something like same-race, which is time independent. 
+* Other big predictors are **length of relationship** and **age difference** and **when romance started**. It is important to note that these, along with the **respondent age** are all categorized by time, as opposed to something like same-race, which is time independent. (sidenote: It was hard for this author to define exactly what **when romance started** means but, in terms of the data, it is usually, not always, an event that occurs after the relationship starts, so the best guess is that it is some indicator of when this person started "going steady" with their partner. Might be worth digging into a bit more)
+
+* Next come a lot of (at least somewhat) time-independent factors such as **years education**, **met-online**, **same-employment**, **same-race**, and **same-town**. By time independent, this author means that these are features that dont strictly change over the course of a year. Indeed, employment status, or years of education ***might*** change over the course of a year, but something like respondent age ***will** change over the course of a year.
+
+* A final note on this chart is the relative sizes between our predictors. Namely, we see a pretty uniform decline in predictive power up until **respondent years education** and then a sudden decease when we consider **met-online**. Perhaps then the features on years of education do belong more in the "time-dependent" category. Of course, this is all assuming that this time dependence is actually a natural separator for predictive power.
+
+---
+
+# Conclusions
+
+
 
 ---
 
