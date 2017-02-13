@@ -317,6 +317,12 @@ So, it is important to take the findings above with a grain (or a barrel if you 
 
 The important thing, I think, is really to build the courage to understand what you truly want and **find the person, go to the place, achieve the goal, cross the barrier that will help you get there.** 
 
+<figure>
+<center>
+   <a href="/images/arrow.jpg"><img width="75%" src="/images/arrow.jpg"></a>
+</center>
+</figure>
+
 ---
 
 <a name="not"></a>
