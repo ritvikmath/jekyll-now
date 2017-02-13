@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: The Length and Strength of Romantic Relationships
+title: Uncovering Forces Which Break Up Relationships
 ---
 
 <figure>
@@ -11,7 +11,7 @@ title: The Length and Strength of Romantic Relationships
 </figure>
 
 <center>
-<font size="5"><b>Analyzing Why Couples Break Up</b></font>
+<font size="5"><b>The Length and Strength of Romantic Relationships</b></font>
 </center>
 
 ---
