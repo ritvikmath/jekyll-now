@@ -281,7 +281,7 @@ Now the question we (or at least I) have been waiting to answer: What are the be
 
 <figure>
 <center>
-   <a href="/images/feature_importances.png"><img width="100%" src="/images/feature_importances.png"></a>
+   <a href="/images/feature_importanes.png"><img width="100%" src="/images/feature_importanes.png"></a>
 </center>
 </figure>
 
@@ -297,13 +297,29 @@ Now the question we (or at least I) have been waiting to answer: What are the be
 
 # Conclusions
 
+Wow! That was sure a lot. Maybe some of you are feeling good about the state of your relationship (or maybe the prospect of one) based on the findings above. Maybe some of you however, are feeling defeated or trapped in some sort of "statisical desntiny". I speak now directly to you. 
 
+Love, as much as I have tried in this post to capture the trends and correlations underlying it, is not something that can so easily be understood. As someone who has himself once been in a different-race, diffferent-religion, long-distance relationship, I understand that love is something which thrives on communication, understanding, support, and comporomise, none of which are captured in the data (as if you could capture such things). 
+
+So, it is important to take the findings above with a grain (or a barrel if you prefer) of salt. The work above is very useful, enlightening, and surprising in understanding the disparities in breakup rates based on a variety of factors pertaining to couples, especialy in regards to those things people fundamentally identify with such as race, relgion, and politics. Still, remember that these disparties have an inherent "all else held constant" phrase. Even if you are a different-race, different-relgion, different-party, etc. couple, if you have found some common ground, good on you. 
+
+The important thing, I think, is really to build the courage to understand what you truly want and find the person, go to the place, achieve the goal, cross the barrier that will help you get there. 
 
 ---
 
 <a name="not"></a>
 
 # Notes
+
+There are many things worth noting about the data we are using. These are important to keep in mind while reflecting on the above analysis.
+
+* The data was collected through a survey, which means that it was opt-in. That is, this survey was sent out to many Americans, and the 4002 people that replied are relfected in the data. It is important to keep in mind that this self selection can cause inherent biases in the data. It is a common trend that self selection can attract people who are more extreme in some aspect than the average person. Just as an example, when giving teacher evaluations, the students who really enjoyed the teacher and thsoe who really despised the teacher will tend to respond while those who have no real preference will tend not to respond. 
+
+* Since this survey was given to the same group of 4002 people for multiple years in a row to see if they have broken up with their partner or divorced their spouse, or if their partner/spouse had passed away, fewer and fewer of these people replied with each successive wave. For example, in the intial wave consisted of 976 people who were dating. In the second wave, only 875 of these people updated their dating status (a 10% participation loss). Then in the third wave, only 568 of the intial 976 gave a status update (a 35% participation loss from wave 2). It just gets worse from there. This is why we use the 1 year breakup rate in this work. If we looked at breakup rates after 2 and more years, we start having to reduce our sample by more and more. (Not to say this isn't worth looking at).
+
+* This data was fully self-reported. That is, no one went and fact checked whether this perosn was truly the age, race, religion, etc. they claimed to be. Furthremore, there was definitely no check on the details about their partner since we do not even have a name or way to contact this person. Given this, along with the fact that some of these questions were very personal, we have a pretty good chance of running into some biases in the data. For example, if you ask this author, the one year breakup rate calculated from the data, 23%, is much too low. The reasoning is that given the chance to answer fully anonomously whether a person is still in a relationship, many people might be inclined to answer "yes" even if that is not the case. One reason alone might be that they just recently broke up with this person and there are lingering feelings. Or perhaps they are just "on a break"; relationships dont always fall into that dating/not dating split. Other fields could easily be biased up or down too including age, salary (we didnt touch on this but is was in the data), education level, etc.
+
+
 
 
 Thanks for reading and please leave comments!
