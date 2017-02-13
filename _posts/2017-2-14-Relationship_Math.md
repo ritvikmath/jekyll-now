@@ -281,7 +281,7 @@ Now the question we (or at least I) have been waiting to answer: What are the be
 
 <figure>
 <center>
-   <a href="/images/feature_importanes.png"><img width="100%" src="/images/feature_importanes.png"></a>
+   <a href="/images/feature_importances.png"><img width="100%" src="/images/feature_importances.png"></a>
 </center>
 </figure>
 
