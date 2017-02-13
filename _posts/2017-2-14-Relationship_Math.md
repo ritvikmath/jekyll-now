@@ -233,13 +233,31 @@ We can roughly split up the categories into high, medium, and low breakup rates:
 
 * It is maybe surprising that Bar/Nightclub and Work have narly identical breakup rates, especially given the previous figure on where Dating and Married couples meet. But, we need to again remember that these are only 1 year breakup rates and say little about what happens thereafter. For a further explanation of this phenomenon, see the [Notes](#not) section.
 
-* We see from the "Low" bin that the most stable relationships (at least at the 1 year cutoff) begin at school, at church, and surpisingly during travel. It would be interesting to see, perhaps in a later iteration of this work, if these low breakup rates persist at the 2-year, 3-year, etc. cutoffs. 
+* We see from the "Low" bin that the most stable relationships (at least at the 1 year cutoff) begin at school, at church, and surpisingly during travel. It would be interesting to see, perhaps in a later iteration of this work, if these low breakup rates persist at the 2-year, 3-year, etc. cutoffs.
+
+* This author found it curious why the breakup rate for social organizations was so high compared to all the other bins. Is it that these relationships are somehow tied to the organization so that when one or both parties leaves, the relationship tends to dissolve? Is it that a social organization is not as much of a commitment on average than school or church? These are all just hypotheses, what do you think? 
+
+How did your ranking match up with the results?
+
 ---
 
 <a name="model"></a>
 
 # Can We Build a Model to Predict Breakup?
 
+Finally, we are here. It is time to use all this knowledge we have amassed about relationships and the forces that cause them to dissolve or persist. We will now turn our attention to building and anlyzing a model which will help us predict which comples will break up and which will stay together after a year.
+
+## Methodology
+
+This author would like to be very transparent with the assumptions underlying this model in the interest of proper interpretation. Indeed, this author sincerely hopes that the model we show below is not some kind of be-all and end-all indicator for whather a couple will break up in a year. See the [Notes](#not) section for a further discussion. 
+
+1. **Define Our Features**: In the field of machine learning, ***features*** are defined as the predictors we hope to use in determining the value of some measure with some high accuracy. In this case, they are the attributes of couples that we will be using to assign a 1 or 0 label indicating that they will or will not break up within a year. We will use many of the **features outlined in this post** including: length of relationship, where a couple met, whether a couple is same-race, same-religion, same-political party, etc. We will also use some **features from the data that we did not explicitly mention** above including: years of education of both people in the relationship, whether both people are from the same town, how long ago the romance began between the two, and the age difference between the two. 
+
+2. **Training and Testing Sets**: We need to split our data into what is called a **training set** and a **testing set**. The idea is fairly simple. We will build our model using the data in our **training set** and test for the accuracy of this model on our **testing set**. It is crucial that these two sets do not share any data. Confused? It's OK! Let me explain using an example. Imagine you are preparing for a final exam using past final exams by this professor. It is crucial, at least for the professor, to use completely different questions on the actual final exam than those on the final exams you use for practice. Otherwise, the actual final exam will not measure student performance but rather just how well you can memorize questions. It's basically the same idea here.
+
+3. **Model Selection**: Once we define our features we will need to figure out which type of model is best in giving us a high accuracy. This is often referred to in machine learning as ***model selection***. In practice, we will iterate over many different types of models and combinations of features and pick the one which gives us the best accuracy on our testing set.
+
+4. **Measuring Performance**: If we get a model that is **75%** accurace in predicing whether a couple will break up in a year, is that good? Actually no and here's why. It turns out that about **23% of couples break up within one year**. So, let's say that instead of using our model, we just predict that each and every couple will not break up in a year. What is our accuracy. Well, **77% of couples do not break up within a year**, so our accuracy will be **77%**, already higher than the **75%** we got with our hypothetical model. Basically, **if we do not get higher than 77%, we might as well just guess randomly and throw away our model**. How embarassing would it be to get a 30% on a True-False test where you could have gotten 50% by random guessing?
 
 ---
 
