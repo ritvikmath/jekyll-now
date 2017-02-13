@@ -27,6 +27,7 @@ Quick Links:
 * [What are the Breakup Rates Based on Race, Religion, etc.?](#break)
 * [How Likely is a Couple to Break Up Based On Where They Met?](#met) 
 * [Can We Build a Model to Predict Breakup?](#model)
+* [Conclusions](#conc)
 * [Notes](#not)  
 
 ---
@@ -304,6 +305,7 @@ Now the question we (or at least I) have been waiting to answer: **What are the 
 * A final note on this chart is the relative sizes between our predictors. Namely, we see a pretty uniform decline in predictive power up until **respondent years education** and then a sudden decease when we consider **met-online**. Perhaps then the features on years of education do belong more in the "time-dependent" category. Of course, this is all assuming that this time dependence is actually a natural separator for predictive power.
 
 ---
+<a name="conc"></a>
 
 # Conclusions
 
