@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Uncovering The Forces Which Break Relationships Apart
+title: Uncovering The Forces Which Break Up Relationships
 ---
 
 <figure>
