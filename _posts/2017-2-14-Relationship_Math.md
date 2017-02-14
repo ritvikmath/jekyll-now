@@ -287,7 +287,7 @@ We can now look at how accurate our model is compared to the Baseline random gue
 
 Wow! It might seem like those 6 additional hearts we gain from our model are measly, but look again! Considering each one represents 464,000 couples, it turns out that we classify an ***additional 2.8 million couples correctly*** compared to the random guessing model! 
 
-Now the question we (or at least I) have been waiting to answer: **What are the best predictors of whether a couple will break up in the next year**. Here they are:
+Now the question we (or at least I) have been waiting to answer: **What are the best predictors of whether a couple will break up in the next year?** Here they are:
 
 ## Feature Importances in Our Model
 ---
