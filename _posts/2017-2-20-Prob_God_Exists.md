@@ -174,7 +174,7 @@ Well, the sine term is bounded between -1 and 1 so it ceases to be a significant
 Over time,
 
 $$
-Q(t) -> \frac{t}{2t + t} = \frac{1}{3}.
+Q(t) \rightarrow \frac{t}{2t + t} = \frac{1}{3}.
 $$
 
 Wow! So, over time, your minimum faith threshold approaches neither 0 nor 1, but $\frac{1}{3}$. That is, as you get older and older, if your personal probability that a god exists exceeds $\frac{1}{3}$, you will choose to believe in a god. Otherwise, you will choose to not believe. 
