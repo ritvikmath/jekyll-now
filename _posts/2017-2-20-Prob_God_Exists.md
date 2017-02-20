@@ -177,6 +177,22 @@ $$
 Q(t) -> \frac{t}{2t + t} = \frac{1}{3}.
 $$
 
+Wow! So, over time, your minimum faith threshold approaches neither 0 nor 1, but $\frac{1}{3}$. That is, as you get older and older, if your personal probability that a god exists exceeds $\frac{1}{3}$, you will choose to believe in a god. Otherwise, you will choose to not believe. 
+
+Furthermore, this threshold is much more volatile early in your life and stabilizes later on, as you age.
+
+Let's see a graph:
+
+<figure>
+<center>
+   <a href="/images/fluctuate.png"><img width="90%" src="/images/fluctuate.png"></a>
+</center>
+</figure>
+
+We can try a lot of different functions of time for $G_{disbelief}$ and $G_{belief}$ too, try some out!
+
+
+
 
 
 
