@@ -125,6 +125,62 @@ Let's flip that story. If $G_{disbelief}$, your gain from not believing in a god
 *If you think your life will be a lot better by not believing in a god, you would need a lot of faith in the existence of a god to believe*
 {:center}
 
+Enough equations for a bit, let's see some graphs that help us see this a bit better.
+
+To see what happens when your belief in a god grows, let us fix $G_{disbelief} = 1$ and see what happens to $Q$ as $G_{belief}$, your gain from believing in a god when a god exists, grows.
+
+<figure>
+<center>
+   <a href="/images/gain_grow.png"><img width="90%" src="/images/gain_grow.png"></a>
+</center>
+</figure>
+
+* We see that as your gain from believing in a god grows, perhaps due to life experiences fostering belief or the support of a close community of believers, you don't need as much faith to believe. Mathematically, your minimum probability threshold approaches 0.
+
+* We see that anyone whose level of faith is below the minimum threshold would be an atheist, choosing not to believe in god. Anyone whose level of faith is above the threshold would be theist, choosing to believe in a god. And, interestingly, anyone whose level of fait is at or very close to the threshold would be agnostic, perhaps unsure of the existence of a god.
+
+Now for the flip side of that story. What happens if we fix $G_{belief} = 1$ and see what happens as we let $G_{disbelief}$, your gain from not believing in a god when no god exists, grow to higher and higher values? 
+
+<figure>
+<center>
+   <a href="/images/nongain_grow.png"><img width="90%" src="/images/nongain_grow.png"></a>
+</center>
+</figure>
+
+* We see that as your gain from not believing in a god grows, maybe due to losing touch with religion or substituting religion for other ideals, you need more and more fait to believe in a god. Mathematically, your minimum probability threshold approaches 1.
+
+Cool! Let's close by extending our model a bit to capture a bit more of reality. In truth, faith in the existence of a god is a function of time. Maybe you were raised very religiously but later in life, abandoned those ideals. Or perhaps, you were raised in a very secular household, but later found solace in the idea of religion. Either way, over time, your gain from belief or disbelief has changed in some way. 
+
+Let's consider a concreate example. Suppose $t$ represents time. Let's say that 
+
+$$G_{belief} = 2t$$ 
+
+so that your gain from believing in a god rises over time. Let's also say that 
+
+$$G_{disbelief} = t + sin(3t)$$
+
+so that your gain from not believing in a god rises over time in general (as a result of the first $t$ term) but that it also fluctuates up and down a bit over time (as a result of the sine function).
+
+Then, returning to our framework build above:
+
+$$
+Q(t) = \frac{t + sin(3t)}{2t + t + sin(3t)}
+$$
+
+**What happens as you get older (i.e. as $t$ approaches larger and larger values)?**
+
+Well, the sine term is bounded between -1 and 1 so it ceases to be a significant factor for large values of $t$.
+
+Over time,
+
+$$
+Q(t) -> \frac{t}{2t + t} = \frac{1}{3}.
+$$
+
+
+
+
+
 
 
 
