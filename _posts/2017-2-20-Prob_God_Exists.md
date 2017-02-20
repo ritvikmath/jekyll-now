@@ -13,10 +13,14 @@ title: What is the Probability that a God Exists?
 
 As seventeenth-centry mathematican, philosopher, and physicist Blaise Pascal described, there are only four possible states of the universe:
 
+{:center: style="text-align: center"}
+
 * You believe in a god and this god exists (Case A)
 * You believe in a god but no god exists (Case B)
 * You do not believe in any god but a god exists (Case C)
 * You do not believe in any god and no god exists (Case D)
+
+{:center}
 
 Each case has an associated benefit (Case A and Case D) or cost (Case B and Case C). For example, in case A, you should be rewarded for you belief through some beneficial afterlife, or constructuve reincarnation, etc. But, for example in case C, you might suffer a terrible fate after death or a similarly grave outcome. We can enumerate the benefits and costs in a payoff matrix:
 
@@ -111,12 +115,15 @@ so
 
 What happens if $G_{belief}$, your gain from believing in a god, gets higher and higher? Well, $Q$ will approach $0$ and you will choose to believe in a god even if your personal probability that a god exists, $p$, is small. In more casual terms, 
 
+{:center: style="text-align: center"}
 *if you think your life will be a lot better by believing in a god, you don't necissarily need great faith in the existence of a god to believe*
+{:center}
 
 Let's flip that story. If $G_{disbelief}$, your gain from not believing in a god, gets higher and higher, the quantity $Q$ will approach $1$. In everyday terms this says that 
 
+{:center: style="text-align: center"}
 *if you think your life will be a lot better by not believing in a god, you would need a lot of faith in the existence of a god to believe*
-
+{:center}
 
 
 
