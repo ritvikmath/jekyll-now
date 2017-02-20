@@ -22,7 +22,7 @@ Each case has an associated benefit (Case A and Case D) or cost (Case B and Case
 
 <figure>
 <center>
-   <a href="/images/payoff.jpg"><img width="90%" src="/images/payoff.jpg"></a>
+   <a href="/images/cost_mtx.png"><img width="90%" src="/images/cost_mtx.png"></a>
 </center>
 </figure>
 
