@@ -16,8 +16,11 @@ As seventeenth-centry mathematican, philosopher, and physicist Blaise Pascal des
 {:center: style="text-align: center"}
 
 **Case A**: You believe in a god and this god exists 
-**Case B**: You believe in a god but no god exists 
+
+**Case B**: You believe in a god but no god exists
+
 **Case C**: You do not believe in any god but a god exists 
+
 **Case D**: You do not believe in any god and no god exists
 
 {:center}
