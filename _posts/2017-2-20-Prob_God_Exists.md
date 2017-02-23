@@ -208,7 +208,7 @@ Let's see a graph:
 
 <figure>
 <center>
-   <a href="/images/fluctuate.png"><img width="90%" src="/images/fluctuate.png"></a>
+   <a href="/images/fluctuate_g.png"><img width="90%" src="/images/fluctuate_g.png"></a>
 </center>
 </figure>
 
