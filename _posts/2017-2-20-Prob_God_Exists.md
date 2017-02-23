@@ -10,6 +10,8 @@ title: What is the Probability that a God Exists?
 </center>
 </figure>
 
+---
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
