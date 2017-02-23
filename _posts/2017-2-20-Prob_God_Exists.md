@@ -230,7 +230,15 @@ $$
 1 - t = \frac{t + sin(3t)}{2t + t + sin(3t)}
 $$
 
-which is satisfied when $t = 0.37$. That is, if $t < 0.37$, we have that $p(t) > Q(t)$, and if $t > 0.37$, $p(t) < Q(t)$.
+which is satisfied when $t = 0.37$. That is, 
+
+{:center: style="text-align: center"}
+
+if $t < 0.37$, we have that $p(t) > Q(t)$
+
+if $t > 0.37$, $p(t) < Q(t)$
+
+{:center}
 
 **So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god.**
 
