@@ -212,7 +212,7 @@ Let's see a graph:
 </center>
 </figure>
 
-Let's take a final step by saying that your personal probability $p$, that a god exists starts at 1 when you are young ($t=0$) and decreases over time according to the function:
+Let's take a final step by saying that your personal probability $p$, that a god exists starts at $p=1$ when you are young ($t=0$) and decreases over time according to the function:
 
 $$ 
 p(t) = 1 - t
@@ -230,7 +230,7 @@ $$
 1 - t = \frac{t + sin(3t)}{2t + t + sin(3t)}
 $$
 
-which is satisfied when $t = 0.37$.
+which is satisfied when $t = 0.37$. That is, if $t < 0.37$, we have that $p(t) > Q(t)$, and if $t > 0.37$, $p(t) < Q(t)$.
 
 **So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god.**
 
