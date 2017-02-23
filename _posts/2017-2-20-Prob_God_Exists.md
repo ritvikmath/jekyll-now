@@ -4,6 +4,12 @@ comments: true
 title: What is the Probability that a God Exists?
 ---
 
+<figure>
+<center>
+   <a href="/images/header_god.png"><img width="90%" src="/images/header_god.png"></a>
+</center>
+</figure>
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
@@ -89,7 +95,7 @@ $$
 \textrm{Expected Payoff from Belief} > \textrm{Expected Payoff from Disbelief}
 $$
 
-otherwise you would choose disbelief over belief (see notes section for a bit more commentary on this inequality).
+otherwise you would choose disbelief over belief.
 
 In other words:
 
@@ -150,7 +156,7 @@ To see what happens when your belief in a god grows, let us fix $G_{disbelief} =
 
 * We see that as your gain from believing in a god grows, perhaps due to life experiences fostering belief or the support of a close community of believers, you don't need as much faith to believe. Mathematically, your minimum probability threshold approaches 0.
 
-* We see that anyone whose level of faith is below the minimum threshold would be an atheist, choosing not to believe in god. Anyone whose level of faith is above the threshold would be theist, choosing to believe in a god. And, interestingly, anyone whose level of fait is at or very close to the threshold would be agnostic, perhaps unsure of the existence of a god.
+* We see that anyone whose level of faith is below the minimum threshold would be an atheist, choosing not to believe in god. Anyone whose level of faith is above the threshold would be theist, choosing to believe in a god. And, interestingly, anyone whose level of faith is at or very close to the threshold would be agnostic, perhaps unsure of the existence of a god.
 
 Now for the flip side of that story. What happens if we fix $G_{belief} = 1$ and see what happens as we let $G_{disbelief}$, your gain from not believing in a god when no god exists, grow to higher and higher values? 
 
@@ -160,11 +166,11 @@ Now for the flip side of that story. What happens if we fix $G_{belief} = 1$ and
 </center>
 </figure>
 
-* We see that as your gain from not believing in a god grows, maybe due to losing touch with religion or substituting religion for other ideals, you need more and more fait to believe in a god. Mathematically, your minimum probability threshold approaches 1.
+* We see that as your gain from not believing in a god grows, maybe due to losing touch with religion or substituting religion for other ideals, you need more and more faith to believe in a god. Mathematically, your minimum probability threshold approaches 1.
 
 ---
 
-Cool! Let's close by extending our model a bit to capture a bit more of reality. In truth, faith in the existence of a god is a function of time. Maybe you were raised very religiously but later in life, abandoned those ideals. Or perhaps, you were raised in a very secular household, but later found solace in the idea of religion. Either way, over time, your gain from belief or disbelief has changed in some way. 
+Cool! Let's close by extending our model a bit to capture a bit more of reality. In truth, faith in the existence of a god is a function of time. Maybe you were raised very religiously but later in life, abandoned those ideals. Or perhaps, you were raised in a very secular household, but later found solace in the idea of religion. 
 
 In the same way, your personal costs and benefits from believing or not believing in a god change over time as well. Perhaps your gain from believing in a god rises over time as you find support from a close group of believing individuals. Or perhaps your gain from not believing in a god rises as you mingle with those who choose to not believe in any god.
 
