@@ -226,7 +226,7 @@ $$
 
 which is satisfied when $t = 0.37$.
 
-** So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god. **
+**So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god.**
 
 We can try a lot of different functions of time for $G_{disbelief}$ and $G_{belief}$ and $p(t)$! The possibilities for exploring this model are endless! 
 
