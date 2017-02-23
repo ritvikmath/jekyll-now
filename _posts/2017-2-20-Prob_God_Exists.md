@@ -233,11 +233,13 @@ $$
 which is satisfied when $t = 0.37$. That is, 
 
 {:center: style="text-align: center"}
+$$
 
 \textrm{if} t < 0.37, \textrm{we have that} p(t) > Q(t)
 
 \textrm{if} t > 0.37, \textrm{we have that} p(t) < Q(t)
 
+$$
 {:center}
 
 **So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god.**
