@@ -39,7 +39,7 @@ $$
 
 {:center}
 
-Each case has an associated benefit (Case A and Case D) or cost (Case B and Case C). For example, in case A, you should be rewarded for you belief through some beneficial afterlife, or constructive reincarnation, etc. But, for example in case C, you might suffer a terrible fate after death or a similarly grave outcome. We can enumerate the benefits and costs in a payoff matrix:
+Each case has an associated benefit (Case A and Case D) or cost (Case B and Case C). For example, in case A, you should be rewarded for your belief through some beneficial afterlife, or constructive reincarnation, etc. But, for example in case C, you might suffer a terrible fate after death or a similarly grave outcome. We can enumerate the benefits and costs in a payoff matrix:
 
 <figure>
 <center>
@@ -71,7 +71,7 @@ $$ A > 0, B < 0, C < 0, D > 0 $$
 
 since you being right about the existence/non-existence of a god is a gain while you being wrong about the existence/non-existence of a god is a loss.
 
-We will also assume that each person has their own personal probability, $ p $, that a god exists:
+We will also assume that each person has their own personal probability, $ p $, that a god exists. This is really a measure of your faith in the existence of a god:
 
 $$ 
 p = \textrm{Your Personal Probability That a God Exists}
@@ -172,7 +172,7 @@ Now for the flip side of that story. What happens if we fix $G_{belief} = 1$ and
 
 Cool! Let's close by extending our model a bit to capture a bit more of reality. In truth, faith in the existence of a god is a function of time. Maybe you were raised very religiously but later in life, abandoned those ideals. Or perhaps, you were raised in a very secular household, but later found solace in the idea of religion. 
 
-In the same way, your personal costs and benefits from believing or not believing in a god change over time as well. Perhaps your gain from believing in a god rises over time as you find support from a close group of believing individuals. Or perhaps your gain from not believing in a god rises as you mingle with those who choose to not believe in any god.
+In the same way, your personal costs and benefits from believing or not believing in a god change over time as well. Perhaps your gain from believing in a god rises over time as you find support from a close group of believing individuals. Or perhaps your gain from not believing in a god rises as you mingle with those who choose to not believe in any god. Maybe it's even a combination of both!
 
 Let's consider a concreate example. Suppose $t$ represents time. Let's say that 
 
@@ -187,7 +187,7 @@ so that your gain from not believing in a god rises over time in general (as a r
 Then, returning to our framework built above:
 
 $$
-Q(t) = \frac{t + sin(3t)}{2t + t + sin(3t)}
+Q(t) = \frac{G_{disbelief}}{G_{disbelief} + G_{belief}} = \frac{t + sin(3t)}{2t + t + sin(3t)}
 $$
 
 **What happens as you get older (i.e. as $t$ approaches larger and larger values)?**
