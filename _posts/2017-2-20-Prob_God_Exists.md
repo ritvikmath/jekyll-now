@@ -11,7 +11,7 @@ title: What is the Probability that a God Exists?
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
-As seventeenth-centry mathematican, philosopher, and physicist Blaise Pascal described, there are only four possible states of the universe:
+As seventeenth-century mathematician, philosopher, and physicist Blaise Pascal described, there are only four possible states of the universe:
 
 {:center: style="text-align: center"}
 
@@ -33,7 +33,7 @@ $$
 
 {:center}
 
-Each case has an associated benefit (Case A and Case D) or cost (Case B and Case C). For example, in case A, you should be rewarded for you belief through some beneficial afterlife, or constructuve reincarnation, etc. But, for example in case C, you might suffer a terrible fate after death or a similarly grave outcome. We can enumerate the benefits and costs in a payoff matrix:
+Each case has an associated benefit (Case A and Case D) or cost (Case B and Case C). For example, in case A, you should be rewarded for you belief through some beneficial afterlife, or constructive reincarnation, etc. But, for example in case C, you might suffer a terrible fate after death or a similarly grave outcome. We can enumerate the benefits and costs in a payoff matrix:
 
 <figure>
 <center>
@@ -105,7 +105,7 @@ $$
 
 But what is $(D-B)$? It is really the added benefit you get from switching from belief to disbelief in a world where there is no god. Let's say $G_{disbelief} = D-B$.
 
-And what is $(A-C)$? It's just the added benefit you get from switching from disbelief to beleif in a world where there is a god. Let's say $G_{belief} = A-C$.
+And what is $(A-C)$? It's just the added benefit you get from switching from disbelief to belief in a world where there is a god. Let's say $G_{belief} = A-C$.
 
 So, if you choose to believe in a god:
 
@@ -127,7 +127,7 @@ so
 What happens if $G_{belief}$, your gain from believing in a god, gets higher and higher? Well, $Q$ will approach $0$ and you will choose to believe in a god even if your personal probability that a god exists, $p$, is small. In more casual terms, 
 
 {:center: style="text-align: center"}
-*If you think your life will be a lot better by believing in a god, you don't necissarily need great faith in the existence of a god to believe*
+*If you think your life will be a lot better by believing in a god, you don't necessarily need great faith in the existence of a god to believe*
 {:center}
 
 Let's flip that story. If $G_{disbelief}$, your gain from not believing in a god, gets higher and higher, the quantity $Q$ will approach $1$. In everyday terms this says that 
@@ -135,6 +135,8 @@ Let's flip that story. If $G_{disbelief}$, your gain from not believing in a god
 {:center: style="text-align: center"}
 *If you think your life will be a lot better by not believing in a god, you would need a lot of faith in the existence of a god to believe*
 {:center}
+
+---
 
 Enough equations for a bit, let's see some graphs that help us see this a bit better.
 
@@ -160,7 +162,11 @@ Now for the flip side of that story. What happens if we fix $G_{belief} = 1$ and
 
 * We see that as your gain from not believing in a god grows, maybe due to losing touch with religion or substituting religion for other ideals, you need more and more fait to believe in a god. Mathematically, your minimum probability threshold approaches 1.
 
+---
+
 Cool! Let's close by extending our model a bit to capture a bit more of reality. In truth, faith in the existence of a god is a function of time. Maybe you were raised very religiously but later in life, abandoned those ideals. Or perhaps, you were raised in a very secular household, but later found solace in the idea of religion. Either way, over time, your gain from belief or disbelief has changed in some way. 
+
+In the same way, your personal costs and benefits from believing or not believing in a god change over time as well. Perhaps your gain from believing in a god rises over time as you find support from a close group of believing individuals. Or perhaps your gain from not believing in a god rises as you mingle with those who choose to not believe in any god.
 
 Let's consider a concreate example. Suppose $t$ represents time. Let's say that 
 
@@ -172,7 +178,7 @@ $$G_{disbelief} = t + sin(3t)$$
 
 so that your gain from not believing in a god rises over time in general (as a result of the first $t$ term) but that it also fluctuates up and down a bit over time (as a result of the sine function).
 
-Then, returning to our framework build above:
+Then, returning to our framework built above:
 
 $$
 Q(t) = \frac{t + sin(3t)}{2t + t + sin(3t)}
@@ -200,7 +206,31 @@ Let's see a graph:
 </center>
 </figure>
 
-We can try a lot of different functions of time for $G_{disbelief}$ and $G_{belief}$ too, try some out!
+Let's take a final step by saying that your personal probability $p$, that a god exists starts at 1 when you are young ($t=0$) and decreases over time according to the function:
+
+$$ 
+p(t) = 1 - t
+$$
+
+Assuming $t=1$ is the end of your life, we find that setting 
+
+$$
+p(t) = Q(t)
+$$
+
+gives 
+
+$$
+1 - t = \frac{t + sin(3t)}{2t + t + sin(3t)}
+$$
+
+which is satisfied when $t = 0.37$.
+
+** So, for about the first third of your life, you believe in a god since your personal probability $p(t)$ is above the threshold, $Q(t)$ but for final two thirds of your life, this story reverses so that you no longer believe in a god. **
+
+We can try a lot of different functions of time for $G_{disbelief}$ and $G_{belief}$ and $p(t)$! The possibilities for exploring this model are endless! 
+
+
 
 
 
