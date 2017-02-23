@@ -234,9 +234,9 @@ which is satisfied when $t = 0.37$. That is,
 
 {:center: style="text-align: center"}
 
-if $t < 0.37$, we have that $p(t) > Q(t)$
+\textrm{if} t < 0.37, \textrm{we have that} p(t) > Q(t)
 
-if $t > 0.37$, $p(t) < Q(t)$
+\textrm{if} t > 0.37, \textrm{we have that} p(t) < Q(t)
 
 {:center}
 
