@@ -6,7 +6,7 @@ title: What is the Probability that a God Exists?
 
 <figure>
 <center>
-   <a href="/images/small_img.png"><img width="90%" src="/images/small_img.png"></a>
+   <a href="/images/small_img2.png"><img width="90%" src="/images/small_img2.png"></a>
 </center>
 </figure>
 
