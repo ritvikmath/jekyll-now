@@ -10,6 +10,12 @@ title: What is the Probability that a God Exists?
 </center>
 </figure>
 
+<figure>
+<center>
+   <a href="/images/318.gif"><img width="90%" src="/images/318.gif"></a>
+</center>
+</figure>
+
 ---
 
 <script type="text/x-mathjax-config">
