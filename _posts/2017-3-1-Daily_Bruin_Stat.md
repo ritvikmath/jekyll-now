@@ -12,7 +12,51 @@ title: Why This Daily Bruin Image Made Me Cringe
 
 ---
 
-At some point last week, while scrolling through my Facebook feed, I came across the above image published in UCLA's daily newspaper, the Daily Bruin. The image and its associated articleAt first glance it seems like an admittedly very interesting picture, showcasing the "typical" UCLA student on several noteworthy axes including Gender, Major, and GPA. 
+At some point last week, while scrolling through my Facebook feed, I came across the above image published in UCLA's daily newspaper, the Daily Bruin. The image and its <a href="http://dailybruin.com/2017/02/22/the-quad-life-as-an-average-ucla-student/" target="_blank">associated article</a> argue that "there’s nothing wrong with being common and average", a nice message.
+
+At first glance this image seems admittedly very interesting, showcasing the "typical" UCLA student on several noteworthy axes including Gender, Major, and GPA. When I started really staring at it though, and understanding its implications, I became increasingly worried about the way data is depicted in other and future Daily Bruin posts. 
+
+Let me explain my concern. This image, as stated in bold at the top, was "created by compiling the most common demographic out of multiple categories". That is, the image was created by taking the most common Gender, shown to be Female, the most common Ethnicity, shown to be Asian or Pacific Islander", most common Major, shown to be "Biology", etc. This in itself is no issue, but what really worried me was that the most common demographics from each category were compiled under the pretense that **"This is the most common UCLA student"**. This is a statistical fallacy and misleading. 
+
+**What's so wrong about it?**
+
+I'll explain with a more serious example. It is known that SAT scores and family income are not independent. That is, students coming from richer families do decidedly better on the SAT exam (a large factor in college admittance) than do students from low income families. This may best be attributed to better access to often expensive study materials, classes, tutors, etc. Let's say that for some classroom of 100 students we have the following breakdown:
+
+<figure>
+<center>
+   <a href="/images/sat_mtx.png"><img width="90%" src="/images/sat_mtx.png"></a>
+</center>
+</figure>
+
+Let's follow the **Daily Bruin's methodology** of picking the **"most common demographic"**.
+
+<figure>
+<center>
+   <a href="/images/most_common.png"><img width="90%" src="/images/most_common.png"></a>
+</center>
+</figure>
+
+And now let's present our picture.
+
+<figure>
+<center>
+   <a href="/images/misleading_student.png"><img width="90%" src="/images/misleading_student.png"></a>
+</center>
+</figure>
+
+**Clearly something is very wrong here**
+
+Someone looking at this picture will think that most students in the class come from low-income families and get high SAT scores and might then conclude that there is no issue. Why should we bother considering family income when looking at SAT score if "the facts" seem to say that students coming from lower income backgrounds are doing better anyways?!
+
+This type of analysis is not only misleading, **it is irresponsible**. 
+
+For a "cute" article like the one in the Daily Bruin (which is the only reason I would think for publishing such an article in the first place), I'll agree, Fine, no real harm done. The article has a somewhat positive, if highly misguided, message and included a pretty picture. 
+
+But, I worry less about this article in particular and more about the **thought process at the Daily Bruin**. Did no one check over this article before it was published? Did no red flags go off in anyone's head that it might be misleading to point a bunch of labels to one student and label them as "the most common UCLA student"? I find it interesting that the article starts with a, justifiable, jab at our current president while the article itself falls prey to the same "false facts" that plague our current era. 
+
+I sincerely hope there are more oversights and peer reviews at the Daily Bruin for more serious articles than this piece.
+
+
 
 
 
