@@ -18,7 +18,7 @@ At some point last week, while scrolling through my Facebook feed, I came across
 
 At first glance this image seems admittedly very interesting, showcasing the "typical" UCLA student on several noteworthy axes including Gender, Major, and GPA. When I started really staring at it though, and understanding its implications, I became increasingly worried about the way data is depicted in other and future Daily Bruin posts. 
 
-Let me explain my concern. This image, as stated in bold at the top, was **"created by compiling the most common demographic out of multiple categories"**. That is, the image was created by taking the most common Gender, shown to be Female, the most common Ethnicity, shown to be Asian or Pacific Islander, most common Major, shown to be Biology, etc. This in itself is no issue, but what really worried me was that the most common demographics from each category were compiled under the pretense that **"This is the most common UCLA student"**. This is a statistical fallacy and misleading. 
+Let me explain my concern. This image, as stated in bold at the top, was **"created by compiling the most common demographic out of multiple categories"**. That is, the image was created by taking the most common Gender, shown to be Female, the most common Ethnicity, shown to be Asian or Pacific Islander, most common Major, shown to be Biology, etc. This in itself is no issue, but what really worried me was that the most common demographics from each category were **compiled under the pretense that "This is the most common UCLA student"**. This is a statistical fallacy and misleading. 
 
 **What's so wrong about it?**
 
