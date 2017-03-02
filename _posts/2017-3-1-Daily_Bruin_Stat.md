@@ -20,7 +20,7 @@ Let me explain my concern. This image, as stated in bold at the top, was **"crea
 
 **What's so wrong about it?**
 
-I'll explain with a more serious example. It is known that SAT scores and family income are not independent. That is, students coming from richer families do decidedly better on the SAT exam (a large factor in college admittance) than do students from low income families. This may best be attributed to limited access to often expensive study materials, classes, tutors, and the added time burden, which may detract from study time, associated coming from a low-income family. Let's say that for some classroom of 100 students we have the following breakdown of students:
+I'll explain with a more serious example. It is known that SAT scores and family income are not independent (see links at the end). That is, students coming from richer families do decidedly better on the SAT exam (a large factor in college admittance) than do students from low income families. This may best be attributed to limited access to often expensive study materials, classes, tutors, and the added time burden, which may detract from study time, associated coming from a low-income family. Let's say that for some classroom of 100 students we have the following breakdown of students:
 
 <figure>
 <center>
