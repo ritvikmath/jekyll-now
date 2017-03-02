@@ -32,7 +32,7 @@ Let's follow the **Daily Bruin's methodology** of picking the **"most common dem
 
 <figure>
 <center>
-   <a href="/images/most_common.png"><img width="90%" src="/images/most_common.png"></a>
+   <a href="/images/most_common_arrows.png"><img width="90%" src="/images/most_common_arrows.png"></a>
 </center>
 </figure>
 
