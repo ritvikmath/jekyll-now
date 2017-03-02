@@ -20,7 +20,7 @@ Let me explain my concern. This image, as stated in bold at the top, was **"crea
 
 **What's so wrong about it?**
 
-I'll explain with a more serious example. It is known that SAT scores and family income are not independent. That is, students coming from richer families do decidedly better on the SAT exam (a large factor in college admittance) than do students from low income families. This may best be attributed to better access to often expensive study materials, classes, tutors, etc. Let's say that for some classroom of 100 students we have the following breakdown of students:
+I'll explain with a more serious example. It is known that SAT scores and family income are not independent. That is, students coming from richer families do decidedly better on the SAT exam (a large factor in college admittance) than do students from low income families. This may best be attributed to limited access to often expensive study materials, classes, tutors, and the added time burden, which may detract from study time, associated coming from a low-income family. Let's say that for some classroom of 100 students we have the following breakdown of students:
 
 <figure>
 <center>
@@ -57,6 +57,16 @@ For a "cute" article like the one in the Daily Bruin (which is the only reason I
 But, I worry less about this article in particular and more about the **thought process at the Daily Bruin**. Did no one check over this article before it was published? Did no red flags go off in anyone's head that it might be misleading to point a bunch of labels to one student and label them as **"the most common UCLA student"**? I find it interesting that the article starts with a, justifiable, jab at our current president while the article itself falls prey to the same "false facts" that plague our current era. 
 
 I sincerely hope there are more oversights and peer reviews at the Daily Bruin for more serious articles than this piece.
+
+---
+
+See these articles for the correlation between SAT scores and family income.
+
+<a href="https://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/" target="_blank">SAT Scores and Family Income</a>
+
+<a href="https://www.washingtonpost.com/news/wonk/wp/2014/03/05/these-four-charts-show-how-the-sat-favors-the-rich-educated-families/?utm_term=.0e83b6bf989c" target="_blank">These four charts show how the SAT favors rich, educated families</a>
+
+
 
 
 
