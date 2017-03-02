@@ -24,7 +24,7 @@ I'll explain with a more serious example. It is known that SAT scores and family
 
 <figure>
 <center>
-   <a href="/images/sat_mtx.png"><img width="90%" src="/images/sat_mtx.png"></a>
+   <a href="/images/sat_matrix.png"><img width="90%" src="/images/sat_matrix.png"></a>
 </center>
 </figure>
 
