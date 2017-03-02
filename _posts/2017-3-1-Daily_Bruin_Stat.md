@@ -4,8 +4,6 @@ comments: true
 title: Why This Daily Bruin Image Made Me Cringe
 ---
 
----
-
 <figure>
 <center>
    <a href="/images/typical_student.png"><img width="90%" src="/images/typical_student.png"></a>
