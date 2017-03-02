@@ -44,7 +44,7 @@ And now let's present our picture:
 </center>
 </figure>
 
-**Clearly something is very wrong here**
+**Clearly something is very wrong here.**
 
 Someone looking at this picture will think that most students in the class come from low-income families and get high SAT scores and might then conclude that there is no issue. Why should we bother considering family income when looking at SAT score if "the facts" seem to say that students coming from lower income backgrounds are doing better anyways?!
 
