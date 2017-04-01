@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: What is the Probability that a God Exists?
+title: How Many Hearts Beat in Sync With Yours?
 ---
 
 <figure>
@@ -32,6 +32,12 @@ We will define two basic notions in answering this question.
 * Heartbeat: The number of times a heart beats per minute measured in beats per minute (BPM) 
 * Offset: Given that two hearts share a heartbeat, the time delay between their beats usually measured in seconds
 
-Thus, we say that **two hearts beat in sync if they have the same heartbeat and same ofset**
+Thus, we say that **two hearts beat in sync if they have the same heartbeat and same offset
+
+We will be using a half-empirial, half-theoretical approach to answering our question about how many hearts beat with yours.
+
+First the statistics!
+
+
 
 
