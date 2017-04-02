@@ -155,11 +155,11 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i})\mathbf{P}(\textrm{Their Heart Rate = i})\mathbf{P}(\textrm{Offsets Match})
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i}) \times \mathbf{P}(\textrm{Their Heart Rate = i}) \times \mathbf{P}(\textrm{Offsets Match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2\mathbf{P}(Offsets Match) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2 \times \mathbf{P}(\textrm{Offsets Match}) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2
  $$
  
  by the independence assumption between two people's heart rates and the fact that the probability of a matching offset is always 0.02.
