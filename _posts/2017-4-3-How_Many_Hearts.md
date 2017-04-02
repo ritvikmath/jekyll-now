@@ -149,15 +149,15 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  Note that:
  
  $$
- \mathbf{P}(B_{i}=1) = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = **i** and Their Heart Rate = **i** and Offset's match})
+ \mathbf{P}(B_{i}=1) = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i and Their Heart Rate = i and Offset's match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = **i**})\mathbf{P}(\textrm{Their Heart Rate = **i**})\mathbf{P}(Offsets Match)
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i})\mathbf{P}(\textrm{Their Heart Rate = i})\mathbf{P}(Offsets Match)
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = **i**})^2\mathbf{P}(Offsets Match) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = **i**})^2
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = i})^2\mathbf{P}(Offsets Match) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = **i**})^2
  $$
  
  by the independence assumption between two people's heart rates and the fact that the probability of a matching offset is always 0.02.
