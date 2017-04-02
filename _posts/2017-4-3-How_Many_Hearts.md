@@ -6,7 +6,7 @@ title: How Many Hearts Beat in Sync With Yours?
 
 <figure>
 <center>
-   <a href="/images/cover_heartbeat.jpg"><img width="90%" src="/images/cover_heartbeat.jpg"></a>
+   <a href="/images/cover_heartrate.jpg"><img width="90%" src="/images/cover_heartrate.jpg"></a>
 </center>
 </figure>
 
@@ -58,7 +58,7 @@ Given our assumption far, we can generate a histogram of the heart rates.
 
 <figure>
 <center>
-   <a href="/images/heartrate_histo.png"><img width="90%" src="/images/heartrate_histo.png"></a>
+   <a href="/images/heartrate_histo.png"><img width="100%" src="/images/heartrate_histo.png"></a>
 </center>
 </figure>
 
