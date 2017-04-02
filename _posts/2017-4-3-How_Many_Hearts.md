@@ -80,4 +80,18 @@ $$
 O_{j} = \textrm{A variable which is 1 if two hearts beating with heart rate j have the same offset and 0 if not}
 $$
 
-What we are after is the mean of $S$, also called the expected value of $S$ and denoted: $\mathbf{E}$.
+What we are after is the mean of $S$, also called the expected value of $S$ and denoted as $\mathbf{E}(S)$.
+
+If we index each person in the world as $i=1,2,3 ... , N$ where you are person $i=N$, then we have that:
+
+$$
+S = B_{1} + B_{2} + ... + B_{N-1}
+$$
+
+Why? Well $S$ is the number of people in the world whose hearts beat with yours and $B_{i}$ is 1 if and only if person i's heart beats in sync with yours. So, summing up all the $B_{i}$'s we will get exactly the count of how many people whose hearts are in sync with yours. 
+
+So we want:
+
+$$
+\mathbf{E}(S) = \mathbf{E}(\sum_{n=1}^{N-1} B_{i}) = \sum_{n=1}^{N-1} \mathbf{E}(B_{i}) = \sum_{n=1}^{N-1} \mathbf{P}(B_{i}=1)
+$$
