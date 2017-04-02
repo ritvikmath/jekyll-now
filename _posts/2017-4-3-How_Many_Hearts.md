@@ -149,19 +149,44 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  Note that:
  
  $$
- \mathbf{P}(B_{i}=1) = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i and Their Heart Rate = i and Offset's match})
+ \mathbf{P}(B_{i}=1) = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i and Their Heart Rate = i and Offsets match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i})\mathbf{P}(\textrm{Their Heart Rate = i})\mathbf{P}(Offsets Match)
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i})\mathbf{P}(\textrm{Their Heart Rate = i})\mathbf{P}(\textrm{Offsets Match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = i})^2\mathbf{P}(Offsets Match) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{A Heart Rate = **i**})^2
+ = \sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2\mathbf{P}(Offsets Match) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2
  $$
  
  by the independence assumption between two people's heart rates and the fact that the probability of a matching offset is always 0.02.
  
+ Now, finding the probability that a heart beats with heart rate $i$ is as simple as taking the percentile range that the heart rate falls into and dividing by the number of integers in that percentile range. To be more clearm suppose we are trying to find $\mathbf{P}(Heart Rate = 85)$. We note that 85 BPM falls into the 83-88 BPM range, which contains 5 integer values and comprises 5% of the total range of heart rates. Thus, using our Assumption 1 about uniform distribution, $\mathbf{P}(Heart Rate = 85) = \frac{0.05}{5} = 0.01$. We use the same procedure with all other heart rates. 
+ 
+ After doing all appropriate calculations, we end up with:
+ 
+ $$
+ \mathbf{P}(B_{i}=1) = 0.00053
+ $$
+ 
+ That is, the probability that your heart beats in sync with another heart is 0.053%, very small indeed.
+ 
+Using the fact that the current world population is around 7.5 billion, 
+ 
+ $$
+ \mathbf{E}(S) = (N-1) \mathbf{P}(B_{i}=1) = 0.00053 \times (N-1) = 0.00053 \times (7500000000 - 1) = 4006696
+ $$
+ 
+ So, under our four assumptions, the expected number hearts that beat in sync with yours is around:
+ 
+ <figure>
+<center>
+   <a href="/images/solution.png"><img width="90%" src="/images/solution.png"></a>
+</center>
+</figure>
+
+
  
  
  
