@@ -136,7 +136,7 @@ Now, the probability that your friend's heart beats *exactly* when yours does is
 **Assumption 4: Two hearts with the same heart rate will be considered as having the same offset if their beats are within some error tolerance of one another.**
 {:center}
 
-Essentially, if your friend's heart beats just a fraction of a second afters yours does, where that fraction is indistinguishable to the eye, we will consider the offsets to be the same. We will denote the error tolerance as $\epsilon$. Going back to our 40 BPM example, we allow that your friend's heart beats in any of the green regions in the figure below.
+Essentially, if your friend's heart beats just a fraction of a second afters yours does, where that fraction is indistinguishable to the eye, we will consider the offsets to be the same. We will denote the error tolerance as $\epsilon$. Going back to our 40 BPM example, we allow that your friend's heart beats in any of the green regions in the figure below. Note that the probability that your friend's heart beats in the green region is $\frac{2\epsilon}{1.5}$.
 
 <figure>
 <center>
@@ -144,7 +144,13 @@ Essentially, if your friend's heart beats just a fraction of a second afters you
 </center>
 </figure>
 
+So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac{60}{K}$ seconds the probability that they have the same offset is $\frac{k\epsilon}{30}$.
+
  We will let $\epsilon$ be 0.01 seconds going forward.
+ 
+ Now, we are ready to finish our calculation!
+ 
+ 
  
  
 
