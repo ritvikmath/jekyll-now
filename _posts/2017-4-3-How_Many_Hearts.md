@@ -182,7 +182,7 @@ Using the fact that the current world population is around 7.5 billion,
  
  <figure>
 <center>
-   <a href="/images/solution.png"><img width="50%" src="/images/solution.png"></a>
+   <a href="/images/solution.png"><img width="30%" src="/images/solution.png"></a>
 </center>
 </figure>
 
