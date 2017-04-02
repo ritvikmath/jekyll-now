@@ -32,7 +32,7 @@ We will define two basic notions in answering this question.
 * Heartrate: The number of times a heart beats per minute measured in beats per minute (BPM) 
 * Offset: Given that two hearts share a heartrate, the time delay between their beats usually measured in seconds
 
-Thus, we say that **two hearts beat in sync if they have the same heartrate and same offset
+Thus, we say that **two hearts beat in sync if they have the same heartrate and same offset.**
 
 We will be using a half-empirial, half-theoretical approach to answering our question about how many hearts beat with yours.
 
