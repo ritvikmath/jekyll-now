@@ -219,6 +219,8 @@ Finally note that there are some implicit assumptions that were made such as tha
 
 The latter of these is definitely not true since those outside the range are young children and elderly people, but again, this assumption serves us well in the absence of the appropriate data.
 
-All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm. 
+{:center: style="text-align: center"}
+**All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm.**
+{:center}
 
 Thanks for reading and please leave comments!
