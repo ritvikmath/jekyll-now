@@ -177,7 +177,7 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
 Using the fact that the current world population is around 7.5 billion, 
  
  $$
- \mathbf{E}(S) = (N-1) \mathbf{P}(B_{i}=1) = 0.00053 \times (N-1) = 0.00053 \times (7500000000 - 1) = 4006696
+ \mathbf{E}(S) = (N-1) \times \mathbf{P}(B_{i}=1) = 0.00053 \times (N-1) = 0.00053 \times (7500000000 - 1) = 4006696
  $$
  
  So, under our four assumptions, the expected number hearts that beat in sync with yours is around:
