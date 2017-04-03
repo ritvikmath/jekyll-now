@@ -25,7 +25,11 @@ The idea of two hearts beating in unison has long been a powerful image in poetr
 ***On average, how many hearts beat in sync with yours?***
 {:center}
 
-Of course, our first question should be: **What does it mean for two hearts to beat in sync?**
+Of course, our first question should be: 
+
+{:center: style="text-align: center"}
+**What does it mean for two hearts to beat in sync?**
+{:center}
 
 We will define two basic notions in answering this question.
 
