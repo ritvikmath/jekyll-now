@@ -193,6 +193,20 @@ Using the fact that the current world population is around 7.5 billion,
 </center>
 </figure>
 
+Wow!
+
+In the interest of transparancy, let us see what happens to this 4 million if we relax each of our four assumptions.
+
+To relax Assumption 1, we would need to find finer grained data than we do now. Given the true distribution of heart rates between the given percentiles, our estimate of 4 million may rise or fall.
+
+Assumption 2 may be the most difficult to relax since we would need some underlying model of how one person's heart rate affects that of others in the world, an extremely chanllenging task. This also has an indeterminate effect on our final result.
+
+If we relax Assumption 3, we will no longer treat heart rates as only being able to take integer values but rather consider them to take continuous values in the range 40 to 100. This will cause our final result of how many hearts beat with yours to be driven to 0. Why would that be? Well, without even going into the calculations, if we allow any real valued heart rate between 40 and 100, the probability that your heart rate ***exactly*** matches someone else's is very very slim, actually it's 0. It's a consequence of the fact that there are an infinite amount of heart rates to choose from, something that isn't true with discrete integer values. 
+
+Last, if we relax Assumption 4, essentially forcing $\epsilon$ to be 0, we will also drive the final result to 0. This is basically the same reason as for Assumption 3: two offsets being ***exactly*** the same is a probability 0 event. 
+
+Note also that our final result is quite dependent on the choice of $\epsilon$. That is, if we let $\epsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
+
 
  
  
