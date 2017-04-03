@@ -147,9 +147,9 @@ Essentially, if your friend's heart beats just a tiny fraction of a second befor
 </center>
 </figure>
 
-So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac{60}{K}$ seconds and the probability that they have the same offset is $\frac{K\varepsilon}{30}$.
+So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac{60}{K}$ seconds and the probability that they have the same offset is $\frac{2\varepsilon}{\frac{60}{K}} = \frac{K\varepsilon}{30}$.
 
- We will let $\varepsilon$ be 1% of $\frac{60}{K}$ going forward which implies that the probability that two hearts with the same heart rate share an offset is $\frac{0.01 \times K \times \frac{60}{K}}{30} = 0.02$ regardless of the heart rate.
+ We will let $\varepsilon$ be 1% of $\frac{60}{K}$ going forward which implies that the probability that two hearts with the same heart rate share an offset is $\frac{0.01 \times K \times \frac{60}{K}}{30} = 0.02$ **regardless of the heart rate**.
  
  Now, we are ready to finish our calculation!
  
@@ -169,13 +169,13 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  = \sum_{i=40}^{99} \mathbf{P}(\textrm{Heart Rate = i})^2 \times \mathbf{P}(\textrm{Offsets Match}) = 0.02\times\sum_{i=40}^{99} \mathbf{P}(\textrm{Heart Rate = i})^2
  $$
  
- by the independence assumption between two people's heart rates and the fact that the probability of a matching offset is always 0.02.
+ by the **independence assumption between two people's heart rates** and the fact that the **probability of a matching offset is always 0.02**.
  
- Now, finding the probability that a heart beats with heart rate $i$ is as simple as taking the percentile range that the heart rate falls into and dividing by the number of integers in that percentile range. 
+ Now, **finding the probability that a heart beats with heart rate $i$** is as **simple as taking the percentile range that the heart rate falls into and dividing by the number of integers in that percentile range**. 
  
  To be more clear suppose we are trying to find $\mathbf{P}(Heart Rate = 85)$. We note that 85 BPM falls into the 83-88 BPM range, which contains 5 integer values and comprises 5% of the total range of heart rates.
  
- Thus, using our Assumption 1 about uniform distribution, $\mathbf{P}(Heart Rate = 85) = \frac{0.05}{5} = 0.01$. We use the same procedure with all other heart rates. 
+ Thus, using our Assumption 1 about uniform distribution, $\mathbf{P}(Heart Rate = 85) = \frac{0.05}{5} = 0.01$ (We can also **just read this 0.01 as the height of the 85 BPM bar in our histogram** above). We use the same procedure with all other heart rates. 
  
  After doing all appropriate calculations, we end up with:
  
@@ -183,7 +183,7 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  \mathbf{P}(B_{i}=1) = 0.00053
  $$
  
- That is, the probability that your heart beats in sync with another heart is 0.053%, very small indeed.
+ That is, the **probability that your heart beats in sync with another heart is 0.053%**, very small indeed.
  
 Using the fact that the current world population is around 7.5 billion, 
  
@@ -199,17 +199,23 @@ Using the fact that the current world population is around 7.5 billion,
 </center>
 </figure>
 
-Wow!
+**Wow!**
 
-In the interest of transparency, let us see what happens to this 4 million if we relax each of our four assumptions.
+In the interest of transparency, **let us see what happens to this 4 million if we relax each of our four assumptions**.
 
-To relax Assumption 1, we would need to find finer grained data than we do now. Given the true distribution of heart rates between the given percentiles, our estimate of 4 million may rise or fall.
+To **relax Assumption 1**, we would need to find finer grained data than we do now. Given the true distribution of heart rates between the given percentiles, **our estimate of 4 million may rise or fall**.
 
-Assumption 2 may be the most difficult to relax since we would need some underlying model of how one person's heart rate affects that of others in the world, an extremely challenging task. This also has an indeterminate effect on our final result.
+**Assumption 2 may be the most difficult to relax** since we would need some underlying model of how one person's heart rate affects that of others in the world, an extremely challenging task. This also has an **indeterminate effect on our final result**.
 
-If we relax Assumption 3, we will no longer treat heart rates as only being able to take integer values but rather consider them to take continuous values in the range 40 to 100. This will cause our final result of how many hearts beat with yours to be driven to 0. Why would that be? Well, without even going into the calculations, if we allow any real valued heart rate between 40 and 100, the probability that your heart rate ***exactly*** matches someone else's is very very slim, actually it's 0. It's a consequence of the fact that there are an infinite amount of heart rates to choose from, something that isn't true with discrete integer values. 
+If we **relax Assumption 3**, we will no longer treat heart rates as only being able to take integer values but rather consider them to take **continuous values in the range 40 to 100**. This will **cause our final result of how many hearts beat with yours to be driven to 0**. 
 
-Last, if we relax Assumption 4, essentially forcing $\varepsilon$ to be 0, we will also drive the final result to 0. This is basically the same reason as for Assumption 3: two offsets being ***exactly*** the same is a probability 0 event. 
+Why would that be? Well, without even going into the calculations, if we allow any real valued heart rate between 40 and 100, the probability that your heart rate ***exactly*** matches someone else's is very very slim, **actually it's 0**. It's a consequence of the fact that there are an infinite amount of heart rates to choose from, something that isn't true with discrete integer values. 
 
-Note also that our final result is quite dependent on the choice of $\varepsilon$. That is, if we let $\varepsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
+Last, if we **relax Assumption 4**, essentially forcing $\varepsilon$ to be 0, we will also **drive the final result to 0**. This is basically the same reason as for Assumption 3: two offsets being ***exactly*** the same is a **probability 0 event**. 
+
+Note also that our **final result is quite dependent on the choice of $\varepsilon$**. That is, if we let $\varepsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
+
+All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm. 
+
+Thanks for reading and leave comments!
 
