@@ -54,7 +54,7 @@ Since we wish to have finer grained data, we will need to make an assumption her
 **Assumption 1: The distribution of heart rates between the provided percentiles is uniformly distributed.**
 {:center}
 
-This assumption is surely not fully correct but it will serve us well in the absence of finer grained data. We will also assume that our minimum resting heart rate is 40 BPM and the maximum is 100 BPM. These numbers come from an <a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979" target="_blank">article about normal heart rates</a>.
+This assumption is surely not fully correct but it will serve us well in the absence of finer grained data. We will also assume that our minimum resting heart rate is 40 BPM and the maximum is 99 BPM. These numbers come from an <a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979" target="_blank">article about normal heart rates</a>.
 
 Given our assumption far, we can generate a histogram of the heart rates.
 
@@ -114,7 +114,7 @@ so that we need only to find $\mathbf{P}(B_{i}=1)$.
 
 Exiting the math-o-sphere for a moment, we only need to find the probability that someone's heart is in sync with yours.
 
-Now, under what conditions would someone's heart be in sync with yours? As noted earlier, we need only that both your heart rates are the same and your offsets are the same. For example, both your heart rates could be 55 BPM and you have the same offset, or perhaps your heart rates are 77 BPM and you have the same offset, or perhaps you both share a heart rate of 90 BPM with the same offset. In fact, there are infinitely many heart rates that you can share, any number between 40 and 100! How do we simplify this? Well, we will make another assumption here:
+Now, under what conditions would someone's heart be in sync with yours? As noted earlier, we need only that both your heart rates are the same and your offsets are the same. For example, both your heart rates could be 55 BPM and you have the same offset, or perhaps your heart rates are 77 BPM and you have the same offset, or perhaps you both share a heart rate of 90 BPM with the same offset. In fact, there are infinitely many heart rates that you can share, any number between 40 and 99! How do we simplify this? Well, we will make another assumption here:
 
 {:center: style="text-align: center"}
 **Assumption 3: We will treat the continuous range of heart rates as a large range of integer values.**
@@ -151,15 +151,15 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  Note that:
  
  $$
- \mathbf{P}(B_{i}=1) = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i and Their Heart Rate = i and Offsets match})
+ \mathbf{P}(B_{i}=1) = \sum_{i=40}^{99} \mathbf{P}(\textrm{Your Heart Rate = i and Their Heart Rate = i and Offsets match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Your Heart Rate = i}) \times \mathbf{P}(\textrm{Their Heart Rate = i}) \times \mathbf{P}(\textrm{Offsets Match})
+ = \sum_{i=40}^{99} \mathbf{P}(\textrm{Your Heart Rate = i}) \times \mathbf{P}(\textrm{Their Heart Rate = i}) \times \mathbf{P}(\textrm{Offsets Match})
  $$
  
  $$
- = \sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2 \times \mathbf{P}(\textrm{Offsets Match}) = 0.02\times\sum_{i=40}^{100} \mathbf{P}(\textrm{Heart Rate = i})^2
+ = \sum_{i=40}^{99} \mathbf{P}(\textrm{Heart Rate = i})^2 \times \mathbf{P}(\textrm{Offsets Match}) = 0.02\times\sum_{i=40}^{99} \mathbf{P}(\textrm{Heart Rate = i})^2
  $$
  
  by the independence assumption between two people's heart rates and the fact that the probability of a matching offset is always 0.02.
