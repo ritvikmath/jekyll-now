@@ -34,14 +34,14 @@ Of course, our first question should be:
 We will define two basic notions in answering this question.
 
 {:center: style="text-align: center"}
-**Heartrate**: The number of times a heart beats per minute measured in beats per minute (BPM) 
+**Heart rate**: The number of times a heart beats per minute measured in beats per minute (BPM) 
 {:center}
 
 {:center: style="text-align: center"}
-**Offset**: Given that two hearts share a heartrate, the time delay between their beats measured in seconds
+**Offset**: Given that two hearts share a heart rate, the time delay between their beats measured in seconds
 {:center}
 
-Thus, we say that **two hearts beat in sync if they have the same heartrate and same offset.**
+Thus, we say that **two hearts beat in sync if they have the same heart rate and same offset.**
 
 We will be using a half-empirical, half-theoretical approach to answering our question about how many hearts beat with yours.
 
@@ -67,7 +67,7 @@ Given our assumption so far, we can generate a histogram of the heart rates.
 
 <figure>
 <center>
-   <a href="/images/heartrate_histo.png"><img width="100%" src="/images/heartrate_histo.png"></a>
+   <a href="/images/heart rate_histo.png"><img width="100%" src="/images/heart rate_histo.png"></a>
 </center>
 </figure>
 
@@ -218,4 +218,3 @@ Note also that our **final result is quite dependent on the choice of $\varepsil
 All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm. 
 
 Thanks for reading and please leave comments!
-
