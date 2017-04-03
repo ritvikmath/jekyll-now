@@ -67,7 +67,7 @@ Given our assumption so far, we can generate a histogram of the heart rates.
 
 <figure>
 <center>
-   <a href="/images/heart rate_histo.png"><img width="100%" src="/images/heart rate_histo.png"></a>
+   <a href="/images/heartrate_histo.png"><img width="100%" src="/images/heartrate_histo.png"></a>
 </center>
 </figure>
 
