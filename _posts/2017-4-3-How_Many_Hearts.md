@@ -117,11 +117,11 @@ $$
 
 so that we need only to find $\mathbf{P}(B_{i}=1)$.
 
-Exiting the math-o-sphere for a moment, we only need to find the probability that someone's heart is in sync with yours.
+Exiting the math-o-sphere for a moment, we only need to find the **probability that someone's heart is in sync with yours**.
 
-Now, under what conditions would someone's heart be in sync with yours? As noted earlier, we need only that both your heart rates are the same and your offsets are the same. For example, both your heart rates could be 55 BPM and you have the same offset, or perhaps your heart rates are 77 BPM and you have the same offset, or perhaps you both share a heart rate of 90 BPM with the same offset. 
+Now, under what conditions would someone's heart be in sync with yours? As noted earlier, we need only that **both your heart rates are the same and your offsets are the same**. For example, both your heart rates could be 55 BPM and you have the same offset, or perhaps your heart rates are 77 BPM and you have the same offset, or perhaps you both share a heart rate of 90 BPM with the same offset. 
 
-In fact, there are infinitely many heart rates that you can share: any number between 40 and 99! How do we simplify this? Well, we will make another assumption here:
+In fact, there are infinitely many heart rates that you can share! How do we simplify this? Well, we will make another assumption here.
 
 {:center: style="text-align: center"}
 **Assumption 3: We will treat the continuous range of heart rates as a range of integer values.**
@@ -139,7 +139,7 @@ Now, the probability that your friend's heart beats *exactly* when yours does is
 **Assumption 4: Two hearts with the same heart rate will be considered as having the same offset if their beats are within some error tolerance of one another.**
 {:center}
 
-Essentially, if your friend's heart beats just a tiny fraction of a second after or before yours does, we will consider the offsets to be the same. We will denote the error tolerance as $\epsilon$. Going back to our 40 BPM example, we allow that your friend's heart beats in any of the green regions in the figure below. Note that the probability that your friend's heart beats in the green region is $\frac{2\epsilon}{1.5}$ since we have an allowable range of $2\epsilon$ in a total range of $1.5$.
+Essentially, if your friend's heart beats just a tiny fraction of a second before or after yours does, we will consider the offsets to be the same. We will denote the error tolerance as $\varepsilon$. Going back to our 40 BPM example, we allow that your friend's heart beats in any of the green regions in the figure below. Note that the probability that your friend's heart beats in the green region is $\frac{2\varepsilon}{1.5}$ since we have an allowable range of $2\varepsilon$ in a total range of $1.5$.
 
 <figure>
 <center>
@@ -147,9 +147,9 @@ Essentially, if your friend's heart beats just a tiny fraction of a second after
 </center>
 </figure>
 
-So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac{60}{K}$ seconds and the probability that they have the same offset is $\frac{K\epsilon}{30}$.
+So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac{60}{K}$ seconds and the probability that they have the same offset is $\frac{K\varepsilon}{30}$.
 
- We will let $\epsilon$ be 1% of $\frac{60}{K}$ going forward which implies that the probability that two hearts with the same heart rate share an offset is $\frac{0.01 \times K \times \frac{60}{K}}{30} = 0.02$ regardless of the heart rate.
+ We will let $\varepsilon$ be 1% of $\frac{60}{K}$ going forward which implies that the probability that two hearts with the same heart rate share an offset is $\frac{0.01 \times K \times \frac{60}{K}}{30} = 0.02$ regardless of the heart rate.
  
  Now, we are ready to finish our calculation!
  
@@ -209,7 +209,7 @@ Assumption 2 may be the most difficult to relax since we would need some underly
 
 If we relax Assumption 3, we will no longer treat heart rates as only being able to take integer values but rather consider them to take continuous values in the range 40 to 100. This will cause our final result of how many hearts beat with yours to be driven to 0. Why would that be? Well, without even going into the calculations, if we allow any real valued heart rate between 40 and 100, the probability that your heart rate ***exactly*** matches someone else's is very very slim, actually it's 0. It's a consequence of the fact that there are an infinite amount of heart rates to choose from, something that isn't true with discrete integer values. 
 
-Last, if we relax Assumption 4, essentially forcing $\epsilon$ to be 0, we will also drive the final result to 0. This is basically the same reason as for Assumption 3: two offsets being ***exactly*** the same is a probability 0 event. 
+Last, if we relax Assumption 4, essentially forcing $\varepsilon$ to be 0, we will also drive the final result to 0. This is basically the same reason as for Assumption 3: two offsets being ***exactly*** the same is a probability 0 event. 
 
-Note also that our final result is quite dependent on the choice of $\epsilon$. That is, if we let $\epsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
+Note also that our final result is quite dependent on the choice of $\varepsilon$. That is, if we let $\varepsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
 
