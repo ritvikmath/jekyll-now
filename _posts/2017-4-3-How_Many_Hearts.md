@@ -215,7 +215,9 @@ Last, if we **relax Assumption 4**, essentially forcing $\varepsilon$ to be 0, w
 
 Note also that our **final result is quite dependent on the choice of $\varepsilon$**. That is, if we let $\varepsilon$ be 2% of $\frac{60}{K}$, then the probability that two hearts with the same heart rate share an offset is $\frac{0.02 \times K \times \frac{60}{K}}{30} = 0.04$, which will eventually double our 4 million to around 8 million.
 
-Finally note that there are some implicit assumptions that were made such as that the Canadian population's heart beats are representative of those in the whole world and that we consider those outside the range 6 to 79 to have the same distribution of heart rates as those in that range. The latter of these is definitely not true since those outside the range are young children and elderly people, but again, this assumption serves us well in the absence of the appropriate data.
+Finally note that there are some implicit assumptions that were made such as that the Canadian population's heart beats are representative of those in the whole world and that we consider those outside the range 6 to 79 to have the same distribution of heart rates as those in that range. 
+
+The latter of these is definitely not true since those outside the range are young children and elderly people, but again, this assumption serves us well in the absence of the appropriate data.
 
 All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm. 
 
