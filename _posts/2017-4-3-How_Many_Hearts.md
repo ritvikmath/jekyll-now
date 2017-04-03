@@ -45,7 +45,7 @@ Thus, we say that **two hearts beat in sync if they have the same heartrate and 
 
 We will be using a half-empirical, half-theoretical approach to answering our question about how many hearts beat with yours.
 
-First the statistics!
+**First the statistics!**
 
 From Statistics Canada, Canada's National Statistics Agency, we gather data on the <a href="http://www.statcan.gc.ca/pub/82-626-x/2013001/t004-eng.htm" target="_blank">distribution of resting heart rates</a> for people ages 6 to 79. This data gives the 5th, 10th, 25th, 50th, 75th, 90th and 95th percentile for resting heart rate. 
 
@@ -61,7 +61,7 @@ Since we wish to have finer grained data, we will need to make an assumption her
 **Assumption 1: The distribution of heart rates between the provided percentiles is uniformly distributed.**
 {:center}
 
-This assumption is surely not fully correct but it will serve us well in the absence of finer grained data. We will also assume that our minimum resting heart rate is 40 BPM and the maximum is 99 BPM. These numbers come from an <a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979" target="_blank">article about normal heart rates</a>.
+This assumption is surely not fully correct but it will serve us well in the absence of finer grained data. We will also assume that our **minimum resting heart rate is 40 BPM and the maximum is 99 BPM**. These numbers come from an <a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979" target="_blank">article about normal heart rates</a>.
 
 Given our assumption far, we can generate a histogram of the heart rates.
 
@@ -71,27 +71,27 @@ Given our assumption far, we can generate a histogram of the heart rates.
 </center>
 </figure>
 
-Time for some math!
+**Time for some math!**
 
-First we'll define :
+First we'll define
 
 $$
 S = \textrm{Number of people whose heart beats in sync with yours}
 $$
 
-If we index each person in the world as $i=1,2,3 ... , N$ where you are person $i=N$, then define
+If we index each person in the world as $i=1,2,3 ... , N$ where you are person $i=N$, then we can define
 
 $$
 B_{i} = \textrm{A variable which is 1 if person i's heart beats in sync with yours and 0 if not}
 $$
 
-What we are after is the mean of $S$, also called the expected value of $S$ and denoted as $\mathbf{E}(S)$. Note that
+**What we are after is the mean of $S$**, also called the expected value of $S$ and denoted as $\mathbf{E}(S)$. Note that
 
 $$
 S = B_{1} + B_{2} + ... + B_{N-1} = \sum_{n=1}^{N-1} B_{i}
 $$
 
-Why? Well $S$ is the number of people in the world whose hearts beat with yours and $B_{i}$ is 1 if and only if person i's heart beats in sync with yours. So, summing up all the $B_{i}$'s we will get exactly the count of how many people whose hearts are in sync with yours. 
+Why? Well $S$ is the number of people in the world whose hearts beat with yours and **$B_{i}$ is 1 if and only if person i's heart beats in sync with yours**. So, summing up all the $B_{i}$'s we will get exactly the **count** of how many people whose hearts are in sync with yours. 
 
 So we want:
 
@@ -99,7 +99,7 @@ $$
 \mathbf{E}(S) = \mathbf{E}(\sum_{n=1}^{N-1} B_{i}) = \sum_{n=1}^{N-1} \mathbf{E}(B_{i}) = \sum_{n=1}^{N-1} \mathbf{P}(B_{i}=1)
 $$
 
-using in the last equality the fact that the mean of an indicator variable is the probability that this variable is 1.
+using in the second equality that the **expected value of a sum is the sum of the expected values** and in the last equality the fact that the **mean of an indicator variable is the probability that this variable is 1**.
 
 We can go one step further if we make another assumption:
 
@@ -112,7 +112,7 @@ This is likely much easier to swallow than Assumption 1 but of course is still n
 Then, our independence assumption allows us to reduce the result to:
 
 $$
-\mathbf{E}(S) = \sum_{n=1}^{N-1} \mathbf{P}(B_{i}=1) = (N-1) \mathbf{P}(B_{i}=1)
+\mathbf{E}(S) = \sum_{n=1}^{N-1} \mathbf{P}(B_{i}=1) = (N-1) \times \mathbf{P}(B_{i}=1)
 $$
 
 so that we need only to find $\mathbf{P}(B_{i}=1)$.
