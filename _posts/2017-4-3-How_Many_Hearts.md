@@ -6,7 +6,7 @@ title: How Many Hearts Beat in Sync With Yours?
 
 <figure>
 <center>
-   <a href="/images/fb_beat_zoom.jpg"><img width="90%" src="/images/fb_beat_zoom.jpg"></a>
+   <a href="/images/coverbeat.jpeg"><img width="90%" src="/images/coverbeat.jpeg"></a>
 </center>
 </figure>
 
