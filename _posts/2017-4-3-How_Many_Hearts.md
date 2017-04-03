@@ -63,7 +63,7 @@ Since we wish to have finer grained data, we will need to make an assumption her
 
 This assumption is surely not fully correct but it will serve us well in the absence of finer grained data. We will also assume that our **minimum resting heart rate is 40 BPM and the maximum is 99 BPM**. These numbers come from an <a href="http://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979" target="_blank">article about normal heart rates</a>.
 
-Given our assumption far, we can generate a histogram of the heart rates.
+Given our assumption so far, we can generate a histogram of the heart rates.
 
 <figure>
 <center>
@@ -127,13 +127,13 @@ In fact, there are infinitely many heart rates that you can share! How do we sim
 **Assumption 3: We will treat the continuous range of heart rates as a range of integer values.**
 {:center}
 
-That is, if we are considering heart rates between 40 BPM and 52 BPM, we choose to split this interval up into 12 allowable integer heartbeats. Why do we do this? Looking at the way heart rate is typically reported by medical equipment, it is given in integer valued beats per minute.
+That is, if we are considering heart rates between 40 BPM and 52 BPM, we choose to split this interval up into 12 allowable integer heartbeats. Why do we do this? Looking at the way heart rate is typically reported by medical equipment, it is given in **integer valued beats per minute**.
 
 Now, given that two people have the same heart rate, how do we measure whether they have the same offset?
 
-Let's think about this with an example. Say both you and your friend have a heart rate of 40 BPM which is the same as 40 beats per 60 seconds which implies that your hearts beats once every 1.5 seconds. 
+Let's think about this with an example. Say both you and your friend have a heart rate of **40 BPM** which is the same as **40 beats per 60 seconds** which implies that your **hearts beat once every 1.5 seconds**. 
 
-Now, the probability that your friend's heart beats *exactly* when yours does is 0 because there are infinitely many possible offsets in a finite amount of time. Thus, we will need to make a final assumption in order to conduct a meaningful analysis going forward.
+Now, the probability that your friend's heart beats ***exactly*** when yours does is 0 because there are infinitely many possible offsets in a finite amount of time. Thus, we will need to make a final assumption in order to conduct a meaningful analysis going forward.
 
 {:center: style="text-align: center"}
 **Assumption 4: Two hearts with the same heart rate will be considered as having the same offset if their beats are within some error tolerance of one another.**
