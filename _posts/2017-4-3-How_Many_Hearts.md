@@ -67,21 +67,19 @@ Given our assumption far, we can generate a histogram of the heart rates.
 
 Time for some math!
 
-Let's now dive into the calculation of how many hearts beat with yours.
-
 First we'll define :
 
 $$
 S = \textrm{Number of people whose heart beats in sync with yours}
 $$
 
+If we index each person in the world as $i=1,2,3 ... , N$ where you are person $i=N$, then define
+
 $$
 B_{i} = \textrm{A variable which is 1 if person i's heart beats in sync with yours and 0 if not}
 $$
 
-What we are after is the mean of $S$, also called the expected value of $S$ and denoted as $\mathbf{E}(S)$.
-
-If we index each person in the world as $i=1,2,3 ... , N$ where you are person $i=N$, then we have that:
+What we are after is the mean of $S$, also called the expected value of $S$ and denoted as $\mathbf{E}(S)$. Note that
 
 $$
 S = B_{1} + B_{2} + ... + B_{N-1} = \sum_{n=1}^{N-1} B_{i}
