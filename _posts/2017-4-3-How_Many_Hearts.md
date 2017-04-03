@@ -31,7 +31,9 @@ We will define two basic notions in answering this question.
 
 {:center: style="text-align: center"}
 **Heartrate**: The number of times a heart beats per minute measured in beats per minute (BPM) 
+{:center}
 
+{:center: style="text-align: center"}
 **Offset**: Given that two hearts share a heartrate, the time delay between their beats measured in seconds
 {:center}
 
