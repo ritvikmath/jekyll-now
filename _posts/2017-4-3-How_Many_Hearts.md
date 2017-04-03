@@ -171,9 +171,9 @@ So, if two hearts beat at $K$ Beats per Minute, they each beat once every $\frac
  
  by the **independence assumption between two people's heart rates** and the fact that the **probability of a matching offset is always 0.02**.
  
- Now, **finding the probability that a heart beats with heart rate $i$** is as **simple as taking the percentile range that the heart rate falls into and dividing by the number of integers in that percentile range**. 
+ Now, finding the probability that a heart beats with heart rate $i$ is as simple as taking the percentile range that the heart rate falls into and dividing by the number of integers in that percentile range. 
  
- To be more clear suppose we are trying to find $\mathbf{P}(Heart Rate = 85)$. We note that 85 BPM falls into the 83-88 BPM range, which contains 5 integer values and comprises 5% of the total range of heart rates.
+ To be more clear suppose we are trying to find $\mathbf{P}(Heart Rate = 85)$. We note that 85 BPM falls into the 83-88 BPM range, which contains **5 integer values** and comprises **5% of the total range of heart rates**.
  
  Thus, using our Assumption 1 about uniform distribution, $\mathbf{P}(Heart Rate = 85) = \frac{0.05}{5} = 0.01$ (We can also **just read this 0.01 as the height of the 85 BPM bar in our histogram** above). We use the same procedure with all other heart rates. 
  
@@ -217,5 +217,5 @@ Note also that our **final result is quite dependent on the choice of $\varepsil
 
 All that said, the above analysis, complete with its assumptions, is an interesting way to think about how many of us around the world are walking around with our tickers pounding in rhythm. 
 
-Thanks for reading and leave comments!
+Thanks for reading and please leave comments!
 
