@@ -462,7 +462,7 @@ title: Gun Violence in America
         
         
 
-      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+      var chart = new google.charts.Line(document.getElementById('full_dates'));
 
       chart.draw(data, options);
     }
@@ -688,7 +688,7 @@ title: Gun Violence in America
         
         
 
-      var chart = new google.charts.Line(document.getElementById('line_top_x'));
+      var chart = new google.charts.Line(document.getElementById('lim_dates'));
 
       chart.draw(data, options);
     }
@@ -705,7 +705,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_top_x"></div>
+   <div id="full_dates"></div>
 </center>
 </html>
 
@@ -716,7 +716,7 @@ text-align: center !important;
 }
 </style>
 <center>
-   <div id="line_top_x"></div>
+   <div id="lim_dates"></div>
 </center>
 </html>
 
