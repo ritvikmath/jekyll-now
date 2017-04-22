@@ -13,7 +13,7 @@ title: Gun Violence in America
 
     function drawChart() {
       var data = new google.visualization.DataTable();
-      data.addColumn('number', 'Year');
+      data.addColumn('date', 'Year');
       data.addColumn('number', 'Arizona');
       data.addColumn('number', 'California');
       data.addColumn('number', 'Illinois');
