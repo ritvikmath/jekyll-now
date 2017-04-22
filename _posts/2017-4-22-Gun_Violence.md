@@ -467,11 +467,7 @@ title: Gun Violence in America
       chart.draw(data, options);
     }
   </script>
-</head>
-</html>
 
-<html>
-<head>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':["line"]});
@@ -708,6 +704,8 @@ text-align: center !important;
    <div id="full_dates"></div>
 </center>
 </html>
+
+---
 
 <html>
 <style>
