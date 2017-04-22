@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Gun Violence in America: an Analysis
+title: Gun Violence in America
 ---
 
 <html>
