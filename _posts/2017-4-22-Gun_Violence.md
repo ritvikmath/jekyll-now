@@ -16,12 +16,8 @@ title: Gun Violence in America
       data.addColumn('number', 'Year');
       data.addColumn('number', 'Arizona');
       data.addColumn('number', 'California');
-      data.addColumn('number', 'Delaware');
       data.addColumn('number', 'Illinois');
-      data.addColumn('number', 'Massachusetts');
-      data.addColumn('number', 'New Jersey');
       data.addColumn('number', 'New York');
-      data.addColumn('number', 'Tennessee');
       data.addColumn('number', 'Texas');
 
       data.addRows([
