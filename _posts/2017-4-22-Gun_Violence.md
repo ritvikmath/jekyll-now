@@ -452,7 +452,9 @@ title: Gun Violence in America
     
   
         width: 900,
-        height: 500
+        height: 500,
+        lineWidth: 10,
+        opacity: 0.3,
         }
        
        
