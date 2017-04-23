@@ -736,15 +736,11 @@ We will explore all these questions through this post. We will spend the latter 
 
 # The Data
 
-The data for this analysis came from the <a href="https://ucannualwage.ucop.edu/wage/" target="_blank">Compensation at the University of California</a> website. The data includes employee names, campus of employment, job title, and gross pay. A snapshot of the data is shown below.
+The data for this analysis came from an <a href="https://www.kaggle.com/murderaccountability/homicide-reports" target="_blank">FBI dataset on homicides</a> in the United States from **1980 to 2014**. This dataset includes not only gun murders but murders from other methods as well including knives, drowning, fire, drugs, etc. We will focus only on the gun muders for this study. Note that gun muders account for **66%** of all homicides from 1980 to 2014. 
 
-<figure>
-<center>
-   <a href="/images/data_sal.jpg"><img width="100%" src="/images/data_sal.jpg"></a>
-</center>
-</figure>
+The data includes information about the county and state in which the murder occured, the month and year it occurred, a field indicating whether or not the crime was solved, information about the victim and perpatrator including sex, race, ethnicity, age, the weapon used in the murder, and finally the relationship between the perpetrator and victim, if any. There are a few notes to be made about the data to ensure a better understanding of the following analysis. First, note that we often to not have the perpetrator information. This is surely true if the crime was not solved since we do not know who the killer was but we also sometimes have missing information even when the crime was solved. This is the motivation behind the latter part of this post when we try and predict whether or not a crime will be solved and the age of the killer. 
 
-The data spans the years **2010 until 2015** and includes all ten UC Schools as well as the University of California Office of the President. In total there are about **1.5 million rows** in the table, where each row corresponds to a particular employee in a particular year. 
+Without further ado, let us dive in!
 
 <html>
 <style>
