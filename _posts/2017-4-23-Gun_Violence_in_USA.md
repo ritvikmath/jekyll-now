@@ -854,7 +854,7 @@ Now that we have looked at crime solving accuracy through time, let us look at i
 
 <figure>
 <center>
-<iframe src="/images/us_states.html" style="border: none; width: 1000px; height: 500px"></iframe>
+<iframe src="/images/us_states.html" style="border: none; width: 800px; height: 500px"></iframe>
 </center>
 </figure>
 
