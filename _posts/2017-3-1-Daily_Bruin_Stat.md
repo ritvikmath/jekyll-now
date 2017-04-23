@@ -10,6 +10,8 @@ title: Why This Daily Bruin Image Made Me Cringe
 </center>
 </figure>
 
+testing
+
 ---
 
 At some point last week, while scrolling through my Facebook feed, I came across the above image published in UCLA's daily newspaper, the Daily Bruin. The image and its <a href="http://dailybruin.com/2017/02/22/the-quad-life-as-an-average-ucla-student/" target="_blank">associated article</a> argue that "there’s nothing wrong with being common and average", a nice message.
