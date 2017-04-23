@@ -801,7 +801,7 @@ We turn our attention next to monthly differences in gun murders accross all sta
 
 We have looked at data so far by month and state, but let us take a step back now and look at montly trends regardless of state. We will answer two questions.
 
-The first question we ask is how occurences of gun murders change by month. In which months do the most deaths occur? The least? 
+The first question we ask is how occurences of gun murders change by month. In which months do the most deaths occur? The least? Note that for the following two bar graphs, we look at data from 2000 and beyond in order to understand the most recent trends.
 
 Let's turn to the data!
 
@@ -829,4 +829,15 @@ Let's start simple. How good are we at solving gun murders by month?
 * Interestingly, we see that the month with the fewest gun murders, February, is also the one with the highest percentage of gun murders solved, at around 69%. 
 * Another surprising fact is that after December, when the least proportion of crimes are solved, only around 62% nationwide, the solved rate in January jumps up to 68%, that is around 6% within the span of a month! This might be due to many reasons. Perhaps in the December holiday season there is less manpower to spare in solving crimes. Perhaps the surplus of crimes we see in December just swamps police departments at the end of the year. Perhaps the new year in January brings better policies or just work ethic.
 * Still it says something as a nation that the percentage of crimes that get solved is nearly monotonically decreasing throughout a given year.
+
+---
+
+<a name="states"></a>
+
+# Which States are Best at Solving Murders?
+
+Now that we have looked at crime solving accuracy through time, let us look at it by geography. We all have preconceptions about which states might have the most prevalent issues with gun violence. For example, it is known that gun violence is a large problem in large metropolitan cities such as Los Angeles, Chicago, and New York City. Whether this is true remains to be determined by the data but it will help to direct our search in the below map by looking at the containing states: California, Illinois, and New York. 
+
+**Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
+
 
