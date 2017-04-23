@@ -950,6 +950,6 @@ We consider only the gun murders in our data for which the perpetrator was ident
 
 Overall, our model has an accuracy of 40%, whereas random guessing gets us only 25%, so we get a 15% imporovement in predicing the age bucket of the perpretrator using this model. Also, for perpetrators in the 30-40 age range, our model has an accuracy of 38% while random guessing here gets us only 22%, so in this bucket we have actually a 16% increase. Of course, as is evident from the heatmap, the model will rarely pick a perpetrator age bucket of 10-20 or 80-90 and so will miss the few perpetrators that actually fall into such buckets.
 
-Still, with no leads, such a model can give us a place to start searching for the killer.
+Still, with no leads, such a model can give us a start towards finding a killer.
 
 
