@@ -1,12 +1,12 @@
 ---
 layout: post
 comments: true
-title: Gun Violence in America An Analysis
+title: Gun Violence in America &#58 An Analysis
 ---
 
 <figure>
 <center>
-   <a href="/images/mathgun.jpg"><img width="50%" src="/images/mathgun.jpg"></a>
+   <a href="/images/mathgun.png"><img width="50%" src="/images/mathgun.png"></a>
 </center>
 </figure>
 
