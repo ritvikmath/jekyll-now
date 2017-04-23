@@ -922,13 +922,13 @@ We again **limit our search to only year 2000 and later**. We also only consider
 * We see that the disparity level increases gradually for the most part except for at the end with the large **jump from Missouri to Massachusetts**.
 * We see that **Tennessee has the lowest disparity of the displayed states and Massachusetts has the highest**. It will be interesting to see for these two states exactly what percent of gun murders are solved per each race. 
 
+## Proportion of Gun Murders Solved by Race in Tennessee vs. Massachusetts
+
 <figure>
 <center>
    <a href="/images/two_states.png"><img width="65%" src="/images/two_states.png"></a>
 </center>
 </figure>
-
-## Proportion of Gun Murders Solved by Race in Tennessee vs. Massachusetts
 
 From the output above, we see that the **proportions for Tennessee favor clearly Whites and perhaps Asians over Blacks but the numbers are much more equal than those from Massachusetts**. We see that in Massachusetts only **34.5% of gun murders are solved for Blacks** while that number is **64.5% for Whites**, and **73.1% for Asian/Pacific Islanders**, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusetts, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
 
