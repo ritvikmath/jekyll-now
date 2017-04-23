@@ -721,6 +721,7 @@ Quick Links:
 * [References](#refs)
 
 ---
+---
 
 <a name="back"></a>
 
@@ -728,7 +729,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/us_guns_cart.jpg"><img width="100%" src="/images/us_guns_cart.jpg"></a>
+   <a href="/images/us_guns_cart.jpg"><img width="75%" src="/images/us_guns_cart.jpg"></a>
 </center>
 </figure>
 
@@ -851,7 +852,12 @@ Now that we have looked at crime solving accuracy through time, let us look at i
 
 **Zoom, pan, click, drag**, go nuts with the map below! **Clicking on the red diamonds** will display the accuracy in solving crimes since 1980 for each state.
 
-<iframe src="/images/us_states.html" style="border: none; width: 800px; height: 500px"></iframe>
+<figure>
+<center>
+<iframe src="/images/us_states.html" style="border: none; width: 1000px; height: 500px"></iframe>
+</center>
+</figure>
+
 
 There is obviously a lot of information contained here so let's just look at one trend, the one we alluded to with states with large metropolitan cities. Looking at New York, we see by its color that **only around 50% of gun murders are solved** in the state and furthermore this has been the general trend over time. Looking at neighboring Vermont, we see that 90% or more of gun murders are solved. Looking at neighboring Pennsylvania, we see this figure is around 80%. 
 
