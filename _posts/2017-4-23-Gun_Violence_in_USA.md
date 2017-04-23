@@ -953,6 +953,8 @@ Overall, our model has an accuracy of 40%, whereas random guessing gets us only 
 
 Still, with no leads, such a model can give us a start towards finding a killer.
 
+---
+
 <a name="solveml"></a>
 
 # How about Predicting Whether a Crime will be Solved or Not?
@@ -972,4 +974,68 @@ After running our model, we find that these are our predictor importances, also 
 * It is immediately clear that one feature dominates the rest, victim age. Probing the data, we find that the relationship is a positive one. That is, a gun murder is more likely to be solved the older the victim is. 
 * Aside from this feature, the other top features seem to be on the same scale. Note also that victime age is the only continuous (non-binary) feature in this list. We see that the exact type of gun used, here a handgun, gives us extra information in predicting the fate of the murder. This is likely because, as evidenced by the data, murders committed with handguns are more likely to be solved, but the root cause behind this is likely due to deeper factors about which killers use handguns.
 * Interestingly, we see that the next two features are whether the victim is Black or White, respectively. We already have seen evidence of why these are potentually useful features. That is, as we saw with Massachusetts, the solve rate for Blacks tends to be lower or sometimes much lower than that of Whites (nationally and over all time 74% of gun murders were solved for White victims and 64% of gun murders were solved for Black Victims). This information implies that it helps to have the victim age when predicting the status of the murder.
+* We haven't talked much about victim sex, but to quickly note: 82% of gun murders where the victim was female are solved while the statistic for gun murders with male victime is 66% solved. Note also that in 84% of all gun murders the victim was male and only in 16% was the victim female.
+* Lastly, looking at the final few features, we see that the month being December gives us the most information out of all other months in determining whether the gun murder will be solved. This is in line with our previous observation that December is the month with the fewest solved gun murders in percentage terms. If we know the crime happened in December, we can more accurately say that it will not be solved.
+
+Ok cool! But, we didn't see any features relating to geography, state or county, on that list. Where are they? It turns out they appear lower on the list, but we can still glean useful information if we extract only state feature importances and rank them from highest to lowest and do the same for county feature importances. Let's turn to the state ones first.
+
+Note that the length of the bars are proportional to the relative importance of that state feature.
+
+<figure>
+<center>
+   <a href="/images/state_importances.png"><img width="120%" src="/images/state_importances.png"></a>
+</center>
+</figure>
+
+* Perhaps not surprisingly California, home of Los Angeles, and Illinois, home of Chicago, are the best predictors of whether or not a crime will be solved. Looking back at our U.S. map, we recall that in recent years, the solve rate in Chicago has been around only 30%, so that if we know a crime occurred there, it helps us to classify it as probabaly not solved.
+
+Let's look at counties now.
+
+<figure>
+<center>
+   <a href="/images/county_importance.png"><img width="120%" src="/images/county_importance.png"></a>
+</center>
+</figure>
+
+* Again, not surprisingly, especially given the last figure, we see that Los Angeles and Chicago hold the top two spots in determining whether a gun murder will be solved. Indeed, this figure gives us some confirmation that the importances of California and Illinois might be largely driven by these two principal cities respectively.
+* We see also on this list Baltimore and St. Louis, often considered some or America's more "dangerous cities" in terms of murder and violent crime.
+
+---
+
+<a name="conc"></a>
+
+# Conclusions
+
+So what does it all mean? Should we take all this information and use it to promote gun controls or relax them? Really, whether you are a proponent or opponent of gun controls, we are all, as human beings and Americans, sick and tired of seeing gun murders occur week after week, month after month, year after year. Ending gun violence is a cause we can all get behind. 
+
+While our long term goal should be to develop public policy that saves the most Americans from gun related deaths, our immedate goal needs to include a deep and thoughtful analysis about who in our society suffers most from the gun epidemic? Which groups are dispropotionately killed by guns and futhremore, for which groups are their murders often left unsolved? We saw in our analysis that gun murders for Blacks are solved at an often sickeningly lower rate than those of Whites. But why? Why does this group often not get the luxury of a closed case? We need a mroe careful analysis. Attributing it to racial bias in America is a start, but still is not enough as there might be other, related, factors at play we have yet to unearth.
+
+We also need to figure out where we were as a nation and where we are going. As we saw, racial bias in solving gun murders has been almost perfectly linearly increasing over time. As noted, some of this might be because our racial composition as a nation has diversified since 1980, and so mathematically more racial groups will lead to more inequality in the short run. Still, we need to think hard about how to reverse this worrying trend in the long run. 
+
+Finally, as new science and new mathematical methods become available, we should absolutely employ them in the realm of predictive policing. The methods outlined here are informative but admittedly basic to what many police departments around the nation are already using. Still, as discussed in the ethics break, we must always be careful about understading *exactly* what our model is doing, its own biases, and limitations. Otherwise, we are only transfering bias from humans to machines, and given the high and often blind level of trust people place in statistics and mathematics, this might impede a brighter future.
+
+---
+
+Thanks for reading and please leave comments!
+
+<a name="refs"></a>
+
+# References
+
+<a href="http://www.gunviolencearchive.org/" target="_blank">Gun Related Deaths in America</a>
+
+<a href="https://www.bostonglobe.com/metro/2015/07/03/crime-tends-fourth-july/5KFxQH1eAcwe3dOKstdgUJ/story.html" target="_blank">Why Gun Murders rise in July</a>
+
+<a href="https://en.wikipedia.org/wiki/Pierce_County,_Washington#Demographics" target="_blank">Information on Pierce, Washington</a>
+
+<a href="https://en.wikipedia.org/wiki/Yakima_County,_Washington#Demographics" target="_blank">Information on Yakima, Washington</a>
+
+
+
+
+
+
+
+
+
 
