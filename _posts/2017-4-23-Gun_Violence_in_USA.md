@@ -741,6 +741,19 @@ The data for this analysis came from an <a href="https://www.kaggle.com/murderac
 The data includes information about the county and state in which the murder occured, the month and year it occurred, a field indicating whether or not the crime was solved, information about the victim and perpatrator including sex, race, ethnicity, age, the weapon used in the murder, and finally the relationship between the perpetrator and victim, if any. There are a few notes to be made about the data to ensure a better understanding of the following analysis. First, note that we often to not have the perpetrator information. This is surely true if the crime was not solved since we do not know who the killer was but we also sometimes have missing information even when the crime was solved. This is the motivation behind the latter part of this post when we try and predict whether or not a crime will be solved and the age of the killer. 
 
 Without further ado, let us dive in!
+---
+
+<a name="tseries"></a>
+
+# How do Gun Murder Rates Vary Across States through Time?
+
+One natual question we can ask is how serious of a problem gun violence is. That is, how many people lose their lives to gun related crimes and does this number vary by state and over time between 1980 and now. We choose some the most populous U.S. states, California, Illinois, Texas, New York, as well as Arizona for some particularities in its trend which we'll see. For each of these states, as well as for the United States as a whole, we plot the number of gun murders each month from 1980 to 2014, scaled by the population of that state. This scaling is important since a more populous state will likely have more gun murders. 
+
+We take our state population data from the U.S. Census Beureau, which collects populaiton information every ten years. That is, we use the years 1980, 1990, 2000, and 2010 for this information, and assume a constant population in between. This is not completely true but it's the best we can do here. 
+
+Feel free to **toggle, click, and hover** over the individual states below!
+
+## Gun Murders per Month Scaled by Population (per 1,000,000 citizens)
 
 <html>
 <style>
@@ -752,6 +765,13 @@ text-align: center !important;
    <div id="full_dates"></div>
 </center>
 </html>
+
+Here are a few key takeaways:
+
+* The rate of gun violence has in general gone down from 1980 until now. Looking a bit deeper, we see that in the early 90s, there was a peak in gun related deaths overall as well as for many states including California, New York, and Texas. 
+* 
+
+
 
 ---
 
