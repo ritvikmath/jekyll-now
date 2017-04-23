@@ -6,7 +6,7 @@ title: Gun Violence in America &#58 An Analysis
 
 <figure>
 <center>
-   <a href="/images/centergun.png"><img width="40%" src="/images/centergun.png"></a>
+   <a href="/images/cgun.png"><img width="40%" src="/images/cgun.png"></a>
 </center>
 </figure>
 
