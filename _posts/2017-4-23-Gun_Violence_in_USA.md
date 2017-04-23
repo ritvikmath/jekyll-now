@@ -922,3 +922,34 @@ We again limit our search to only year 2000 and later. We also only consider a s
 </figure>
 
 From the output above, we see that the proportions for Tennessee favor clearly Whites and perhaps Asians over Blacks but the numbers are much more equal than those from Massachusetts. We see that in Massashusetts only 34.5% of gun murders are solved for Blacks while that number is 64.5% for Whites, and 73.1% for Asian/Pacific Islanders, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusettes, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
+
+---
+
+<a name="ageml"></a>
+
+# Can We Predict the Age of a Killer?
+
+We have been focussing for a long time on which gun murders are solved because of the fundamental fact that there are so many of them that are just never solved: 35% of gun murders in the U.S. since 2000 were not classified as solved. Is there anything we can do as statisticians and data scientists to help out here? If we find oursevles with no information about the killer, can we use predictive analytics to predict things about them? Another great question is "should we"? Ethics break!
+
+If we are somehow able to use information about a murder such as location, time of day, victim information, weapon type, etc. to predict the *race* of a killer with high accuracy, should we use this system? For some the answer may be "Yes! Of course! It will help us to catch killers!" For others it may be "No! This just opens the door for data driven racial profiling!" For many more it maybe somewhere in between. Post your thoughts in the comments below!
+
+We will be using techniques in machine learning to predict a killer's age rather than race for this portion of the post. We will be using a more coarse grained approach where we predict not exactly age, but age range. That is, we split up ages into 10 buckets: 0-10 years old, 10-20 years old, ..., 90-100 years old, and try to predict which bucket the killer falls into. We use predictors such as month, county, state, murder weapon, victim age, victim race, and victim sex.
+
+We use a classifier called a <a href="https://en.wikipedia.org/wiki/Multiclass_classification#One-vs.-rest" target="_blank">One-vs-Rest Classifier</a> that trains one model per age bucket and uses those 10 models to make an overall prediction about which age buckets are most likely. 
+
+We consider only the gun murders in our data for which the perpetrator was identified and use this subset to train and test our classifiers. We show the result of the prediction for ten randomly chosen perpetrators in the heatmap below. The darker the color (and the higher the number) the more strongly the model thinks the perpetrator's age is in that bucket. The red outlined squares show the true age bucket. 
+
+<figure>
+<center>
+   <a href="/images/hm_pred.png"><img width="120%" src="/images/hm_pred.png"></a>
+</center>
+</figure>
+
+* First off, before even looking at how often we are getting the age bucket right, we see that the most predicted bucket by far is the 30-40 age range. This makes sense since the mean value of perpetrator age (for those solved murders where we actually have this value), is 30.7 years. Thus, the classifier can do well by predicting around the mean value when other information is note useful.
+* Looking now at how often the red square matches up with the best prediction, the darkest 10 square, we see it happens 5 our of 10 times in our heatmap. We also are able to match red squares to two 9's indicating that our second best guess was correct twice. We also see some not so good guesses such as with Perpetrators 2 and 5 where the correct age bucket was not even predicted in the top five guesses.
+
+Overall, our model has an accuracy of 40%, whereas random guessing gets us only 25%, so we get a 15% imporovement in predicing the age bucket of the perpretrator using this model. Also, for perpetrators in the 30-40 age range, our model has an accuracy of 38% while random guessing here gets us only 22%, so in this bucket we have actually a 16% increase. Of course, as is evident from the heatmap, the model will rarely pick a perpetrator age bucket of 10-20 or 80-90 and so will miss the few perpetrators that actually fall into such buckets.
+
+Still, with no leads, such a model can give us a place to start searching for the killer.
+
+
