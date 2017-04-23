@@ -815,5 +815,18 @@ Let's turn to the data!
 * It should not be too surprising that there are the fewest gun related deaths in February. February has at least one less day than any other months, sometimes two or three fewer. With fewer days, as with a small population, comes fewer murders.
 * And what about the peak in July? It is a commonly known phenomenon that crime including gun murder goes up significantly on the fourth of July. If we had time data at the day level, we could remove the fourth of each month and recompute the monthly means in gun related deaths and see if July is still a peak.
 
+We turn away from the occurences of gun deaths in the U.S. and towards the accuracy in solving gun deaths, catching the killer, based on county, state, time period, etc. We want to know just how good we are as a people at solving gun murders, and stopping killers from killing again. We also want to know if we have any biases at the national and state levels in catching a killer based on whether the victim is Black, White, Asian, Native American, etc.
 
+Let's start simple. How good are we at solving gun murders by month?
+
+<figure>
+<center>
+   <a href="/images/bar_solved.png"><img width="50%" src="/images/bar_solved.png"></a>
+</center>
+</figure>
+
+* Very clearly, we see that gun murders are solved less and less as time goes on. That is, as a nation, our accuracy at closing a gun violence case deteriorates as the year progresses. 
+* Interestingly, we see that the month with the fewest gun murders, February, is also the one with the highest percentage of gun murders solved, at around 69%. 
+* Another surprising fact is that after December, when the least proportion of crimes are solved, only around 62% nationwide, the solved rate in January jumps up to 68%, that is around 6% within the span of a month! This might be due to many reasons. Perhaps in the December holiday season there is less manpower to spare in solving crimes. Perhaps the surplus of crimes we see in December just swamps police departments at the end of the year. Perhaps the new year in January brings better policies or just work ethic.
+* Still it says something as a nation that the percentage of crimes that get solved is nearly monotonically decreasing throughout a given year.
 
