@@ -924,7 +924,7 @@ We again **limit our search to only year 2000 and later**. We also only consider
 
 <figure>
 <center>
-   <a href="/images/two_states.png"><img width="120%" src="/images/two_states.png"></a>
+   <a href="/images/two_states.png"><img width="65%" src="/images/two_states.png"></a>
 </center>
 </figure>
 
@@ -936,7 +936,7 @@ What if we don't limit our search starting in 2000? Just as we looked at racial 
 
 <figure>
 <center>
-   <a href="/images/disp_time.png"><img width="120%" src="/images/disp_time.png"></a>
+   <a href="/images/disp_time.png"><img width="100%" src="/images/disp_time.png"></a>
 </center>
 </figure>
 
