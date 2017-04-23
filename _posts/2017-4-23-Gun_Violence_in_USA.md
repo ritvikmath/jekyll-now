@@ -1030,9 +1030,13 @@ We also need to figure out where we were as a nation and where we are going. As 
 
 Finally, as new science and new mathematical methods become available, we should absolutely employ them in the realm of predictive policing. The methods outlined here are informative but admittedly basic to what many police departments around the nation are already using. Still, as discussed in the ethics break, we must always be careful about understading *exactly* what our model is doing, its own biases, and limitations. Otherwise, we are only transfering bias from humans to machines, and given the high and often blind level of trust people place in statistics and mathematics, this might impede a brighter future.
 
----
+<figure>
+<center>
+   <a href="/images/stopgv.jpg"><img width="120%" src="/images/stopgv.jpg"></a>
+</center>
+</figure>
 
-Thanks for reading and please leave comments!
+---
 
 <a name="refs"></a>
 
@@ -1047,6 +1051,10 @@ Thanks for reading and please leave comments!
 <a href="https://en.wikipedia.org/wiki/Yakima_County,_Washington#Demographics" target="_blank">Information on Yakima, Washington</a>
 
 <a href="https://en.wikipedia.org/wiki/Historical_racial_and_ethnic_demographics_of_the_United_States" target="_blank">Racial Composition in the U.S. Through Time</a>
+
+---
+
+Thanks for reading and please leave comments!
 
 
 
