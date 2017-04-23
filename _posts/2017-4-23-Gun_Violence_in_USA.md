@@ -924,6 +924,22 @@ We again limit our search to only year 2000 and later. We also only consider a s
 
 From the output above, we see that the proportions for Tennessee favor clearly Whites and perhaps Asians over Blacks but the numbers are much more equal than those from Massachusetts. We see that in Massashusetts only 34.5% of gun murders are solved for Blacks while that number is 64.5% for Whites, and 73.1% for Asian/Pacific Islanders, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusettes, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
 
+## Racial Disparities in Gun Murder Solved through Time
+
+What if we don't limit our search starting in 2000? Just as we looked at racial biases in space, that is in different U.S. states, what if we want to know how racial disparities in solving gun murders has changed through time, starting in 1980? We can just apply the same methodology to each month from 1980 to 2014, and draw a plot of racial disparity, measured by standard deviation.
+
+<figure>
+<center>
+   <a href="/images/disp_time.png"><img width="120%" src="/images/disp_time.png"></a>
+</center>
+</figure>
+
+This is not good news. Our plot tells us that racial disparity in gun murder solved has not only been increasing in America since 1980, but it has been doing so in an almost predictable and linear way. Even just looking at recent years, in 2000, the disparity rate was at 8% whereas now it is almost double that around 15%. Why might this be? Are we just getting more racist as a nation. It will be helpful to consider our own national biases but first let's consider a more fundamental explanation. 
+
+The racial composition of the U.S. has changed a lot since 1980. For example, the propotion of the population that is Asian/Pacific Islander or Native American has significantly risen over time. When there are more racial groups, disparity as we measure it is almost expected to rise in the short run due to the low sample size of some racial groups. 
+
+Still, we can only use that excuse for so long and even in very recent years, like 2010 until now, when the racial composition has not changed as much as in previous years, we still see the disparity rising linarly as it did since 1980. This trend is indeed worrying. Will it only continue to rise? Or can we somehow reverse it? 
+
 ---
 
 <a name="ageml"></a>
@@ -1030,6 +1046,7 @@ Thanks for reading and please leave comments!
 
 <a href="https://en.wikipedia.org/wiki/Yakima_County,_Washington#Demographics" target="_blank">Information on Yakima, Washington</a>
 
+<a href="https://en.wikipedia.org/wiki/Historical_racial_and_ethnic_demographics_of_the_United_States" target="_blank">Racial Composition in the U.S. Through Time</a>
 
 
 
