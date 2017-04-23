@@ -887,3 +887,38 @@ On the left we have the counties that are improving a lot more relative to their
 * One interesting point to note is that for Washington, the most improving county in terms of solved gun murders, Pierce, is directly adjacent to the most deteriorating county, Yakima. 
 
 This author could not resist and had to look up demographic information about these two counties in Washington. It turns out that Pierce county is 74.2% white and those of Hispanic or Latino origin made up 9.2% of the population.. Yakima county is 63.7% white and those of Hispanic or Latino origin made up 45.0% of the population. There are surely other differences as well, but it is intersting to note the ethnic and racial differences in neighboring counties and how their murder solve rates correlate with that. (Side note: 'race' is defined separeate from 'ethnicity' in the data. 'White' falls under race while 'Hispanic or Latino' falls under ethnicity and the two are not mutually exclusive.)
+
+This discussion serves as a nice transition to our analysis of disparities in solving crimes by race.
+
+---
+
+<a name="disparity"></a>
+
+# Does Victim Race Affect Whether a Murder is Solved?
+
+One of the most important questions when it comes to what percent of gun murders get solved in a particular state is whether this is dependent at all on whether the victim of the murder was White or Black or Asian or Native American, etc. That is, are there inherent biases in our criminal justice system when it comes to prioritizing a case based on a victim's race. 
+
+It is really important to note here that we will find that quite often that there are disparities in how often gun murders get solved based on victim race, but we need to do more work to figure out exactly why that is. 
+
+One easy way we can measure racial disparities in percent of gun murders solved by race is by computing, for a specific state, the percent of gun murders solved for Whites, then for Blacks, then for Asians, then for Native Americans, etc, and then taking the standard deviation of this list. For those unfamiliar with the standard deviation, it measures how much the elements of a list vary from each other. 
+
+This is an adept measure here since in a 'perfect' world, all races would have their gun murders solved in equal proportions, no racial bias at all. (In a a truly perfect world people wouldn't choose to kill other people in the first place.) But in our real world, we will see that indeed the percent of gun murders solved does vary by race in each state and the higher the standard deviation, the more these percentages vary and the higher the degree of disparity in that state.
+
+We again limit our search to only year 2000 and later. We also only consider a state if there are three or more racial groups who have 10 or more victims in our 2000-2014 time frame. This is to avoid the issue of a particular state having for example only two Asian victims in that time frame, not a large enough sample size for meaningul comparison. We impose an additional restriction that a state must have at least 150 murders total in that time frame to maintain a meaningful sample size. This is why you might not see each of the 50 states in the chart below. 
+
+<figure>
+<center>
+   <a href="/images/racial_disparity.png"><img width="120%" src="/images/racial_disparity.png"></a>
+</center>
+</figure>
+
+* We see that the disparity level increases gradually for the most part except for at the end with the large jump from Missouri to Massachusetts.
+* We see that Tennessee has the lowest disparity of the displayed states and Massachusetts has the highest. It will be interesting to see for these two states exactly what percent of crimes are solved per each race. 
+
+<figure>
+<center>
+   <a href="/images/two_states.png"><img width="120%" src="/images/two_states.png"></a>
+</center>
+</figure>
+
+From the output above, we see that the proportions for Tennessee favor clearly Whites and perhaps Asians over Blacks but the numbers are much more equal than those from Massachusetts. We see that in Massashusetts only 34.5% of gun murders are solved for Blacks while that number is 64.5% for Whites, and 73.1% for Asian/Pacific Islanders, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusettes, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
