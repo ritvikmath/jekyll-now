@@ -14,8 +14,6 @@ title: Gun Violence in America &#58 An Analysis
 <font size="5"><b>A Statistical Approach to Gun Violence in the United States</b></font>
 </center>
 
----
-
 <html>
 <head>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
