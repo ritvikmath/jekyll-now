@@ -793,6 +793,23 @@ text-align: center !important;
 
 We turn our attention next to monthly differences in gun murders accross all states.
 
+---
 
+<a name="bymonth"></a>
 
+# Does Month Affect Murder Patterns?
+
+We have looked at data so far by month and state, but let us take a step back now and look at montly trends regardless of state. We will answer two questions.
+
+The first question we ask is how occurences of gun murders change by month. In which months do the most deaths occur? The least? 
+
+Let's turn to the data!
+
+<figure>
+<center>
+   <a href="/images/bar_occ.png"><img width="50%" src="/images/bar_occ.png"></a>
+</center>
+</figure>
+
+* We see immedately that the most murders occur in July and the least in February, as indicated by the previous section, but deeper than that we see that there are two peaks in the year and two dips. The other peak occurs at December and the other dip occurs just before, in November. why are
 
