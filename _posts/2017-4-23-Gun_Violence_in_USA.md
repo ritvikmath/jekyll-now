@@ -877,6 +877,13 @@ We then compare all the counties to the state and pick out the county which is *
 
 <figure>
 <center>
-   <a href="/images/compare_chart.png"><img width="100%" src="/images/compare_chart.png"></a>
+   <a href="/images/compare_chart.png"><img width="120%" src="/images/compare_chart.png"></a>
 </center>
 </figure>
+
+On the left we have the counties that are improving a lot more relative to their states in terms of solving gun murders and on the right we have those counties that are deteriorating considerably worse than their states in solving gun murders. 
+
+* We see interestingly that six of the nine states displayed are common between the left and right charts. This intuitively says that these states host counties which are very much extremes in both directions. That is, they host counties that are improving much more than the state, and deteriorating much more than the state. 
+* One interesting point to note is that for Washington, the most improving county in terms of solved gun murders, Pierce, is directly adjacent to the most deteriorating county, Yakima. 
+
+This author could not resist and had to look up demographic information about these two counties in Washington. It turns out that Pierce county is 74.2% white and those of Hispanic or Latino origin made up 9.2% of the population.. Yakima county is 63.7% white and those of Hispanic or Latino origin made up 45.0% of the population. There are surely other differences as well, but it is intersting to note the ethnic and racial differences in neighboring counties and how their murder solve rates correlate with that. (Side note: 'race' is defined separeate from 'ethnicity' in the data. 'White' falls under race while 'Hispanic or Latino' falls under ethnicity and the two are not mutually exclusive.)
