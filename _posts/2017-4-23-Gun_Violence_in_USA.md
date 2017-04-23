@@ -16,10 +16,6 @@ title: Gun Violence in America &#58 An Analysis
 
 ---
 
-testing 
-
-
-
 <html>
 <head>
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -714,11 +710,13 @@ Quick Links:
 
 * [Background](#back)  
 * [The Data](#data)
-* [Who is paid the most at each school?](#highpay)
-* [How do UC campuses compare globally?](#global)
-* [What is the distribution of salaries for each campus?](#distr)
-* [How does value flow between UC schools?](#transfers)
-* [How does salary correlate with other things?](#correl)
+* [How do Gun Murder Rates Vary Across States through Time?](#tseries)
+* [Does Month Affect Murder Patterns?](#bymonth)
+* [Which States are Best at Solving Murders?](#states)
+* [Which Cities are Getting Better at Solving Murders?](#counties)
+* [Does Victim Race Affect Whether a Murder is Solved?](#disparity)
+* [Can We Predict the Age of a Killer?](#ageml)
+* [How about Predicting Whether a Crime will be Solved or Not?](#solveml)
 * [Notes](#notes)
 
 ---
