@@ -1,7 +1,19 @@
 ---
 layout: post
 comments: true
-title: Gun Violence in America
+title: Gun Violence in America \: An Analysis
+---
+
+<figure>
+<center>
+   <a href="/images/mathgun.jpg"><img width="100%" src="/images/mathgun.jpg"></a>
+</center>
+</figure>
+
+<center>
+<font size="5"><b>A Statistical Approach to Gun Violence in the United States</b></font>
+</center>
+
 ---
 
 <html>
