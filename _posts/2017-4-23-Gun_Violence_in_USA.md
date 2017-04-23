@@ -850,7 +850,7 @@ Let's start simple. How good are we at solving gun murders by month?
 
 Now that we have looked at crime solving accuracy through time, let us look at it by geography. We all have preconceptions about which states might have the most prevalent issues with gun violence. For example, **it is often thought that gun violence is a problem in large metropolitan cities such as Los Angeles, Chicago, and New York City**. The extent of this idea remains to be determined by the data but it will help to direct our search in the below map by looking at the containing states: California, Illinois, and New York. We again **restrict our dataset to 2000 and beyond to analyze recent trends**.
 
-**Zoom, pan, click, drag**, go nuts with the map below! **Clicking on the red diamonds** will display the accuracy in solving crimes since 1980 for each state.
+**Zoom, pan, click, drag**, go nuts with the map below! **Clicking on the red diamonds** will display the accuracy in solving gun murders since 1980 for each state.
 
 <figure>
 <center>
@@ -863,7 +863,7 @@ There is obviously a lot of information contained here so let's just look at one
 
 That is to say, geography may not be the sole factor in why gun murder solve rates are so low in New York. We see a similar story in Illinois, with only around **30% of murders solved in recent years**! Compare that to neighboring Indiana at 70% or Iowa at 90%. We see this story repeated in California with only around **50% of gun murders solved in recent years**. As comparison, neighboring states such as Nevada seem to be around 80% and Oregon around 90%. 
 
-All this is to say, there **seems to be some trend between states with big cities** (New York City, Los Angeles, and Chicago are the biggest cities by population in the U.S.) **and the rate at which crimes are solved**. This is likely attributed to the fact that it is just more difficult to solve crimes in extremely urbanized areas.
+All this is to say, there **seems to be some trend between states with big cities** (New York City, Los Angeles, and Chicago are the biggest cities by population in the U.S.) **and the rate at which gun murders are solved**. This is likely attributed to the fact that it is just more difficult to solve crimes in extremely urbanized areas.
 
 And a few other takeaways:
 
@@ -878,9 +878,9 @@ And a few other takeaways:
 
 **Even though a state in general might not have a very high accuracy in solving gun murders, it is entirely possible and probable that certain counties in that state are actually quite good at solving gun murders**. This might be for various reasons such as regional difference in policing strategies, how well funded certain regions are, or just that there are not many murders in a certain region and so there are less cases to work on at once.
 
-We will explore this idea using the following process. For each state, we will analyze how much better (or worse) that state has gotten in solving crimes over time. This essentially amounts to **computing the slope of the line of best fit in each of the state plots displayed in the above map**. For each county in that state, we do the exact same thing. 
+We will explore this idea using the following process. For each state, we will analyze how much better (or worse) that state has gotten in solving gun murders over time. This essentially amounts to **computing the slope of the line of best fit in each of the state plots displayed in the above map**. For each county in that state, we do the exact same thing. 
 
-We then compare all the counties to the state and pick out the county which is ***improving the most*** in solving crimes relative to the state and the county that is ***deteriorating the most*** relative to the state. We do this for all states and then pick out the **9 best and 9 worst counties, displayed below**. Note that we only consider a county if **more than 200 gun murders occurred there** since 1980 since we don't want that problem of having only 2 murders in the county in a given year, for example.
+We then compare all the counties to the state and pick out the county which is ***improving the most*** in solving gun murders relative to the state and the county that is ***deteriorating the most*** relative to the state. We do this for all states and then pick out the **9 best and 9 worst counties, displayed below**. Note that we only consider a county if **more than 200 gun murders occurred there** since 1980 since we don't want that problem of having only 2 murders in the county in a given year, for example.
 
 <figure>
 <center>
@@ -920,7 +920,7 @@ We again **limit our search to only year 2000 and later**. We also only consider
 </figure>
 
 * We see that the disparity level increases gradually for the most part except for at the end with the large **jump from Missouri to Massachusetts**.
-* We see that **Tennessee has the lowest disparity of the displayed states and Massachusetts has the highest**. It will be interesting to see for these two states exactly what percent of crimes are solved per each race. 
+* We see that **Tennessee has the lowest disparity of the displayed states and Massachusetts has the highest**. It will be interesting to see for these two states exactly what percent of gun murders are solved per each race. 
 
 <figure>
 <center>
@@ -983,7 +983,7 @@ Still, with no leads, such a model can give us a start towards finding a killer.
 
 # How about Predicting Whether a Crime will be Solved or Not?
 
-Let's keep the machine learning train going and try now to **predict whether or not a crime will be solved**. We use all the same predictors as in the last machine learning problem: county, state, month, victim information, and weapon used. We restrict our data to **only 2014 gun murders** to remove the effects of year. We use a classifier called the <a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest Classifier</a> mainly for its interpretability going forward. In essence, this classifier is **structured like a tree** which starts at the root and asks a **series of yes or no questions** about each murder that gives progressively more information about the likely outcome of whether it will be solved or not. For example, it might ask questions like: "Was the victim female?", "Was the victim under 35 years old?", "Did this take place in Ohio?", etc. 
+Let's keep the machine learning train going and try now to **predict whether or not a gun murder will be solved**. We use all the same predictors as in the last machine learning problem: county, state, month, victim information, and weapon used. We restrict our data to **only 2014 gun murders** to remove the effects of year. We use a classifier called the <a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest Classifier</a> mainly for its interpretability going forward. In essence, this classifier is **structured like a tree** which starts at the root and asks a **series of yes or no questions** about each murder that gives progressively more information about the likely outcome of whether it will be solved or not. For example, it might ask questions like: "Was the victim female?", "Was the victim under 35 years old?", "Did this take place in Ohio?", etc. 
 
 The purpose of making this prediction at all is really to **understand the relative importance of each predictor** in the final prediction. We are interested in knowing things like whether the murder taking place in California gives more information than whether the victim was Black? Does the fact that a handgun was used give more information than the fact that it took place in Chicago? Etc. We can **judge the relative importance of a feature by how early on in the tree the question is asked**.
 
@@ -1011,7 +1011,7 @@ Note that the **length of the bars are proportional to the relative importance o
 </center>
 </figure>
 
-* Perhaps not surprisingly **California, home of Los Angeles, and Illinois, home of Chicago**, are the best predictors of whether or not a crime will be solved. Looking back at our U.S. map, we recall that in recent years, the solve rate in Chicago has been around only 30%, so that if we know a crime occurred there, it helps us to classify it as probably not solved.
+* Perhaps not surprisingly **California, home of Los Angeles, and Illinois, home of Chicago**, are the best predictors of whether or not a gun murder will be solved. Looking back at our U.S. map, we recall that in recent years, the solve rate in Chicago has been around only 30%, so that if we know a crime occurred there, it helps us to classify it as probably not solved.
 
 Let's look at counties now.
 
