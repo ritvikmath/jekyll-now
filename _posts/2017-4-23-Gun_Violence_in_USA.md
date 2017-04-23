@@ -727,7 +727,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/us_guns_car.jpg"><img width="100%" src="/images/us_guns_car.jpg"></a>
+   <a href="/images/us_guns_cart.jpg"><img width="100%" src="/images/us_guns_cart.jpg"></a>
 </center>
 </figure>
 
@@ -745,7 +745,9 @@ We will explore all these questions through this post. We will spend the latter 
 
 The data for this analysis came from an <a href="https://www.kaggle.com/murderaccountability/homicide-reports" target="_blank">FBI dataset on homicides</a> in the United States from **1980 to 2014**. This dataset includes not only gun murders but murders from other methods as well including knives, drowning, fire, drugs, etc. We will focus only on the gun muders for this study. Note that gun muders account for **66%** of all homicides from 1980 to 2014. 
 
-The data includes information about the county and state in which the murder occured, the month and year it occurred, a field indicating whether or not the crime was solved, information about the victim and perpatrator including sex, race, ethnicity, age, the weapon used in the murder, and finally the relationship between the perpetrator and victim, if any. There are a few notes to be made about the data to ensure a better understanding of the following analysis. First, note that we often to not have the perpetrator information. This is surely true if the crime was not solved since we do not know who the killer was but we also sometimes have missing information even when the crime was solved. This is the motivation behind the latter part of this post when we try and predict whether or not a crime will be solved and the age of the killer. 
+The data includes information about the county and state in which the murder occured, the month and year it occurred, a field indicating whether or not the crime was solved, information about the victim and perpatrator including sex, race, ethnicity, age, the weapon used in the murder, and finally the relationship between the perpetrator and victim, if any. 
+
+There are a few notes to be made about the data to ensure a better understanding of the following analysis. First, note that we often to not have the perpetrator information. This is surely true if the crime was not solved since we do not know who the killer was but we also sometimes have missing information even when the crime was solved. This is the motivation behind the latter part of this post when we try and predict whether or not a crime will be solved and the age of the killer. 
 
 Without further ado, let us dive in!
 
@@ -848,6 +850,8 @@ Now that we have looked at crime solving accuracy through time, let us look at i
 
 **Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
 
-<iframe src="/images/us_states.html" style="border: none; width: 100px; height: 800px"></iframe>
+<iframe src="/images/us_states.html" style="border: none; width: 1000px; height: 800px"></iframe>
+
+* There is obviously a lot of informaiton contained here so let's just look at one trend, the one we alluded to with states with large metropolitan cities. Looking at New York, 
 
 
