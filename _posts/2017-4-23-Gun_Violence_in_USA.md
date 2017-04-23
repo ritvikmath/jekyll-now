@@ -725,6 +725,12 @@ Quick Links:
 
 # Background
 
+<figure>
+<center>
+   <a href="/images/us_guns_car.jpg"><img width="100%" src="/images/us_guns_car.jpg"></a>
+</center>
+</figure>
+
 Gun violence has become an epidemic in the United States in recent years. In 2017 alone, there have been over 4500 gun related deaths in the U.S. so far. With this epidemic has come fervent discussion from those who wish to relax gun controls and those who wish to strengthen them. Indeed, this issue of gun control has latched itself onto American politics, ideology, and identiy in a way unlike any other nation. The key question is of course: What should the U.S. do about it? Should we adopt more restrictive policies mirroring countries like Germany, the UK, and Italy? Or should we place fewer limits on who can purchase a gun, rationalized by the idea that Americans are free to protect themselves?
 
 Still, these are not the most pressing quesitons when it comes to gun violence in America. Before we can take real steps towards eradicating deaths by firearms, we need to understand the underlying dynamics. Before we can figure out how to reduce deaths by guns, we need to figure out which groups are suffering most from gun related deaths, whether by race, sex, or geographic region. Before we can figure out how to better solve gun related crimes, we need to understand how good we are at solving them, at the national, state, and county level. Before we can better protect against gun violence, we need to understand the times in the year when gun violence is most likely to be high. 
