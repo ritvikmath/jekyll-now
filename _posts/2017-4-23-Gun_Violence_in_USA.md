@@ -846,7 +846,7 @@ Let's start simple. How good are we at solving gun murders by month?
 
 # Which States are Best at Solving Murders?
 
-Now that we have looked at crime solving accuracy through time, let us look at it by geography. We all have preconceptions about which states might have the most prevalent issues with gun violence. For example, it is known that gun violence is a large problem in large metropolitan cities such as Los Angeles, Chicago, and New York City. Whether this is true remains to be determined by the data but it will help to direct our search in the below map by looking at the containing states: California, Illinois, and New York. 
+Now that we have looked at crime solving accuracy through time, let us look at it by geography. We all have preconceptions about which states might have the most prevalent issues with gun violence. For example, it is known that gun violence is a large problem in large metropolitan cities such as Los Angeles, Chicago, and New York City. Whether this is true remains to be determined by the data but it will help to direct our search in the below map by looking at the containing states: California, Illinois, and New York. We again restrict our dataset to 2000 and beyond to analyze recent trends.
 
 **Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
 
@@ -863,6 +863,20 @@ And a few other takeaways:
 * We see that there is though some geogrphic clustering of gun murder solve rates, regions where the shading is similar. For example, we see that the Bible Belt, consisting of states like Texas, Arkansas, and Mississippi have rates around 85%. Also, we see that the mountain states including Montana, Idaho, and Wyoming have very high rates around 90%. 
 * We need to be careful at times when we see a state that is very green. We might assume at first that this state is just really good at solving gun related murders, but often this might not be case. Look at South Dakota for example. Clicking on its red diamond, we see that there are several years where the gun murder solve rate was not just high but at exactly 100%! How can this be? After checking the data, we find that in 2010 for example, there were only 8 gun murders in the entire state of South Dakota. Compare this with a comparably sized state, Delaware, where there were 41 gun murders in 2010. Thus, the authorities in South Dakota need only to solve these 8 murders in order to reach 100% accuracy. Keep this in mind when scanning the map.
 
+---
 
+<a name="counties"></a>
 
+# Which Cities are Getting Better at Solving Murders?
 
+Even though a state in general might not have a very high accuracy in solving gun murders, it is entirely possible and probabale that certain counties in that state are actually quite good at solving gun murders. This might be for various reasons such as regional difference in policing strategies, how well funded certain regions are, or just that there are not many murders in a certain region and so there are less cases to work on at once.
+
+We will explore this idea using the following process. For each state, we will analyze how much better (or worse) that state has gotten in solving crimes over time. This essentially amounts to computing the slope of the line of best fit in each of the state plots displayed in the above map. For each county in that state, we do the exact same thing. 
+
+We then compare all the counties to the state and pick out the county which is ***improving the most*** in solving crimes relative to the state and the county that is ***deteriorating the most*** relative to the state. We do this for all states and then pick out the 9 best and 9 worst counties, dispalyed below. Note that we only consider a county if more than 200 gun murders occurred there since 1980 since we don't want that problem of having only 2 murders in the county in a given year, for example.
+
+<figure>
+<center>
+   <a href="/images/compare_chart.png"><img width="100%" src="/images/compare_chart.png"></a>
+</center>
+</figure>
