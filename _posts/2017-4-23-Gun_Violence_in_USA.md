@@ -811,5 +811,9 @@ Let's turn to the data!
 </center>
 </figure>
 
-* We see immedately that the most murders occur in July and the least in February, as indicated by the previous section, but deeper than that we see that there are two peaks in the year and two dips. The other peak occurs at December and the other dip occurs just before, in November. why are
+* We see immedately that the most murders occur in July and the least in February, as indicated by the previous section, but deeper than that we see that there are two peaks in the year and two dips. The other peak occurs at December and the other dip occurs just before, in November. 
+* It should not be too surprising that there are the fewest gun related deaths in February. February has at least one less day than any other months, sometimes two or three fewer. With fewer days, as with a small population, comes fewer murders.
+* And what about the peak in July? It is a commonly known phenomenon that crime including gun murder goes up significantly on the fourth of July. If we had time data at the day level, we could remove the fourth of each month and recompute the monthly means in gun related deaths and see if July is still a peak.
+
+
 
