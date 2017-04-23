@@ -753,7 +753,7 @@ We take our state population data from the U.S. Census Beureau, which collects p
 
 Feel free to **toggle, click, and hover** over the individual states below!
 
-## Gun Murders per Month Scaled by Population (per 1,000,000 citizens)
+## Gun Murders per Month Scaled by Population (per 1,000,000 residents)
 
 <html>
 <style>
@@ -768,12 +768,13 @@ text-align: center !important;
 
 Here are a few key takeaways:
 
-* The rate of gun violence has in general gone down from 1980 until now. Looking a bit deeper, we see that in the early 90s, there was a peak in gun related deaths overall as well as for many states including California, New York, and Texas. 
-* 
+* The rate of gun violence has in general gone down from 1980 until now. Looking a bit deeper, we see that in the early 90s, there was a peak in gun related deaths overall as well as for many states including California, New York, and Texas. A bit of good news here in terms of the overall trend over time.
+* The volatility of gun related deaths has also gone down over time. that is, the individual state lines, as well as the national line to an extent, has become less sporadic over time. This might be partly explained by increasing populations in most states and nationally. That is, when there are more people in a state, the true trend of gun related deaths is more clear and subject to less noise. You can even see that just by comparing states! Look at the low volatility of extremely populous California compared to the extreme jumpiness of Arizona, six times less populous. 
+* We also see evidence of 'convergence' going on. That is, around 1980 to 2000, the states, as we noted, were very volatile and showed only weak correlation as a whole. But, after 2000, we see that the states seem to 'converge' around 3 deaths per 1000000 residents. 
 
+Let's zoom in on that post 2000 range to get a better look at recent trends!
 
-
----
+## Gun Murders per Month Scaled by Population (per 1,000,000 residents)
 
 <html>
 <style>
@@ -785,5 +786,13 @@ text-align: center !important;
    <div id="lim_dates"></div>
 </center>
 </html>
+
+* Looking at this closer level we can clearly see the structures and cyles. Looking first at the national line, we see a strong recurring trend that the peaks when there is the most gun violence occur in July and the dips when there is the least gun violence, occcurs in February of each year. Keep those months in mind, we'll see some extra evidence to back it up soon.
+* Looking at Arizona, we see abnormally high values for gun related deaths in recent years with the highest point being 8 deaths per 1000000 residents in May of 2002. 
+* We also see that Illinois continues to be very volatile, going against our hypothesis that more populous states should in general have lower volatilities due to the high sample size negating the noise. Indeed, it is much more difficult in Illinois to discern a monthly structure than in other states such as California.
+
+We turn our attention next to monthly differences in gun murders accross all states.
+
+
 
 
