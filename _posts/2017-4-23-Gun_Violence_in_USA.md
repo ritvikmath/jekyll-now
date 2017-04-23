@@ -850,8 +850,19 @@ Now that we have looked at crime solving accuracy through time, let us look at i
 
 **Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
 
-<iframe src="/images/us_states.html" style="border: none; width: 1000px; height: 800px"></iframe>
+<iframe src="/images/us_states.html" style="border: none; width: 800px; height: 500px"></iframe>
 
-* There is obviously a lot of informaiton contained here so let's just look at one trend, the one we alluded to with states with large metropolitan cities. Looking at New York, 
+There is obviously a lot of information contained here so let's just look at one trend, the one we alluded to with states with large metropolitan cities. Looking at New York, we see by its color that only around 50% of gun murders are solved in the state and furthremore this has been the general trend over time. Looking at neighboring Vermont, we see that 90% or more of gun murders are solved. Looking at neighboring Pennsylvania, we see this figure is around 80%. 
+
+That is to say, geography may not be the sole factor in why gun murder solve rates are so low in New York. We see a similar story in Illinois, with only around 30% of murders solved in recent years! Compare that to neighboring Indiana at 70% or Iowa at 90%. We see this story repearted in California with only around 50% of gun murders solved in recent years. As comparison, neighboring states such as Nevada seem to be around 80% and Oregon around 90%. 
+
+All this is to say, there seems to be some trend between states with big cities (New York City, Los Angeles, and Chicago are the biggest cities by population in the U.S.) and the rate at which crimes are solved. It is likely because it is just more difficult to solve crimes in extremely urbanized areas.
+
+And a few other takeaways:
+
+* We see that there is though some geogrphic clustering of gun murder solve rates, regions where the shading is similar. For example, we see that the Bible Belt, consisting of states like Texas, Arkansas, and Mississippi have rates around 85%. Also, we see that the mountain states including Montana, Idaho, and Wyoming have very high rates around 90%. 
+* We need to be careful at times when we see a state that is very green. We might assume at first that this state is just really good at solving gun related murders, but often this might not be case. Look at South Dakota for example. Clicking on its red diamond, we see that there are several years where the gun murder solve rate was not just high but at exactly 100%! How can this be? After checking the data, we find that in 2010 for example, there were only 8 gun murders in the entire state of South Dakota. Compare this with a comparably sized state, Delaware, where there were 41 gun murders in 2010. Thus, the authorities in South Dakota need only to solve these 8 murders in order to reach 100% accuracy. Keep this in mind when scanning the map.
+
+
 
 
