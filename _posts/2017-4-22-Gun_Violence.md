@@ -694,6 +694,45 @@ title: Gun Violence in America
 
 ---
 
+Quick Links: 
+
+* [Background](#back)  
+* [The Data](#data)
+* [Who is paid the most at each school?](#highpay)
+* [How do UC campuses compare globally?](#global)
+* [What is the distribution of salaries for each campus?](#distr)
+* [How does value flow between UC schools?](#transfers)
+* [How does salary correlate with other things?](#correl)
+* [Notes](#notes)
+
+---
+
+<a name="back"></a>
+
+# Background
+
+The University of California (UC) system is a public university system comprising of ten campuses, with the oldest being UC Berkeley, founded in 1868 and the newest being UC Merced, founded in 2005. Nine of the ten schools in the UC system admit both undergraduate and graduate students, with the exception of UC San Francisco, which admits only graduate students. 
+
+The UC System was allocated a budget of **\\$25.5 billion** in 2015, **\\$13.1 billion** of which went towards paying its around **180,000 employees**. Of course, there are various factors that impact each individual employee's salary such as position and years of experience. 
+
+But, there may be more, underlying, factors which impact employee salary, all else held constant, such as UC Campus, city unemployment rate, and cost of living. This post aims to dive deep into the intricacies of the distribution of salaries throughout the UC system, offering an interactive way to explore the key dynamics at play.
+
+---
+
+<a name="data"></a>
+
+# The Data
+
+The data for this analysis came from the <a href="https://ucannualwage.ucop.edu/wage/" target="_blank">Compensation at the University of California</a> website. The data includes employee names, campus of employment, job title, and gross pay. A snapshot of the data is shown below.
+
+<figure>
+<center>
+   <a href="/images/data_sal.jpg"><img width="100%" src="/images/data_sal.jpg"></a>
+</center>
+</figure>
+
+The data spans the years **2010 until 2015** and includes all ten UC Schools as well as the University of California Office of the President. In total there are about **1.5 million rows** in the table, where each row corresponds to a particular employee in a particular year. 
+
 <html>
 <style>
 .google-visualization-table-td {
