@@ -809,7 +809,7 @@ Let's turn to the data!
 
 <figure>
 <center>
-   <a href="/images/bar_occ.png"><img width="50%" src="/images/bar_occ.png"></a>
+   <a href="/images/bar_occ.png"><img width="100%" src="/images/bar_occ.png"></a>
 </center>
 </figure>
 
@@ -823,7 +823,7 @@ Let's start simple. How good are we at solving gun murders by month?
 
 <figure>
 <center>
-   <a href="/images/bar_solved.png"><img width="50%" src="/images/bar_solved.png"></a>
+   <a href="/images/bar_solved.png"><img width="100%" src="/images/bar_solved.png"></a>
 </center>
 </figure>
 
@@ -842,6 +842,6 @@ Now that we have looked at crime solving accuracy through time, let us look at i
 
 **Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
 
-<iframe src="/images/us_states.html" style="border: none; width: 850px; height: 700px"></iframe>
+<iframe src="/images/us_states.html" style="border: none; width: 100px; height: 800px"></iframe>
 
 
