@@ -730,6 +730,7 @@ Gun violence has become an epidemic in the United States in recent years. In 201
 Still, these are not the most pressing quesitons when it comes to gun violence in America. Before we can take real steps towards eradicating deaths by firearms, we need to understand the underlying dynamics. Before we can figure out how to reduce deaths by guns, we need to figure out which groups are suffering most from gun related deaths, whether by race, sex, or geographic region. Before we can figure out how to better solve gun related crimes, we need to understand how good we are at solving them, at the national, state, and county level. Before we can better protect against gun violence, we need to understand the times in the year when gun violence is most likely to be high. 
 
 We will explore all these questions through this post. We will spend the latter part of the post going one step further and using techniques in machine learning to predict the age of a killer in cases when we have no leads and whether or not a crime will be solved at all. Besides being very applicable in predictive policing, we can analyze the most predictive features in our models to further understand the dynamics at play in the American gun violence epidemic.
+
 ---
 
 <a name="data"></a>
@@ -741,6 +742,7 @@ The data for this analysis came from an <a href="https://www.kaggle.com/murderac
 The data includes information about the county and state in which the murder occured, the month and year it occurred, a field indicating whether or not the crime was solved, information about the victim and perpatrator including sex, race, ethnicity, age, the weapon used in the murder, and finally the relationship between the perpetrator and victim, if any. There are a few notes to be made about the data to ensure a better understanding of the following analysis. First, note that we often to not have the perpetrator information. This is surely true if the crime was not solved since we do not know who the killer was but we also sometimes have missing information even when the crime was solved. This is the motivation behind the latter part of this post when we try and predict whether or not a crime will be solved and the age of the killer. 
 
 Without further ado, let us dive in!
+
 ---
 
 <a name="tseries"></a>
@@ -839,5 +841,7 @@ Let's start simple. How good are we at solving gun murders by month?
 Now that we have looked at crime solving accuracy through time, let us look at it by geography. We all have preconceptions about which states might have the most prevalent issues with gun violence. For example, it is known that gun violence is a large problem in large metropolitan cities such as Los Angeles, Chicago, and New York City. Whether this is true remains to be determined by the data but it will help to direct our search in the below map by looking at the containing states: California, Illinois, and New York. 
 
 **Zoom, pan, click, drag**, go nuts with the map below! Clicking on the red diamonds will display the accuracy in solving crimes since 1980 for each state.
+
+<iframe src="/images/us_states.html" style="border: none; width: 850px; height: 700px"></iframe>
 
 
