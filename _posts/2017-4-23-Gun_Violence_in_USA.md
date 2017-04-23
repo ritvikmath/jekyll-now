@@ -930,7 +930,7 @@ We again **limit our search to only year 2000 and later**. We also only consider
 </center>
 </figure>
 
-From the output above, we see that the **proportions for Tennessee favor clearly Whites and perhaps Asians over Blacks but the numbers are much more equal than those from Massachusetts**. We see that in Massachusetts only **34.5% of gun murders are solved for Blacks** while that number is **64.5% for Whites**, and **73.1% for Asian/Pacific Islanders**, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusetts, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
+From the output above, we see that the **proportions for Tennessee favor clearly Whites and perhaps Asian/Pacific Islanders over Blacks but the numbers are much more equal than those from Massachusetts**. We see that in Massachusetts only **34.5% of gun murders are solved for Blacks** while that number is **64.5% for Whites**, and **73.1% for Asian/Pacific Islanders**, more than twice as high as that of Blacks! Clearly this is not just by chance and there is some mechanism in Massachusetts, perhaps as a whole or in certain parts, which drives these greatly disproportionate murder solve rates. This is a good direction for future analysis.
 
 ## Racial Disparities in Gun Murder Solved through Time
 
