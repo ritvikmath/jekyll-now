@@ -10,12 +10,6 @@ title: How Many Hearts Beat in Sync With Yours?
 </center>
 </figure>
 
-<figure>
-<center>
-   <a href="/images/spin.gif"><img width="50%" src="/images/spin.gif"></a>
-</center>
-</figure>
-
 ---
 
 <script type="text/x-mathjax-config">
