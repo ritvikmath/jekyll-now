@@ -12,7 +12,7 @@ title: How Many Hearts Beat in Sync With Yours?
 
 <figure>
 <center>
-   <a href="/images/spin.gif"><img width="90%" src="/images/spin.gif"></a>
+   <a href="/images/spin.gif"><img width="50%" src="/images/spin.gif"></a>
 </center>
 </figure>
 
