@@ -93,7 +93,7 @@ All the pieces are here. But we need to figure out how to put them together in o
 Taking all these rules into account, and using some mathematical fitting techniques to minimize our error, we arrive at the following function.
 
 $$
-p(G,M) = \frac{-1.5 + 0.61*G}{1+e^{-0.2*(M-512.75 + 2.5G}}
+p(G,M) = \frac{-1.5 + 0.61 \times G}{1+e^{-0.2 \times (M - 512.75 + 2.5G)}}
 $$
 
 
