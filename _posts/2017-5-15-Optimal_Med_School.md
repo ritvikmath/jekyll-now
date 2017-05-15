@@ -67,4 +67,34 @@ Indeed they make perfect sense in our context too! Given a very low MCAT score, 
 
 Note also that the sigmoid shape is more defined for higher values of GPA. We also see the effect of different GPA levels on the sigmoid by, for example, looking at the admit rate for the highest value of MCAT for the three GPA bands. We see for the low GPA curve, the admit rate here is around 50%, for the middle GPA curve it is around 60%, and for the highest GPA curve it is around 85%.
 
+# Cool Trends! But Can we Fit Models to Them?
+
+Now that we some some idea of the trends in admit rate based on GPA and MCAT, we would like to know if we can fit a (not too complex) mathematical model to these trends to predict admit rate for any combination of GPA and MCAT score with a decent degree of accuracy. Before tackling the whole problem, let's just see how good we can do at predicting those sigmoids from the last figure.
+
+<figure>
+<center>
+   <a href="/images/sigmoid_preds.png"><img width="90%" src="/images/sigmoid_preds.png"></a>
+</center>
+</figure>
+
+Here we took the three Admit Rate vs. MCAT curves from the last section and **chose (carefully) some sigmoids to best fit this data**. The sigmoid fits are shown with a red dotted line. Recall that the three curves represent **High, Medium, and Low GPA bands**. We see that at least **for the high GPA band, our prediction is almost prefect**. As we get to lower GPA bands, the **prediction is not as strong but still captures the dynamics of the data**. 
+
+Using the fact that our model seems to predict well for higher values of GPA, we will **limit our prediction to applicants whose GPA was 3.1 and higher**.
+
+# A Full Model
+
+All the pieces are here. But we need to figure out how to put them together in order to create an all-encompassing model which, given your GPA and MCAT score, will give a (hopefully accurate) prediction of your chance of admission to medical school in the United States. Seems like a daunting task but let's list out what we know such a model needs to include:
+
+* Given some fixed value of GPA, the model needs to be sigmoidal for changing values of MCAT score. 
+* Given some fixed value of GPA, the properties of this sigmoid (slope, offset, etc.) need to change as a function of GPA.
+* Given some fixed value of MCAT score, the model needs to be (roughly) linear for changing values of GPA.
+* The model will be limited to applicants with a GPA of 3.1 or higher.
+
+Taking all these rules into account, and using some mathematical fitting techniques to minimize our error, we arrive at the following function.
+
+$$
+p(G,M) = \frac{-1.5 + 0.61*G}{1+e^{-0.2*(M-512.75 + 2.5G}}
+$$
+
+
 
