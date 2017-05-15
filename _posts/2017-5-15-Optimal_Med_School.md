@@ -65,11 +65,17 @@ The most striking thing about this figure is that the curves do not follow a lin
 
 Indeed they make perfect sense in our context too! Given a very low MCAT score, boosting that score by a little bit will **help a bit in the beginning but not much**. Once you keep boosting the MCAT score, you **realize greater and greater gains**, causing your admit rate to increase faster and faster. Finally, when your MCAT score is already fairly high, **additional gains in your MCAT score do not help much**.
 
-Note also that the sigmoid shape is more defined for higher values of GPA. We also see the effect of different GPA levels on the sigmoid by, for example, looking at the admit rate for the highest value of MCAT for the three GPA bands. We see for the low GPA curve, the admit rate here is around 50%, for the middle GPA curve it is around 60%, and for the highest GPA curve it is around 85%.
+Note also that the sigmoid shape is more defined for higher values of GPA. We also see the effect of different GPA levels on the sigmoid by, for example, looking at the admit rate for the highest value of MCAT for the three GPA bands. We see for the **low GPA curve, the admit rate here is around 50%**, for the **middle GPA curve it is around 60%**, and for the **highest GPA curve it is around 85%**.
+
+A common mathematical description of a sigmoid is given by:
+
+$$
+f(x) = \frac{1}{1+e^(-x)}
+$$
 
 # Cool Trends! But Can we Fit Models to Them?
 
-Now that we some some idea of the trends in admit rate based on GPA and MCAT, we would like to know if we can fit a (not too complex) mathematical model to these trends to predict admit rate for any combination of GPA and MCAT score with a decent degree of accuracy. Before tackling the whole problem, let's just see how good we can do at predicting those sigmoids from the last figure.
+Now that we some some idea of the trends in admit rate based on GPA and MCAT, we would like to know if we can **fit a (not too complex) mathematical model** to these trends to predict admit rate for any combination of GPA and MCAT score with a decent degree of accuracy. Before tackling the whole problem, let's just see how good we can do at **predicting those sigmoids from the last figure**.
 
 <figure>
 <center>
@@ -93,8 +99,46 @@ All the pieces are here. But we need to figure out how to put them together in o
 Taking all these rules into account, and using some mathematical fitting techniques to minimize our error, we arrive at the following function.
 
 $$
-p(G,M) = \frac{-1.5 + 0.61 \times G}{1+e^{-0.2 \times (M - 512.75 + 2.5G)}}
+p(G,M) = \frac{-1.5 + 0.61G}{1+e^{-0.2(M - 512.75 + 2.5G)}}
 $$
+
+where 
+
+$$
+p = \textrm{Probability of Admission}
+G = \textrm{GPA}
+M = \textrm{MCAT score}
+$$
+
+**Seems complicated!** But really, we can ignore the actual numbers and just focus on the main structures in this model.
+
+## Sigmoidal MCAT
+
+Given a fixed value of GPA, the model reduces to:
+
+$$
+p(M) = \frac{K_1}{1+e^{-0.2M + K_2}}
+$$
+
+where $K_1 and K_2 are just some constants.
+
+We see that this has the form of the sigmoidal function we introduced earlier. 
+
+## Roughly Linear GPA
+
+Given a fixed value of MCAT, the model reduces to:
+
+$$
+p(G) = \frac{-1.5 + 0.61G}{1+e^{K_1 - 0.5G}}
+$$
+
+where $K_1$ is just a constant. At first glance there is nothing linear about this, there is an exponential function invovled! But, something to note is that the exponential in the denominator approaches 0 for higher values of G (GPA) since the quantity $K_1 - 0.5G$ will get more and more negative, which drives $e^{K_1 - 0.5G}$ to 0 which drives the whole denominator to 1. All in all, this drives the function to 
+
+$$
+p(G) \approx -1.5 + 0.61G
+$$
+
+which is indeed linear in GPA.
 
 
 
