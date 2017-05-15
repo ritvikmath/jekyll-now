@@ -112,9 +112,9 @@ $$
 
 **Seems complicated!** But really, we can ignore the actual numbers and just focus on the main structures in this model.
 
-## Sigmoidal MCAT
+## Sigmoidal in MCAT
 
-Given a fixed value of GPA, the model reduces to:
+**Given a fixed value of GPA, the model reduces to**:
 
 $$
 p(M) = \frac{K_1}{1+e^{-0.2M + K_2}}
@@ -122,23 +122,40 @@ $$
 
 where $K_1 and K_2 are just some constants.
 
-We see that this has the form of the sigmoidal function we introduced earlier. 
+We see that this **has the form of the sigmoidal function** we introduced earlier. 
 
-## Roughly Linear GPA
+## Roughly Linear in GPA
 
-Given a fixed value of MCAT, the model reduces to:
+**Given a fixed value of MCAT, the model reduces to**:
 
 $$
 p(G) = \frac{-1.5 + 0.61G}{1+e^{K_1 - 0.5G}}
 $$
 
-where $K_1$ is just a constant. At first glance there is nothing linear about this, there is an exponential function invovled! But, something to note is that the exponential in the denominator approaches 0 for higher values of G (GPA) since the quantity $K_1 - 0.5G$ will get more and more negative, which drives $e^{K_1 - 0.5G}$ to 0 which drives the whole denominator to 1. All in all, this drives the function to 
+where $K_1$ is just a constant. At first glance there is nothing linear about this, there is an exponential function invovled! But, something to note is that the **exponential in the denominator approaches 0 for higher values of G (GPA)** since the quantity $K_1 - 0.5G$ will get more and more negative, which drives $e^{K_1 - 0.5G}$ to 0 which drives the whole denominator to 1. All in all, this drives the function to 
 
 $$
 p(G) \approx -1.5 + 0.61G
 $$
 
-which is indeed linear in GPA.
+**which is indeed linear in GPA**.
+
+## Interaction between MCAT and GPA
+
+We also briefly note the interaction between MCAT and GPA is manifsted in the numerator, $-1.5 + 0.61G$ and the exponent, $-0.2(M - 512.75 + 2.5G)$. By fixing a value of G, we fix certain properties of the resulting sigmoid including its **vertical stretch** and its **horizontal shift**. 
+
+# All Together Now!
+
+After all that talk about equations, let's finally see how the model looks in 3D. We can visualize this since the model is simply a bivariate equation. That is, we can choose points on the x-y plane (GPA-MCAT plane) and map that point up vertically to indicate the admit rate. Thus, we get this admit rate surface.
+
+<figure>
+<center>
+   <a href="/images/spin.gif"><img width="90%" src="/images/spin.gif"></a>
+</center>
+</figure>
+
+
+
 
 
 
