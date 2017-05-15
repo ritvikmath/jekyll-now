@@ -23,15 +23,15 @@ In 2016 there were **27,772** students who applied to Medical Schools across the
 
 We of course know roughly that a higher GPA and/or a higher MCAT score will lead to a higher chance of admission, all else held constant, but we want to really get down into the details here. Our analysis will progress by asking a **series of questions**:
 
-{center}
+{:center: style="text-align: center"}
 ***What are the patterns in Chance of Admission vs. MCAT and Chance of Admission vs. GPA?***
 {:center}
 
-{center}
+{:center: style="text-align: center"}
 ***Given these patterns, can we build an all-encompassing model to predict chance of admission given MCAT and GPA?***
 {:center}
 
-{center}
+{:center: style="text-align: center"}
 ***Given this model, can we reccomend a path for prospective medical school students to optimize their chance of admission?***
 {:center}
 
