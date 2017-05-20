@@ -32,7 +32,7 @@ We of course know roughly that a higher GPA and/or a higher MCAT score will lead
 {:center}
 
 {:center: style="text-align: center"}
-***Given this model, can we reccomend a path for prospective medical school students to optimize their chance of admission?***
+***Given this model, can we recommend a path for prospective medical school students to optimize their chance of admission?***
 {:center}
 
 # Let's Start Simple. How Does Admit Rate Change Based on MCAT and GPA?
@@ -50,10 +50,10 @@ Let's first look at the change in admit rate due to changes in GPA with MCAT hel
 The key takeaways are:
 
 * There seems to be a **(roughly) linear** trend in Admit Rate vs. GPA. 
-* The **slope of this linear relationship increases with increasing MCAT scores**. Put another way, the higher your MCAT score is, the more that each additional GPA point boosts your chance of admission. This is some preliminary edvidence of a link between GPA and MCAT in determining admit rate.
+* The **slope of this linear relationship increases with increasing MCAT scores**. Put another way, the higher your MCAT score is, the more that each additional GPA point boosts your chance of admission. This is some preliminary evidence of a link between GPA and MCAT in determining admit rate.
 * **Given a low enough MCAT score, no GPA can make up for it in gaining admission to medical school**. That is, looking at the bottom red line, where MCAT is between 498 and 501, a GPA of 2.5 vs 3.9 gives the same admit rate of around 3%.
 
-Now let's turn to a more interesting trend, that of Admit Rate vs. MCAT for some fixed values of GPA. Here we fix the GPA at three levels: *3.8-4.0 (High)*, *3.4-3.6 (Medium)*, *3.0-3.2 (Low)*. Note here that even though a GPA of 3.0 is labeled as *low*, you should take that to mean **relatively low rather than absolutely low**. Indeed, even those with a GPA in the *low* range can achieve a peak admit rate of 50% given a high enough MCAT score. 
+Now let's turn to a more interesting trend,  that of Admit Rate vs. MCAT for some fixed values of GPA. Here we fix the GPA at three levels: *3.8-4.0 (High)*, *3.4-3.6 (Medium)*, *3.0-3.2 (Low)*. Note here that even though a GPA of 3.0 is labeled as *low*, you should take that to mean **relatively low rather than absolutely low**. Indeed, even those with a GPA in the *low* range can achieve a peak admit rate of 50% given a high enough MCAT score. 
 
 <figure>
 <center>
@@ -75,7 +75,7 @@ $$
 
 # Cool Trends! But Can we Fit Models to Them?
 
-Now that we some some idea of the trends in admit rate based on GPA and MCAT, we would like to know if we can **fit a (not too complex) mathematical model** to these trends to predict admit rate for any combination of GPA and MCAT score with a decent degree of accuracy. Before tackling the whole problem, let's just see how good we can do at **predicting those sigmoids from the last figure**.
+Now that we some idea of the trends in admit rate based on GPA and MCAT, we would like to know if we can **fit a (not too complex) mathematical model** to these trends to predict admit rate for any combination of GPA and MCAT score with a decent degree of accuracy. Before tackling the whole problem, let's just see how good we can do at **predicting those sigmoids from the last figure**.
 
 <figure>
 <center>
@@ -134,7 +134,7 @@ $$
 p(G) = \frac{-1.5 + 0.61G}{1+e^{K_1 - 0.5G}}
 $$
 
-where $K_1$ is just a constant. At first glance there is nothing linear about this, there is an exponential function invovled! But, something to note is that the **exponential in the denominator approaches 0 for higher values of G (GPA)** since the quantity $K_1 - 0.5G$ will get more and more negative, which drives $e^{K_1 - 0.5G}$ to 0 which drives the whole denominator to 1. **All in all, this drives the function to** 
+where $K_1$ is just a constant. At first glance there is nothing linear about this, there is an exponential function involved! But, something to note is that the **exponential in the denominator approaches 0 for higher values of G (GPA)** since the quantity $K_1 - 0.5G$ will get more and more negative, which drives $e^{K_1 - 0.5G}$ to 0 which drives the whole denominator to 1. **All in all, this drives the function to** 
 
 $$
 p(G) \approx -1.5 + 0.61G
@@ -144,7 +144,7 @@ $$
 
 ## Interaction between MCAT and GPA
 
-We also briefly note the **interaction between MCAT and GPA is manifsted in the numerator**, $-1.5 + 0.61G$ **and the exponent**, $-0.2(M - 512.75 + 2.5G)$. By fixing a value of G, we fix certain properties of the resulting sigmoid including its **vertical stretch** and its **horizontal shift**. 
+We also briefly note the **interaction between MCAT and GPA is manifested in the numerator**, $-1.5 + 0.61G$ **and the exponent**, $-0.2(M - 512.75 + 2.5G)$. By fixing a value of G, we fix certain properties of the resulting sigmoid including its **vertical stretch** and its **horizontal shift**. 
 
 # All Together Now!
 
@@ -158,7 +158,7 @@ After all that talk about equations, **let's finally see how the model looks in 
 
 Here the **x axis represents GPA**, the **y axis represents MCAT score**, and the **z axis represents admit rate**.
 
-It turns out that the **Root Mean Squared Error (RMSE) from this model is about 3.8%** That is, **on average we are 3.8% away from the true value of admit rate** accross all GPA and MCAT values. **Not too bad!**
+It turns out that the **Root Mean Squared Error (RMSE) from this model is about 3.8%** That is, **on average we are 3.8% away from the true value of admit rate** across all GPA and MCAT values. **Not too bad!**
 
 # So How Does a Prospective Med School Student Use This?
 
@@ -166,7 +166,7 @@ So we have a **fairly accurate model to predict admit rate given just GPA and MC
 
 Let's say you are a student at some point in your academic track with a **GPA of 3.4 and an MCAT score of 512**. Your natural question should be **"Should I dedicate my time to boosting my MCAT or my GPA?"** After all, you still only get 24 hours in your day. 
 
-A natural way to answer this question would be to **focus on the one which gives you the greatest admit rate boost**. If that seems like a strange notion, pretend you are a student in a more extreme situation. You are a student who has a **GPA of 3.96 and an MCAT score of 485**. It really doesnt make sense to spend all of your free time studying for exams and trying to boost your GPA when it is already so high. It especially doesn't make sense given that your **MCAT score is below the median and might seriously impede your chances of admission if you don't work on it**.
+A natural way to answer this question would be to **focus on the one which gives you the greatest admit rate boost**. If that seems like a strange notion, pretend you are a student in a more extreme situation. You are a student who has a **GPA of 3.96 and an MCAT score of 485**. It really doesn’t make sense to spend all of your free time studying for exams and trying to boost your GPA when it is already so high. It especially doesn't make sense given that your **MCAT score is below the median and might seriously impede your chances of admission if you don't work on it**.
 
 So, the question is, ***how do we measure the admit rate boost from an increase in GPA vs an increase in MCAT score?*** 
 
@@ -236,7 +236,7 @@ To recap
 **We used this predictive model to suggest a course of action for prospective medical students based on their current standings.**
 {:center}
 
-To finish, we show a **much more fine grained table of values from the preditive model**.
+To finish, we show a **much more fine grained table of values from the predictive model**.
 
 <figure>
 <center>
@@ -245,20 +245,3 @@ To finish, we show a **much more fine grained table of values from the preditive
 </figure>
 
 **Thanks for reading and please leave comments below!**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
