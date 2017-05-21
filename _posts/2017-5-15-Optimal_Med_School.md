@@ -180,27 +180,7 @@ We can do this pretty easily if we take a look at that surface above and **treat
 
 We just need to be a bit careful here when we say **few steps**. We note that **GPA has a range from 0.0 to 4.0** (length 4) while **MCAT has a range from 472 to 528** (length 56). In lieu of any detailed information about the relative difficulty of GPA gain vs MCAT gain, we make the **simplifying assumption of matching a 1 point gain in GPA with a 14 point gain in MCAT** (since 56 divided by 4 is 14).
 
-We proceed by using a **very simple measure, $r(G,M)$**, defined as:
-
-$$
-r(G,M) = \frac{\textrm{Admit Rate Boost from a small change in GPA given GPA = G}}{\textrm{Admit Rate Boost from a small change in MCAT given MCAT = M}}
-$$
-
-where
-
-$$
-G = \textrm{GPA}
-$$
-
-$$
-M = \textrm{MCAT}
-$$
-
-and "small change" is defined proportionally as above **using the equivalence factor of 14**.
-
-Note that **if $r(G,M) > 1$, then improving GPA is a better idea** than improving MCAT since it leads to a greater admit rate boost. **If, on the other hand, $r(G,M) < 1$ then we should improve MCAT** instead of GPA.
-
-We show the table of **predicted admit rate values** for some intervals of MCAT and GPA below.
+We show the table of **predicted admit rate values** for some intervals of MCAT and GPA below with relative GPA and MCAT step sizes determined by the **scaling factor of roughly 14** discussed above.
 
 <figure>
 <center>
