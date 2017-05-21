@@ -108,9 +108,13 @@ where
 
 $$
 p = \textrm{Probability of Admission}
+$$
 
+$$
 G = \textrm{GPA}
+$$
 
+$$
 M = \textrm{MCAT score}
 $$
 
@@ -186,7 +190,9 @@ where
 
 $$
 G = \textrm{GPA}
+$$
 
+$$
 M = \textrm{MCAT}
 $$
 
