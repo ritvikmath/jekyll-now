@@ -6,6 +6,12 @@ title: Optimizing Your Chances of Medical School Admission
 
 <figure>
 <center>
+   <a href="/images/fb_pic.png"><img width="90%" src="/images/fb_pic.png"></a>
+</center>
+</figure>
+
+<figure>
+<center>
    <a href="/images/sig_head2.png"><img width="90%" src="/images/sig_head2.png"></a>
 </center>
 </figure>
