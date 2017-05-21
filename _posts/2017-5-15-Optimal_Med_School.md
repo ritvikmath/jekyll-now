@@ -244,7 +244,7 @@ To recap
 **We used this predictive model to suggest a course of action for prospective medical students based on their current standings.**
 {:center}
 
-To finish, we show a **much more fine grained table of values from the predictive model**.
+To finish, we show a **much more fine grained table of values from the predictive model**. You might need to click on it and zoom!.
 
 <figure>
 <center>
