@@ -183,7 +183,7 @@ We just need to be a bit careful here when we say **few steps**. We note that **
 We proceed by using a **very simple measure, $r(G,M)$**, defined as:
 
 $$
-r(G,M) = \frac{\textrm{Admit Rate Boost from a small change in GPA}}{\textrm{Admit Rate Boost from a small change in MCAT}}
+r(G,M) = \frac{\textrm{Admit Rate Boost from a small change in GPA from GPA=G}}{\textrm{Admit Rate Boost from a small change in MCAT from MCAT=M}}
 $$
 
 where
