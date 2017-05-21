@@ -200,7 +200,7 @@ and "small change" is defined proportionally as above **using the equivalence fa
 
 Note that **if $r(G,M) > 1$, then improving GPA is a better idea** than improving MCAT since it leads to a greater admit rate boost. **If, on the other hand, $r(G,M) < 1$ then we should improve MCAT** instead of GPA.
 
-We show the table of $r(G,M)$ values for some intervals of MCAT and GPA below.
+We show the table of **predicted admit rate values** for some intervals of MCAT and GPA below.
 
 <figure>
 <center>
