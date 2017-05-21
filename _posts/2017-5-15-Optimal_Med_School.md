@@ -35,6 +35,8 @@ We of course know roughly that a higher GPA and/or a higher MCAT score will lead
 ***Given this model, can we recommend a path for prospective medical school students to optimize their chance of admission?***
 {:center}
 
+To answer these questions, we will be using <a href="https://www.aamc.org/download/321508/data/factstablea23.pdf" target="_blank">data</a> from the Association of American Medical Colleges which gives the admit rates for select ranges of GPA and MCAT score.
+
 # Let's Start Simple. How Does Admit Rate Change Based on MCAT and GPA?
 
 We all expect the chance of admission or **admit rate** to increase with increasing MCAT and GPA scores, but how? *Linearly?* *Quadratically?* Or something else altogether?
