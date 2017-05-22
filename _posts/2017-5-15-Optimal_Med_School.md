@@ -232,6 +232,6 @@ To finish, we show a **much more fine grained table of values from the predictiv
 </center>
 </figure>
 
-Lastly, note that if you look up your GPA and MCAT and find the percentage to be not so high, **you don't necessarily need to stress!** *Why?* Because first, **this is a model which has some error (3.8% RMSE)**. Second, this **doesn't take into account other admission criteria such as extracurriculars, gender, race, etc.**, which have an impact as well. So, use this as more of a **benchmark** than an end all prediction. Best of luck!
+Lastly, note that if you look up your GPA and MCAT and find the percentage to be not so high, **you don't necessarily need to stress!** *Why?* Because first, **this is a model which has some error (3.8% RMSE)**. Second, this **doesn't take into account other admission criteria such as extracurriculars, gender, race, etc.**, which have an impact as well. So, use this as more of a **benchmark** than an end all prediction. ***Best of luck!***
 
 **Thanks for reading and please leave comments below!**
