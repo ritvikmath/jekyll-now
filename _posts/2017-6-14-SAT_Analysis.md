@@ -19,7 +19,7 @@ title: Unearthing Hidden Biases in SAT Exam Scores
 Quick Links: 
 
 * [Background and Data](#back)  
-* [How Does SAT Scores Vary Based on Subject, Family Income, School Size, etc.?](#corr)
+* [How Do SAT Scores Vary Based on Subject, Family Income, School Size, etc.?](#corr)
 * [Do High Schools Cluster Geographically by SAT Score?](#loc)
 * [Can We Build a Model to Predict SAT Scores?](#model)
 * [Summarizing Features of High and Low Performing Schools](#summ)
@@ -50,7 +50,7 @@ We join this data to **another dataset about <a href="https://izahoina.carto.com
 
 <a name="corr"></a>
 
-# How Does SAT Scores Vary Based on Subject, Family Income, School Size, etc.?
+# How Do SAT Scores Vary Based on Subject, Family Income, School Size, etc.?
 
 We want to first understand how SAT scores vary by various school dimensions namely: **school size, percent of students who took the SAT, and median family income of the neighborhood the school is in**. For each of these dimensions, we categorize a school as either **high, medium, or low** and look at the average SAT **math, reading, and writing** score in each bucket. 
 
@@ -78,7 +78,7 @@ We turn our attention now to the variance in SAT scores based on what **percent 
 </figure>
 
 * We see that **math is actually lower in the < 33% case, but grows at a much faster rate**, eventually beating the other subjects by a large margin.
-* We see that there is a **bit of a change between the first and second school groups** but a **very large change between the second and third**. That is, **having more than 66% of students take the SAT at a school seems to be correlated with relatively very high SAT scores**. 
+* We see that there is a **bit of a change between the first and second school groups** but a **very large change between the second and third**. That is, **having more than 67% of students take the SAT at a school seems to be correlated with relatively very high SAT scores**. 
 
 ## Family Income
 
@@ -150,7 +150,7 @@ Again, **lots going on!** Let's highlight two areas of interest. The **lower are
 
 # Can We Build a Model to Predict SAT Scores?
 
-Of course you wouldn't be on <a href="http://ritvikmath.com/SAT_Analysis/" target="_blank">ritvikmath.com</a> if there wasn't at least some machine learning to be tried. Here, our goal is a natural one. We want to know, **given all the information we have about each school** such as total enrollment, school hours, neighborhood family income, school racial composition, percent of students tested at the school, and SAT score at the nearest school geographically, **can we build a simple enough model to predict the SAT score of a hypothetical new school?**
+Of course you wouldn't be on <a href="http://ritvikmath.com/SAT_Analysis/#model" target="_blank">ritvikmath.com</a> if there wasn't at least some machine learning to be tried. Here, our goal is a natural one. We want to know, **given all the information we have about each school** such as total enrollment, school hours, neighborhood family income, school racial composition, percent of students tested at the school, and SAT score at the nearest school geographically, **can we build a simple enough model to predict the SAT score of a hypothetical new school?**
 
 ---
 ---
