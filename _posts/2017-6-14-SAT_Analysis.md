@@ -138,7 +138,35 @@ Now, let's **throw in data about median family income** in each region. In the m
 
 Again, **lots going on!** Let's highlight two areas of interest. The **lower area shows predominantly high income areas and many green markers**, or top performing schools in those areas. *To be fair there are a few bottom performing schools in that area as well*. In the **top highlighted area we see generally low income areas and many of he bottom performing schools**. These trends together give us some affirmation that **SAT scores are subject to systemic regional differences in family income**. 
 
+---
 
+<a name="model"></a>
+
+# Can We Build a Model to Predict SAT Scores?
+
+Of course you wouldn't be on <a href="http://ritvikmath.com/SAT_Analysis/" target="_blank">ritvikmath.com</a> if there wasn't at least some machine learning to be tried. Here, our goal is a natural one. We want to know, **given all the information we have about each school** such as total enrollment, school hours, neighborhood family income, school racial composition, percent of students tested at the school, and SAT score at the nearest school geographically, **can we build a simple enough model to predict the SAT score of a hypothetical new school?**
+
+---
+---
+
+## Ethics Break!
+
+The application of such a model is immediate and possibly ***ethically ambiguous***. This model would allow us to predict the average SAT score of a given school based on factors such as **neighborhood, race, and income**, which might prompt officials to approve or deny building schools where they are likely most needed just because the **SAT scores might be *too low*** and risk hurting the district as a whole.
+
+Still, it would be interesting to see whether this prediction is even a good one or if this problem eludes an accurate prediction.
+
+---
+---
+
+For our model, we will not be doing anything too fancy. We will be using an <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares" target="_blank">Ordinary Least Squares</a> model to predict SAT score based on the above features. We split our **375 schools into a training group of 200 and a testing group of 175**. As a ceaveat, **note that for the schools in the testing set, we can only use as a feature the SAT score of the nearest school in the training set**. **Otherwise**, if the closest school is a school in the testing set, and we use this score, **we implicitly assume that values in the testing set are known, which is incorrect**.
+
+A summary of our features and methodolgoy are shown below.
+
+<figure>
+<center>
+   <a href="/images/linregidea.png"><img width="75%" src="/images/linregidea.png"></a>
+</center>
+</figure>
 
 
 
