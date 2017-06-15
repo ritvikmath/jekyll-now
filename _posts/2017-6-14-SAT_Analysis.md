@@ -6,7 +6,7 @@ title: Unearthing Hidden Biases in SAT Exam Scores
 
 <figure>
 <center>
-   <a href="/images/sat_cover.png"><img width="100%" src="/images/sat_cover.png"></a>
+   <a href="/images/fb_pic_sat.png"><img width="100%" src="/images/fb_pic_sat.png"></a>
 </center>
 </figure>
 
