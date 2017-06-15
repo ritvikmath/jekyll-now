@@ -28,7 +28,7 @@ Quick Links:
 
 <a name="back"></a>
 
-# Background
+# Background and Data
 
 <figure>
 <center>
@@ -36,11 +36,13 @@ Quick Links:
 </center>
 </figure>
 
-Every year, about **1.7 million** college bound high school seniors take the SAT exam, often cited as a major factor in college admittance. Prior to 2016 this exam consisted of 3 sections: reading, math, and writing and was graded out of a maximum possible score of **2400**. From 2016 onward, the exam has changed in <a href="http://sat.ivyglobal.com/new-vs-old/" target="_blank">various ways</a> but since the data we use is from before 2016, we will disregard these recent changes. While students can and do study extensively for the SAT, there are other factors at play which make this test less than fair for all students.
+Every year, about **1.7 million** college bound high school seniors take the SAT exam, often cited as a major factor in college admittance. Prior to 2016 this exam consisted of **3 sections: reading, math, and writing** and was graded out of a maximum possible score of **2400**. From 2016 onward, the exam has changed in <a href="http://sat.ivyglobal.com/new-vs-old/" target="_blank">various ways</a> but since the data we use is from before 2016, we will disregard these recent changes. While students can and do study extensively for the SAT, **there are other factors at play which make this test less than fair for all students**.
 
-The most common of these is **family income**. It is known that **students coming from richer families perform better on average than students coming from poorer families**. This should not be a great surprise given that wealthier students are more readily able to enroll in *very expensive* SAT preparation courses or hire private tutors. Income disparities can also have less overt implications. For example, students from poorer families might need to work a **part time job while in high school** to meet family income needs, detracting from study time for the SAT and school in general. These are indeed theories which are backed by **evidence**: <a href="https://www.washingtonpost.com/news/wonk/wp/2014/03/05/these-four-charts-show-how-the-sat-favors-the-rich-educated-families/?utm_term=.706068ac11eb" target="_blank">here</a> and <a href="https://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/" target="_blank">here</a>. 
+The most cited of these is **family income**. It is known that **students coming from richer families perform better on average than students coming from poorer families**. This should not be a great surprise given that wealthier students are more readily able to enroll in *very expensive* SAT preparation courses or hire private tutors. Income disparities can also have less overt implications. For example, students from poorer families might need to work a **part time job while in high school** to meet family income needs, detracting from study time for the SAT and school in general. These are indeed theories which are backed by **evidence**: <a href="https://www.washingtonpost.com/news/wonk/wp/2014/03/05/these-four-charts-show-how-the-sat-favors-the-rich-educated-families/?utm_term=.706068ac11eb" target="_blank">here</a> and <a href="https://economix.blogs.nytimes.com/2009/08/27/sat-scores-and-family-income/" target="_blank">here</a>. 
 
-Of course, other factors can also have an effect on SAT score including **school size (maybe larger schools have more resources)**, **school hours (maybe it helps to be at school longer)**, **the SAT score of neighboring schools (maybe schools cluster geographically by SAT score)**, etc. We will analyze data from the New York City Department of Education and the College Board to check for these patterns across the ***public high schools in New York City for the 2014-2015 school year***. The data can be found at <a href="https://www.kaggle.com/nycopendata/high-schools" target="_blank">here</a>. Each row of the data represents one public high school in New York City and includes features such as total school enrollment, school latitude and longitude, percent of students who took the SAT at this school, racial composition of the school, school hours, and average school scores in SAT math, reading, and writing.
+Of course, other factors can also have an effect on SAT score including **school size (maybe larger schools have more resources)**, **school hours (maybe it helps to be at school longer)**, **the SAT score of neighboring schools (maybe schools cluster geographically by SAT score)**, etc. We will analyze data from the New York City Department of Education and the College Board to check for these patterns across the ***public high schools in New York City for the 2014-2015 school year***. The data can be found <a href="https://www.kaggle.com/nycopendata/high-schools" target="_blank">here</a>. 
+
+Each row of the data represents one public high school in New York City and includes features such as total school enrollment, school latitude and longitude, percent of students who took the SAT at this school, racial composition of the school, school hours, and average school scores in SAT math, reading, and writing.
 
 We join this data to **another dataset about <a href="https://izahoina.carto.com/tables/nyc_income_compiled/public/map" target="_blank">median family income</a> in various regions within New York City**. This will allow us to perform an income analysis later on.
 
@@ -62,7 +64,7 @@ We start with total school enrollment. **Is it more likely that a larger school 
 </center>
 </figure>
 
-* We see that in general, the score rise as the size of the school increases, possibly due to our theory of larger schools having more resources to give students. Or **perhaps larger schools are just located in more high income areas**.
+* We see that in general, the scores rise as the size of the school increases, possibly due to our theory of larger schools having more resources to give students. Or **perhaps larger schools are just located in more high income areas**.
 * Note also that SAT math seems to increase faster than the other subjects.
 
 ## Percent Tested
@@ -95,7 +97,7 @@ Saving the best for last, we now look at how SAT scores change based on median f
 
 ## Correlations Between Subjects
 
-It is no surprise that the three SAT subjects seem to "move together" in all the dimensions above. If we just compute the correlation coefficient between each pair of the three subjects, we get the following results. It is intuitive that math and reading, which share certain skills, are more correlated than either is to math.
+It is no surprise that the three SAT subjects seem to "move together" in all the dimensions above. If we just compute the **correlation coefficient between each pair of the three subjects**, we get the following results. It is intuitive that reading and writing, which share certain skills, are more correlated than either is to math.
 
 <figure>
 <center>
