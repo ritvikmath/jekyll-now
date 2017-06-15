@@ -122,7 +122,7 @@ There is a lot going on in the map above! Let's highlight some areas of a possib
 
 <figure>
 <center>
-   <a href="/images/highlight_sim_sat.png"><img width="100%" src="/images/highlight_sim_sat.png"></a>
+   <a href="/images/highlight_sim_sat.png"><img width="90%" src="/images/highlight_sim_sat.png"></a>
 </center>
 </figure>
 
@@ -138,7 +138,7 @@ Again, **lots going on!** Let's highlight two areas of interest. The **lower are
 
 <figure>
 <center>
-   <a href="/images/highlist_regions.png"><img width="100%" src="/images/highlist_regions.png"></a>
+   <a href="/images/highlist_regions.png"><img width="80%" src="/images/highlist_regions.png"></a>
 </center>
 </figure>
 
@@ -176,7 +176,7 @@ Of course, as with any regression problem, the goal is not to get a prefect pred
 
 <figure>
 <center>
-   <a href="/images/err.png"><img width="75%" src="/images/err.png"></a>
+   <a href="/images/err.png"><img width="100%" src="/images/err.png"></a>
 </center>
 </figure>
 
@@ -191,7 +191,7 @@ We summarize our findings below.
 
 <figure>
 <center>
-   <a href="/images/SummaryTbl.png"><img width="75%" src="/images/SummaryTbl.png"></a>
+   <a href="/images/SummaryTbl.png"><img width="100%" src="/images/SummaryTbl.png"></a>
 </center>
 </figure>
 
