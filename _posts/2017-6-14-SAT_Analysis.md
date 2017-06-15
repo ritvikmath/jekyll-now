@@ -6,7 +6,7 @@ title: Citywide Disparities in SAT Scores
 
 <figure>
 <center>
-   <a href="/images/sat_cover.png"><img width="40%" src="/images/sat_cover.png"></a>
+   <a href="/images/sat_cover.png"><img width="100%" src="/images/sat_cover.png"></a>
 </center>
 </figure>
 
