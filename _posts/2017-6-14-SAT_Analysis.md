@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Citywide Disparities in SAT Scores
+title: Unearthing Hidden Biases in SAT Exam Scores
 ---
 
 <figure>
@@ -24,7 +24,6 @@ Quick Links:
 * [Can We Build a Model to Predict SAT Scores?](#model)
 * [Summarizing Features of High and Low Performing Schools](#summ)
 
----
 ---
 
 <a name="back"></a>
@@ -59,7 +58,7 @@ We start with total school enrollment. **Is it more likely that a larger school 
 
 <figure>
 <center>
-   <a href="/images/SAT_Enrollment_Scores.png"><img width="75%" src="/images/SAT_Enrollment_Scores.png"></a>
+   <a href="/images/SAT_Enrollment_Scores.png"><img width="100%" src="/images/SAT_Enrollment_Scores.png"></a>
 </center>
 </figure>
 
@@ -72,7 +71,7 @@ We turn our attention now to the variance in SAT scores based on what **percent 
 
 <figure>
 <center>
-   <a href="/images/SAT_Pct_Tested_Scores.png"><img width="75%" src="/images/SAT_Pct_Tested_Scores.png"></a>
+   <a href="/images/SAT_Pct_Tested_Scores.png"><img width="100%" src="/images/SAT_Pct_Tested_Scores.png"></a>
 </center>
 </figure>
 
@@ -85,7 +84,7 @@ Saving the best for last, we now look at how SAT scores change based on median f
 
 <figure>
 <center>
-   <a href="/images/SAT_FamilyIncome_Scores.png"><img width="75%" src="/images/SAT_FamilyIncome_Scores.png"></a>
+   <a href="/images/SAT_FamilyIncome_Scores.png"><img width="100%" src="/images/SAT_FamilyIncome_Scores.png"></a>
 </center>
 </figure>
 
@@ -123,7 +122,7 @@ There is a lot going on in the map above! Let's highlight some areas of a possib
 
 <figure>
 <center>
-   <a href="/images/highlight_sim_sat.png"><img width="75%" src="/images/highlight_sim_sat.png"></a>
+   <a href="/images/highlight_sim_sat.png"><img width="100%" src="/images/highlight_sim_sat.png"></a>
 </center>
 </figure>
 
@@ -136,6 +135,12 @@ Now, let's **throw in data about median family income** in each region. In the m
 </figure>
 
 Again, **lots going on!** Let's highlight two areas of interest. The **lower area shows predominantly high income areas and many green markers**, or top performing schools in those areas. *To be fair there are a few bottom performing schools in that area as well*. In the **top highlighted area we see generally low income areas and many of he bottom performing schools**. These trends together give us some affirmation that **SAT scores are subject to systemic regional differences in family income**. 
+
+<figure>
+<center>
+   <a href="/images/highlist_regions.png"><img width="100%" src="/images/highlist_regions.png"></a>
+</center>
+</figure>
 
 ---
 
