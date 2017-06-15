@@ -95,6 +95,18 @@ Saving the best for last, we now look at how SAT scores change based on median f
 * Note that this income **might be off the mark since it is aggregated for the region that the school is in**, meaning that there will still be some low income students at schools in high income areas and high income studnets at schools in low income areas. Also, the **school itself might be underfunded** even if it is in a high income area, or vice versa. It is thus important to **take these results with a grain of salt**.
 * Still, we see a clear **positive correlation between SAT score (all subjects) and median family income of the region that a school falls in**.
 
+## Correlations Between Subjects
+
+It is no surprise that the three SAT subjects seem to "move together" in all the dimensions above. If we just compute the correlation coefficent between each pair of the three subjects, we get the following results. It is intuitive that math and reading, which share certain skills, are more correlated than either is to math.
+
+<figure>
+<center>
+   <a href="/images/stscorrs.png"><img width="75%" src="/images/stscorrs.png"></a>
+</center>
+</figure>
+
+
+
 <figure>
 <center>
 <iframe src="/images/us_states.html" style="border: none; width: 800px; height: 500px"></iframe>
