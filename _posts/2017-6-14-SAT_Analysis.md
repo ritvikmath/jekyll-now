@@ -99,7 +99,7 @@ It is no surprise that the three SAT subjects seem to "move together" in all the
 
 <figure>
 <center>
-   <a href="/images/stscorrs.png"><img width="75%" src="/images/stscorrs.png"></a>
+   <a href="/images/stscorrs.png"><img width="65%" src="/images/stscorrs.png"></a>
 </center>
 </figure>
 
