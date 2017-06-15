@@ -105,13 +105,38 @@ It is no surprise that the three SAT subjects seem to "move together" in all the
 </center>
 </figure>
 
+---
+<a name="loc"></a>
 
+# Do High Schools Cluster Geographically by SAT Score?
+
+An aspect of high schools and SAT scores we have not yet considered is **geographic location in New York City (NYC)**. It is known that NYC is comprised of **five boroughs**: Manhattan, the Bronx, Queens, Brooklyn, and Staten Island, each with its own **culture, racial composition, and history**. Additionally, **schools often cluster into districts**, which have **similar standards, rules, and regulations** and whose schools are in close proximity to each other. We might see these effects as well when we look at the SAT scores of neighboring schools compared to distant schools. **Enough talk! Let's see some maps!**
+
+Let us first look at purely a map of **Average SAT score by region in NYC**. ***Click, Drag, Zoom!***
 
 <figure>
 <center>
-<iframe src="/images/us_states.html" style="border: none; width: 800px; height: 500px"></iframe>
+<iframe src="/images/nyc_map_SAT.html" style="border: none; width: 800px; height: 500px"></iframe>
 </center>
 </figure>
+
+There is a lot going on in the map above! Let's highlight some areas of a possible **spatial correlation between SAT scores at one school and those at nearby schools**.
+
+<figure>
+<center>
+   <a href="/images/highlight_sim_sat.png"><img width="75%" src="/images/highlight_sim_sat.png"></a>
+</center>
+</figure>
+
+Now, let's **throw in data about median family income** in each region. In the map below the **shading represents median family income** in that region. In addition, we display the **top 20 schools by SAT score in green** and **bottom 20 schools by SAT score in red**. **Click on each marker for the school's average SAT score!**
+
+<figure>
+<center>
+<iframe src="/images/nyc_map_income.html" style="border: none; width: 800px; height: 500px"></iframe>
+</center>
+</figure>
+
+Again, **lots going on!** Let's highlight two areas of interest. The **lower area shows predominantly high income areas and many green markers**, or top performing schools in those areas. *To be fair there are a few bottom performing schools in that area as well*. In the **top highlighted area we see generally low income areas and many of he bottom performing schools**. These trends together give us some affirmation that **SAT scores are subject to systemic regional differences in family income**. 
 
 
 
