@@ -53,7 +53,7 @@ The key takeaways are:
 
 * There seems to be a **(roughly) linear** trend in Admit Rate vs. GPA. 
 * The **slope of this linear relationship increases with increasing MCAT scores**. Put another way, the higher your MCAT score is, the more that each additional GPA point boosts your chance of admission. This is some preliminary evidence of a link between GPA and MCAT in determining admit rate.
-* **Given a low enough MCAT score, no GPA can make up for it in gaining admission to medical school**. That is, looking at the bottom red line, where MCAT is between 498 and 501, a GPA of 2.5 vs 3.9 gives the same admit rate of around 3%.
+* **Given a low enough MCAT score, no GPA can make up for it in gaining admission to medical school**. That is, looking at the bottom red line, where MCAT is between 486 and 489, a GPA of 2.5 vs 3.9 gives the same admit rate of around 3%.
 
 Now let's turn to a more interesting trend,  that of Admit Rate vs. MCAT for some fixed values of GPA. Here we fix the GPA at three levels: *3.8-4.0 (High)*, *3.4-3.6 (Medium)*, *3.0-3.2 (Low)*. Note here that even though a GPA of 3.0 is labeled as *low*, you should take that to mean **relatively low rather than absolutely low**. Indeed, even those with a GPA in the *low* range can achieve a peak admit rate of 50% given a high enough MCAT score. 
 
