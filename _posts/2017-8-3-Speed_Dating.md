@@ -82,7 +82,7 @@ title: Salary Dynamics in the University of California
 		  sankey:{
 			  node: {
 				label: {
-				  fontSize: 18,
+				  fontSize: 12,
 				  bold: true
 				}},
 	
