@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: The Curse of Casual Dating
+title: How to Get a Second Date
 ---
 
 <figure>
@@ -121,7 +121,9 @@ Quick Links:
 
 # Background and Data
 
+Dating has long been regarded as a simultaneously rule-driven and mysterious game. You need to **dress well, seem interested in everything your date says**, but all the while, **"be yourself"**. You need to come off as **fun and exciting** but **not share the most important and intimate parts of yourself so soon**. Indeed, a first date can often be a mixture of **exciting, confusing, and scary** and can leave you wondering if you did "enough" to get a second date with the other person. This problem has long been studied from a psychological and biological standpoint, but now we will tackle it in the **data science** arena.
 
+For this analysis we will use speed dating data compiled by professors at the **Columbia Business School in 2002-2004**. They invited waves of attendees to come in an participate in the study. Each wave consisted of a variable number of attendees, but there were the **same number of males and females per wave**. The study would then progress as follows. Each attendee would fill out a preliminary questionaire with several questions, including their **preferences in potential dates along six traits**: ***Attraction, Intelligence, Sincerity, Fun, Ambition, and Shared Interests***. In addition, **each attendee would rank themselves** on five attributes: ***Attraction, Intelligence, Sincerity, Fun, and Ambition***. Each male-female pair would then go on a **quick 4 minute "speed date"** and would have the chance to **rank their partners on the previously mentioned six attributes** as well as **indicate wheter or not they would like to schedule a second date with their partner**.
 
 
 
