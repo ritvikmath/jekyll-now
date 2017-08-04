@@ -112,7 +112,7 @@ Quick Links:
 * [How to Get a Second Date](#secdate)
 * [Can You Accurately Predict Your Own Value in the Dating Market?](#value)
 * [Do You have a 'Type' When it Comes to Dating?](#type)
-* [All Roads Lead to Attractiveness](#tranfs)
+* [All Roads Lead to Attractiveness](#transfs)
 * [Does Dating More People Change the Way You Think?](#order)
 * [Who is Most Likely to Want a Second Date with You?](#categs)
 * [Are Some People Actually Out of Your "League"?](#league)
