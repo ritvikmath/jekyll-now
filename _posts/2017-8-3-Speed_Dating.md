@@ -229,12 +229,18 @@ As an example, **suppose that you rank intelligence as your top desired trait** 
 
 We do this for all the attendees and produce the Sankey diagram below. **Hover over the links** to find out **how many people who initially preferred a certain trait ended up requesting second dates with people of a predominantly second trait**.
 
-<br><br>
 <html>
 
 <div id="sankey_basic" style="width:400px; height: 500px;"></div>
 
 </html>
-<br><br>
+
+There are two key takeaways from this diagram.
+
+First off, we see that a large majority of people initially prefer attractiveness. Still, after all the dates are said and done, people seem to diversify in terms of the people they request a second date with. That is, attractiveness takes up a smaller share of the chosen traits on the right than the preferred traits on the left. 
+
+Secondly, we see that in some sense "all roads lead to attractiveness". If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractivenss for four of the six traits. We thus have evidence which says that no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions. This makes some sense. After all, on a first date, it is much easier to judge someomes attractiveness than it is to judge their sincerity of intelligence.
+
+
 
 
