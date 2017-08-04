@@ -208,7 +208,21 @@ When we apply this method to all six traits, we get the following surprising res
 </center>
 </figure>
 
-We see two disjoint groups with three traits each. Let's take a look at each one in turn. We see that the group on the left consists of fun, shared interets, and attractiveness. Intuitively, this means that people group these traits together very tightly when scoring their dates. 
+We see **two disjoint groups with three traits each**. Let's take a look at each one in turn. We see that the **group on the left consists of fun, shared interets, and attractiveness**. Intuitively, this means that **people group these traits together very tightly when scoring their dates**. **On the right**, we see the other three traits: **intelligence, sincerity, and ambition**. 
 
+There is a very **natural story behind this divide**. It seems natural that **intelligent people might be ambitious** since they would be able to apply their intellect towards their goals. We can also make a case for **intelligent people seeming to be very knowledgeable about facts, therefore coming off as sincere**. 
+
+On the other side, we **often associate people we find physically attractive with being fun-loving or exciting**. We are also very likely to **consider people fun because they like doing the same things as us**, therefore giving them a high score in shared interests.
+
+So it seems like, coarsely, there are two "types" of people: the **attractive, fun-loving ones**, and the **intelligent, ambitious ones**. Of course, **this is only given the six traits we have data for**, and **only uses the top correlated trait with each other trait**, but it definitely seems natural and informative that the **data reflects the social constructs we are used to**.
+
+---
+<a name="type"></a>
+
+# All Roads Lead to Attractiveness
+
+Do you have that friend who says they're looking for something in a potential romantic partner and then **always ends up picking people who are the exact opposite**? Maybe you are that friend ... Either way, it's no surprise that **what we say we want in a romantic parter and what our actions say are often two completely different things**. 
+
+Luckily, our data gives us the ability to **see what people say they prefer** in a partner (in terms of our six attributes) and then **compare that to what they actually want**, based on the prevalent traits of the people they choose to go on a second date with. 
 
 
