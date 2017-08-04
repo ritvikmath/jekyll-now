@@ -292,7 +292,7 @@ We display the results below.
 
 <figure>
 <center>
-   <a href="/images/ask_asked.png"><img width="100%" src="/images/ask_asked.png"></a>
+   <a href="/images/ask_asked_b.png"><img width="100%" src="/images/ask_asked_b.png"></a>
 </center>
 </figure>
 
