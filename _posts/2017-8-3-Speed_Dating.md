@@ -113,8 +113,10 @@ Quick Links:
 * [Can You Accurately Predict Your Own Value in the Dating Market?](#value)
 * [Do You have a 'Type' When it Comes to Dating?](#type)
 * [All Roads Lead to Attractiveness](#tranfs)
-* [How Does Your Behavior Change as You Date More People?](#order)
-* [Notes](#notes)
+* [Does Dating More People Change the Way You Think?](#order)
+* [Who is Most Likely to Want a Second Date with You?](#categs)
+* [Are Some People Actually Out of Your "League"?](#league)
+* [Conclusions](#conc)
 
 ---
 <a name="bdat"></a>
@@ -244,7 +246,7 @@ Secondly, we see that in some sense **"all roads lead to attractiveness"**. If w
 ---
 <a name="type"></a>
 
-# How Does Your Behavior Change as You Date More People?
+# Does Dating More People Change the Way You Think?
 
 Another angle we can study is that of date order. That is, suppose you go on ten speed dates through the night. **Are you any more likely to request a second date with the first person than the tenth person?** Perhaps the longer your night goes on, the less likely you are to request second dates because you've already met acceptable people. Or is it the opposite? Is it that you hold out for better people and so tend to reject your first few dates? The answer will surely vary by person, but **we are interested here in global behavior**.
 
@@ -263,3 +265,56 @@ Although the trend jumps around quite a bit, **we see overall that it is decreas
 Still, we should discuss the **volatility in our trend** since it holds a potential story as well. For instane, note just the **jump down from the first person you meet and the second person you meet**. For the **first person**, you have a **50-50 chance of requesting a second date**. On the other hand, for the **second person** you meet, you are **only 40% likely** to request a second date. 
 
 What can explain this 10% drop? Well, ***perhaps*** it is a psychological phenomenon (this author, not being a psychologist, needs to strongly emphasize the word "perhaps" here). Perhaps you are excited to meet the first person and want to **give them a chance** even if they don't fully meet your standards. Indeed the **"second date rate" is highest for date number 1**. But then, perhaps upon meeting the second person, **you feel like you shouldn't say "yes" to two people in a row** so you have a higher tendency to say "no" to the second person. Indeed, this would not only explain the jump between the first and second points, but also the **up-down pattern in the rest of the graph** as well. Still, just a theory. **Post your thoughts in the comments below!**
+
+---
+<a name="categs"></a>
+
+# Who is Most Likely to Want a Second Date with You?
+
+We established before that we can assign a **"dating market value"** to each person based on five attributes: **attractiveness, intelligence, fun, ambition, and sincerity**. Note we leave out shared interests because its value is dependent on each pair of people rather than each person by themselves. 
+
+We can then ask questions about how each of these types of people behave when it comes to **requesting second dates** and **getting offered second dates by others**. That is, do attractive people (those with high dating market values of attractiveness) get many second date offers whilst requesting relatively few? Do sincere people request second dates at a very high rate? **Are there really any significant differences at all** between these groups of people or are we just splitting them up arbitrarily?
+
+We answer this question by simply splitting up all the people in our data into one of the five aforementioned categories **depending on the attribute for which they have the highest dating market value**. For each of the five groups we then calculate two numbers. We first find the **probability of asking for a second date** and second find the **probability of being asked for a second date**. The former number is an indication of how willing they are to give people a chance and the latter is how willing others are to give them a chance. 
+
+We display the results below.
+
+<figure>
+<center>
+   <a href="/images/ask_asked.png"><img width="100%" src="/images/ask_asked.png"></a>
+</center>
+</figure>
+
+***Wow!*** Look at the bars for "attractive" people. We see that **attractive people only ask around 32% of their dates for a second date** while those who go on dates with attractive people are about 66%, twice as likely, to ask them for second dates. This indeed is in line with the ideas of exclusivity around people we think of as attractive.
+
+The discrepencies between the bars for other types of people are not nearly as drastic. In fact, we see that **sincere, intelligence, and ambitious people are more likely to ask for a second date than be asked for a second date**, if only by small margins. We also see that **fun people are the most likely to ask for a second date, with a nearly 50% rate**.
+
+The key takeaway here is still clearly about attractiveness and how its worth cannot be trivialized in the dating market. It is clear, from this chart and previous ones, that **people who are considered attractive immediately get asked for second dates**, but seldom feel obligated to do the same for others.
+
+---
+<a name="league"></a>
+
+# Are Some People Actually Out of Your "League"?
+
+We will conclude our analysis by looking at the idea of **"leagues"**. We've all heard the phrase "She's way out of your league", meaning that **she and you inherently have a different worth on the dating market** (to phrase it in a really awkward way).  
+
+We want to find out if there is evidence that "leagues" exist. We can test for this by analyzing two groups within our data: **matches and mismatches**. A **match** will be defined as a date where **both people request a second date with one another** while a **mismatch** is a date where **one person requests a second date but the other does not**. If leagues exist, we expect that the dating market values of the matches are much close together than the dating market values of the mismatches. We analyze this for two traits here: **attractivenss and intelligence**. Let's to right to the results!
+
+<figure>
+<center>
+   <a href="/images/attr_mm.png"><img width="100%" src="/images/attr_mm.png"></a>
+</center>
+</figure>
+
+Indeed, we see that with attractiveness, the absolute differences in dating market value is more heavily piled around zero for the matches than the mismatches. Storywise, this says that **people who match with each other tend to be of the same attractiveness** while **those who mismatch tend to be of different attractiveness** levels in the dating market.
+
+Let's see if we have the same story with intelligence.
+
+<figure>
+<center>
+   <a href="/images/intel_mm.png"><img width="100%" src="/images/intel_mm.png"></a>
+</center>
+</figure>
+
+We see a **very similar trend for intelligence**. That is, we again see that the **absolute differences in dating market values is piled more heavily around zero for matches than mistmatches**. It is **less drastic here though**, than with attractiveness. This perhaps says that **attrictiveness more naturally separates into these "leagues" than does intelligence**, which is perhaps a result of it being more difficult to ascertain someone's intelligence in 4 minutes than their attractiveness.
+
