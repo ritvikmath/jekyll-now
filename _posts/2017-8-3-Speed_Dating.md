@@ -115,7 +115,7 @@ Quick Links:
 * [All Roads Lead to Attractiveness](#transfs)
 * [Does Dating More People Change the Way You Think?](#order)
 * [Who is Most Likely to Want a Second Date with You?](#categs)
-* [Are Some People Actually Out of Your "League"?](#league)
+* [Are Some People Actually Out of Your League?](#league)
 * [Conclusions](#conc)
 
 ---
@@ -305,7 +305,7 @@ The key takeaway here is still clearly about attractiveness and how its worth ca
 ---
 <a name="league"></a>
 
-# Are Some People Actually Out of Your "League"?
+# Are Some People Actually Out of Your League?
 
 We will conclude our analysis by looking at the idea of **"leagues"**. We've all heard the phrase "She's way out of your league", meaning that **she and you inherently have a different worth on the dating market** (to phrase it in a really awkward way).  
 
