@@ -81,7 +81,7 @@ title: How to Get a Second Date
 		  sankey:{
 			  node: {
 				label: {
-				  fontSize: 12,
+				  fontSize: 14,
 				  bold: true
 				}},
 	
@@ -235,12 +235,23 @@ We do this for all the attendees and produce the Sankey diagram below. **Hover o
 
 </html>
 
-There are two key takeaways from this diagram.
+There are **two key takeaways** from this diagram.
 
-First off, we see that a large majority of people initially prefer attractiveness. Still, after all the dates are said and done, people seem to diversify in terms of the people they request a second date with. That is, attractiveness takes up a smaller share of the chosen traits on the right than the preferred traits on the left. 
+First off, we see that **a large majority of people initially prefer attractiveness**. Still, **after all the dates are said and done, people seem to diversify** in terms of the people they request a second date with. That is, attractiveness takes up a smaller share of the chosen traits on the right than the preferred traits on the left. 
 
-Secondly, we see that in some sense "all roads lead to attractiveness". If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractivenss for four of the six traits. We thus have evidence which says that no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions. This makes some sense. After all, on a first date, it is much easier to judge someomes attractiveness than it is to judge their sincerity of intelligence.
+Secondly, we see that in some sense **"all roads lead to attractiveness"**. If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractivenss for **four of the six traits**. Furthermore, the two traits where this is not true, **fun and ambition, have a very small number of people who initially claim to prefer them**. We thus have evidence which says that **no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions**. This makes some sense. After all, on a first date, it is much easier to judge someomes attractiveness than it is to judge their sincerity of intelligence.
 
+---
+<a name="type"></a>
 
+# How Does Your Behavior Change as You Date More People?
 
+Another angle we can study is that of date order. That is, suppose you go on ten speed dates through the night. **Are you any more likely to request a second date with the first person than the tenth person?** Perhaps the longer your night goes on, the less likely you are to request second dates because you've already met acceptable people. Or is it the opposite? Is it that you hold out for better people and so tend to reject your first few dates? The answer will surely vary by person, but **we are interested here in global behavior**.
 
+We perform this analysis by simply sorting the dates into buckets based on their order (first, second, etc.) through the night, and finding the percent of dates where a second date was requested in each bucket. We display the results below.
+
+<figure>
+<center>
+   <a href="/images/order_of_dates.png"><img width="100%" src="/images/order_of_dates.png"></a>
+</center>
+</figure>
