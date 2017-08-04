@@ -313,7 +313,7 @@ We want to find out if there is evidence that "leagues" exist. We can test for t
 
 <figure>
 <center>
-   <a href="/images/attr_mm.png"><img width="100%" src="/images/attr_mm.png"></a>
+   <a href="/images/attr_mm_b.png"><img width="100%" src="/images/attr_mm_b.png"></a>
 </center>
 </figure>
 
@@ -323,7 +323,7 @@ Let's see if we have the same story with intelligence.
 
 <figure>
 <center>
-   <a href="/images/intel_mm.png"><img width="100%" src="/images/intel_mm.png"></a>
+   <a href="/images/intel_mm_b.png"><img width="100%" src="/images/intel_mm_b.png"></a>
 </center>
 </figure>
 
