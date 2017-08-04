@@ -136,6 +136,56 @@ If we **analyze all the dates in our study where someone requested a second date
 
 But, it's not exactly that easy. **We can trust the results of our Random Forest model only if it is able to give us a 'good' accuracy** in predicting whether or not someone will request a second date. If it gives a sub-par predictive power, then we really have no reason to trust the model at all. We will judge our Random Forest model on two metrics, **accuracy and precision**. **Accuracy is simply the number of dates where the model correctly predicts whether or not there will be a second date divided by the total number of dates**. **Precision**, a related but different measure, **is the proportion of dates where the model gives a correct predicion out of only the dates where the model predicts that there will be a second date**. That is, precision measures how "correct" the Random Forest model is when it predicts that you will get a second date.
 
+Let's see how the accuracy and precision of our Random Forest model compare to just plain old random guessing.
+
+<figure>
+<center>
+   <a href="/images/gain.png"><img width="100%" src="/images/gain.png"></a>
+</center>
+</figure>
+
+We see that our Random Forest model performs much better than random guessing and has fairly high accuracy and precision levels. With this confidence in our model, we are now ready to list the top five factors in predicting whether you will get a second date.
+
+## Top 5 Factors in Getting a Second Date
+
+<figure>
+<center>
+   <a href="/images/important_features.png"><img width="100%" src="/images/important_features.png"></a>
+</center>
+</figure>
+
+Note that the length of the bars is proportional to how strong of a predictor that factor is.
+
+**Key Takeaways:**
+
+* The **top factor in determing whether you get a second date is simply how much your date liked you overall**. This naturally matches up with our intuition
+* The next three are how attractive, fun, and involved in their interests, they think you are, respectively. Here we already get **indications that attractiveness, above all other traits, determines how much someome wants to see you again**, at least upon first impression
+* Intrestingly, the fifth most important factor is how likely your date thinks it is that you will say 'yes' to a second date. It seems like **people judge whether they want a second date not only by how they percieve their date, but also how they think their date percieves them**
+
+---
+<a name="value"></a>
+
+# Can You Accurately Predict Your Own Value in the Dating Market?
+
+In addition to a bunch of opportunities for "love at first sight", **we can also view our data as a two-sided economic market**, where **value is determined by other participants in the market**. If this seems a bit abstract, let's break it down. You, as a person, have a certain social value on five traits we have data for: **Attractiveness, Intelligence, Ambition, Fun, and Sincerity**. That **value is determined by a combination of the scores that all your dates give you** for these traits. 
+
+For example, if you go on five dates, and they score your attractiveness as: 7/10, 8/10, 9/10, 8/10, 7/10, then we take the **average** of these and say that your **"dating market value"** for attractiveness is 7.8/10. We do the same for the other traits.
+
+The key question is **whether the value you assign to yourself, before the study begins, is close to your actual value** or very far from it. If we find that, on average, the self-assigned values and the dating market values are close, people generally have a good idea of their worth in the dating market. On the other hand, if the self-assigned values are far from the dating market values, we need to ask whether the self-assigned values are higher or lower and why this might be. **We report the results below.**
+
+<figure>
+<center>
+   <a href="/images/self_others.png"><img width="100%" src="/images/self_others.png"></a>
+</center>
+</figure>
+
+**Interesting!** So we see that on **all five traits, people percieve their own value to be at least 13% higher than the dating market percieves their value to be**. We see that the **greatest discrepency happens with "fun"**. That is, people percieve themselves to be much more fun than the dating market does. This might be because **"fun" is so subjective** and each person will believe the things he or she is interested in to be fun while an outsider may find these things mundane or dull. Other **high discrepency traits include attractiveness and sincerity**. 
+
+Interestingly, the **lowest discrepencies occur with intelligence and ambition**, both of which are **more measurable than the other three traits**. That is, **intelligence can be measured by way of IQ tests, or school grades, etc**. Ambition can be pseudo-measured by how well you did in school, how "good" of a job you have, etc. On the other hand, **beauty is in the eye of the beholder**, and it can be argued that fun and sincerity are as well. Of course, these are just the ***thoughts of this author***. Feel free to come up with your own theories for why these discrepencies might be the way they are and **post your thoughts in the comments below!**
+
+
+
+
 
 
 
