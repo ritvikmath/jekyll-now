@@ -223,6 +223,18 @@ So it seems like, coarsely, there are two "types" of people: the **attractive, f
 
 Do you have that friend who says they're looking for something in a potential romantic partner and then **always ends up picking people who are the exact opposite**? Maybe you are that friend ... Either way, it's no surprise that **what we say we want in a romantic parter and what our actions say are often two completely different things**. 
 
-Luckily, our data gives us the ability to **see what people say they prefer** in a partner (in terms of our six attributes) and then **compare that to what they actually want**, based on the prevalent traits of the people they choose to go on a second date with. 
+Luckily, our data gives us the ability to **see what people say they prefer** in a partner (in terms of our six attributes) and then **compare that to what they actually want**, based on the prevalent traits of the people they request to go on a second date with. 
+
+As an example, **suppose that you rank intelligence as your top desired trait** before going on any of the speed dates. Suppose after going on 10 speed dates, you request to have a second date with 5 of them. Suppose furthermore that **among those 5 chosen people, the trait with the highest average score was ambition**. We will then say that **you prefer intelligence but end up choosing to go on second dates with ambitious people**.
+
+We do this for all the attendees and produce the Sankey diagram below. **Hover over the links** to find out **how many people who initially preferred a certain trait ended up requesting second dates with people of a predominantly second trait**.
+
+<br><br>
+<html>
+
+<div id="sankey_basic" style="width:400px; height: 500px;"></div>
+
+</html>
+<br><br>
 
 
