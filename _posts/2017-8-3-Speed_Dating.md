@@ -131,7 +131,7 @@ Dating has long been regarded as a simultaneously rule-driven and mysterious gam
 </center>
 </figure>
 
-For this analysis we will use **<a href="https://www.kaggle.com/annavictoria/speed-dating-experiment" target="_blank">speed dating data</a>** compiled by professors at the **Columbia Business School in 2002-2004**. They invited waves of attendees to come in an participate in the study. Each wave consisted of a variable number of attendees, but there were the **same number of males and females per wave**. The study would then progress as follows. Each attendee would fill out a preliminary questionnaire with several questions, including their **preferences in potential dates along six traits**: ***Attraction, Intelligence, Sincerity, Fun, Ambition, and Shared Interests***. In addition, **each attendee would rank themselves** on five attributes: ***Attraction, Intelligence, Sincerity, Fun, and Ambition***. Each male-female pair would then go on a **quick 4 minute "speed date"** and would have the chance to **rank their partners on the previously mentioned six attributes** as well as **indicate whether or not they would like to schedule a second date with their partner**.
+For this analysis we will use **<a href="https://www.kaggle.com/annavictoria/speed-dating-experiment" target="_blank">speed dating data</a>** compiled by professors at the **Columbia Business School in 2002-2004**. They invited waves of attendees to come in and participate in the study. Each wave consisted of a variable number of attendees, but there were the **same number of males and females per wave**. The study would then progress as follows. Each attendee would fill out a preliminary questionnaire with several questions, including their **preferences in potential dates along six traits**: ***Attraction, Intelligence, Sincerity, Fun, Ambition, and Shared Interests***. In addition, **each attendee would rank themselves** on five attributes: ***Attraction, Intelligence, Sincerity, Fun, and Ambition***. Each male-female pair would then go on a **quick 4 minute "speed date"** and would have the chance to **rank their partners on the previously mentioned six attributes** as well as **indicate whether or not they would like to schedule a second date with their partner**.
 
 Viewing this study as a plethora of opportunities for two people to feel **"love at first sight"**, we can start asking many of the age old questions when it comes to dating and specifically first dates. 
 
@@ -225,7 +225,7 @@ On the other side, we **often associate people we find physically attractive wit
 So it seems like, coarsely, there are two "types" of people: the **attractive, fun-loving ones**, and the **intelligent, ambitious ones**. Of course, **this is only given the six traits we have data for**, and **only uses the top correlated trait with each other trait**, but it definitely seems natural and informative that the **data reflects the social constructs we are used to**.
 
 ---
-<a name="type"></a>
+<a name="transfs"></a>
 
 # All Roads Lead to Attractiveness
 
@@ -255,7 +255,7 @@ First off, we see that **a large majority of people initially prefer attractiven
 Secondly, we see that in some sense **"all roads lead to attractiveness"**. If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractiveness for **four of the six traits**. Furthermore, the two traits where this is not true, **fun and ambition, have a very small number of people who initially claim to prefer them**. We thus have evidence which says that **no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions**. This makes some sense. After all, on a first date, it is much easier to judge someone’s attractiveness than it is to judge their sincerity of intelligence.
 
 ---
-<a name="type"></a>
+<a name="order"></a>
 
 # Does Dating More People Change the Way You Think?
 
@@ -342,7 +342,7 @@ Perhaps it is better to go into a first date with a **hybrid mentality**, keepin
 
 <figure>
 <center>
-   <a href="/images/hold_hands.jpg"><img width="100%" src="/images/hold_hands.jpg"></a>
+   <a href="/images/hold_hands.jpg"><img width="70%" src="/images/hold_hands.jpg"></a>
 </center>
 </figure>
 
