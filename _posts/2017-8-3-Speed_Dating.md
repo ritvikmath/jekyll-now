@@ -183,9 +183,32 @@ The key question is **whether the value you assign to yourself, before the study
 
 Interestingly, the **lowest discrepencies occur with intelligence and ambition**, both of which are **more measurable than the other three traits**. That is, **intelligence can be measured by way of IQ tests, or school grades, etc**. Ambition can be pseudo-measured by how well you did in school, how "good" of a job you have, etc. On the other hand, **beauty is in the eye of the beholder**, and it can be argued that fun and sincerity are as well. Of course, these are just the ***thoughts of this author***. Feel free to come up with your own theories for why these discrepencies might be the way they are and **post your thoughts in the comments below!**
 
+---
+<a name="type"></a>
 
+# Do You have a 'Type' When it Comes to Dating?
 
+Tall, dark, and handsome. Green-eyed brunettes. Fitness freaks. When it comes to dating, we often hear about people having "types". That is, we are often told (maybe by our annoying friends) that we **over and over go for the same type of person**, whether we accept it or not. Can we use our data to help answer the question of **whether people are attracted to certain "types" of other people?** 
 
+To make this more concrete, we will consider our "types" as our six attributes: **Attractive, Intelligent, Ambitious, Fun, Sincere, and Sharing of Interests**. We proceed by **taking a look at the correlation between these attributes**. Why? Well, imagine that when we look at the data for how intelligent people scored their dates, we find that it is highly correlated with how sincere they scored their dates. That is, **we find that people, whether conciously or subconciously, think of intelligent people as also sincere**. This gives us evidence that perhaps intelligence and sincerity are not separate, but are **really part of one global "type"**.
+
+To be clear, we will be using an **arrow from one trait to another if the latter trait is the most correlated with the former trait**. Here is a visual example with our intelligence->sincerity example.
+
+<figure>
+<center>
+   <a href="/images/ex_graph.png"><img width="100%" src="/images/ex_graph.png"></a>
+</center>
+</figure>
+
+When we apply this method to all six traits, we get the following surprising result.
+
+<figure>
+<center>
+   <a href="/images/groups.png"><img width="100%" src="/images/groups.png"></a>
+</center>
+</figure>
+
+We see two disjoint groups with three traits each. Let's take a look at each one in turn. We see that the group on the left consists of fun, shared interets, and attractiveness. Intuitively, this means that people group these traits together very tightly when scoring their dates. 
 
 
 
