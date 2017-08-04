@@ -248,10 +248,18 @@ Secondly, we see that in some sense **"all roads lead to attractiveness"**. If w
 
 Another angle we can study is that of date order. That is, suppose you go on ten speed dates through the night. **Are you any more likely to request a second date with the first person than the tenth person?** Perhaps the longer your night goes on, the less likely you are to request second dates because you've already met acceptable people. Or is it the opposite? Is it that you hold out for better people and so tend to reject your first few dates? The answer will surely vary by person, but **we are interested here in global behavior**.
 
-We perform this analysis by simply sorting the dates into buckets based on their order (first, second, etc.) through the night, and finding the percent of dates where a second date was requested in each bucket. We display the results below.
+We perform this analysis by simply **sorting the dates into buckets** based on their order (first, second, etc.) through the night, and **finding the percent of dates where a second date was requested in each bucket**. We display the results below.
 
 <figure>
 <center>
    <a href="/images/order_of_dates.png"><img width="100%" src="/images/order_of_dates.png"></a>
 </center>
 </figure>
+
+**Key Takeaways:**
+
+Although the trend jumps around quite a bit, **we see overall that it is decreasing**. This tells us that **as the night goes on**, as you have more and more dates, **you become less and less likely to request second dates** with potential partners. This is perhaps a confirmation of our idea that you tend to meet someone or some people acceptable fairly soon in the dating process and become less interested in the later people you meet. This may hold true even if those later people are acceptable and you **would have reqeusted a second date with them if only you met them earlier** in the dating process. It seems **timing is key for dating!**
+
+Still, we should discuss the **volatility in our trend** since it holds a potential story as well. For instane, note just the **jump down from the first person you meet and the second person you meet**. For the **first person**, you have a **50-50 chance of requesting a second date**. On the other hand, for the **second person** you meet, you are **only 40% likely** to request a second date. 
+
+What can explain this 10% drop? Well, ***perhaps*** it is a psychological phenomenon (this author, not being a psychologist, needs to strongly emphasize the word "perhaps" here). Perhaps you are excited to meet the first person and want to **give them a chance** even if they don't fully meet your standards. Indeed the **"second date rate" is highest for date number 1**. But then, perhaps upon meeting the second person, **you feel like you shouldn't say "yes" to two people in a row** so you have a higher tendency to say "no" to the second person. Indeed, this would not only explain the jump between the first and second points, but also the **up-down pattern in the rest of the graph** as well. Still, just a theory. **Post your thoughts in the comments below!**
