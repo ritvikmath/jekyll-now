@@ -11,7 +11,7 @@ title: How to Get a Second Date
 </figure>
 
 <center>
-<font size="5"><b>Exploring Salaries throughout the UC System</b></font>
+<font size="5"><b>Mastering the Mechanics of the Dating Market</b></font>
 </center>
 
 <script type="text/x-mathjax-config">
