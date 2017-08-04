@@ -30,12 +30,11 @@ title: How to Get a Second Date
 
 <html>
 <head>
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      google.charts.load('43', {'packages':['sankey', 'table', 'timeline']});
+      google.charts.load('43', {'packages':['sankey']});
       google.charts.setOnLoadCallback(drawChart);
-      google.charts.setOnLoadCallback(drawTable);
-      google.charts.setOnLoadCallback(drawTimeline);
 
       function drawChart() {
         var data = new google.visualization.DataTable();
@@ -100,6 +99,7 @@ title: How to Get a Second Date
         chart.draw(data, options);
       }
       
+      </script>
 </head>
 </html>
 
