@@ -318,3 +318,18 @@ Let's see if we have the same story with intelligence.
 
 We see a **very similar trend for intelligence**. That is, we again see that the **absolute differences in dating market values is piled more heavily around zero for matches than mistmatches**. It is **less drastic here though**, than with attractiveness. This perhaps says that **attrictiveness more naturally separates into these "leagues" than does intelligence**, which is perhaps a result of it being more difficult to ascertain someone's intelligence in 4 minutes than their attractiveness.
 
+Indeed, it seems from our analysis that **these "leagues" exist**, certainly for attractiveness, and arguably for intelligence. 
+
+---
+<a name="conc"></a>
+
+# Conclusions
+
+The title of this article is **How to Get a Second Date**. If that is truly your sole goal, then the analyses derived through this study should help you along. Still, this article does little to answer a much more difficult question: **Should you want a second date?** That is, so often we focus on wanting to impress the person in front of us during a date or just a casual chat, that we **forget to be ourselves**. We become a **watered down, beauty-focussed, insincere version of ourselves** hoping that the person we are with will eventually accept the "real" us. 
+
+Perhaps it is better to go into a first date with a **hybrid mentality**, keeping in mind both the findings above regarding the **importance of attractivness** on the first date, making an **attept to share your date's interests**, etc., but also to ***be yourself, presenting proudly the person that you are***. If, after all that, you get turned down for a second date, then it is **100% for the best**, since ***you absolutely deserve to be with someone who deserves to be with you***. 
+
+**Thanks for reading and please leave comments below!**
+
+---
+
