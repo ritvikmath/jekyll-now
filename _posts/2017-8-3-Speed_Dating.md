@@ -291,6 +291,8 @@ We answer this question by simply splitting up all the people in our data into o
 
 We display the results below.
 
+## Probability of Asking/Being Asked for a Second Date by Each Type of Person
+
 <figure>
 <center>
    <a href="/images/ask_asked_b.png"><img width="100%" src="/images/ask_asked_b.png"></a>
