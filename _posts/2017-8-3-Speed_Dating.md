@@ -6,7 +6,7 @@ title: How to Get a Second Date
 
 <figure>
 <center>
-   <a href="/images/cover_img_speed_sec.png"><img width="70%" src="/images/cover_img_speed_sec.png"></a>
+   <a href="/images/fb_img_speed.png"><img width="70%" src="/images/fb_img_speed.png"></a>
 </center>
 </figure>
 
