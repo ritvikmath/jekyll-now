@@ -141,9 +141,9 @@ Viewing this study as a plethora of opportunities for two people to feel **"love
 
 # How to Get a Second Date
 
-If we **analyze all the dates in our study where someone requested a second date**, and **compare them with those where no second date was requested**, we should be able to **tease out the factors which make or break whether your date will ask to go out with you again**. We do just that by using a machine learning model called the **<a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest</a>**. This model basically works by trying to answer the question: **"Will someone request to go on a second date?"** and arrives at its final answer by **asking a series of yes or no questions**. Furthermore, **the earlier a question is asked, the more important it is in determining whether you'll get a second date or not**. Just for example, if the first question asked is "Does the other person rank my attractiveness above 50/100?", and the fourth question asked is "Does the other person prefer someone of the same race as themselves?", then the first question is more effective in determining whether the other person requests a second date.
+If we **analyze all the dates in our study where someone requested a second date**, and **compare them with those where no second date was requested**, we should be able to **tease out the factors which make or break whether your date will ask to go out with you again**. We do just that by using a machine learning model called the **<a href="https://en.wikipedia.org/wiki/Random_forest" target="_blank">Random Forest</a>**. This model basically works by trying to answer the question: **"Will someone request to go on a second date?"** and arrives at its final answer by **asking a series of yes or no questions**. We will judge our Random Forest model on two metrics, **accuracy and precision**. 
 
-But, it's not exactly that easy. **We can trust the results of our Random Forest model only if it is able to give us a 'good' accuracy** in predicting whether or not someone will request a second date. If it gives a sub-par predictive power, then we really have no reason to trust the model at all. We will judge our Random Forest model on two metrics, **accuracy and precision**. **Accuracy is simply the number of dates where the model correctly predicts whether or not there will be a second date divided by the total number of dates**. **Precision**, a related but different measure, **is the proportion of dates where the model gives a correct prediction out of only the dates where the model predicts that there will be a second date**. That is, precision measures how "correct" the Random Forest model is when it predicts that you will get a second date.
+**Accuracy is simply the number of dates where the model correctly predicts whether or not there will be a second date divided by the total number of dates**. **Precision**, a related but different measure, **is the proportion of dates where the model gives a correct prediction out of only the dates where the model predicts that there will be a second date**. That is, precision measures how "correct" the Random Forest model is when it predicts that you will get a second date.
 
 Let's see how the accuracy and precision of our Random Forest model compare to just plain old random guessing.
 
@@ -153,7 +153,7 @@ Let's see how the accuracy and precision of our Random Forest model compare to j
 </center>
 </figure>
 
-We see that our Random Forest model performs much better than random guessing and has fairly high accuracy and precision levels. With this confidence in our model, we are now ready to list the top five factors in predicting whether you will get a second date.
+We see that our Random Forest model performs much better than random guessing and has fairly high accuracy and precision levels. With this confidence in our model, we are now ready to list the model's top five factors in predicting whether you will get a second date.
 
 ## Top 5 Factors in Getting a Second Date
 
@@ -168,8 +168,8 @@ Note that the length of the bars is proportional to how strong of a predictor th
 **Key Takeaways:**
 
 * The **top factor in determining whether you get a second date is simply how much your date liked you overall**. This naturally matches up with our intuition
-* The next three are how attractive, fun, and involved in their interests, they think you are, respectively. Here we already get **indications that attractiveness, above all other traits, determines how much someone wants to see you again**, at least upon first impression
-* Interestingly, the fifth most important factor is how likely your date thinks it is that you will say 'yes' to a second date. It seems like **people judge whether they want a second date not only by how they perceive their date, but also how they think their date perceives them**
+* The next three are how attractive, fun, and involved in their interests they think you are, respectively. Here we already get **indications that attractiveness, above all other traits, determines how much someone wants to see you again**, at least upon first impression
+* Interestingly, the fifth most important factor is how likely your date thinks it is that you will say 'yes' to a second date. It seems like **people judge whether they want a second date not only by how they perceive you, but also by how they think you perceive them**
 
 ---
 <a name="value"></a>
@@ -199,9 +199,9 @@ Interestingly, the **lowest discrepancies occur with intelligence and ambition**
 
 Tall, dark, and handsome. Green-eyed brunettes. Fitness freaks. When it comes to dating, we often hear about people having "types". That is, we are often told (maybe by our annoying friends) that we **over and over go for the same type of person**, whether we accept it or not. Can we use our data to help answer the question of **whether people are attracted to certain "types" of other people?** 
 
-To make this more concrete, we will consider our "types" as our six attributes: **Attractive, Intelligent, Ambitious, Fun, Sincere, and Sharing of Interests**. We proceed by **taking a look at the correlation between these attributes**. Why? Well, imagine that when we look at the data for how intelligent people scored their dates, we find that it is highly correlated with how sincere they scored their dates. That is, **we find that people, whether consciously or subconsciously, think of intelligent people as also sincere**. This gives us evidence that perhaps intelligence and sincerity are not separate, but are **really part of one global "type"**.
+To make this more concrete, we will consider our "types" as our six attributes: **Attractive, Intelligent, Ambitious, Fun, Sincere, and Sharing of Interests**. We proceed by **taking a look at the correlation between these attributes**. Why? Well, imagine that when we look at the data for how intelligent people scored their dates, we find that it is highly correlated with how sincere they scored their dates. That is, **we find that people, whether consciously or subconsciously, think of intelligent people as also sincere**. This gives us evidence that perhaps intelligence and sincerity are not separate, but are **really part of one combined "type"**.
 
-To be clear, we will be using an **arrow from one trait to another if the latter trait is the most correlated with the former trait**. Here is a visual example with our intelligence->sincerity example.
+To be clear, we will be using an **arrow from one trait to another if the latter trait is the most correlated with the former trait**. Here is a visual example with our intelligence-sincerity example.
 
 <figure>
 <center>
@@ -253,7 +253,7 @@ There are **two key takeaways** from this diagram.
 
 First off, we see that **a large majority of people initially prefer attractiveness**. Still, **after all the dates are said and done, people seem to diversify** in terms of the people they request a second date with. That is, attractiveness takes up a smaller share of the chosen traits on the right than the preferred traits on the left. 
 
-Secondly, we see that in some sense **"all roads lead to attractiveness"**. If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractiveness for **four of the six traits**. Furthermore, the two traits where this is not true, **fun and ambition, have a very small number of people who initially claim to prefer them**. We thus have evidence which says that **no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions**. This makes some sense. After all, on a first date, it is much easier to judge someone’s attractiveness than it is to judge their sincerity of intelligence.
+Secondly, we see that in some sense **"all roads lead to attractiveness"**. If we look at all the preferred traits on the left and trace where most of the attendees end up on the right hand side, the answer is attractiveness for **four of the six traits**. Furthermore, the two traits where this is not true, **fun and ambition, have a very small number of people who initially claim to prefer them**. We thus have evidence which says that **no matter what people claim to want in a romantic partner, they typically end up going for attractive people based on first impressions**. This makes some sense. After all, on a first date, it is much easier to judge someone’s attractiveness than it is to judge their sincerity or intelligence.
 
 ---
 <a name="order"></a>
@@ -287,7 +287,7 @@ We established before that we can assign a **"dating market value"** to each per
 
 We can then ask questions about how each of these types of people behave when it comes to **requesting second dates** and **getting offered second dates by others**. That is, do attractive people (those with high dating market values of attractiveness) get many second date offers whilst requesting relatively few? Do sincere people request second dates at a very high rate? **Are there really any significant differences at all** between these groups of people or are we just splitting them up arbitrarily?
 
-We answer this question by simply splitting up all the people in our data into one of the five aforementioned categories **depending on the attribute for which they have the highest dating market value**. For each of the five groups we then calculate two numbers. We first find the **probability of asking for a second date** and second find the **probability of being asked for a second date**. The former number is an indication of how willing they are to give people a chance and the latter is how willing others are to give them a chance. 
+We answer this question by simply splitting up all the people in our data into one of the five aforementioned categories **depending on the attribute for which they have the highest dating market value**. For each of the five groups we then calculate two numbers. We first find the **probability of asking for a second date** and second find the **probability of being asked for a second date**.
 
 We display the results below.
 
@@ -297,7 +297,7 @@ We display the results below.
 </center>
 </figure>
 
-***Wow!*** Look at the bars for "attractive" people. We see that **attractive people only ask around 32% of their dates for a second date** while those who go on dates with attractive people are about 66%, twice as likely, to ask them for second dates. This indeed is in line with the ideas of exclusivity around people we think of as attractive.
+***Wow!*** Look at the bars for "attractive" people. We see that **attractive people only ask around 32% of their dates for a second date** while those who go on dates with attractive people are about 66%, ***twice as likely***, to ask them for second dates. This indeed is in line with the ideas of exclusivity around people we think of as attractive.
 
 The discrepancies between the bars for other types of people are not nearly as drastic. In fact, we see that **sincere, intelligence, and ambitious people are more likely to ask for a second date than be asked for a second date**, if only by small margins. We also see that **fun people are the most likely to ask for a second date, with a nearly 50% rate**.
 
@@ -310,7 +310,7 @@ The key takeaway here is still clearly about attractiveness and how its worth ca
 
 We will conclude our analysis by looking at the idea of **"leagues"**. We've all heard the phrase "She's way out of your league", meaning that **she and you inherently have a different worth on the dating market** (to phrase it in a really awkward way).  
 
-We want to find out if there is evidence that "leagues" exist. We can test for this by analyzing two groups within our data: **matches and mismatches**. A **match** will be defined as a date where **both people request a second date with one another** while a **mismatch** is a date where **one person requests a second date but the other does not**. If leagues exist, we expect that the dating market values of the matches are much close together than the dating market values of the mismatches. We analyze this for two traits here: **attractiveness and intelligence**. Let's to right to the results!
+We want to find out if there is evidence that "leagues" exist. We can test for this by analyzing two groups within our data: **matches and mismatches**. A **match** will be defined as a date where **both people request a second date with one another** while a **mismatch** is a date where **one person requests a second date but the other does not**. If leagues exist, we expect that the dating market values of the matches are much closer together than the dating market values of the mismatches. We analyze this for two traits: **attractiveness and intelligence**. Let's to right to the results!
 
 <figure>
 <center>
@@ -318,7 +318,7 @@ We want to find out if there is evidence that "leagues" exist. We can test for t
 </center>
 </figure>
 
-Indeed, we see that with attractiveness, the absolute differences in dating market value is more heavily piled around zero for the matches than the mismatches. Story wise, this says that **people who match with each other tend to be of the same attractiveness** while **those who mismatch tend to be of different attractiveness** levels in the dating market.
+Indeed, we see that with attractiveness, the absolute differences in dating market value are more heavily piled around zero for the matches than the mismatches. Story wise, this says that **people who match with each other tend to be of the same attractiveness** while **those who mismatch tend to be of different attractiveness** levels in the dating market.
 
 Let's see if we have the same story with intelligence.
 
@@ -328,7 +328,7 @@ Let's see if we have the same story with intelligence.
 </center>
 </figure>
 
-We see a **very similar trend for intelligence**. That is, we again see that the **absolute differences in dating market values is piled more heavily around zero for matches than mismatches**. It is **less drastic here though**, than with attractiveness. This perhaps says that **attractiveness more naturally separates into these "leagues" than does intelligence**, which is perhaps a result of it being more difficult to ascertain someone's intelligence in 4 minutes than their attractiveness.
+We see a **very similar trend for intelligence**. That is, we again see that the **absolute differences in dating market values are piled more heavily around zero for matches than mismatches**. It is **less drastic here though**, than with attractiveness. This perhaps says that **attractiveness more naturally separates into these "leagues" than does intelligence**, which is perhaps a result of it being more difficult to ascertain someone's intelligence in 4 minutes than their attractiveness.
 
 Indeed, it seems from our analysis that **these "leagues" exist**, certainly for attractiveness, and arguably for intelligence. 
 
@@ -337,7 +337,9 @@ Indeed, it seems from our analysis that **these "leagues" exist**, certainly for
 
 # Conclusions
 
-The title of this article is **How to Get a Second Date**. If that is truly your sole goal, then the analyses derived through this study should help you along. Still, this article does little to answer a much more difficult question: **Should you want a second date?** That is, so often we focus on wanting to impress the person in front of us during a date or just a casual chat, that we **forget to be ourselves**. We become a **watered down, beauty-focused, insincere version of ourselves** hoping that the person we are with will eventually accept the "real" us. 
+The title of this article is **How to Get a Second Date**. If that is truly your sole goal, then the analyses derived through this study should help you along. Still, this article does little to answer a much more difficult question: **Should you want a second date?** 
+
+So often we focus on wanting to impress the person in front of us during a date or just a casual chat, that we **forget to be ourselves**. We become a **watered down, beauty-focused, insincere version of ourselves** hoping that the person we are with will eventually accept the "real" us. 
 
 Perhaps it is better to go into a first date with a **hybrid mentality**, keeping in mind both the findings above regarding the **importance of attractiveness** on the first date, making an **attempt to share your date's interests**, etc., but also to ***be yourself, presenting proudly the person that you are***. If, after all that, you get turned down for a second date, then it is **100% for the best**, since ***you absolutely deserve to be with someone who deserves to be with you***. 
 
