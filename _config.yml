@@ -87,5 +87,3 @@ exclude:
   - README.md
   - CNAME
   
-future: True
-  
