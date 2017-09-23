@@ -4,6 +4,12 @@ comments: true
 title: Why Girls Belong in STEM and Why There is More to the Picture
 ---
 
+<figure>
+<center>
+   <a href="/images/header.jpg"><img width="90%" src="/images/header.jpg"></a>
+</center>
+</figure>
+
 <center>
 <font size="5"><b>Understaing the Power of Girls in STEM Fields</b></font>
 </center>
@@ -43,19 +49,19 @@ Quick Links:
 
 <a name="r2"></a>
 
-# Girls' Retain More Knowledge from Course to Course
+# Reason #2: Girls' Retain More Knowledge from Course to Course
 
 ---
 
 <a name="r3"></a>
 
-# Girls Retake Courses at a Much Lower Rate
+# Reason #3: Girls Retake Courses at a Much Lower Rate
 
 ---
 
 <a name="r4"></a>
 
-# Girls Are Able to Recover Their GPA Better than Boys
+# Reason #4: Girls Are Able to Recover Their GPA Better than Boys
 
 ---
 
