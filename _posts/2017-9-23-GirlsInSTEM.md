@@ -4,8 +4,6 @@ comments: true
 title: Why Girls Belong in STEM and Why There is More to the Picture
 ---
 
-
-
 <center>
 <font size="5"><b>Understaing the Power of Girls in STEM Fields</b></font>
 </center>
@@ -16,7 +14,7 @@ Quick Links:
 
 * [Motivation](#mot)  
 * [The Data](#dat)  
-* [Reason #1: Girls Performing at the Same Level as Boys are More Likely to Leave STEM Fields](#r1)  
+* [Reason #1: Girls With the Same Grades as Boys are More Likely to Leave STEM Fields](#r1)  
 * [Reason #2: Girls' Retain More Knowledge from Course to Course](#r2)  
 * [Reason #3: Girls Retake Courses at a Much Lower Rate](#r3)  
 * [Reason #4: Girls Are Able to Recover Their GPA Better than Boys](#r4)  
