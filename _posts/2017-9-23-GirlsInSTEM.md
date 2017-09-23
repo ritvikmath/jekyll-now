@@ -14,7 +14,7 @@ Quick Links:
 
 * [Motivation](#mot)  
 * [The Data](#dat)  
-* [Reason #1: Girls With the Same Grades as Boys are More Likely to Leave STEM Fields](#r1)  
+* [Reason #1: Girls getting B's are More Likely to Leave STEM Fields than Boys getting B's](#r1)  
 * [Reason #2: Girls' Retain More Knowledge from Course to Course](#r2)  
 * [Reason #3: Girls Retake Courses at a Much Lower Rate](#r3)  
 * [Reason #4: Girls Are Able to Recover Their GPA Better than Boys](#r4)  
@@ -37,7 +37,7 @@ Quick Links:
 
 <a name="r1"></a>
 
-# Reason #1: Girls Performing at the Same Level as Boys are More Likely to Leave STEM Fields
+# Reason #1: Girls getting B's are More Likely to Leave STEM Fields than Boys getting B's
 
 ---
 
