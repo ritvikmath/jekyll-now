@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: The Rise and Demise of College Major
+title: The Rise and Demise of College Majors
 ---
 
 <figure>
