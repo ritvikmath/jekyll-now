@@ -75,13 +75,31 @@ There has to be more than just grades driving whether students drop out of STEM 
 
 # Reason #2: Girls' Retain More Knowledge from Course to Course
 
-It is no mystery that as students progress in a course sequence, the courses get tougher and tougher. It should also then come as little surprise that students' grades tend to drop thoughout a course sequence. Yes, they get better at the course material, but not fast enough (especially on that hyper-rapid quarter system) to keep up with the difficulty of that next course. Let us ask then the question of whose grades suffer 
+It is no mystery that as students progress in a course sequence, the courses get tougher and tougher. It should also then come as little surprise that students' grades tend to drop thoughout a course sequence. Yes, they get better at the course material, but not fast enough (especially on that hyper-rapid quarter system) to keep up with the difficulty of that next course. Let us ask then the question of whose grades suffer more: boys or girls. We choose to look at four of the most important introductory course sequences at UCLA: Introduction to Computer Science, Physics, Calculus for Life Sciences, and Multivariable Calculus. These courses are taken primarily by students in their first and second years at UCLA. The figure below shows the average drop in grade as students progress from the first part of each course to the second.
+
+<figure>
+<center>
+   <a href="/images/gradedrop.png"><img width="90%" src="/images/gradedrop.png"></a>
+</center>
+</figure>
+
+We see that for three of the four courses, girls' grades drop by much less than do boys'. Without falling into the correlation vs. causation trap, we can brainstorm what this might imply. It is perhaps indicative of girls retaining more knowledge from one course to the next, or of honing their skills during course sequences. We see that the final course, Multivariable Calculus shows the opposite story with girls' grade loss being higher than that of boys', but the difference is not nearly as stark as in the first three courses considered. As some additional evidence of courses not pictured, girls' grades also drop by less in the course sequences for: Calculus for Life sciences, Single Variable Calculus, and Probability Theory.
 
 ---
 
 <a name="r3"></a>
 
 # Reason #3: Girls Retake Courses at a Much Lower Rate
+
+We all know that many stduents are required to retake courses due to not getting a passing grade. This can be due to a wide variety of factors and is ultimately beneficial for the student in terms of ultimate success. It can be helpful to analyze whether boys or girls retake courses at a higher rate. The answer will hopefully be indicitive of how adept each group is at getting passing grades in STEM courses and continuing on through their majors. In order to have a comparision of only STEM students we consider only students from STEM majors. The results appear in the figure below.
+
+<figure>
+<center>
+   <a href="/images/retakes.png"><img width="90%" src="/images/retakes.png"></a>
+</center>
+</figure>
+
+Wow! The red line shows fraction of retakes due to girls for each term from 2000 through 2015. We see that save for a select few terms, this line is always under 50%, indicating that girls make up fewer (often much fewer) of the retakes in a given quarter than do boys. And yes, this does account for the differences in relative proportions of boys and girls in STEM courses each quarter. Interestingly, in the most recent five years of the data (2010-2015) the line is always below 50%, indicating a *possible* time trend. Either way, our results show that girls are more capable of continuing on in their STEM course sequences unimpeded that boys generally are.
 
 ---
 
