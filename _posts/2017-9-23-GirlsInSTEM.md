@@ -75,7 +75,7 @@ We also choose to only **consider those students who got a grade of a B-, B, or 
 
 As we see, in **Single Variable Calculus, there is already a 7% difference, in favor of boys**, for continuing to take the second part of this course. If we don't consider this a big difference, we only need to look at **Multivariable Calculus where this is now a stark 24% difference in favor of boys**, with less than half of all girls moving on to take the second part of the course. 
 
-There has to be more than just grades driving whether students drop out of STEM courses or not. We really must ask ourselves **what a B represents to a boy vs. a girl in a STEM field**. Do they interpret this grade differently? Is it a sign of **accomplishment** for one while being a sign of **underperformance** for the other? Although these questions lie outside the realm of data science, they are worth asking if we are to figure out **why girls performing at the exact same level as boys, are more inclined to discontinue their STEM courses**. 
+There has to be more than just grades driving whether students drop out of STEM courses or not. We really must ask ourselves **what a B represents to a boy vs. a girl in a STEM field**. Do they interpret this grade differently? Is it a sign of **accomplishment** for one while being a sign of **underperformance** for the other? Although these questions lie outside the realm of data science, they are worth asking if we are to figure out **why girls, performing at the exact same level as boys, are more inclined to discontinue their STEM courses**. 
 
 ---
 
@@ -93,7 +93,7 @@ It is no mystery that **as students progress in a course sequence, the courses g
 
 We see that for **three of the four courses, girls' grades drop by much less than do boys'**. Without falling into the correlation vs. causation trap, we can brainstorm what this might imply. It is perhaps indicative of girls **retaining more knowledge from one course to the next**, or of **honing their skills during course sequences**. 
 
-We see that the final course, Multivariable Calculus shows the opposite story with girls' grade loss being higher than that of boys', but the **difference is not nearly as stark as in the first three courses considered**. As some additional evidence of courses not pictured, **girls' grades also drop by less in the course sequences for: Calculus for Life sciences, Single Variable Calculus, and Probability Theory**.
+We see that the final course, Multivariable Calculus, shows the opposite story with girls' grade loss being higher than that of boys', but the **difference is not nearly as stark as in the first three courses considered**. As some additional evidence of courses not pictured, **girls' grades also drop by less in the course sequences for: Calculus for Life sciences, Single Variable Calculus, and Probability Theory**.
 
 ---
 
@@ -155,7 +155,7 @@ There is a lot of information here so let's break it down. Looking first just at
 
 In contrast, looking now at the bottom row, we see that **Chinese females and Pacific Islander females** make up a **very different proportion of enrolled students, and yet have nearly identical rates of transfer to the second half of the course**. Many of you surely have a bunch of "why?" questions about this data and in all honestly, this author does as well. 
 
-Are there **cultural differences in these considered ethnic groups that holds a B grade to vastly different standards?** If you are a student in one of these ethnic groups, **does it affect your retention if you see more or fewer people in your ethnic group in the lecture hall?** This, author, being in none of these mentioned ethnic groups, is not really sure of the answers here but would love to hear any **discussion in the comments below!**
+Are there **cultural differences in these considered ethnic groups that hold a B grade to vastly different standards?** If you are a student in one of these ethnic groups, **does it affect your retention if you see more or fewer people in your ethnic group in the lecture hall?** This, author, being in none of these mentioned ethnic groups, is not really sure of the answers here but would love to hear any **discussion in the comments below!**
 
 ---
 
@@ -165,7 +165,7 @@ Are there **cultural differences in these considered ethnic groups that holds a 
 
 In truth, this post used data from **one public university among the many, many universities out there**. And that does not even include any data about **K-12 schools, where student aptitudes for STEM fields really start to blossom**. Still, it is worthwhile to drive the 'Gender Differences in STEM' narrative **away from just asking "who gets better grades?"** into much more rich, nuanced considerations such as those considered in this post. 
 
-Because in the end, if we are using school performance as a proxy to that in life, ***grades are not even close to all that matters***. It matters also **how much you can improve from course to course**. It matters also **how you can recover from a really bad quarter**. It matters also **how you feel when you get a B in a course versus how the person next to you feels**, and why those differences in feelings occur whether it is due to **gender, ethnicity, or one of the many other factors of identity not considered here**. 
+Because in the end, if we are using school performance as a proxy to success in life, ***grades are not even close to all that matters***. It matters also **how much you can improve from course to course**. It matters also **how you can recover from a really bad quarter**. It matters also **how you feel when you get a B in a course versus how the person next to you feels**, and why those differences in feelings occur whether it is due to **gender, ethnicity, or one of the many other factors of identity not considered here**. 
 
 If we, as a society, are really hoping to become experts in **'Gender Differences in STEM'**, we must first understand this subject on a much **deeper, data-backed, level by conducting more and broader analyses**.
 
