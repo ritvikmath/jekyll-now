@@ -163,7 +163,7 @@ Are there **cultural differences in these considered ethnic groups that hold a B
 
 # Conclusions
 
-After all, this post used data from **one public university among the many, many universities out there**. And that does not even include any data about **K-12 schools, where student aptitudes for STEM fields really start to blossom**. Still, it is worthwhile to drive the 'Gender Differences in STEM' narrative **away from just asking "who gets better grades?"** into much more rich, nuanced considerations such as those considered in this post. 
+After all, this post used data from **one public university among the many, many universities out there**. And that does not even include any data about **K-12 schools, where student aptitudes for STEM fields really start to blossom**. Still, it is worthwhile to drive the 'Gender Differences in STEM' narrative **away from just asking "who gets better grades?"** into much richer, more nuanced considerations such as those considered in this post. 
 
 Because in the end, if we are using school performance as a proxy to success in life, ***grades are not even close to all that matters***. It matters also **how much you can improve from course to course**. It matters also **how you can recover from a really bad quarter**. It matters also **how you feel when you get a B in a course versus how the person next to you feels**, and why those differences in feelings occur whether it is due to **gender, ethnicity, or one of the many other factors of identity not considered here**. 
 
