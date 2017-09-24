@@ -20,7 +20,7 @@ Quick Links:
 
 * [Motivation](#mot)  
 * [The Data](#dat)  
-* [Reason #1: Girls are More Likely to Leave STEM Fields than Boys Given the Same Grades](#r1)  
+* [Reason #1: Girls are More Likely to Leave Courses than Boys Given the Same Grades](#r1)  
 * [Reason #2: Girls' Develop More Aptitude from Course to Course](#r2)  
 * [Reason #3: Girls Retake Courses at a Much Lower Rate](#r3)  
 * [Reason #4: Girls Are Able to Recover Their GPA Better than Boys](#r4)  
@@ -47,7 +47,7 @@ This data comes from the UCLA Department of Mathematics. This author, while an u
 
 <a name="r1"></a>
 
-# Reason #1: Girls are More Likely to Leave STEM Fields than Boys Given the Same Grades
+# Reason #1: Girls are More Likely to Leave Courses than Boys Given the Same Grades
 
 Let's jump right in! One argument which aims to explain girls dropping our of STEM fields is that they are 'just not good at them'. Believers of this statement believe that girls are not as adept at STEM fields as boys and so get lower grades, prompting them to drop out. This author chose to analyze this statement for the two biggest introductory mathematics courses at UCLA and most other undergraduate universities: **Single Variable Calculus and Multivariable Calculus**. 
 
