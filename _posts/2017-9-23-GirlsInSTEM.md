@@ -6,7 +6,7 @@ title: Why Girls Belong in STEM and Why There is More to the Picture
 
 <figure>
 <center>
-   <a href="/images/recovery.png"><img width="90%" src="/images/recovery.png"></a>
+   <a href="/images/dummyimg.png"><img width="90%" src="/images/dummyimg.png"></a>
 </center>
 </figure>
 
