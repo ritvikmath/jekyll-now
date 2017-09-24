@@ -6,7 +6,7 @@ title: Why Girls Belong in STEM and Why There is More to the Picture
 
 <figure>
 <center>
-   <a href="/images/banner_gis.png"><img width="90%" src="/images/banner_gis.png"></a>
+   <a href="/images/banner_gis.png"><img width="100%" src="/images/banner_gis.png"></a>
 </center>
 </figure>
 
@@ -35,7 +35,7 @@ Quick Links:
 
 <figure>
 <center>
-   <a href="/images/comic.png"><img width="90%" src="/images/comic.png"></a>
+   <a href="/images/comic.png"><img width="80%" src="/images/comic.png"></a>
 </center>
 </figure>
 
@@ -63,13 +63,13 @@ We also choose to only **consider those students who got a grade of a B-, B, or 
 
 <figure>
 <center>
-   <a href="/images/svcalc.png"><img width="90%" src="/images/svcalc.png"></a>
+   <a href="/images/svcalc.png"><img width="80%" src="/images/svcalc.png"></a>
 </center>
 </figure>
 
 <figure>
 <center>
-   <a href="/images/mcvalc.png"><img width="90%" src="/images/mcvalc.png"></a>
+   <a href="/images/mcvalc.png"><img width="80%" src="/images/mcvalc.png"></a>
 </center>
 </figure>
 
@@ -87,7 +87,7 @@ It is no mystery that **as students progress in a course sequence, the courses g
 
 <figure>
 <center>
-   <a href="/images/gradedrop.png"><img width="90%" src="/images/gradedrop.png"></a>
+   <a href="/images/gradedrop.png"><img width="80%" src="/images/gradedrop.png"></a>
 </center>
 </figure>
 
@@ -105,7 +105,7 @@ We all know that many students are required to retake courses due to not getting
 
 <figure>
 <center>
-   <a href="/images/retakes.png"><img width="90%" src="/images/retakes.png"></a>
+   <a href="/images/retakes.png"><img width="100%" src="/images/retakes.png"></a>
 </center>
 </figure>
 
