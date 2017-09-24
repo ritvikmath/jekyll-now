@@ -11,7 +11,7 @@ title: Why Girls Belong in STEM and Why There is More to the Picture
 </figure>
 
 <center>
-<font size="5"><b>Understaing the Power of Girls in STEM Fields</b></font>
+<font size="5"><b>Understating the Power of Girls in STEM Fields</b></font>
 </center>
 
 ---
@@ -33,7 +33,7 @@ Quick Links:
 
 # Motivation
 
-The subject of gender inequalities in **Science, Technology, Engineering, Mathematics (STEM)** fields has been a hot and controversial topic for many, many years. Traditionally, these fields were reserved for males, with the populace thinking females were either uninterested or inherently unskilled to pursue them. In the modern era, even though there has been progress in the U.S. workforce for women, this progress has not been universal. For example, **although women make up now 48% of the U.S. workforce, they compise only 24% of all STEM workers**, with males making up the other 76%. Some believe that this is not a failure of society and recall the arguments of the past stating that women are not adept at these fields which explains their low representation. Others believe strongly that girls are better suited to STEM fields than boys, using only simple GPA comparisions as evidence. This author aims to dig deeper not through qualitative methods but rather by using a much **finer data-backed lens to look at the exact places where girls excel in STEM fields**. 
+The subject of gender inequalities in **Science, Technology, Engineering, Mathematics (STEM)** fields has been a hot and controversial topic for many, many years. Traditionally, these fields were reserved for males, with the populace thinking females were either uninterested or inherently unskilled to pursue them. In the modern era, even though there has been progress in the U.S. workforce for women, this progress has not been universal. For example, **although women make up now 48% of the U.S. workforce, they comprise only 24% of all STEM workers**, with males making up the other 76%. Some believe that this is not a failure of society and recall the arguments of the past stating that women are not adept at these fields explaining their low representation. Others believe strongly that girls are better suited to STEM fields than boys, using only simple GPA comparisons as evidence. This author aims to dig deeper not through qualitative methods but rather by using a much **finer data-backed lens to look at the exact places where girls excel in STEM fields**. 
 
 ---
 
@@ -67,7 +67,7 @@ We also choose to only **consider those students who got a grade of a B-, B, or 
 </center>
 </figure>
 
-As we see, in **Single Variable Calclus, there is already a 7% difference, in favor of boys**, for continuing to take the second part of this course. If we don't consider this a big difference, we only need to look at **Multivariable Calculus where this is now a stark 24% difference in favor of boys**, with less than half of all girls moving on to take the second part of the course. 
+As we see, in **Single Variable Calculus, there is already a 7% difference, in favor of boys**, for continuing to take the second part of this course. If we don't consider this a big difference, we only need to look at **Multivariable Calculus where this is now a stark 24% difference in favor of boys**, with less than half of all girls moving on to take the second part of the course. 
 
 There has to be more than just grades driving whether students drop out of STEM courses or not. We really must ask ourselves **what a B represents to a boy vs. a girl in a STEM field**. Do they interpret this grade differently? Is it a sign of **accomplishment** for one while being a sign of **underperformance** for the other? Although these questions lie outside the realm of data science, they are worth asking if we are to figure out **why girls performing at the exact same level as boys, are more inclined to discontinue their STEM courses**. 
 
@@ -95,7 +95,7 @@ We see that the final course, Multivariable Calculus shows the opposite story wi
 
 # Reason #3: Girls Retake Courses at a Much Lower Rate
 
-We all know that many stduents are required to retake courses due to not getting a passing grade. This can be due to a **wide variety of factors and is ultimately beneficial for the student in terms of ultimate success**. It can be helpful to **analyze whether boys or girls retake courses at a higher rate**. The answer will hopefully be indicitive of how adept each group is at getting passing grades in STEM courses and continuing on through their majors. In order to have a comparision of only STEM students we **consider only students from STEM majors**. The results appear in the figure below.
+We all know that many students are required to retake courses due to not getting a passing grade. This can be due to a **wide variety of factors and is ultimately beneficial for the student in terms of ultimate success**. It can be helpful to **analyze whether boys or girls retake courses at a higher rate**. The answer will hopefully be indicative of how adept each group is at getting passing grades in STEM courses and continuing on through their majors. In order to have a comparison of only STEM students we **consider only students from STEM majors**. The results appear in the figure below.
 
 <figure>
 <center>
@@ -113,13 +113,13 @@ Interestingly, in the **most recent five years of the data (2010-2015) the line 
 
 # Reason #4: Girls Are Able to Recover Their GPA Better than Boys
 
-There is a big angle which we have not even considered yet and which is often the bane of all students' existence: **saving your GPA once it takes a bad hit**. Many students have been there. You're going about your coursework and then you hit one quarter where things just do not go your way. Whether it is **academic burnout, a set of impossible courses, or increased commitment to work, your GPA takes a noticable hit**. And with GPA, **it takes a long while to recover from a hit**. 
+There is a big angle which we have not even considered yet and which is often the bane of all students' existence: **saving your GPA once it takes a bad hit**. Many students have been there. You're going about your coursework and then you hit one quarter where things just do not go your way. Whether it is **academic burnout, a set of impossible courses, or increased commitment to work, your GPA takes a noticeable hit**. And with GPA, **it takes a long while to recover from a hit**. 
 
 We thus want to know, **among students whose GPA took a bad hit, are girls or boys better able to recover from that hit in the long run?** We will define a 'bad hit' as a **drop in GPA of 20% or more**. Note that this is like having your GPA go from **3.7 to 2.96** or from **3.0 to 2.4** in just one quarter. We measure the ability of a student to recover by taking their GPA just after the hit and comparing it to their GPA in their final quarter in the dataset. 
 
 To make things more concreate, **suppose that you take a GPA hit from 3.0 to 2.4**. Suppose after 9 quarters you graduate and your GPA is at **2.75**. To raise your GPA from **2.4 to 2.75 over 9 quarters, you averaged a GPA growth of 1.52% per quarter**. We complete this calculation over all students who took at GPA hit and **split up the results into boys and girls**. We keep our calculation to be over **STEM majors** again.
 
-We find that, on average, **boys recover their GPA at a rate of 1.3% per quarter** and **girls at 2.4% per quarter**. Doesn't seem like a big difference? Well, let's see what this **difference builds up to over time**. Suppose we have a boy and a girl in STEM. Suppose they **both recieve a 3.7 GPA after their first quarter and then take a 20% GPA hit their second quarter and are down to a 2.96 GPA**. We then let their GPAs grow at the respective male/female growth rates and observe the results.
+We find that, on average, **boys recover their GPA at a rate of 1.3% per quarter** and **girls at 2.4% per quarter**. Doesn't seem like a big difference? Well, let's see what this **difference builds up to over time**. Suppose we have a boy and a girl in STEM. Suppose they **both receive a 3.7 GPA after their first quarter and then take a 20% GPA hit their second quarter and are down to a 2.96 GPA**. We then let their GPAs grow at the respective male/female growth rates and observe the results.
 
 <figure>
 <center>
@@ -147,7 +147,7 @@ In a case-study like fashion, we will focus our attention to **girls taking Mult
 
 There is a lot of information here so let's break it down. Looking first just at the top row, at **Chicano/Mexican females and Vietnamese females**, we see that they make up the **same proportion of students in the course, 6%**, but have **starkly different rates of transfer to the second half of the course**. 
 
-In contrast, looking now at the botom row, we see that **Chinese females and Pacific Islander females** make up a **very different proportion of enrolled students, and yet have nearly identical rates of transfer to the second half of the course**. Many of you surely have a bunch of "why?" questions about this data and in all honestly, this author does as well. 
+In contrast, looking now at the bottom row, we see that **Chinese females and Pacific Islander females** make up a **very different proportion of enrolled students, and yet have nearly identical rates of transfer to the second half of the course**. Many of you surely have a bunch of "why?" questions about this data and in all honestly, this author does as well. 
 
 Are there **cultural differences in these considered ethnic groups that holds a B grade to vastly different standards?** If you are a student in one of these ethnic groups, **does it affect your retention if you see more or fewer people in your ethnic group in the lecture hall?** This, author, being in none of these mentioned ethnic groups, is not really sure of the answers here but would love to hear any **discussion in the comments below!**
 
