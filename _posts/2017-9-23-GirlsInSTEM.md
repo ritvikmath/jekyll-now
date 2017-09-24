@@ -107,6 +107,20 @@ Wow! The red line shows fraction of retakes due to girls for each term from 2000
 
 # Reason #4: Girls Are Able to Recover Their GPA Better than Boys
 
+There is a big angle which we have not even considered yet and which is often the bane of all students' existence: saving your GPA once it takes a bad hit. Many students have been there. You're going about your coursework and then you hit one quarter where things just do not go your way. Whether it is academic burnout, a set of impossible courses, or increased commitment to work, your GPA takes a noticable hit. And with GPA, it takes a long while to recover from a hit. 
+
+We thus want to know, among students whose GPA took a bad hit, are girls or boys better able to recover from that hit in the long run? We will define a 'bad hit' as a drop in GPA of 20% or more. Note that this is like having your GPA go from 3.7 to 2.96 or from 3.0 to 2.4 in just one quarter. We measure the ability of a student to recover by taking their GPA just after the hit and comparing it to their GPA in their final quarter in the dataset. To make things more concreate, suppose that you take a GPA hit from 3.0 to 2.4. Suppose after 9 quarters you graduate and your GPA is at 2.75. To raise your GPA from 2.4 to 2.75 over 9 quarters, you averaged a GPA growth of 1.52% per quarter. We complete this calculation over all students who took at GPA hit and split up the results into boys and girls. We keep our calculation to be over STEM majors again.
+
+We find that, on average, **boys recover their GPA at a rate of 1.3% per quarter** and **girls at 2.4% per quarter**. Doesn't seem like a big difference? Well, let's see what this difference builds up to over time. Suppose we have a boy and a girl in STEM. Suppose they both recieve a 3.7 GPA after their first quarter and then take a 20% GPA hit their second quarter and are down to a 2.96 GPA. We then let their GPAs grow at the respective male/female growth rates and observe the results.
+
+<figure>
+<center>
+   <a href="/images/recovery.png"><img width="90%" src="/images/recovery.png"></a>
+</center>
+</figure>
+
+We see quite a difference! We see that for the boy, after 10 quarters, at the point of his graduation, he has raised his GPA to only 3.37, not close to the 3.7 it once was. For the girl on the other hand, she has raised her GPA to 3.76, exceeding her GPA before the hit. Although these 1.3% and 2.4% may not seem very different, they compound over time to create sizeable results. We thus see that girls are much more able to conduct 'damage control' of their GPAs if and when a GPA hit occurs than are boys, on average.
+
 ---
 
 <a name="eth"></a>
