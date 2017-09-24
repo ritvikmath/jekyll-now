@@ -25,7 +25,7 @@ Quick Links:
 * [Reason #3: Girls Retake Courses at a Much Lower Rate](#r3)  
 * [Reason #4: Girls Are Able to Recover Their GPA Better than Boys](#r4)  
 * [Why We Must Look Deeper Than 'Girls vs. Boys'](#eth)  
-* [Notes](#not)  
+* [Conclusions](#conc)  
 
 ---
 
@@ -127,11 +127,29 @@ We see quite a difference! We see that for the boy, after 10 quarters, at the po
 
 # Why We Must Look Deeper Than 'Girls vs. Boys'
 
+Some of you might be tired by now of this 'Girls vs. Boys' dialogue. In truth, there is much more to the story. Indeed when we focus on girls vs. boys as a whole, we forget that there are even more diverse sub-groups within 'girls' and 'boys': those determined by ethnic background. While it may be true that girls perform better on some academic metric than boys, we need to ask whether this is true for all girls or just select groups. Here we will just scratch the surface.
+
+In a case-study like fashion, we will focus our attention to girls taking Multivariable Calculus and conduct a similar analysis to earlier in this post. We will look at four ethnic groups: **Chicano/Mexican, Vietnamese, Chinese, and Pacific Islander**, and analyze the proportion of girls in each ethnic group that move on to the second part of the course given a B grade in the first part. We also compare this with each ethnic group's representation in the course. We see the results below.
+
+<figure>
+<center>
+   <a href="/images/ethnicity.png"><img width="90%" src="/images/ethnicity.png"></a>
+</center>
+</figure>
+
+There is a lot of information here so let's break it down. Looking first just at the top row, at Chicano/Mexican females and Vietnamese females, we see that they make up the same proportion of students in the course, 6%, but have starkly different rates of transfer to the second half of the course. In contrast, looking now at the botom row, we see that Chinese females and Pacific Islander females make up a very different proportion of enrolled students, and yet have nearly identical rates of transfer to the second half of the course. Many of you surely have a bunch of "why?" questions about this data and in all honestly, this author does as well. 
+
+Are there cultural differences in these considered ethnic groups that holds a B grade to vastly different standards? As a student in one of these ethnic groups, does it affect your retention if you see more or fewer people in your ethnic group in the lecture hall? This, author, being in none of these mentioned ethnic groups, is not really sure of the answers here but would love to hear any discussion in the comments below!
+
 ---
 
-<a name="not"></a>
+<a name="conc"></a>
 
-# Notes
+# Conclusions
+
+In truth, this post used data from one public university among the many, many universities out there. And that does not even include any data about K-12 schools, where student aptitudes for STEM fields really start to blossom. Still, it is worthwhile to drive the 'Gender Differences in STEM' narrative away from just asking "who gets better grades?" into much more rich, nuanced considerations such as those considered in this post. Because in the end, if we are using school performance as a proxy to that in life, grades are not even close to all that matters. It matters also how much you can improve from course to course. It matters also how you can recover from a really bad quarter. It matters also how you feel when you get a B in a course vs. how the person next to you feels, and why those differences in feelings occur whether it is due to gender, ethnicity, or one of the many other factors of identity not considered here. If we, as a society, are really hoping to become experts in 'Gender Differences in STEM', we must first understand this subject on a much deeper, data-backed, level by conducting more and broader analyses.
+
+---
 
 Thanks for reading and please leave comments!
 
