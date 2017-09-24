@@ -63,7 +63,7 @@ We also choose to only **consider those students who got a grade of a B-, B, or 
 
 <figure>
 <center>
-   <a href="/images/mvcalc.png"><img width="90%" src="/images/mvcalc.png"></a>
+   <a href="/images/mcvalc.png"><img width="90%" src="/images/mcvalc.png"></a>
 </center>
 </figure>
 
