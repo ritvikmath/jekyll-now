@@ -33,11 +33,15 @@ Quick Links:
 
 # Motivation
 
+The subject of gender inequalities in Science, Technology, Engineering, Mathematics (STEM) fields has been a hot and controversial topic for many, many years. Traditionally, these fields were reserved for males, with the populace thinking females were either uninterested or inherently unskilled to pursue them. In the modern era, even though there has been progress in the U.S. workforce for women, this progress has not been universal. For example, although women make up now 48% of the U.S. workforce, they compise only 24% of all STEM workers, with males making up the other 76%. Some believe that this is not a failure of society and recall the arguments of the past stating that women are not adept at these fields which explains their low representation. Others believe strongly that girls are better suited to STEM fields than boys, using only simple GPA comparisions as evidence. This author aims to dig deeper not through qualitative methods but rather by using a much finer data-backed lens to look at the exact places where girls excel in STEM fields. 
+
 ---
 
 <a name="dat"></a>
 
 # The Data
+
+This data comes from the UCLA Department of Mathematics. This author, while an undergraduate student in the mathematics department there, used this data for a wide variety of projects. The dataset contains ~300,000 rows, each of which represents an instance of a particular student taking a particular course in a particular term. There is also information about the student's gender, major, and self-reported ethnicity. The dataset spans the years 2000 through 2015. It is important to note that any term when a student took a course in the mathematics department, this dataset would capture information about all other courses the students was enrolled in as well. 
 
 ---
 
@@ -45,11 +49,33 @@ Quick Links:
 
 # Reason #1: Girls are More Likely to Leave STEM Fields than Boys Given the Same Grades
 
+Let's jump right in! One argument which aims to explain girls dropping our of STEM fields is that they are 'just not good at them'. Believers of this statement believe that girls are not as adept at STEM fields as boys and so get lower grades, prompting them to drop out. This author chose to analyze this statement for the two biggest introductory mathematics courses at UCLA and most other undergraduate universities: Single Variable Calculus and Multivariable Calculus. At UCLA, which operates under the quarter system, each of these courses is split into a Part I and Part II, which are to be taken in that order. In order to ensure that the students we consider are required to take both parts of both courses, we consider for now only students in majors which are required to do so, such as Mathematics, Engineering, etc.
+
+We also choose to only consider those students who got a grade of a B-,B,or B+ in the first part of each of our two courses. These are students who, for the most part, mastered the course material, but might have missed some concepts here and there. If continuing on to the second part of the course were based on grade alone, then we would expect boys and girls who got B's in the first part to move on at nearly equal rates, right? The figures below show the reality of the situation.
+
+<figure>
+<center>
+   <a href="/images/svcalc.png"><img width="90%" src="/images/svcalc.png"></a>
+</center>
+</figure>
+
+<figure>
+<center>
+   <a href="/images/mvcalc.png"><img width="90%" src="/images/mvcalc.png"></a>
+</center>
+</figure>
+
+As we see, in Single Variable Calclus, there is already a 7% difference, in favor of boys, for continuing to take the second part of this course. If we don't consider this a big difference, we only need to look at Multivariable Calculus where this is now a stark 24% difference in favor of boys, with less than half of all girls moving on to take the second part of the course. 
+
+There has to be more than just grades driving whether students drop out of STEM courses or not. We really must ask ourselves what a B represents to a boy vs. a girl in a STEM field. Do they interpret this grade differently? Is it a sign of accomplishment for one while being a sign of underperformance for the other? Although these questions lie outside the realm of data science, they are worth asking if we are to figure out why girls performing at the exact same level as boys, are more inclined to discontinue their STEM courses. 
+
 ---
 
 <a name="r2"></a>
 
 # Reason #2: Girls' Retain More Knowledge from Course to Course
+
+It is no mystery that as students progress in a course sequence, the courses get tougher and tougher. It should also then come as little surprise that students' grades tend to drop thoughout a course sequence. Yes, they get better at the course material, but not fast enough (especially on that hyper-rapid quarter system) to keep up with the difficulty of that next course. Let us ask then the question of whose grades suffer 
 
 ---
 
