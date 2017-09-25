@@ -21,7 +21,7 @@ Quick Links:
 * [Motivation](#mot)  
 * [The Data](#dat)  
 * [Reason #1: Girls are More Likely to Leave Courses than Boys Given the Same Grades](#r1)  
-* [Reason #2: Girls' Develop More Aptitude from Course to Course](#r2)  
+* [Reason #2: Girls Develop More Aptitude from Course to Course](#r2)  
 * [Reason #3: Girls Retake Courses at a Much Lower Rate](#r3)  
 * [Reason #4: Girls Are Able to Recover Their GPA Better than Boys](#r4)  
 * [Why We Must Look Deeper Than 'Girls vs. Boys'](#eth)  
@@ -81,7 +81,7 @@ There has to be more than just grades driving whether students drop out of STEM 
 
 <a name="r2"></a>
 
-# Reason #2: Girls' Develop More Aptitude from Course to Course
+# Reason #2: Girls Develop More Aptitude from Course to Course
 
 It is no mystery that **as students progress in a course sequence, the courses get tougher and tougher**. It should also then come as little surprise that **students' grades tend to drop thoughout a course sequence**. Yes, they get better at the course material, but not fast enough (especially on that hyper-rapid quarter system) to keep up with the difficulty of that next course. Let us ask then the question of **whose grades suffer more: boys or girls?**. We choose to look at **four of the most important introductory course sequences at UCLA: Introduction to Computer Science, Physics, Calculus for Life Sciences, and Multivariable Calculus**. These courses are taken primarily by students in their first and second years at UCLA. The figure below shows the **average drop in grade as students progress from the first part of each course to the second**.
 
