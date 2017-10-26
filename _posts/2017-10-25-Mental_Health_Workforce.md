@@ -6,7 +6,7 @@ title: Top 5 Most Toxic Workplace Combinations for Mental Health
 
 <figure>
 <center>
-   <a href="/images/mh_cover.jpg"><img width="90%" src="/images/mh_cover.jpg"></a>
+   <a href="/images/mh_cover.jpg"><img width="75%" src="/images/mh_cover.jpg"></a>
 </center>
 </figure>
 
