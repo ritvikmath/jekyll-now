@@ -36,8 +36,7 @@ Last, we compute the average difference between the combined proportion and the 
 Without further ado, let's see the ***top five most toxic workplace combinations***.
 
 {:center: style="text-align: center"}
-# #5 
-# Clashing Views Between Management and Coworkers
+# #5 - Clashing Views Between Management and Coworkers
 {:center}
 
 <figure>
