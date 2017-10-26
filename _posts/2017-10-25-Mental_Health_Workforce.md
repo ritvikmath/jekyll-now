@@ -47,7 +47,9 @@ Without further ado, let's see the ***top five most toxic workplace combinations
 
 This clashing combination ranks in fifth place on our list. It's no secret that **the way your coworkers view you at work is extremely important both professionally and personally**. You want to be liked. In workplaces where the management is respectful of mental health issues, but those who employees interact with more regularly are not, further **stress and anxieties** may arise around keeping one's mental illness a secret.
 
-# 4. An Ambiguous Enterprise
+{:center: style="text-align: center"}
+# #4 - An Ambiguous Enterprise
+{:center}
 
 <figure>
 <center>
@@ -57,7 +59,9 @@ This clashing combination ranks in fifth place on our list. It's no secret that 
 
 This information-less workplace combination comes in fourth. This workplace first off **fails to provide employees with any mental health resources** and then **gives the impression that there are negative consequences for *physical* health issues**. That is, an employee of this company believes that if she had a broken leg, then management would look down on this or actively punish it. This employee may make the logical conclusion that a workplace inhospitable to physical injury would not be any more hospitable to mental illness.
 
-# 3. Vulnerable and Vicious
+{:center: style="text-align: center"}
+# #3 - Vulnerable and Vicious
+{:center}
 
 <figure>
 <center>
@@ -67,7 +71,9 @@ This information-less workplace combination comes in fourth. This workplace firs
 
 This combination ranks third and really speaks for itself. Employees not only *perceive* negative consequences for mental health issues; they have **actively seen coworkers be punished for their mental health issues**. If this were not toxic enough, employees at these companies **must have their mental health illness made public to the company to receive benefits**. It makes sense why employees at such companies would rather keep their mental health issues untreated and avoid punishment, but at the same time, exacerbate their mental illness.
 
-# 2. A Reputation Risk
+{:center: style="text-align: center"}
+# #2 - A Reputation Risk
+{:center}
 
 <figure>
 <center>
@@ -77,7 +83,9 @@ This combination ranks third and really speaks for itself. Employees not only *p
 
 A possible explanation for our second place combination is that employees note that there is **little sympathy towards physical health issues**, and so, there will likely be even less sympathy for mental health issues. In addition, at a small company, it may be more likely that **word would spread about an employee's mental illness**, causing them to worry about their reputation. Given that even employees with physical health issues are not seen in a positive light, they might figure that employees with mental health issues would be viewed negatively as well. 
 
-# 1. Business Betrayal
+{:center: style="text-align: center"}
+# #1 - Business Betrayal
+{:center}
 
 <figure>
 <center>
