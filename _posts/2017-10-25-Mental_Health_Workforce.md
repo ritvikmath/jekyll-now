@@ -16,7 +16,7 @@ title: Top 5 Most Toxic Workplace Combinations for Mental Health
 
 **Fact 2:** Americans spend one third of their day at work
 
-These two facts coupled together don't spell out a positive outlook for the **nation's mental health**. Let us find out which types of workplaces breed, or perhaps attract, the **most workers who report that a mental health issue hinders their productivity at work**. Perhaps by identifying these**toxic factors in workplaces**, we as a nation can **build more mentally hospitable, and thereby more productive, corporate environments**. 
+These two facts coupled together don't spell out a positive outlook for the **nation's mental health**. Let us find out which types of workplaces breed, or perhaps attract, the **most workers who report that a mental health issue hinders their productivity at work**. Perhaps by identifying these **toxic factors in workplaces**, we as a nation can **build more mentally hospitable, and thereby more productive, corporate environments**. 
 
 # The Data
 
