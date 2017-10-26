@@ -39,7 +39,7 @@ Without further ado, let's see the top five most toxic workplace combinations.
 
 <figure>
 <center>
-   <a href="/images/r5.png"><img width="90%" src="/images/r5.png"></a>
+   <a href="/images/r5.png"><img width="100%" src="/images/r5.png"></a>
 </center>
 </figure>
 
@@ -49,7 +49,7 @@ This clashing combination ranks in fifth place on our list. It's no secret that 
 
 <figure>
 <center>
-   <a href="/images/r4.png"><img width="90%" src="/images/r4.png"></a>
+   <a href="/images/r4.png"><img width="100%" src="/images/r4.png"></a>
 </center>
 </figure>
 
@@ -59,7 +59,7 @@ This information-less workplace combination comes in fourth. This workplace firs
 
 <figure>
 <center>
-   <a href="/images/r3.png"><img width="90%" src="/images/r3.png"></a>
+   <a href="/images/r3.png"><img width="100%" src="/images/r3.png"></a>
 </center>
 </figure>
 
@@ -69,7 +69,7 @@ This combination ranks third and really speaks for itself. Employees not only *p
 
 <figure>
 <center>
-   <a href="/images/r2.png"><img width="90%" src="/images/r2.png"></a>
+   <a href="/images/r2.png"><img width="100%" src="/images/r2.png"></a>
 </center>
 </figure>
 
@@ -79,7 +79,7 @@ A possible explanation for our second place combination is that employees note t
 
 <figure>
 <center>
-   <a href="/images/r1.png"><img width="90%" src="/images/r1.png"></a>
+   <a href="/images/r1.png"><img width="100%" src="/images/r1.png"></a>
 </center>
 </figure>
 
@@ -101,4 +101,4 @@ Indeed, often workplaces cannot help falling into some of the categories outline
 
 * In discussing the possible causes for the five toxic combinations, it is important to note that we cannot concretely prove causality in these cases. That is, these possible causes should be seen as just that: possibilities, rather than true causes.
 
-
+Thanks for reading and please leave comments!
