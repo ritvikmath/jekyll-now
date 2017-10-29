@@ -116,9 +116,13 @@ Indeed, often workplaces cannot help falling into some of the categories outline
 * For those interested in the average percent increases in each of the five cases, they are: 
 
 Management vs. Coworkers: +12.7%
+
 An Ambiguous Enterprise: +13.4%
+
 Vulnerable and Vicious: +14.5%
+
 A Reputation Risk: +15.5%
+
 Business Betrayal: +16.8%
 
 Thanks for reading and please leave comments!
