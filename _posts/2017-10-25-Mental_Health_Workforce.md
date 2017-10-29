@@ -36,7 +36,7 @@ Last, we compute the average difference between the combined proportion and the 
 Without further ado, let's see the ***top five most toxic workplace combinations***.
 
 {:center: style="text-align: center"}
-# #5 - Clashing Views Between Management and Coworkers
+# #5 - Management vs. Coworkers
 {:center}
 
 <figure>
@@ -115,7 +115,7 @@ Indeed, often workplaces cannot help falling into some of the categories outline
 
 * For those interested in the average percent increases in each of the five cases, they are: 
 
-5. Clashing Views Between Management and Coworkers: +12.7%
+5. Management vs. Coworkers: +12.7%
 4. An Ambiguous Enterprise: +13.4%
 3. Vulnerable and Vicious: +14.5%
 2. A Reputation Risk: +15.5%
