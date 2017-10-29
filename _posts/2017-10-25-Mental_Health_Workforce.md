@@ -109,7 +109,7 @@ Indeed, often workplaces cannot help falling into some of the categories outline
 
 * It is important to note that since our data is in the form of a self-reported survey, we will inherently have some bias. For example, given that this survey is about mental health issues in workplace, we can expect that people with strong feelings about this topic (such as those with mental health issues) are probably more likely to respond. 
 
-* In addition, it is very possible that multiple people from the same company respond to the survey together, causing that company to be overrepresented. Still, we should be somewhat safe from these biases since, as we will see shortly, we are measuring relative magnitudes of the differences in certain percentages, ignoring the biased percentages themselves.
+* In addition, it is very possible that multiple people from the same company respond to the survey together, causing that company to be overrepresented. Still, we should be somewhat safe from these biases since we are measuring relative magnitudes of differences in certain percentages, ignoring the biased percentages themselves.
 
 * In discussing the possible causes for the five toxic combinations, it is important to note that we cannot concretely prove causality in these cases. That is, these possible causes should be seen as just that: possibilities, rather than true causes.
 
