@@ -82,9 +82,11 @@ To understand this, we can run a **simulated exam**. Assign each of the 300 stud
 
 In the red boxes, we have identified which seating pairs got the same exam score.
 
-**Now we count how many pairs of students get the same score (7 in the picture above)**. **Divide this count by the total number of possible adjacent seating pairs of students (285 in the picture above)**. We then get a **percentage of how many pairs got the same score (7/285 = 2.5%)**. Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
+**Now we count how many pairs of students get the same score (7 in the picture above)**. **Divide this count by the total number of possible adjacent seating pairs of students (285 in the picture above)**. We then get a **percentage of how many pairs got the same score (7/285 = 2.5%)**. 
 
-## Distribution of what Percent of all Student Seating Pairs get the Same Score
+Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
+
+## Distribution of Percentage of all Student Seating Pairs getting the Same Score
 ---
 
 <figure>
@@ -93,7 +95,7 @@ In the red boxes, we have identified which seating pairs got the same exam score
 </center>
 </figure>
 
-We see that is seems to be distributed in **something like a bell-curve but with a long right tail**. We see that **on average, around 2% of all student seating pairs receive the same exam score when there is no cheating going on**.
+We see that this seems to be distributed in **something like a bell-curve but with a long right tail**. We see that **on average, around 2% of all student seating pairs receive the same exam score when there is no cheating going on**.
 
 # During the Exam
 ---
