@@ -24,7 +24,10 @@ title: Detecting Cheating in Lecture Halls
 
 <center>
 <font size="5"><b>Using Statistics to Ensure Academic Honesty</b></font>
-   <font size="5"><b>Read Time: 10 min</b></font>
+</center>
+
+<center>
+<font size="5"><b>Read Time: 10 min</b></font>
 </center>
 
 ---
