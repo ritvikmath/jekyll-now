@@ -70,7 +70,7 @@ To understand this, we can run a **simulated exam**. Assign each of the 300 stud
 
 In the red boxes, we have identified which seating pairs got the same exam score.
 
-**Now we count how many pairs of students get the same score (7 in the picture above)**. **Divide this count by the total number of possible adjecent seating pairs of students (285 in the picture above)**. We then get a **percentage of how many pairs got the same score (7/285 = 2.5%)**. Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
+**Now we count how many pairs of students get the same score (7 in the picture above)**. **Divide this count by the total number of possible adjacent seating pairs of students (285 in the picture above)**. We then get a **percentage of how many pairs got the same score (7/285 = 2.5%)**. Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
 
 ## Distribution of what Percent of all Student Seating Pairs get the Same Score
 
@@ -80,17 +80,17 @@ In the red boxes, we have identified which seating pairs got the same exam score
 </center>
 </figure>
 
-We see that is seems to be distributed in **something like a bell-curve but with a long right tail**. We see that **on average, around 2% of all student seating pairs recieve the same exam score when there is no cheating going on**.
+We see that is seems to be distributed in **something like a bell-curve but with a long right tail**. We see that **on average, around 2% of all student seating pairs receive the same exam score when there is no cheating going on**.
 
 # During the Exam
 
 During the exam, as we mentioned earlier, we will **randomly assign students to seats**, allow the exam to progress, look out for any clear signs of cheating and then record all student exam scores along with their assigned seat. 
 
-It is worth noting that we randomly assign students to seats to control for other reasons for adjacent seated studnets to have similar scores, such as the **possibility that they are friends who studied together in a very similar way**. 
+It is worth noting that we randomly assign students to seats to control for other reasons for adjacent seated students to have similar scores, such as the **possibility that they are friends who studied together in a very similar way**. 
 
 # After the Exam
 
-After the exam, we will create a heatmap of the student scores and identify which seating pairs of students recieved the same score. Such a map is shown below.
+After the exam, we will create a heatmap of the student scores and identify which seating pairs of students received the same score. Such a map is shown below.
 
 <figure>
 <center>
