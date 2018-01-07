@@ -27,7 +27,7 @@ title: Detecting Cheating in Lecture Halls
 </center>
 
 <center>
-<font size="3">Read Time: 10 min</font>
+<font size="4">Read Time: 10 min</font>
 </center>
 
 ---
@@ -36,7 +36,7 @@ I recently got to thinking about how a college professor could **detect whether 
 
 <figure>
 <center>
-   <a href="/images/beancheat.png"><img width="70%" src="/images/beancheat.png"></a>
+   <a href="/images/beancheat.png"><img width="80%" src="/images/beancheat.png"></a>
 </center>
 </figure>
 
