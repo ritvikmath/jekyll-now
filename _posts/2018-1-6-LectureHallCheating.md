@@ -1,18 +1,14 @@
 ---
 layout: post
 comments: true
-title: The Rise and Demise of College Majors
+title: Detecting Cheating in Lecture Halls
 ---
 
 <figure>
 <center>
-   <a href="/images/header_title_rod.png"><img width="100%" src="/images/header_title_rod.png"></a>
+   <a href="/images/cheating_hall.png"><img width="100%" src="/images/cheating_hall.png"></a>
 </center>
 </figure>
-
-<center>
-<font size="5"><b>Analyzing the Boom and Bust of College Majors Over Time</b></font>
-</center>
 
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
