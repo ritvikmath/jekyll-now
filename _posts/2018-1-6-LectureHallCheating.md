@@ -134,6 +134,7 @@ Adding up the height of the bars past the 3.86% vertical red line, **we get 2.2%
 Note that this still **doesn't give us a clue which of these student pairs actually cheated**, so we ***cannot use this insight to start accusing students***. But, we can use this insight to better prepare for the next exam by printing **different test versions**, having **more proctors** to watch out for cheating, or **including a required signature on an academic honesty agreement** on the exam's first page. 
 
 # Limitations
+---
 
 This technique **can help determine when some forms of cheating have occurred** but it still *has its limitations*, namely the following three.
 
