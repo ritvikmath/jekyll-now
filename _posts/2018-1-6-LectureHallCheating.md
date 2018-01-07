@@ -42,9 +42,9 @@ Seems simple enough? Cool! Let's talk about some of the details and run through 
 
 For this to work, you'll need **three assumptions** to hold. Good news is that these assumptions aren't far fetched. 
 
-**First off, you (the professor), need an adequate number of students in the course** so that you dont run into issues with too small of a sample size. In reailty, most lower division and some upper division courses at many colleges can get quite large. For our example we will assume a **lecture hall which is 15 seats by 20 seats so that it accomodates 300 students on exam day**. 
+* **First off, you (the professor), need an adequate number of students in the course** so that you dont run into issues with too small of a sample size. In reailty, most lower division and some upper division courses at many colleges can get quite large. For our example we will assume a **lecture hall which is 15 seats by 20 seats so that it accomodates 300 students on exam day**. 
 
-**Second, we will assume that you have taught this course multiple times in the past** and understand well what the grade distribution should look like. This, again, is realistic for a professor who has been teaching a course for multiple terms. For our example exam, we will assume that the grades are usually **distributed normally (as in a bell-curve) with mean 70% and standard deviation 15% with a maximum possible score of 100%**. This distribution is shown below.
+* **Second, we will assume that you have taught this course multiple times in the past** and understand well what the grade distribution should look like. This, again, is realistic for a professor who has been teaching a course for multiple terms. For our example exam, we will assume that the grades are usually **distributed normally (as in a bell-curve) with mean 70% and standard deviation 15% with a maximum possible score of 100%**. This distribution is shown below.
 
 ## Expectation of Exam Distribution
 
@@ -54,7 +54,7 @@ For this to work, you'll need **three assumptions** to hold. Good news is that t
 </center>
 </figure>
 
-**Third, we assume that cheating can only happen between students sitting right next to each other**. Although it is possible that students can cheat off of the person sitting ahead of them, the fact that there is a body in the way makes it much harder.
+* **Third, we assume that cheating can only happen between students sitting right next to each other**. Although it is possible that students can cheat off of the person sitting ahead of them, the fact that there is a body in the way makes it much harder.
 
 # Before the Exam
 
