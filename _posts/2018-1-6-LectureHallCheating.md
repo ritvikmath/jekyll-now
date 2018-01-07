@@ -86,7 +86,7 @@ In the red boxes, we have identified which seating pairs got the same exam score
 
 Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
 
-## Distribution of Percentage of all Student Seating Pairs getting the Same Score
+## Percentage of all Student Seating Pairs Receiving Same Score
 ---
 
 <figure>
@@ -138,7 +138,7 @@ Note that this still **doesn't give us a clue which of these student pairs actua
 
 This technique **can help determine when some forms of cheating have occurred** but it still *has its limitations*, namely the following three.
 
-* First off, it **only factors in students with the same score sitting next to each other**. We can imagine a slightly modified version of this technique where we count a student seating pair of their grades are **within plus or minus 2% for example**. 
+* First off, it **only factors in students with the same score sitting next to each other**. We can imagine a slightly modified version of this technique where we count a student seating pair if their grades are **within plus or minus 2% for example**. 
 
 * Second, this technique will not detect **global cheating such as if half the class got access to the answer key before the exam**. For that we need to **analyze more the grade distribution**.
 
