@@ -46,13 +46,13 @@ The idea would be fairly simple. From here on out, **pretend you're the professo
 
 * **Second**, after the exam, you would count how many pairs of students (students sitting right next to each other) had the **exact same score** on their exams. 
 
-* **Third**, you would ask yourself if that many pairs with identical scores was **"normal"** or if it was too high to be a concidence.
+* **Third**, you would ask yourself if that many pairs with identical scores was **"normal"** or if it was too high to be a coincidence.
 
 Seems simple enough? Cool! Let's talk about some of the details and run through an example.
 
-For this to work, you'll need **three assumptions** to hold. Good news is that these assumptions aren't far fetched. 
+For this to work, you'll need **three assumptions** to hold. Good news is that these assumptions aren't far-fetched. 
 
-* **First off, you (the professor), need an adequate number of students in the course** so that you dont run into issues with too small of a sample size. In reailty, most lower division and some upper division courses at many colleges can get quite large. For our example we will assume a **lecture hall which is 15 seats by 20 seats so that it accomodates 300 students on exam day**. 
+* **First off, you (the professor), need an adequate number of students in the course** so that you don’t run into issues with too small of a sample size. In reality, most lower division and some upper division courses at many colleges can get quite large. For our example we will assume a **lecture hall which is 15 seats by 20 seats so that it accommodates 300 students on exam day**. 
 
 * **Second, we will assume that you have taught this course multiple times in the past** and understand well what the grade distribution should look like. This, again, is realistic for a professor who has been teaching a course for multiple terms. For our example exam, we will assume that the grades are usually **distributed normally (as in a bell-curve) with mean 70% and standard deviation 15% with a maximum possible score of 100%**. This distribution is shown below.
 
@@ -133,6 +133,18 @@ Adding up the height of the bars past the 3.86% vertical red line, **we get 2.2%
 
 Note that this still **doesn't give us a clue which of these student pairs actually cheated**, so we ***cannot use this insight to start accusing students***. But, we can use this insight to better prepare for the next exam by printing **different test versions**, having **more proctors** to watch out for cheating, or **including a required signature on an academic honesty agreement** on the exam's first page. 
 
+# Limitations
+
+This technique **can help determine when some forms of cheating have occurred** but it still *has its limitations*, namely the following three.
+
+* First off, it **only factors in students with the same score sitting next to each other**. We can imagine a slightly modified version of this technique where we count a student seating pair of their grades are **within plus or minus 2% for example**. 
+
+* Second, this technique will not detect **global cheating such as if half the class got access to the answer key before the exam**. For that we need to **analyze more the grade distribution**.
+
+* Third, this technique will not detect **single-student cheating** such as the classic case where a student brings in an illegal note sheet. In this case, an **analysis of this student's past performance in the class versus his/her current exam grade** may be in order.
+
+---
+Thanks for reading and please leave comments below!
 
 
 
