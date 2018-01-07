@@ -32,13 +32,13 @@ I recently got to thinking about how a college professor could **detect whether 
 
 <figure>
 <center>
-   <a href="/images/beancheat.png"><img width="100%" src="/images/beancheat.png"></a>
+   <a href="/images/beancheat.png"><img width="70%" src="/images/beancheat.png"></a>
 </center>
 </figure>
 
 The idea would be fairly simple. From here on out, **pretend you're the professor of your favorite course** (and comment that course below!).
 
-* **First**, you would randomize students to seats on exam day, perhaps alphabetically or project a randomized seating chart for students to follow.
+* **First**, you would randomize students to seats on exam day, perhaps alphabetically or display a randomized seating chart for students to follow.
 
 * **Second**, after the exam, you would count how many pairs of students (students sitting right next to each other) had the **exact same score** on their exams. 
 
@@ -53,6 +53,7 @@ For this to work, you'll need **three assumptions** to hold. Good news is that t
 * **Second, we will assume that you have taught this course multiple times in the past** and understand well what the grade distribution should look like. This, again, is realistic for a professor who has been teaching a course for multiple terms. For our example exam, we will assume that the grades are usually **distributed normally (as in a bell-curve) with mean 70% and standard deviation 15% with a maximum possible score of 100%**. This distribution is shown below.
 
 ## Expectation of Exam Distribution
+---
 
 <figure>
 <center>
@@ -63,6 +64,7 @@ For this to work, you'll need **three assumptions** to hold. Good news is that t
 * **Third, we assume that cheating can only happen between students sitting right next to each other**. Although it is possible that students can cheat off of the person sitting ahead of them, the fact that there is a body in the way makes it much harder.
 
 # Before the Exam
+---
 
 Before the exam, you'll want to **understand how many pairs of students (sitting right next to each other) you should expect to have the same score on their exams**. Indeed, just because two students sitting right next to each other got the same score ***doesn't at all mean either one cheated***. This can and will happen by chance even with randomized seating. 
 
@@ -79,6 +81,7 @@ In the red boxes, we have identified which seating pairs got the same exam score
 **Now we count how many pairs of students get the same score (7 in the picture above)**. **Divide this count by the total number of possible adjacent seating pairs of students (285 in the picture above)**. We then get a **percentage of how many pairs got the same score (7/285 = 2.5%)**. Record this percentage in a list and then run another fresh simulation. Repeat this over and over again (we do ***10000 such simulations***). In the end, we get a new distribution, this time telling us how likely it is for a pair of students to get the same exam score. We show this distribution below.
 
 ## Distribution of what Percent of all Student Seating Pairs get the Same Score
+---
 
 <figure>
 <center>
@@ -89,12 +92,14 @@ In the red boxes, we have identified which seating pairs got the same exam score
 We see that is seems to be distributed in **something like a bell-curve but with a long right tail**. We see that **on average, around 2% of all student seating pairs receive the same exam score when there is no cheating going on**.
 
 # During the Exam
+---
 
 During the exam, as we mentioned earlier, we will **randomly assign students to seats**, allow the exam to progress, look out for any clear signs of cheating and then record all student exam scores along with their assigned seat. 
 
 It is worth noting that we randomly assign students to seats to control for other reasons for adjacent seated students to have similar scores, such as the **possibility that they are friends who studied together in a very similar way**. 
 
 # After the Exam
+---
 
 After the exam, we will create a heatmap of the student scores and identify which seating pairs of students received the same score. Such a map is shown below.
 
