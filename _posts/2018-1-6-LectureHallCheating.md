@@ -125,7 +125,7 @@ To visually answer this question, let's see **what part of the student seating p
 
 <figure>
 <center>
-   <a href="/images/samescore_distr_cheating.png"><img width="100%" src="/images/samescore_distr_cheating.png"></a>
+   <a href="/images/samescore_distr_cheating2.png"><img width="100%" src="/images/samescore_distr_cheating2.png"></a>
 </center>
 </figure>
 
