@@ -30,6 +30,12 @@ title: Detecting Cheating in Lecture Halls
 
 I recently got to thinking about how a college professor could **detect whether or not students were cheating on a class exam**. Of course, the only way to definitively accuse a student of cheating is to observe them cheating in the moment. That is, observe them looking at another student's exam, for example. Still, there had to be some **statistical ways to determine whether cheating had occurred during the exam** even if you can't prove which students were responsible. 
 
+<figure>
+<center>
+   <a href="/images/beancheat.png"><img width="100%" src="/images/beancheat.png"></a>
+</center>
+</figure>
+
 The idea would be fairly simple. From here on out, **pretend you're the professor of your favorite course** (and comment that course below!).
 
 * **First**, you would randomize students to seats on exam day, perhaps alphabetically or project a randomized seating chart for students to follow.
