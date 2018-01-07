@@ -27,7 +27,7 @@ title: Detecting Cheating in Lecture Halls
 </center>
 
 <center>
-<font size="5"><b>Read Time: 10 min</b></font>
+<font size="3">Read Time: 10 min</font>
 </center>
 
 ---
