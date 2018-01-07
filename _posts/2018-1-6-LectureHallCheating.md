@@ -78,7 +78,9 @@ We see that is seems to be distributed in **something like a bell-curve but with
 
 # During the Exam
 
-During the exam, as we mentioned earlier, we will randomly assign students to seats, allow the exam to progress, look out for any clear signs of cheating and then record all student exam scores along with their assigned seat. 
+During the exam, as we mentioned earlier, we will **randomly assign students to seats**, allow the exam to progress, look out for any clear signs of cheating and then record all student exam scores along with their assigned seat. 
+
+It is worth noting that we randomly assign students to seats to control for other reasons for adjacent seated studnets to have similar scores, such as the **possibility that they are friends who studied together in a very similar way**. 
 
 # After the Exam
 
@@ -94,9 +96,9 @@ We count **11 seating pairs with the same score** in the map above. As a percent
 
 We just need to ask ourselves one question: **if there were no cheating during the exam, how likely would it be to see a same score seating percentage of 3.86% or more?**. 
 
-If the answer to this question is **fairly likely**, then we should not have any suspicion of cheating. However if the answer is **extremely unlikely**, we should be fairly confident that there was some cheating going on. 
+If the answer to this question is **fairly likely**, then we should not have any suspicion of cheating. However if the answer is **extremely unlikely**, we should be *fairly confident that there was some cheating going on*. 
 
-To visually answer this question, let's see what part of the student seating pair same score distribution lies past 3.86%.
+To visually answer this question, let's see **what part of the student seating pair same score distribution lies past 3.86%**.
 
 <figure>
 <center>
@@ -104,7 +106,11 @@ To visually answer this question, let's see what part of the student seating pai
 </center>
 </figure>
 
-Adding up the height of the bars past the 3.86% vertical red line, **we get 2.2%**. To put that in words, **if there was indeed no cheating during our exam, that is a 2.2% chance of seeing the 3.86% same score rate or an even higher rate**. Put more fundamentally, ***it is very unlikely that we got the scores we did without cheating having occurred***. 
+Adding up the height of the bars past the 3.86% vertical red line, **we get 2.2%**. To put that in words, **if there was indeed no cheating during our exam, there is a 2.2% chance of seeing the 3.86% same score rate or an even higher rate**. Put more fundamentally, ***it is very unlikely that we got the scores we did without cheating having occurred***. 
+
+Note that this still **doesn't give us a clue which of these student pairs actually cheated**, so we ***cannot use this insight to start accusing students***. But, we can use this insight to better prepare for the next exam by printing **different test versions**, having **more proctors** to watch out for cheating, or **including a required signature on an academic honesty agreement** on the exam's first page. 
+
+
 
 
 
