@@ -22,6 +22,10 @@ title: Detecting Cheating in Lecture Halls
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
+<center>
+<font size="5"><b>Using Statistics to Ensure Academic Honesty</b></font>
+</center>
+
 I recently got to thinking about how a college professor could **detect whether or not students were cheating on a class exam**. Of course, the only way to definitively accuse a student of cheating is to observe them cheating in the moment. That is, observe them looking at another student's exam, for example. Still, there had to be some **statistical ways to determine whether cheating had occurred during the exam** even if you can't prove which students were responsible. 
 
 The idea would be fairly simple. From here on out, **pretend you're the professor of your favorite course** (and comment that course below!)
