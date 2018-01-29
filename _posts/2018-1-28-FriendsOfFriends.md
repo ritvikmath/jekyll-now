@@ -26,3 +26,6 @@ Put in fewer words:
 Not buying it? Let's see the visual explanation!
 
 # Visual Explanation
+
+Let's say you have a network of six people, with some random links between them representing friendship:
+
