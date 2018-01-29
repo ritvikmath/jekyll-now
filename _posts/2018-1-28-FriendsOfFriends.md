@@ -86,7 +86,7 @@ And the total number of friendship pairs considered is $$2 \mid E \mid$$ (we con
 So, the average number of friends that someone's friend has is given by:
 
 $$
-\frac{\sum_{v \in V} d_v^2}{2 \mid E \mid} (1)
+\frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
 $$
 
 In order to simplify this, we need to introduce the variance in the number of friends someone has. This is given by:
@@ -113,11 +113,16 @@ $$
 \frac{\sum_{v \in V} d_v^2} = \mid V \mid (\sigma^2 + \mu^2)
 $$
 
-Now, substituting this into $$(1)$$, we get that the average number of friends that someone's friend has is,
+Now, substituting this into our formula above prior to the variance discussion, we get that the average number of friends that someone's friend has is,
 
 $$
-\frac{\mid V \mid (\sigma^2 + \mu^2)}{2 \mid E \mid} = \frac{\sigma^2 + \mu^2}{\mu} = \mu + \frac{\sigma^2}{\mu}
+\frac{\mid V \mid (\sigma^2 + \mu^2)}{2 \mid E \mid} = \frac{\sigma^2 + \mu^2}{\mu} = \mu + \frac{\sigma^2}{\mu} > \mu
 $$
 
+So, we find that **the average number of friends you have is strictly smaller than the average number of friends that your friends have**. (For those wondering, $$\sigma > 0$$ since not everyone in the world has the same number of friends)
+
+If you're still here, then we should talk because you are my kind of person :).
+
+Thanks for reading and please leave comments below!
 
 
