@@ -88,7 +88,7 @@ $$
 
 where $$d_v$$ is the degree of vertex $$v$$.
 
-And the total number of friendship pairs considered is $$2 | E |$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
+And the total number of friendship pairs considered is $$2 \mid E \mid$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
 
 So, the **average number of friends that someone's friend has is given by**:
 
