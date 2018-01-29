@@ -93,7 +93,7 @@ And the total number of friendship pairs considered is $$2 \mid E \mid$$ (we con
 So, the **average number of friends that someone's friend has is given by**:
 
 $$
-\frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
+\frac{\sum_{v \in V} d_v^2}{2 | E |}
 $$
 
 In order to simplify this, we need to introduce the **variance in the number of friends someone has**. This is given by:
