@@ -11,6 +11,8 @@ title: Your Friends Have More Friends Than You
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
+---
+
 If you're like me, you know keep down that your friends definitely have more friends than you and you wanted to find out why. We'll look at **three different explanations**: a talk-y verbal one, a visual one, and a hardcore math one for all of you who still aren't convinced.
 
 # Verbal Explanation
