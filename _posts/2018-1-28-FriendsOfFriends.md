@@ -19,7 +19,7 @@ title: Your Friends Have More Friends Than You
 
 ---
 
-If you're like me, you know keep down that your friends definitely have more friends than you and you wanted to find out why. We'll look at **three different explanations**: **a talk-y verbal one**, **a visual one**, and **a hardcore math one** for all of you who still aren't convinced.
+If you're like me, you know keep down that your friends definitely have more friends than you and you want to find out why. We'll look at **three different explanations**: **a talk-y verbal one**, **a visual one**, and **a hardcore math one** for all of you who still aren't convinced.
 
 # Verbal Explanation
 ---
@@ -135,6 +135,10 @@ $$
 So, we find that **the average number of friends you have is strictly smaller than the average number of friends that your friends have**. (For those wondering, $$\sigma^2 > 0$$ since not everyone in the world has the same number of friends)
 
 If you're still here, then we should talk because you are my kind of person :)
+
+# But Don't Stress It!
+
+So, your friends have more friends than you. Who cares! Quality over quantity right? Find yourself a real tight knit batch of buds and let your worries melt away.
 
 **Thanks for reading and please leave comments below!**
 
