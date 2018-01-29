@@ -55,13 +55,13 @@ Maybe you still believe that this is just one example and doesn't hold in genera
 
 # Definitive Math Explanation (Warning: Maths Ahead!)
 
-We will treat the network of all friendships in the world as a graph, which is a network of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
+We will treat the network of all friendships in the world as a graph, which is a collection of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
 
 Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all edges (friendships). Also $$\mid V \mid$$ is the number of people in the world and $$\mid E \mid$$ is the number of connections between people. To proceed, we will calculate two values and compare them.
 
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
-The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by:
+The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by $$\mu$$, is:
 
 $$
 \mu = \frac{2 \mid E \mid}{\mid V \mid}.
@@ -92,13 +92,13 @@ $$
 In order to simplify this, we need to introduce the variance in the number of friends someone has. This is given by:
 
 $$
-\sigma^2 = \frac{\sum_{v \in V} (d_v^2-\mu)^2}{\mid V \mid}
+\sigma^2 = \frac{\sum_{v \in V} (d_v-\mu)^2}{\mid V \mid}
 $$
 
 remembering that $$\mu$$ is the average number of friends that someone has. Simplifying,
 
 $$
-\sigma^2 = \frac{\sum_{v \in V} (d_v^2 - 2\mu d_v + \mu^2)}{\mid V \mid} = \frac{\sum_{v \in V} (d_v^2) - 4\mu \mid E \mid + \mu^2 \mid V \mid}{\mid V \mid}
+\sigma^2 = \frac{\sum_{v \in V} (d_v^2 - 2\mu d_v + \mu^2)}{\mid V \mid} = \frac{\sum_{v \in V} d_v^2 - 4\mu \mid E \mid + \mu^2 \mid V \mid}{\mid V \mid}
 $$
 
 Continuing,
@@ -110,7 +110,7 @@ $$
 Rearanging,
 
 $$
-\frac{\sum_{v \in V} d_v^2} = \mid V \mid (\sigma^2 + \mu^2)
+\sum_{v \in V} d_v^2 = \mid V \mid (\sigma^2 + \mu^2)
 $$
 
 Now, substituting this into our formula above prior to the variance discussion, we get that the average number of friends that someone's friend has is,
@@ -119,9 +119,9 @@ $$
 \frac{\mid V \mid (\sigma^2 + \mu^2)}{2 \mid E \mid} = \frac{\sigma^2 + \mu^2}{\mu} = \mu + \frac{\sigma^2}{\mu} > \mu
 $$
 
-So, we find that **the average number of friends you have is strictly smaller than the average number of friends that your friends have**. (For those wondering, $$\sigma > 0$$ since not everyone in the world has the same number of friends)
+So, we find that **the average number of friends you have is strictly smaller than the average number of friends that your friends have**. (For those wondering, $$\sigma^2 > 0$$ since not everyone in the world has the same number of friends)
 
-If you're still here, then we should talk because you are my kind of person :).
+If you're still here, then we should talk because you are my kind of person :)
 
 Thanks for reading and please leave comments below!
 
