@@ -57,7 +57,7 @@ Maybe you still believe that this is just one example and doesn't hold in genera
 
 We will treat the network of all friendships in the world as a graph, which is a network of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
 
-Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all edges (friendships). Also $$|V|$$ is the number of people in the world and $$|E|$$ is the number of connections between people. To proceed, we will calculate two values and compare them.
+Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all edges (friendships). Also $$\mid V \mid$$ is the number of people in the world and $$\mid E \mid$$ is the number of connections between people. To proceed, we will calculate two values and compare them.
 
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that a someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
