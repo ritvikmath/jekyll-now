@@ -11,11 +11,12 @@ title: Your Friends Have More Friends Than You
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
-If you're like me, you know keep down that your friends definitely have more friends than you and you wanted to find out why. We'll look at three different explanations: a talk-y verbal one, a visual one, and a hardcore math one for all of you who still aren't convinced.
+If you're like me, you know keep down that your friends definitely have more friends than you and you wanted to find out why. We'll look at **three different explanations**: a talk-y verbal one, a visual one, and a hardcore math one for all of you who still aren't convinced.
 
 # Verbal Explanation
+---
 
-Let's say you sort all the people in the world by how many friends they have. At the top of the list you have people with *tons* of friends and then at the bottom you have people who have very few friends. Which of these people are you more likely to have as friends? Well, its not the people at the bottom of the list because if they each have one friend then its really unlikely that *you* are that friend. 
+Let's say you **sort all the people in the world by how many friends they have**. At the top of the list you have people with *tons* of friends and then at the bottom you have people who have very few friends. Which of these people are you more likely to have as friends? Well, its not the people at the bottom of the list because if they each have one friend then its really unlikely that *you* are that friend. 
 
 On the flip side, if you look around the top of the list, it's much more likely that you have one of these people as a friend. Why? Just because they have more friends in total and you have much better odds of being one of their friends than of someone at the bottom of the list. 
 
@@ -26,6 +27,7 @@ Put in fewer words:
 Not buying it? Let's see the visual explanation!
 
 # Visual Explanation
+---
 
 Let's say you have a network of six people, with some random links between them representing friendship:
 
@@ -53,7 +55,8 @@ So, overall, we get that:
 
 Maybe you still believe that this is just one example and doesn't hold in general. Let's go to the hardcore math explanation!
 
-# Definitive Math Explanation (Warning: Maths Ahead!)
+# Definitive Math Explanation (Math Zone Ahead!)
+---
 
 We will treat the network of all friendships in the world as a graph, which is a collection of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
 
