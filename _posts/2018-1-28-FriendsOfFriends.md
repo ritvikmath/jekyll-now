@@ -114,11 +114,15 @@ $$
 \sigma^2 = \frac{\sum_{v \in V} (d_v^2 - 2\mu d_v + \mu^2)}{| V |} = \frac{\sum_{v \in V} d_v^2 - 4\mu | E | + \mu^2 | V |}{| V |}
 $$
 
+where we have used the facts that $$\sum_{v \in V} d_v = 2 | E |$$ and $$\sum_{v \in V} 1 = | V |$$.
+
 Continuing,
 
 $$
 \sigma^2 = \frac{\sum_{v \in V} d_v^2}{| V |} - 2\mu^2 + \mu^2 = \frac{\sum_{v \in V} d_v^2}{| V |} - \mu^2
 $$
+
+using the fact that $$\mu = \frac{2| E |}{| V |}$$.
 
 Rearranging,
 
