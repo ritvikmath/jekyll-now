@@ -29,3 +29,31 @@ Not buying it? Let's see the visual explanation!
 
 Let's say you have a network of six people, with some random links between them representing friendship:
 
+<figure>
+<center>
+   <a href="/images/f1.png"><img width="90%" src="/images/f1.png"></a>
+</center>
+</figure>
+
+Now, let's just count the number of friends each of these people have as well has how many friends their friends have:
+
+<figure>
+<center>
+   <a href="/images/f2.png"><img width="90%" src="/images/f2.png"></a>
+</center>
+</figure>
+
+So, overall, we get that:
+
+<figure>
+<center>
+   <a href="/images/f3.png"><img width="90%" src="/images/f3.png"></a>
+</center>
+</figure>
+
+Maybe you still believe that this is just one example and doesn't hold in general. Let's go to the hardcore math explanation!
+
+# Definitive Math Explanation (Warning! Kinda Hardcore Maths Ahead!)
+
+We will treat the network of all friendships in the world as a graph, which is a network of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
+
