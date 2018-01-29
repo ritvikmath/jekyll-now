@@ -72,5 +72,11 @@ Now randomly pick one of these people as the primary person and one as the frien
 
 What will be the final value of this running sum? Well, each time, you are adding the number of friends that someone has to the running sum. Pretend you have 5 friends. Then you contribute this 5 to the running sum exactly 5 times. Why? Well, each of your five friendships gets considered once where your friend asks how many friends you have (which is 5). So in total you contribute 5 squared or 25 to the total sum. 
 
+In general, each person in the network contributes the square of their degree (number of connections they have to others) to the running sum. Mathematically then, the total sum is:
+
+$$
+\sum_{v \in V} (d_v)^2
+$$
+
 
 
