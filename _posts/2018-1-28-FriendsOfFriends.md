@@ -53,7 +53,9 @@ So, overall, we get that:
 
 Maybe you still believe that this is just one example and doesn't hold in general. Let's go to the hardcore math explanation!
 
-# Definitive Math Explanation (Warning! Kinda Hardcore Maths Ahead!)
+# Definitive Math Explanation (Warning: Maths Ahead!)
 
 We will treat the network of all friendships in the world as a graph, which is a network of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
+
+Let $$V$$$ be the set of all vertices (people) and let $$E$$ be the set of all edges (friendships). 
 
