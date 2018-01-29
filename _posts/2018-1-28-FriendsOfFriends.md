@@ -62,6 +62,7 @@ Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all ed
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that a someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
 The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by:
+
 $$
 \mu = \frac{2\mid E \mid}{\mid V \mid}.
 $$
@@ -75,7 +76,7 @@ What will be the final value of this running sum? Well, each time, you are addin
 In general, each person in the network contributes the square of their degree (number of connections they have to others) to the running sum. Mathematically then, the total sum is:
 
 $$
-\sum_{v \in V} (d_v)^2
+\sum_{v \in V} d_v^2
 $$
 
 
