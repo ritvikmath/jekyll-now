@@ -89,5 +89,15 @@ $$
 \frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
 $$
 
+In order to simplify this, we need to introduce the variance in the degree of each vertex. This is given by:
 
+$$
+\sigma^2 = \frac{\sum_{v \in V} (d_v^2-\mu)^2}{\mid V \mid}
+$$
+
+Simplifying,
+
+$$
+\sigma^2 = \frac{\sum_{v \in V} (d_v^2-\mu)^2}{\mid V \mid}
+$$
 
