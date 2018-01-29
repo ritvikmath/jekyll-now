@@ -137,6 +137,7 @@ So, we find that **the average number of friends you have is strictly smaller th
 If you're still here, then we should talk because you are my kind of person :)
 
 # But Don't Stress It!
+---
 
 So, your friends have more friends than you. Who cares! Quality over quantity right? Find yourself a real tight knit batch of buds and let your worries melt away.
 
