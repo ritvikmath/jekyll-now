@@ -4,6 +4,12 @@ comments: true
 title: Your Friends Have More Friends Than You
 ---
 
+<figure>
+<center>
+   <a href="/images/fcover.png"><img width="100%" src="/images/fcover.png"></a>
+</center>
+</figure>
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
 </script>
