@@ -24,7 +24,9 @@ On the flip side, if you look around the top of the list, it's much more likely 
 
 Put in fewer words:
 
+{:center: style="text-align: center"}
 ***People with more friends are more likely to have you as a friend***
+{:center}
 
 Not buying it? Let's see the visual explanation!
 
