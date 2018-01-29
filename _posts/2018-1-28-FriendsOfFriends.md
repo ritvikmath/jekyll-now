@@ -74,7 +74,7 @@ Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all ed
 
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
-The first value is fairly straightforward to calculate. We will **add up all the friendships in the world and then divide by the number of people in the world** to get the average number of friendships per person. The total number of friendships is $$2$$ $$\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average number of friends that someone has, which we will designate by $$\mu$$, is:
+The first value is fairly straightforward to calculate. We will **add up all the friendships in the world and then divide by the number of people in the world** to get the average number of friendships per person. The total number of friendships is $$2$$$$\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average number of friends that someone has, which we will designate by $$\mu$$, is:
 
 $$
 \mu = \frac{2 | E |}{| V |}.
@@ -94,7 +94,7 @@ $$
 
 where $$d_v$$ is the degree of vertex $$v$$.
 
-And the total number of friendship pairs considered is $$2$$ $$\mid E \mid$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
+And the total number of friendship pairs considered is $$2$$$$\mid E \mid$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
 
 So, the **average number of friends that someone's friend has is given by**:
 
