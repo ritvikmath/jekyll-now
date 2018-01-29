@@ -89,15 +89,15 @@ $$
 \frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
 $$
 
-In order to simplify this, we need to introduce the variance in the degree of each vertex. This is given by:
+In order to simplify this, we need to introduce the variance in the number of friends someone has. This is given by:
 
 $$
 \sigma^2 = \frac{\sum_{v \in V} (d_v^2-\mu)^2}{\mid V \mid}
 $$
 
-Simplifying,
+remembering that $$\mu$$ is the average number of friends that someone has. Simplifying,
 
 $$
-\sigma^2 = \frac{\sum_{v \in V} (d_v^2-\mu)^2}{\mid V \mid}
+\sigma^2 = \frac{\sum_{v \in V} (d_v^2 - 2\mu d_v + \mu^2)}{\mid V \mid} = \frac{\sum_{v \in V} (d_v^2) - 4\mu \mid E \mid + \mu^2 \mid V \mid}{\mid V \mid}
 $$
 
