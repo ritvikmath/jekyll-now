@@ -61,10 +61,10 @@ Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all ed
 
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that a someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
-The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by:
+The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2 \mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by:
 
 $$
-\mu = \frac{2\mid E \mid}{\mid V \mid}.
+\mu = \frac{2 \mid E \mid}{\mid V \mid}.
 $$
 
 Next, we want to calculate the average number of friends that someone's friend has. This seems a bit daunting, but the trick is all in the step by step method. First, consider ranging over all possible pairs of friends, each being equally likely. Now assume you have fixed a pair of friends, A and B. 
@@ -77,6 +77,16 @@ In general, each person in the network contributes the square of their degree (n
 
 $$
 \sum_{v \in V} d_v^2
+$$
+
+where $$d_v$$ is the degree of vertex $$v$$.
+
+And the total number of friendship pairs considered is $$2 \mid E \mid$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
+
+So, the average number of friends that someone's friend has is given by:
+
+$$
+\frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
 $$
 
 
