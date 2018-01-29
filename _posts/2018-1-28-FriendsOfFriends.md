@@ -6,7 +6,7 @@ title: Your Friends Have More Friends Than You
 
 <figure>
 <center>
-   <a href="/images/fcover.png"><img width="100%" src="/images/fcover.png"></a>
+   <a href="/images/fcover2.png"><img width="100%" src="/images/fcover2.png"></a>
 </center>
 </figure>
 
