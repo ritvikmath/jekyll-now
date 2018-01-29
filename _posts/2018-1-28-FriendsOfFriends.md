@@ -18,7 +18,7 @@ If you're like me, you know keep down that your friends definitely have more fri
 # Verbal Explanation
 ---
 
-Let's say you **sort all the people in the world by how many friends they have**. At the top of the list you have people with *tons* of friends and then at the bottom you have people who have very few friends. Which of these people are you more likely to have as friends? Well, its not the people at the bottom of the list because if they each have one friend then its really unlikely that *you* are that friend. 
+Let's say you **sort all the people in the world by how many friends they have**. At the top of the list you have people with *tons* of friends and then at the bottom you have people who have very few friends. Which of these people are you more likely to have as friends? Well, it’s not the people at the bottom of the list because if they each have one friend then it’s really unlikely that *you* are that friend. 
 
 On the flip side, if you look around the top of the list, it's much more likely that you have one of these people as a friend. Why? Just because they have more friends in total and you have much better odds of being one of their friends than of someone at the bottom of the list. 
 
@@ -33,7 +33,7 @@ Not buying it? Let's see the visual explanation!
 # Visual Explanation
 ---
 
-Let's say you have a network of six people, with some random links between them representing friendship:
+Let's say you have a **network of six people, with some random links between them representing friendship**:
 
 <figure>
 <center>
@@ -41,7 +41,7 @@ Let's say you have a network of six people, with some random links between them 
 </center>
 </figure>
 
-Now, let's just count the number of friends each of these people have as well has how many friends their friends have:
+Now, let's just **count the number of friends each of these people have as well has how many friends their friends have**:
 
 <figure>
 <center>
@@ -62,25 +62,25 @@ Maybe you still believe that this is just one example and doesn't hold in genera
 # Definitive Math Explanation (Math Zone Ahead!)
 ---
 
-We will treat the network of all friendships in the world as a graph, which is a collection of vertices connected by edges. Here, each person is a vertex and an edge between people means that they are friends. (Yes, friendship has to be mutual)
+We will treat the **network of all friendships in the world as a graph**, which is a collection of vertices connected by edges. Here, **each person is a vertex** and an **edge between people means that they are friends**. (Yes, friendship has to be mutual)
 
 Let $$V$$ be the set of all vertices (people) and let $$E$$ be the set of all edges (friendships). Also $$\mid V \mid$$ is the number of people in the world and $$\mid E \mid$$ is the number of connections between people. To proceed, we will calculate two values and compare them.
 
 First, we will calculate ***the average number of friends that someone has***. Second, we will calculate ***the average number of friends that someone's friend has***. If the second value is bigger than the first value, then we have shown that, on average, your friends have more friends than you do. 
 
-The first value is fairly straightforward to calculate. We will add up all the friendships in the world and then divide by the number of people in the world to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average numer of friends that someone has, which we will designate by $$\mu$$, is:
+The first value is fairly straightforward to calculate. We will **add up all the friendships in the world and then divide by the number of people in the world** to get the average number of friendships per person. The total number of friendships is $$2\mid E \mid$$ since each connection between two people represents two friendships, one from person A's point of view and one from person B's point of view. The total number of people in the world is simply $$\mid V \mid$$. So, the average number of friends that someone has, which we will designate by $$\mu$$, is:
 
 $$
 \mu = \frac{2 \mid E \mid}{\mid V \mid}.
 $$
 
-Next, we want to calculate the average number of friends that someone's friend has. This seems a bit daunting, but the trick is all in the step by step method. First, consider ranging over all possible pairs of friends, each being equally likely. Now assume you have fixed a pair of friends, A and B. 
+Next, we want to calculate the average number of friends that someone's friend has. This seems a bit daunting, but the trick is all in the step by step method. **First, consider ranging over all possible pairs of friends**, each being equally likely. Now assume you have fixed a pair of friends, A and B. 
 
-Now randomly pick one of these people as the primary person and one as the friend of this person. For example, suppose you pick B as the primary person and A as their friend. Put yourself in B's shoes and ask: how many friends does my friend A have? Add that to a running sum and then repeat the process by putting yourself in A's does and then asking: how many friends does my friend B have? Again add that answer to a running sum. Then, repeat this for all other friendship pairs. 
+Now **randomly pick one of these people as the primary person and one as the friend of this person**. For example, suppose you pick B as the primary person and A as their friend. Put yourself in B's shoes and ask: **how many friends does my friend A have?** Add that to a running sum and then repeat the process by **putting yourself in A's does and then asking: how many friends does my friend B have?** Again add that answer to a running sum. Then, **repeat this for all other friendship pairs**. 
 
-What will be the final value of this running sum? Well, each time, you are adding the number of friends that someone has to the running sum. Pretend you have 5 friends. Then you contribute this 5 to the running sum exactly 5 times. Why? Well, each of your five friendships gets considered once where your friend asks how many friends you have (which is 5). So in total you contribute 5 squared or 25 to the total sum. 
+What will be the final value of this running sum? Well, each time, you are adding the number of friends that someone has to the running sum. Pretend you have 5 friends. Then you contribute this 5 to the running sum exactly 5 times. **Why?** Well, **each of your five friendships gets considered once where your friend asks how many friends you have (which is 5)**. So in total you contribute 5 squared or 25 to the total sum. 
 
-In general, each person in the network contributes the square of their degree (number of connections they have to others) to the running sum. Mathematically then, the total sum is:
+In general, **each person in the network contributes the square of their degree (number of connections they have to others) to the running sum**. Mathematically then, the total sum is:
 
 $$
 \sum_{v \in V} d_v^2
@@ -90,19 +90,19 @@ where $$d_v$$ is the degree of vertex $$v$$.
 
 And the total number of friendship pairs considered is $$2 \mid E \mid$$ (we consider each friendship pair from the point of view of person A and then from the point of view of person B).
 
-So, the average number of friends that someone's friend has is given by:
+So, the **average number of friends that someone's friend has is given by**:
 
 $$
 \frac{\sum_{v \in V} d_v^2}{2 \mid E \mid}
 $$
 
-In order to simplify this, we need to introduce the variance in the number of friends someone has. This is given by:
+In order to simplify this, we need to introduce the **variance in the number of friends someone has**. This is given by:
 
 $$
 \sigma^2 = \frac{\sum_{v \in V} (d_v-\mu)^2}{\mid V \mid}
 $$
 
-remembering that $$\mu$$ is the average number of friends that someone has. Simplifying,
+remembering that **$$\mu$$ is the average number of friends that someone has**. Simplifying,
 
 $$
 \sigma^2 = \frac{\sum_{v \in V} (d_v^2 - 2\mu d_v + \mu^2)}{\mid V \mid} = \frac{\sum_{v \in V} d_v^2 - 4\mu \mid E \mid + \mu^2 \mid V \mid}{\mid V \mid}
@@ -114,13 +114,13 @@ $$
 \sigma^2 = \frac{\sum_{v \in V} d_v^2}{\mid V \mid} - 2\mu^2 + \mu^2 = \frac{\sum_{v \in V} d_v^2}{\mid V \mid} - \mu^2
 $$
 
-Rearanging,
+Rearranging,
 
 $$
 \sum_{v \in V} d_v^2 = \mid V \mid (\sigma^2 + \mu^2)
 $$
 
-Now, substituting this into our formula above prior to the variance discussion, we get that the average number of friends that someone's friend has is,
+Now, **substituting this into our formula above** prior to the variance discussion, we get that the **average number of friends that someone's friend has is**,
 
 $$
 \frac{\mid V \mid (\sigma^2 + \mu^2)}{2 \mid E \mid} = \frac{\sigma^2 + \mu^2}{\mu} = \mu + \frac{\sigma^2}{\mu} > \mu
@@ -130,6 +130,6 @@ So, we find that **the average number of friends you have is strictly smaller th
 
 If you're still here, then we should talk because you are my kind of person :)
 
-Thanks for reading and please leave comments below!
+**Thanks for reading and please leave comments below!**
 
 
