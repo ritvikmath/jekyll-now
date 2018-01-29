@@ -26,7 +26,7 @@ If you're like me, you know keep down that your friends definitely have more fri
 
 Let's say you **sort all the people in the world by how many friends they have**. At the top of the list you have people with *tons* of friends and then at the bottom you have people who have very few friends. Which of these people are you more likely to have as friends? Well, it’s not the people at the bottom of the list because if they each have one friend then it’s really unlikely that *you* are that friend. 
 
-On the flip side, if you look around the top of the list, it's much more likely that you have one of these people as a friend. Why? Just because they have more friends in total and you have much better odds of being one of their friends than of someone at the bottom of the list. 
+On the flip side, if you look around the top of the list, it's much more likely that you have one of these people as a friend. **Why?** Just because they have more friends in total and you have much better odds of being one of their friends than of someone at the bottom of the list. 
 
 Put in fewer words:
 
