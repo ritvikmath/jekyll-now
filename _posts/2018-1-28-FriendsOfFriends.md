@@ -117,14 +117,8 @@ $$
 where we have used the facts that 
 
 $$
-\sum_{v \in V} d_v = 2 | E |
+\sum_{v \in V} d_v = 2 | E |, \sum_{v \in V} 1 = | V |.
 $$ 
-
-and 
-
-$$
-\sum_{v \in V} 1 = | V |.
-$$
 
 Continuing,
 
@@ -132,7 +126,7 @@ $$
 \sigma^2 = \frac{\sum_{v \in V} d_v^2}{| V |} - 2\mu^2 + \mu^2 = \frac{\sum_{v \in V} d_v^2}{| V |} - \mu^2
 $$
 
-using the fact that 
+where we have used the defintion of $$\mu$$:
 
 $$
 \mu = \frac{2| E |}{| V |}.
