@@ -82,7 +82,7 @@ $$
 
 Next, we want to calculate the average number of friends that someone's friend has. This seems a bit daunting, but the trick is all in the step by step method. **First, consider ranging over all possible pairs of friends**, each being equally likely. Now assume you have fixed a pair of friends, A and B. 
 
-Now **randomly pick one of these people as the primary person and one as the friend of this person**. For example, suppose you pick B as the primary person and A as their friend. Put yourself in B's shoes and ask: **how many friends does my friend A have?** Add that to a running sum and then repeat the process by **putting yourself in A's does and then asking: how many friends does my friend B have?** Again add that answer to a running sum. Then, **repeat this for all other friendship pairs**. 
+Now **randomly pick one of these people as the primary person and one as the friend of this person**. For example, suppose you pick B as the primary person and A as their friend. Put yourself in B's shoes and ask: **how many friends does my friend A have?** Add that to a running sum and then repeat the process by **putting yourself in A's shoes and then asking: how many friends does my friend B have?** Again add that answer to a running sum. Then, **repeat this for all other friendship pairs**. 
 
 What will be the final value of this running sum? Well, each time, you are adding the number of friends that someone has to the running sum. Pretend you have 5 friends. Then you contribute this 5 to the running sum exactly 5 times. **Why?** Well, **each of your five friendships gets considered once where your friend asks how many friends you have (which is 5)**. So in total you contribute 5 squared or 25 to the total sum. 
 
