@@ -6,7 +6,7 @@ title: How Many Hearts Beat in Sync With Yours?
 
 <figure>
 <center>
-   <a href="/images/racial_diversity_plot.png"><img width="100%" src="/images/racial_diversity_plot.png"></a>
+   <a href="/images/racial_diversity_plot.png"><img width="3%" src="/images/racial_diversity_plot.png"></a>
 </center>
 </figure>
 
