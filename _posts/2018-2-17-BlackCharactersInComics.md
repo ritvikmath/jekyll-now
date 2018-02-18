@@ -77,8 +77,13 @@ Now that we know what the racial diversity score is, let's see how it has change
 
 * If the proportion of black characters in comics were the same as actual black people in the US, <a href="https://www.census.gov/quickfacts/fact/table/US/PST045217" target="_blank">13%</a>, the diversity score should be around 0.23. Seeing as it is currently just over 0.1, we still have some work to do if we aim to represent our populace fairly in the comics.
 
+How about we take a quick look at some of the key black comic characters which made that period from 1965-1978 so prosperous.
 
-
+<figure>
+<center>
+   <a href="/images/blog_highlight_chars.png"><img width="100%" src="/images/blog_highlight_chars.png"></a>
+</center>
+</figure>
 
 
 
