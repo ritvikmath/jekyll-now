@@ -137,7 +137,7 @@ Let's lastly look at how many days, on average, readers need to wait for a new b
 
 ---
 
-So what do we take away from all this? Well our **optimistic pieces of good news** are that **racial diversity in comic books has only been increasing since about 1965**, **black characters have by and large been written as heroes** in the comics at a higher rate than characters overall, and that **increasingly more black characters have been written per new nonblack characters**. 
+So what do we take away from all this? Well our **optimistic pieces of good news** are that **racial diversity in comic books has only been increasing** since about 1965, **black characters have by and large been written as heroes** in the comics at a higher rate than characters overall, and that **increasingly more black characters have been written per new nonblack characters**. 
 
 Still, in all of the metrics that we analyzed, the **reality still does not match up to the ideal case** if black characters were represented at a proportional rate to what we would expect based on the U.S. population. So, there is **clearly work to be done**.
 
