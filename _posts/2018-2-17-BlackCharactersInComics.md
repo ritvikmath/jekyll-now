@@ -4,6 +4,12 @@ comments: true
 title: The State of Black Characters in Comics
 ---
 
+<figure>
+<center>
+   <a href="/images/coverimageheroes.png"><img width="100%" src="/images/coverimageheroes.png"></a>
+</center>
+</figure>
+
 ---
 
 # Motivation
