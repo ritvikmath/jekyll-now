@@ -6,7 +6,7 @@ title: The State of Black Characters in Comics
 
 <figure>
 <center>
-   <a href="/images/coverimageheroes.png"><img width="100%" src="/images/coverimageheroes.png"></a>
+   <a href="/images/mycoverimgheroes.png"><img width="100%" src="/images/mycoverimgheroes.png"></a>
 </center>
 </figure>
 
