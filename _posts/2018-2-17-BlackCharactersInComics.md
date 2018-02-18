@@ -10,8 +10,6 @@ title: The State of Black Characters in Comics
 </center>
 </figure>
 
----
-
 # Motivation
 
 ---
@@ -24,7 +22,7 @@ As it is currently <a href="https://en.wikipedia.org/wiki/Black_History_Month" t
 
 <figure>
 <center>
-   <a href="/images/blackpanther.png"><img width="80%" src="/images/blackpanther.png"></a>
+   <a href="/images/blackpanther.png"><img width="85%" src="/images/blackpanther.png"></a>
 </center>
 </figure>
 
@@ -49,7 +47,7 @@ In the end, I produced a dataset with the following six columns: **Alignment (He
 
 <figure>
 <center>
-   <a href="/images/comics_data.png"><img width="75%" src="/images/comics_data.png"></a>
+   <a href="/images/comics_data.png"><img width="85%" src="/images/comics_data.png"></a>
 </center>
 </figure>
 
