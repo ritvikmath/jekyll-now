@@ -143,6 +143,12 @@ Still, in all of the metrics that we analyzed, the reality still does not match 
 
 In addition, there are many dynamics relating to comic books and racial diversity that we did not measure. In recent years, we have had many rewritings of existing comic book characters as people of color. This spans even from the 1970's where readers got a black Green Lantern to recent years where readers got an Afro-Latino Spider Man (2011) and a Korean-American Hulk (2015). 
 
+<figure>
+<center>
+   <a href="/images/pocheroes.png"><img width="100%" src="/images/pocheroes.png"></a>
+</center>
+</figure>
+
 These are undoubtedly huge steps towards a more diverse comic book universe, but I would personally argue that it means so much more when people of color are written directly into a completely new comic book character rather than assigned to a comic book character originally written for a white male, such as the examples just given. The creative license and depth of story that can be incorporated into the stories of icons like Black Panther or Storm just cannot be matched when there is a pressure to fit a person of color into a decades-old mold. 
 
 Still, we need to applaud and support racial diversity in comics in any way it may manifest, especially with an increasing number of film and TV adaptations. We need to show the diverse youth in this country that people like them are incredible.
