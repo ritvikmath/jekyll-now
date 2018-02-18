@@ -145,7 +145,7 @@ In addition, there are many dynamics relating to comic books and racial diversit
 
 <figure>
 <center>
-   <a href="/images/pocheroes.png"><img width="85%" src="/images/pocheroes.png"></a>
+   <a href="/images/pocheroes.png"><img width="80%" src="/images/pocheroes.png"></a>
 </center>
 </figure>
 
