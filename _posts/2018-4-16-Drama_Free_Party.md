@@ -104,7 +104,7 @@ The constraint we mentioned in this post about making sure two people either att
 
 $$
 x >= 0
-
+\break
 x - M \times z1 <= 0
 
 x + M \times z2 >= 2
