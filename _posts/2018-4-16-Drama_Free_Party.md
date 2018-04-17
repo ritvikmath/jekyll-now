@@ -52,7 +52,7 @@ Also, let's say we invite **Carl and Dan**. Then **Elise** cannot be there. Vice
 
 So, our final guest list is ***Abby, Becky, and Elise***, for a total of 65 points out of a possible 100. Not Bad!!
 
-But what if its **more complicated**. Consider a bunch of amigos and the following restrictions:
+But what if it’s **more complicated**. Consider a bunch of amigos and the following restrictions:
 
 <figure>
 <center>
@@ -84,21 +84,21 @@ A =
 \right
 .$$
 
-and all other variables are defiend similarly. 
+and all other variables are defined similarly. 
 
 So **how do we say mathematically that Becky and Francine can't both be at the party?**
 
-Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F \leq 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
+Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F \leq 1$$** since the only unacceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
 
 How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
 We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the double date gone wrong), then we can encode that as: **$$(1/2)(L+J) + (1/2)(K+H) \leq 1$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
 
-Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garield, Ingrid***. 
+Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garfield, Ingrid***. 
 
 Let's do a quick check to make sure we can't do better. The **highest scoring person**, Carl with 13 points, didn't get an invite! But if he did, then we have to invite **Heidi and Louise** too because of the tennis team constraint. But then we have ***DRAMA*** because we invited Heidi and Louise, whose **husbands hate each other**. Don't wanna get caught up in that mess!
 
-So ... yea. Let's be honest. There's just some people who can't be around other people at your **kickback, bat mitzvah, wedding, etc.** And you dont wanna deal with all that drama so just ***let the math take care if it for you. :)***
+So ... yea. Let's be honest. There's just some people who can't be around other people at your **kickback, bat mitzvah, wedding, etc.** And you don’t wanna deal with all that drama so just ***let the math take care if it for you. :)***
 
 Thanks for reading and please leave comments!
 
@@ -143,4 +143,4 @@ $$
 
 In our case, x is actually the sum of the two **binary** variables representing the two people we need at the party together and so it all reduces to $$x = 2$$.
 
-Thus, by introducing an extra set of variables, $$z_1$$ and $$z_2$$, **we are able to capture our OR constraint**. 
+Thus, by introducing an extra set of variables, $$z_1$$ and $$z_2$$, **we are able to capture our OR constraint**.
