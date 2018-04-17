@@ -66,9 +66,9 @@ Also, this is our points list for all our friends
 
 ***Now what do we do??***
 
-We can use a powerful mathematical solving technique called Linear Programming to solve this problem. 
+We can use a powerful mathematical solving technique called <a href="https://en.wikipedia.org/wiki/Linear_programming" target="_blank">Linear Programming</a> to solve this problem. 
 
-First, we set up the problem by having a bunch of binary (0 or 1) variables, each corresponding to one of our potential guests. 
+First, we set up the problem by having a **bunch of binary (0 or 1) variables**, each corresponding to one of our potential guests. 
 
 A = {1 if Abby is coming otherwise its 0}
 
