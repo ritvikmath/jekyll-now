@@ -64,7 +64,7 @@ Also, this is our points list for all our friends
 
 <figure>
 <center>
-   <a href="/images/prefs_party_sbs.png"><img width="50%" src="/images/prefs_party_sbs.png"></a>
+   <a href="/images/prefs_party_sbs.png"><img width="100%" src="/images/prefs_party_sbs.png"></a>
 </center>
 </figure>
 
