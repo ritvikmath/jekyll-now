@@ -70,26 +70,67 @@ We can use a powerful mathematical solving technique called <a href="https://en.
 
 First, we set up the problem by having a **bunch of binary (0 or 1) variables**, each corresponding to one of our potential guests. 
 
-A = {1 if Abby is coming otherwise its 0}
+$$
+A = 
+\left\{
+\begin{array}{ll}
+      1 & \text{if Abby is coming to the party} \\
+      0 & \text{if not} \\
+\end{array} 
+\right
+.$$
 
-and all other variables are defiend similarly. So how do we say mathematically that Becky and Francine can't both be at the party.
+and all other variables are defiend similarly. So **how do we say mathematically that Becky and Francine can't both be at the party?**
 
-Well, it's fine if Becky is there without Francine (B=1, F=0) or if Francine is there without Becky (B=0, F=1). It's also fine if neither is there (B=0, F=0). So basically, we need that B+F<=1 since the only unnaceptable case is if both of them are there (B=1,F=1 => B+F=2).
+Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F <= 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 => B+F=2)$$.
 
-How about if some people have to be at the party together. If Abby and Becky have to be at the party together, then either A=0,B=0 => A+B=0 or A=1,B=1 => A+B=2. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
+How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 => A+B=0$$** or **$$A=1,B=1 => A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
-We can also get a bit fancier. For example if we can either invite one couple or another couple (because of the double date gone wrong), then we can encode that as: (1/2)(W+X) + (1/2)(Y+Z) <= 1 [this works because W+X is either 0 or 2 and same with Y+Z, so this constraint ensures that W+X and Y+Z are not both 1].
+We can also get a bit fancier. For example if **we can either invite one couple or another couple** (because of the double date gone wrong), then we can encode that as: **$$(1/2)(W+X) + (1/2)(Y+Z) <= 1$$** (this works because $$W+X$$ is either 0 or 2 and same with $$Y+Z$$, so this constraint ensures that $$W+X$$ and $$Y+Z$$ are not both 1).
 
-Putting all our constraints into our Linear Programming model, along with our preference points for the potential guests, quickly generates the optimal drama-free guest list:
+Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garield, Ingrid***.
 
-<<pic here>>
+So ... yea. Let's be honest. There's just some people who can't be around other people at your **kickback, bat mitzvah, wedding, etc.** And you dont wanna deal with all that drama so just ***let the math take care if it for you. :)**
 
-So ... yea. Let's be honest. There's just some people who can't be around other people at your kickback, bat-mitzvah, wedding, etc. And you dont wanna deal with all that drama so just let the math take care if it for you. :)
+# Notes
 
-Notes:
+For those familiar with the procedure of Linear Programming, you know that we are only allowed to combine our constraints using AND, i.e. we can say x + y <= 4 AND x - y >= 3 AND etc. 
 
-For those familiar with the procedure of Linear Programming, you know that we are only allowed to AND our constraints together. i.e. we can say x + y <= 4 and x - y >= 3 AND etc. The constraint we mentioned here is actually an OR constrait. I.e. something like x = 0 OR x = 2. We can use something called the Big M method to convert this or constraint into a group of OR constraints. Namely, we convert the constraint x=0 or x=2 into: 
+The constraint we mentioned in this post about making sure two people either attend a party together or not at all is actually an OR constraint. i.e. something like x = 0 OR x = 2. We can use something called the Big M method to convert this or constraint into a group of OR constraints. Namely, we convert the constraint x=0 or x=2 into: 
 
-<<insert constraints here>>
+$$
+x >= 0
+x - M \cross z1 <= 0
+x + M \cross z2 >= 2
+z1 + z2 = 1
+$$
 
-Note that the only two possible cases are (z1,z2) = (0,1) or (z1, z2) = (1,0). In the former case <<insert discussion here>> so that x=0. In the latter case <<insert discussion here>> so that x=2. Thus, by introducing an extra set of variables, z1 and z2, we are able to capture our OR constraint. 
+where we have introduced two new variables, $$z1$$ and $$z2$$, which are both binary variables. We have also introduced a constant called M which is very large. We will set it to be 100.
+
+Note that the only two possible cases are (z1,z2) = (0,1) or (z1, z2) = (1,0). In the former case, our constraints reduce to:
+
+$$
+x >= 0
+x <= 0
+x >= -98
+$$
+
+which all just reduces to $$x=0$$.
+
+In the latter case ], our constraints reduce to:
+
+$$
+x >= 0
+x <= 100
+x >= 2
+$$
+
+which reduces to 
+
+$$
+2 <= x <= 100
+$$
+
+In our case, x is actually the sum of the two binary variables representing the two people we need at the party together and so it can only be 2. 
+
+Thus, by introducing an extra set of variables, z1 and z2, **we are able to capture our OR constraint**. 
