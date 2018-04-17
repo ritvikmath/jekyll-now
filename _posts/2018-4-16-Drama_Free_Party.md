@@ -38,7 +38,7 @@ Also, you sit down and **score how much *you* want each person at your party** a
 
 <figure>
 <center>
-   <a href="/images/prefs_party_small.png"><img width="70%" src="/images/prefs_party_small.png"></a>
+   <a href="/images/prefs_party_small.png"><img width="50%" src="/images/prefs_party_small.png"></a>
 </center>
 </figure>
 
@@ -64,7 +64,7 @@ Also, this is our points list for all our friends
 
 <figure>
 <center>
-   <a href="/images/prefs_party.png"><img width="100%" src="/images/prefs_party.png"></a>
+   <a href="/images/prefs_party.png"><img width="40%" src="/images/prefs_party.png"></a>
 </center>
 </figure>
 
