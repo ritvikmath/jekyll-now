@@ -115,9 +115,9 @@ x + M \times z_2 \geq 2 \\
 z1 + z2 = 1
 $$
 
-where we have introduced two new variables, $$z1$$ and $$z2$$, which are **both binary variables**. We have also introduced a constant called **M** which is very large. We will set it to be **100**.
+where we have introduced two new variables, $$z_1$$ and $$z_2$$, which are **both binary variables** and which **add up to 1**. We have also introduced a constant called **M** which is very large. We will set it to be **100**.
 
-Note that the only two possible cases are (z1,z2) = (0,1) or (z1, z2) = (1,0). In the **former case**, our constraints reduce to:
+Note that the only two possible cases are $$(z_1, z_2) = (0, 1)$$ or $$(z_1, z_2) = (1, 0)$$. In the **former case**, our constraints reduce to:
 
 $$
 x \geq 0 \\
@@ -143,4 +143,4 @@ $$
 
 In our case, x is actually the sum of the two **binary** variables representing the two people we need at the party together and so it all reduces to $$x = 2$$.
 
-Thus, by introducing an extra set of variables, z1 and z2, **we are able to capture our OR constraint**. 
+Thus, by introducing an extra set of variables, $$z_1$$ and $$z_2$$, **we are able to capture our OR constraint**. 
