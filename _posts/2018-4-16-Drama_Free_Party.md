@@ -82,15 +82,15 @@ A =
 
 and all other variables are defiend similarly. So **how do we say mathematically that Becky and Francine can't both be at the party?**
 
-Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F <= 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 => B+F=2)$$.
+Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F <= 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
 
-How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 => A+B=0$$** or **$$A=1,B=1 => A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
+How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
 We can also get a bit fancier. For example if **we can either invite one couple or another couple** (because of the double date gone wrong), then we can encode that as: **$$(1/2)(W+X) + (1/2)(Y+Z) <= 1$$** (this works because $$W+X$$ is either 0 or 2 and same with $$Y+Z$$, so this constraint ensures that $$W+X$$ and $$Y+Z$$ are not both 1).
 
 Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garield, Ingrid***.
 
-So ... yea. Let's be honest. There's just some people who can't be around other people at your **kickback, bat mitzvah, wedding, etc.** And you dont wanna deal with all that drama so just ***let the math take care if it for you. :)**
+So ... yea. Let's be honest. There's just some people who can't be around other people at your **kickback, bat mitzvah, wedding, etc.** And you dont wanna deal with all that drama so just ***let the math take care if it for you. :)***
 
 # Notes
 
@@ -100,8 +100,8 @@ The constraint we mentioned in this post about making sure two people either att
 
 $$
 x >= 0
-x - M \cross z1 <= 0
-x + M \cross z2 >= 2
+x - M \times z1 <= 0
+x + M \times z2 >= 2
 z1 + z2 = 1
 $$
 
