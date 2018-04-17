@@ -110,8 +110,8 @@ The constraint we mentioned in this post about making sure two people either att
 
 $$
 x \geq 0 \\
-x - M \times z1 \leq 0 \\
-x + M \times z2 \geq 2 \\
+x - M \times z_1 \leq 0 \\
+x + M \times z_2 \geq 2 \\
 z1 + z2 = 1
 $$
 
