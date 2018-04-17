@@ -24,9 +24,9 @@ title: Designing a Drama-Free Guest List
 
 ---
 
-So, you're gonna have a rad kickback at your place and wanna invite your friends Abby, Becky, Carl, Dan, Elise, and Francine. 
+So, you're gonna have a **rad kickback at your place** and wanna invite your friends **Abby, Becky, Carl, Dan, Elise, and Francine**. 
 
-But .... 
+***But ....*** 
 
 If you're inviting Abby, you ***have*** to invite Becky because they're dating and it would look sooo **shady** if you just invited one of them.
 
@@ -46,13 +46,13 @@ Also, you sit down and **score how much *you* want each person at your party** a
 
 Well, since this is a pretty simple case, we can just logic it out here. 
 
-Let's say we invite **Abby**. Then we have to also invite **Becky**. Also, then we cannot invite **Francine**. So it's either **Abby+Becky or Francine**. **Abby+Becky gives us 25 points** while **Francine gives us just 10**. Too bad for Francine ... **bye Felicia**. Abby and Becky are in.
+Let's say we invite **Abby**. Then we have to also invite **Becky**. Also, then we cannot invite **Francine**. So it's either **Abby + Becky or Francine**. **Abby + Becky gives us 25 points** while **Francine gives us just 10**. Too bad for Francine ... **bye Felicia**. Abby and Becky are in.
 
-Also, let's say we invite **Carl and Dan**. Then **Elise** cannot be there. Vice versa, we can invite **Elise** but then we cannot invite **Carl or Dan**. **Carl+Dan gives us 25** and **Elise gives us 40**. So Elise gets an invite.
+Also, let's say we invite **Carl and Dan**. Then **Elise** cannot be there. Vice versa, we can invite **Elise** but then we cannot invite **Carl or Dan**. **Carl + Dan gives us 25** and **Elise gives us 40**. So Elise gets an invite.
 
 So, our final guest list is ***Abby, Becky, and Elise***, for a total of 65 points out of a possible 100. Not Bad!!
 
-But what if its more complicated. Consider a bunch of amigos and the following restrictions:
+But what if its **more complicated**. Consider a bunch of amigos and the following restrictions:
 
 <figure>
 <center>
