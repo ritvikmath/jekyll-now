@@ -100,8 +100,11 @@ The constraint we mentioned in this post about making sure two people either att
 
 $$
 x >= 0
+
 x - M \times z1 <= 0
+
 x + M \times z2 >= 2
+
 z1 + z2 = 1
 $$
 
@@ -111,7 +114,9 @@ Note that the only two possible cases are (z1,z2) = (0,1) or (z1, z2) = (1,0). I
 
 $$
 x >= 0
+
 x <= 0
+
 x >= -98
 $$
 
@@ -121,7 +126,9 @@ In the latter case ], our constraints reduce to:
 
 $$
 x >= 0
+
 x <= 100
+
 x >= 2
 $$
 
