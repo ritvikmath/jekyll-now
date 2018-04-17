@@ -72,7 +72,7 @@ Also, this is our points list for all our friends
 
 We can use a powerful mathematical solving technique called <a href="https://en.wikipedia.org/wiki/Linear_programming" target="_blank">Linear Programming</a> to solve this problem. 
 
-First, we set up the problem by having a **bunch of binary (0 or 1) variables**, each corresponding to one of our potential guests. 
+First, we set up the problem by having a **bunch of binary (0 or 1) variables**, each corresponding to one of our potential guests. For example, in Abby's case:
 
 $$
 A = 
@@ -84,9 +84,11 @@ A =
 \right
 .$$
 
-and all other variables are defiend similarly. So **how do we say mathematically that Becky and Francine can't both be at the party?**
+and all other variables are defiend similarly. 
 
-Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F <= 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
+So **how do we say mathematically that Becky and Francine can't both be at the party?**
+
+Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F \leq 1$$** since the only unnaceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
 
 How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
@@ -103,8 +105,8 @@ For those familiar with the procedure of Linear Programming, you know that we ar
 The constraint we mentioned in this post about making sure two people either attend a party together or not at all is actually an OR constraint. i.e. something like x = 0 OR x = 2. We can use something called the Big M method to convert this or constraint into a group of OR constraints. Namely, we convert the constraint x=0 or x=2 into: 
 
 $$
-x >= 0
-\break
+x >= 0 \\
+
 x - M \times z1 <= 0
 
 x + M \times z2 >= 2
