@@ -92,7 +92,7 @@ Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Fr
 
 How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
-We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the double date gone wrong), then we can encode that as: **$$(1/2)(L+J) + (1/2)(K+H) \leq 1$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
+We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the double date gone wrong), then we can encode that as: **$$\frac{1}{2}(L+J) + \frac{1}{2}(K+H) \leq 1$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
 
 Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garfield, Ingrid***. 
 
