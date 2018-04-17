@@ -38,7 +38,7 @@ Also, you sit down and **score how much *you* want each person at your party** a
 
 <figure>
 <center>
-   <a href="/images/prefs_party_small.png"><img width="100%" src="/images/prefs_party_small.png"></a>
+   <a href="/images/prefs_party_small.png"><img width="70%" src="/images/prefs_party_small.png"></a>
 </center>
 </figure>
 
@@ -54,13 +54,17 @@ So, our final guest list is ***Abby, Becky, and Elise***, for a total of 65 poin
 
 But what if its more complicated. Consider a bunch of amigos and the following restrictions:
 
-<<pic here>>
+<figure>
+<center>
+   <a href="/images/six_conditions.png"><img width="100%" src="/images/six_conditions.png"></a>
+</center>
+</figure>
 
 Also, this is our points list for all our friends
 
 <figure>
 <center>
-   <a href="/images/six_conditions.png"><img width="100%" src="/images/six_conditions.png"></a>
+   <a href="/images/prefs_party.png"><img width="100%" src="/images/prefs_party.png"></a>
 </center>
 </figure>
 
