@@ -30,7 +30,7 @@ So, you're gonna have a **rad kickback at your place** and wanna invite your fri
 
 If you're inviting Abby, you ***have*** to invite Becky because they're dating and it would look sooo **shady** if you just invited one of them.
 
-Alsooo if Becky's gonna be there, then you ***absolutely cannot** invite Francine because they used to date and it **did not end well**.
+Alsooo if Becky's gonna be there, then you ***absolutely cannot*** invite Francine because they used to date and it **did not end well**.
 
 Oh yea, and Carl and Dan are both trying to get with Elise so if Elise is coming, then ***there's no way*** that Dan or Carl can be there.
 
