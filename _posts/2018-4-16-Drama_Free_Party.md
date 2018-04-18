@@ -22,6 +22,10 @@ title: Designing a Drama-Free Guest List
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
+<center>
+<font size="4">Read Time: 10 min</font>
+</center>
+
 ---
 
 So, you're gonna have a **rad kickback at your place** and wanna invite your friends **Abby, Becky, Carl, Dan, Elise, and Francine**. 
