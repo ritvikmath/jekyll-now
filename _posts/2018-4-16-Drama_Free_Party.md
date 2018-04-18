@@ -98,7 +98,7 @@ Putting all our **constraints** into our Linear Programming model, along with ou
 
 <figure>
 <center>
-   <a href="/images/final_list.png"><img width="50%" src="/images/final_list.png"></a>
+   <a href="/images/final_list.png"><img width="75%" src="/images/final_list.png"></a>
 </center>
 </figure>
 
