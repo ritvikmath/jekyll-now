@@ -6,7 +6,7 @@ title: Designing a Drama-Free Guest List
 
 <figure>
 <center>
-   <a href="/images/xyz.png"><img width="100%" src="/images/xyz.png"></a>
+   <a href="/images/banner_drama.png"><img width="100%" src="/images/banner_drama.png"></a>
 </center>
 </figure>
 
