@@ -94,7 +94,13 @@ How about if some people have to be at the party together. If **Abby and Becky h
 
 We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the double date gone wrong), then we can encode that as: **$$(L+J) + (K+H) \leq 2$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
 
-Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: ***Abby, Becky, Dan, Garfield, Ingrid***. 
+Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: 
+
+<figure>
+<center>
+   <a href="/images/final_list.png"><img width="100%" src="/images/final_list.png"></a>
+</center>
+</figure>
 
 Let's do a quick check to make sure we can't do better. The **highest scoring person**, Carl with 13 points, didn't get an invite! But if he did, then we have to invite **Heidi and Louise** too because of the tennis team constraint. But then we have ***DRAMA*** because we invited Heidi and Louise, whose **husbands hate each other**. Don't wanna get caught up in that mess!
 
