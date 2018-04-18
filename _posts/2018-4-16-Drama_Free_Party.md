@@ -56,7 +56,7 @@ But what if it’s **more complicated**. Consider a bunch of amigos and the foll
 
 <figure>
 <center>
-   <a href="/images/six_conditions.png"><img width="100%" src="/images/six_conditions.png"></a>
+   <a href="/images/updated_six_conditions.png"><img width="100%" src="/images/updated_six_conditions.png"></a>
 </center>
 </figure>
 
@@ -64,7 +64,7 @@ Also, this is our points list for all our friends
 
 <figure>
 <center>
-   <a href="/images/prefs_party_sbs.png"><img width="100%" src="/images/prefs_party_sbs.png"></a>
+   <a href="/images/sbs_updated.png"><img width="100%" src="/images/sbs_updated.png"></a>
 </center>
 </figure>
 
