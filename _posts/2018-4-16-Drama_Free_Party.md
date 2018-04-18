@@ -60,7 +60,7 @@ But what if it’s **more complicated**. Consider a bunch of amigos and the foll
 </center>
 </figure>
 
-Also, this is our points list for all our friends
+Also, this is our **points list** for all our friends:
 
 <figure>
 <center>
@@ -90,9 +90,9 @@ So **how do we say mathematically that Becky and Francine can't both be at the p
 
 Well, it's fine if **Becky is there without Francine $$(B=1, F=0)$$** or if **Francine is there without Becky $$(B=0, F=1)$$**. It's also fine if **neither is there $$(B=0, F=0)$$**. So basically, we need that **$$B+F \leq 1$$** since the only unacceptable case is if both of them are there $$(B=1,F=1 \to B+F=2)$$.
 
-How about if some people have to be at the party together. If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
+How about if some people have to be at the party together? If **Abby and Becky have to be at the party together**, then **either $$A=0,B=0 \to A+B=0$$** or **$$A=1,B=1 \to A+B=2$$**. (See the notes for discussion on how to encode this as a set of constraints compatible with Linear Programming).
 
-We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the double date gone wrong), then we can encode that as: **$$(L+J) + (K+H) \leq 2$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
+We can also get a bit fancier. For example if **we can either invite one couple (Louise and John) or another couple (Kal and Heidi)** (because of the lawnmower snafu), then we can encode that as: **$$(L+J) + (K+H) \leq 2$$** (this works because $$L+J$$ is either $$0$$ or $$2$$ and same with $$K+H$$, so this constraint ensures that $$L+J$$ and $$K+H$$ are not both $$2$$).
 
 Putting all our **constraints** into our Linear Programming model, along with our **preference points** for the potential guests, we quickly generate the optimal drama-free guest list: 
 
@@ -109,6 +109,7 @@ So ... yea. Let's be honest. There's just some people who can't be around other 
 Thanks for reading and please leave comments!
 
 # Notes
+---
 
 For those familiar with the procedure of Linear Programming, you know that we are only allowed to combine our constraints using AND, i.e. we can say $$x + y \leq 4$$ AND $$x - y \geq 3$$ AND etc. 
 
