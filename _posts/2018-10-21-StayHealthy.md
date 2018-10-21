@@ -60,7 +60,7 @@ So in the active work day, I burn **216 more calories**. I can hear you saying: 
 
 <figure>
 <center>
-   <a href="/images/hersheyscalories.png"><img width="75%" src="/images/hersheyscalories.png"></a>
+   <a href="/images/hersheyscalories.png"><img width="65%" src="/images/hersheyscalories.png"></a>
 </center>
 </figure>
 
