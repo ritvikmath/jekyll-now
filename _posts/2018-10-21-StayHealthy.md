@@ -7,7 +7,7 @@ title: How to Maintain Your Body in the Modern Workplace
 
 <figure>
 <center>
-   <a href="/images/stay_healthy_header.png"><img width="70%" src="/images/stay_healthy_header.png"></a>
+   <a href="/images/stay_healthy_header.png"><img width="60%" src="/images/stay_healthy_header.png"></a>
 </center>
 </figure>
 
