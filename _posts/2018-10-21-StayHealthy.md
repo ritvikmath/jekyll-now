@@ -70,7 +70,7 @@ Let's say that I am currently eating enough calories to keep me at my current we
 
 <figure>
 <center>
-   <a href="/images/result_health.png"><img width="70%" src="/images/result_health.png"></a>
+   <a href="/images/result_health2.png"><img width="70%" src="/images/result_health2.png"></a>
 </center>
 </figure>
 
