@@ -7,7 +7,7 @@ title: How to Maintain Your Body in the Modern Workplace
 
 <figure>
 <center>
-   <a href="/images/stay_healthy_header.png"><img width="90%" src="/images/stay_healthy_header.png"></a>
+   <a href="/images/stay_healthy_header.png"><img width="70%" src="/images/stay_healthy_header.png"></a>
 </center>
 </figure>
 
@@ -38,7 +38,7 @@ Sit working for 8 hours straight, getting up only to use the bathroom or get a c
 
 Calories burned: 
 
-$$**1826 calories** (Calories expended per day at rest for somone of my height, weight, age, and sex)$$
+**1826 calories** (Calories expended per day at rest for somone of my height, weight, age, and sex)
 
 ## Work Day 2:
 
@@ -52,7 +52,7 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 
 Calories burned: 
 
-$$1826 calories burned resting + (5.4 calories/minute walked)*(40 minutes) = **2042 calories**$$
+$1826$ calories burned resting + ($5.4$ calories/minute walked) $\times$ ($40$ minutes) = $**2042 calories**$
 
 (based on calorie burn estimates from <a href="https://www.health.harvard.edu/diet-and-weight-loss/calories-burned-in-30-minutes-of-leisure-and-routine-activities" target="_blank">Harvard Medical School</a> and a walking pace of 3.5 miles per hour)
 
