@@ -54,7 +54,7 @@ Calories burned:
 
 $$1826 calories burned resting + (5.4 calories/minute walked)*(40 minutes) = **2042 calories**$$
 
-(based on calorie burn estimates from Harvard Medical School and a walking pace of 3.5 miles per hour)
+(based on calorie burn estimates from <a href="https://www.health.harvard.edu/diet-and-weight-loss/calories-burned-in-30-minutes-of-leisure-and-routine-activities" target="_blank">Harvard Medical School</a> and a walking pace of 3.5 miles per hour)
 
 So in the active work day, I burn **216 more calories**. I can hear you saying: "Pshh .. what's that like a Hershey's bar?".
 
