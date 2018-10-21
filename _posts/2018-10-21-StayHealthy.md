@@ -24,11 +24,11 @@ Let's face it. As much as a lot of us would love to drop everything and spend a 
 
 But hey, that doesn't mean that we can't take care of our bodies along the way right? I personally would like to be healthy when I can finally use the money that vanishes biweekly into that 401k phantom zone.
 
-There are already so many wisdoms out there about staying healthy in the workplace: get a standing desk, don't drink too much coffee, get some fresh air, etc. This all sounds pretty good to be honest and you should follow it if it suits you. I wanted to put some numbers out there to quantatatively compare two potential work days.
+There are already so many wisdoms out there about staying healthy in the workplace: get a standing desk, don't drink too much coffee, get some fresh air, etc. This all sounds pretty good to be honest and you should follow it if it suits you. I wanted to put some numbers out there to **quantitatively compare two potential work days**.
 
 ## Work Day 1:
 
-Sit working for 8 hours straight, getting up only to use the bathroom or get a coffee.
+**Sit working for 8 hours straight**, getting up only to use the bathroom or get a coffee.
 
 <figure>
 <center>
@@ -36,9 +36,9 @@ Sit working for 8 hours straight, getting up only to use the bathroom or get a c
 </center>
 </figure>
 
-Calories burned: 
+**Calories burned:** 
 
-**1826 calories** (Calories expended per day at rest for somone of my height, weight, age, and sex)
+**1826 calories** (Calories expended per day at rest for someone of my height, weight, age, and sex)
 
 ## Work Day 2:
 
@@ -50,7 +50,7 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 </center>
 </figure>
 
-Calories burned: 
+**Calories burned:**
 
 1826 calories burned resting + (5.4 calories / minute walked) $\times$ (40 minutes) = **2042 calories**
 
@@ -64,9 +64,9 @@ So in the active work day, I burn **216 more calories**. I can hear you saying: 
 </center>
 </figure>
 
-Well, actually yea! A Hershey's 12 piece bar is 204 calories. But we can also think of it in terms of weight loss over time.
+Well, actually yea! A Hershey's 12 piece bar is 204 calories. But we can also think of it in terms of **weight loss over time**.
 
-Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say all I change in my life is to start doing these walks every workday (just weekdays). Even by a very conservative estimate, I'd be able to lose around 10 pounds within in a year, which is no small feat.
+Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say **all I change in my life is to start doing these walks every workday** (just weekdays). Even by a very conservative estimate, I'd be able to **lose around 10 pounds within in a year**, which is no small feat.
 
 <figure>
 <center>
@@ -74,6 +74,6 @@ Let's say that I am currently eating enough calories to keep me at my current we
 </center>
 </figure>
 
-Note that this assumes that each 3500 calories expended is about a pound lost and takes into account the fact that as you lose more weight, the same 40 minutes of walking will result in gradually fewer calories expended. It's important to note that this is a pretty rough and generlized calculation and the actual weight loss might change based on your body type, sex, and age. 
+Note that this assumes that each 3500 calories expended is about a pound lost and takes into account the fact that as you lose more weight, the same 40 minutes of walking will result in gradually fewer calories expended. It's important to note that this is a pretty rough and generalized calculation and the **actual weight loss might change based on your body type, sex, and age**. 
 
-I just wanted to shed some light on the power of intentional repeated micro-decisions. That is, small but consistent changes you purposely make to your life which generate real long term positive growth.
+Weight loss aside, these walks help me feel less stuffy and generally improve my mood and health through the day. I wanted to shed some light on the power of these intentional repeated micro-decisions. That is, small but consistent changes you purposely make to your life, which generate real long term positive growth.
