@@ -41,22 +41,28 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 </center>
 </figure>
 
-Calories burned: 1826 calories burned resting + (2.72 calories/minute walked)*(40 minutes) = **1935 calories**
+Calories burned: 1826 calories burned resting + (5.4 calories/minute walked)*(40 minutes) = **2042 calories**
 
 (based on calorie burn estimates from Harvard Medical School and a walking pace of 3.5 miles per hour)
 
-So in the active work day, I burn **109 more calories**. I can hear you saying: "Pshh .. what's that like an apple?".
+So in the active work day, I burn **216 more calories**. I can hear you saying: "Pshh .. what's that like a Hershey's bar?".
 
 <figure>
 <center>
-   <a href="/images/applecalories.png"><img width="90%" src="/images/applecalories.png"></a>
+   <a href="/images/hersheyscalories.png"><img width="90%" src="/images/hersheyscalories.png"></a>
 </center>
 </figure>
 
-Well, it actually is a a large apple (110 calories), but we can also think of it in terms of weight loss over time.
+Well, actually yea! A Hershey's 12 piece bar is 204 calories. But we can also think of it in terms of weight loss over time.
 
-Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say all I change in my life is to start doing these walks every workday (just weekdays). Even by a conservative estimate, I'd be able to lose around 5 pounds within in a year, which is no small feat.
+Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say all I change in my life is to start doing these walks every workday (just weekdays). Even by a very conservative estimate, I'd be able to lose around 10 pounds within in a year, which is no small feat.
 
-<insert graph of weight loss over time>
+<figure>
+<center>
+   <a href="/images/result_health.png"><img width="90%" src="/images/result_health.png"></a>
+</center>
+</figure>
 
-I just wanted to shed some light on the power of intentional repeated micro-decisions. That is, small but consistent changes you purposely make to your life which generate real long term positive growth. 
+Note that this assumes that each 3500 calories expended is about a pound lost and takes into account the fact that as you lose more weight, the same 40 minutes of walking will result in gradually fewer calories expended. It's important to note that this is a pretty rough and generlized calculation and the actual weight loss might change based on your body type, sex, and age. 
+
+I just wanted to shed some light on the power of intentional repeated micro-decisions. That is, small but consistent changes you purposely make to your life which generate real long term positive growth.
