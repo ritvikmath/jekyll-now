@@ -36,7 +36,9 @@ Sit working for 8 hours straight, getting up only to use the bathroom or get a c
 </center>
 </figure>
 
-Calories burned: **1826 calories** (Calories expended per day at rest for somone of my height, weight, age, and sex)
+Calories burned: 
+
+$$**1826 calories** (Calories expended per day at rest for somone of my height, weight, age, and sex)$$
 
 ## Work Day 2:
 
@@ -48,7 +50,9 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 </center>
 </figure>
 
-Calories burned: 1826 calories burned resting + (5.4 calories/minute walked)*(40 minutes) = **2042 calories**
+Calories burned: 
+
+$$1826 calories burned resting + (5.4 calories/minute walked)*(40 minutes) = **2042 calories**$$
 
 (based on calorie burn estimates from Harvard Medical School and a walking pace of 3.5 miles per hour)
 
