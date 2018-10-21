@@ -52,7 +52,7 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 
 Calories burned: 
 
-$1826$ calories burned resting + ($5.4$ calories/minute walked) $\times$ ($40$ minutes) = $**2042 calories**$
+1826 calories burned resting + (5.4 calories / minute walked) $\times$ (40 minutes) = **2042 calories**
 
 (based on calorie burn estimates from <a href="https://www.health.harvard.edu/diet-and-weight-loss/calories-burned-in-30-minutes-of-leisure-and-routine-activities" target="_blank">Harvard Medical School</a> and a walking pace of 3.5 miles per hour)
 
@@ -60,7 +60,7 @@ So in the active work day, I burn **216 more calories**. I can hear you saying: 
 
 <figure>
 <center>
-   <a href="/images/hersheyscalories.png"><img width="90%" src="/images/hersheyscalories.png"></a>
+   <a href="/images/hersheyscalories.png"><img width="75%" src="/images/hersheyscalories.png"></a>
 </center>
 </figure>
 
