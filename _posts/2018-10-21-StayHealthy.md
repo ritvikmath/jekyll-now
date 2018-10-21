@@ -11,6 +11,10 @@ title: How to Maintain Your Body in the Modern Workplace
 </center>
 </figure>
 
+<center>
+<font size="4">Read Time: 5 min</font>
+</center>
+
 ---
 
 <script type="text/x-mathjax-config">
