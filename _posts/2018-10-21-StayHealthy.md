@@ -13,6 +13,13 @@ title: How to Maintain Your Body in the Modern Workplace
 
 ---
 
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
 Let's face it. As much as a lot of us would love to drop everything and spend a year traveling the world, the reality for many of us is that we'll actually be spending most of our forseeable days at that 9 to 5 desk job. 
 
 But hey, that doesn't mean that we can't take care of our bodies along the way right? I personally would like to be healthy when I can finally use the money that vanishes biweekly into that 401k phantom zone.
