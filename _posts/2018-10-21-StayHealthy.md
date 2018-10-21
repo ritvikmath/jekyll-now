@@ -46,7 +46,7 @@ Take **two 10 minute walks** during the day and a **20 minute walk** during my h
 
 <figure>
 <center>
-   <a href="/images/workday2.png"><img width="90%" src="/images/workday2.png"></a>
+   <a href="/images/workday2.png"><img width="100%" src="/images/workday2.png"></a>
 </center>
 </figure>
 
