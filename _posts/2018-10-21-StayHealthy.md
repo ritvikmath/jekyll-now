@@ -32,7 +32,7 @@ There are already so many wisdoms out there about staying healthy in the workpla
 
 ## Work Day 1:
 
-**Sit working for 8 hours straight**, getting up only to use the bathroom or get a coffee.
+**Sit working for 8 hours straight**, getting up only to use the bathroom or get some coffee.
 
 <figure>
 <center>
