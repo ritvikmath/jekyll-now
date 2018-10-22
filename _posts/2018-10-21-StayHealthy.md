@@ -80,4 +80,4 @@ Let's say that I am currently eating enough calories to keep me at my current we
 
 Note that this assumes that each 3500 calories expended is about a pound lost and takes into account the fact that as you lose more weight, the same 40 minutes of walking will result in gradually fewer calories expended. It's important to note that this is a pretty rough and generalized calculation and the **actual weight loss might change based on your body type, sex, and age**. 
 
-Weight loss aside, these walks help me feel less stuffy and generally improve my mood and health through the day. I wanted to shed some light on the power of these intentional repeated micro-decisions. That is, small but consistent changes you purposely make to your life, which generate real long term positive growth.
+Weight loss aside, these walks help me feel less stuffy and generally improve my mood and health through the day. I wanted to shed some light on the power of these intentional repeated micro-decisions. That is, **small but consistent changes** you purposely make to your life, which generate **real long term positive growth**.
