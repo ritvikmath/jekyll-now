@@ -70,7 +70,7 @@ So in the active work day, I burn **216 more calories**. I can hear you saying: 
 
 Well, actually yea! A Hershey's 12 piece bar is 204 calories. But we can also think of it in terms of **weight loss over time**.
 
-Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say **all I change in my life is to start doing these walks every workday** (just weekdays). Even by a very conservative estimate, I'd be able to **lose around 10 pounds within in a year**, which is no small feat.
+Let's say that I am currently eating enough calories to keep me at my current weight of 170 (not losing or gaining weight). Now, let's say **all I change in my life is to start doing these walks every workday** (just weekdays). Even by a very conservative estimate, I'd be able to **lose around 10 pounds within a year**, which is no small feat.
 
 <figure>
 <center>
