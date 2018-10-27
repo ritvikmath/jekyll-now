@@ -20,7 +20,7 @@ So, I started tracking my calories in, calories out, and weight each day just as
 
 I wanted to talk about the biggest positives I've experienced from tracking my health as well as the biggest downsides I faced in this experience. Hopefully this helps you to decide whether or not health tracking is a good fit for you!
 
-# Key Positive 1 - Measurable Progress Over Time
+# Key Positive - Measurable Progress Over Time
 
 The definite biggest postive from my health tracking was that it gave me the ability to **visually track my progress over time** and see if any changes I was making (positive or negative) were having any effects on my health. Since my primary objective in the beginning was to lose weight, that is the story I wanted to talk about here. 
 
@@ -66,6 +66,36 @@ Of course, we haven't seen net calories and weight on the same graph yet so let'
 
 * The first month seems odd since my net calories are increasing while my weight is rapidly dropping, but I attribute this more to the fact that last November is when I first started seriously working out after several college years of relative inactivity. My body seemed to appreciate that
 * The really cool thing is that after the first month, these two lines seem to follow each other rather closesly, especially since this March! If you're wondering why there is no data past July, that's because I stopped tracking my daily weight in early August, but as promised, more on that soon
+
+# Key Negative - Health Became a Game
+
+Whenever you start intentionally and frequently keeping score of something, whether its your finances, your work performance or, in this case, your health, that thing can start to feel like a game. This seems like a potential positive since you want to score the most points and therefore stay motivated but it can also take a seious mental toll.
+
+That's what happened to me in early April.
+
+Up until April, the sole statistic I was judging myself by was net calories. Additionally, I had set my goal to always keep my net calories under 2000. While this worked for a while, I soon started to find myself trying to "hack" my own system. 
+
+That is, if my net calories at the end of dinner happened to be something like 1500, I would find myself eating something I didn't need just because I hadn't yet hit that 2000. In my mind, I was being clever. Meanwhile, my body paid the price since the things I ate on days like those were usually garbage foods like ice cream, chocolate, etc. Also, I was much less inclined to work out on days like these because my net calories were already under 2000, so why work to reduce them further?
+
+Indeed, when I made a histogram of net calories, most of my days clustered tightly around 2000:
+
+## Distribution of Net Calories
+
+<figure>
+<center>
+   <a href="/images/NetCalHist.png"><img width="90%" src="/images/NetCalHist.png"></a>
+</center>
+</figure>
+
+This is around the time I came up with a second metric which would dethrone net calories as the sole dictator of whether I was healthy or not. This metric was called the **Calorie Out-In Ratio** and is defined simply as **Calories Out divided by Calories In**.  
+
+To see the power of this metric, compare these two potential days. In day 1, you **consume 2000 calories and burn 0 calories, resulting in 2000 net calories**. In day 2, you **consume 2500 calories and burn 500 calories, also resulting in 2000 net calories**. But, I would much rather be in day 2 since I have the same net calories but also the added benefits of a good workout. The out-in ratio captures this since the **ratio is 0 for the first day** but it is **0.2 (500 calories out divided by 2500 calories in) for the second day**. 
+
+Since April, I have found myself much less inclined to "hack" my own system and have felt more stable using both net calories and the out-in ratio to determine my healthiness for any given day.
+
+The other 
+
+
 
 
 # Data Collection
