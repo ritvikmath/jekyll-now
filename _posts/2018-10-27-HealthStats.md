@@ -14,9 +14,17 @@ title: One Year of Calorie Counting - The Lessons and Results
 
 # Motivations
 
-One year ago, I started tracking my calories in, calories out, and weight each day just as a way to keep track of how I was doing healthwise. The intial goal was just to see if lowering my net calories had any effect on my weight over time. While this is one of the questions I was able to answer, this journey of counting calories became about a lot more thoughout the last year of my life. 
+One year ago, I had recently graduated, was a few months into my first full-time job, was still learning how to be a funtional human being, and was one pound shy of having an obese BMI. Something needed to be done. 
+
+So, I started tracking my calories in, calories out, and weight each day just as a way to keep track of how I was doing healthwise. The intial goal was just to see if lowering my net calories had any effect on my weight over time. While this is one of the questions I was able to answer, this journey of counting calories became about a lot more in the past year.
 
 I wanted to talk about the biggest positives I've experienced from tracking my health as well as the biggest downsides I faced in this experience. Hopefully this helps you to decide whether or not health tracking is a good fit for you!
+
+# Key Positive 1 - Measurable Progress Over Time
+
+The definite biggest postive from my health tracking was that it gave me the ability to **visually track my progress over time** and see if any changes I was making (positive or negative) were having any effects on my health. Since my primary objective in the beginning was to lose weight, that is the story I wanted to talk about here. 
+
+While your rate of weight loss will depend on several other factors like genetics and activity level, the usual idea is that the lower you keep your net calories, the more weight you can lose. 
 
 # Data Collection
 
