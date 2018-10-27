@@ -91,9 +91,50 @@ This is around the time I came up with a second metric which would dethrone net 
 
 To see the power of this metric, compare these two potential days. In day 1, you **consume 2000 calories and burn 0 calories, resulting in 2000 net calories**. In day 2, you **consume 2500 calories and burn 500 calories, also resulting in 2000 net calories**. But, I would much rather be in day 2 since I have the same net calories but also the added benefits of a good workout. The out-in ratio captures this since the **ratio is 0 for the first day** but it is **0.2 (500 calories out divided by 2500 calories in) for the second day**. 
 
+The nice thing was that I had all the information I needed to backfill the out-in ratio values for the five months before I even started using this metric. So, I was able to check my progress on this metric over time as well:
+
+## Caloric Out-In Ratio Over Time
+
+<figure>
+<center>
+   <a href="/images/OIR.png"><img width="90%" src="/images/OIR.png"></a>
+</center>
+</figure>
+
+* This metric was stable around 0.1 for a long time until it spiked in late May, which is when I started working out more and eating less in response to the health flashpoint in late April
+* After a sharp dip in June and then again in July, the out-in ratio has been steadily rising for the past three months, approaching 0.2
+
 Since April, I have found myself much less inclined to "hack" my own system and have felt more stable using both net calories and the out-in ratio to determine my healthiness for any given day.
 
-The other 
+# Key Positive - Calories Become Currency
+
+One consistent positive through this past year has been that I have started to view calories as a form of currency. Before tracking my health, I would just eat what I wanted and periodically regret my decisions. Through the past year however, I have found myself thinking through my day ahead of time. Around lunchtime, I will start thinking about how much I want to eat based on whether I have plans for a big dinner, want to treat myself with a nice dessert, and whether I made it to my morning workout or not.
+
+There are definitely moments where I have considered eating some birthday cake at work but have stoppoed myself because I don't have "enough calories to spend". Indeed, this shift in mentality, which took me several months to really solidify, helps me treat calories as the resource they are and helps me impose limits on my consumption.
+
+# Key Negative - Overaccountability
+
+One big goal at the beginning of my health tracking was to keep myself accountable if I ever failed to meet my goals. When net calories was still my primary performance metric, I had included a column in my data named "Reason". Any day where I went over 2000 net calories, I made myself write down the reason why I had failed. 
+
+This worked for a while and helped me understand what might cause me to fail, but it soon became really oppressive. There were weeks where I had several social outings or had less time to go to the gym and I would consistently find myself explaining my failures to myself in writing. It went from informational to downright demoralizing. 
+
+So, along with the adoption of the out-in ratio I mentioned earlier, I removed this column from my data. I opted to instead just mentally note if I ever failed to meet my goals and think about the day ahead rather than keep a running tally of how many times I had failed.
+
+As my goals shifted a bit in early March to focus more on getting physical activity, I opted to trade the above mentioned "Reason" column for two new columns in my data called "Cardio?" and "Weights?" each of which were just a yes/no for whether I had completed a cardiovascular or weight training workout that day. These simple two metrics personally work really well for me, making sure I get myself to work out often without being too overbearing. They allow me to track how my workout frequency as changed through the year:
+
+## Cardio and Weights Workouts Over Time (each black bar represents a day of working out)
+
+<figure>
+<center>
+   <a href="/images/WorkoutPings.png"><img width="90%" src="/images/WorkoutPings.png"></a>
+</center>
+</figure>
+
+* The biggest takeaway from this graph are that my workout frequency has stabilized in the last few months but is much better than the low periods in June and July
+
+More recently, in early August I became so fixated on losing weight that I found myself visiting the scale three or four times in a single day, often surprised when nothing had changed in two hours. I knew that weight was one of the biggest metrics that I wanted to track, but also that this daily tracking was morally killing me. I opted to forgoe the potentially useful data in favor of my sanity. I'm currently at a system where I just check my weight a few times a month and note it down rather than checking it every day.
+
+# Conclusions
 
 
 
