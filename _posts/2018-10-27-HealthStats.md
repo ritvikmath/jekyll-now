@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: One Year of Calorie Counting - The Lessons and Results
+title: One Year of Calorie Counting &#58 Lessons and Results
 ---
 
 <figure>
