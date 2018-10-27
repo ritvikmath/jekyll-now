@@ -132,6 +132,18 @@ As my goals shifted a bit in early March to focus more on getting physical activ
 
 * The biggest takeaway from this graph are that my workout frequency has stabilized in the last few months but is much better than the low periods in June and July
 
+Also in early March, I started tracking my general mood at the end of each day, which I simply picked as either being **:), :|, or :(**. It was definitely my least "scientific" metric but nevertheless one which helped me think about why my day went the way that it did. Mood was definitely a function of so much more than my measured health statistics, but there was still a strong relationship between mood and calories as shown below:
+
+## Relationshp Between Calories and Mood
+
+<figure>
+<center>
+   <a href="/images/MoodGroups.png"><img width="90%" src="/images/MoodGroups.png"></a>
+</center>
+</figure>
+
+* It is pretty clear to see that the average calories in increaes with decreasing mood, and the average calories out increases with increasing mood. While there is really no real science I can give here, I can say that I felt much better on days where I got a workout in and when I didn't eat so much that I felt like crap at the end of the day.
+
 More recently, in early August I became so fixated on losing weight that I found myself visiting the scale three or four times in a single day, often surprised when nothing had changed in two hours. I knew that weight was one of the biggest metrics that I wanted to track, but also that this daily tracking was morally killing me. I opted to forgoe the potentially useful data in favor of my sanity. I'm currently at a system where I just check my weight a few times a month and note it down rather than checking it every day.
 
 # Conclusions
@@ -142,7 +154,7 @@ I hope that some of the toughts and data above help you decide whether or not yo
 
 Thanks for reading and please leave comments below!
 
-# Data Collection
+# Data Collection Notes
 
 As noted above, this project initially started by just measuring three metrics each day: calories in, calories out, and weight. 
 
@@ -151,6 +163,3 @@ I measured calories in as accurately as possible, researching nutrition facts wh
 Similarly, I calculated calories out by consulting caloric burn rates for various exersizes based on my weight at the time. It is also important to note that the calories out you see in the upcoming data does *not* include calories burned at rest. That is, I recorded calories burned from intentional physical activities only. 
 
 I calculated weight using an electronic weighing scale I have at home.
-
-I later started recording the **Out-In Ratio** which is simply defined as **Calories Out divided by Calories In**. I also started tracking my mood which I simply picked as either being **happy, neutral, or sad**. This one was definitely the least scientific metric bu nevertheless one which helped me think about why my day went the way that it did. 
-
