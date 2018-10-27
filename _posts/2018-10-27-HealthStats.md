@@ -70,7 +70,7 @@ Taking a look now at my weight in the same time period:
 
 Of course, we haven't seen net calories and weight on the same graph yet so let's see how they compare. Since they are on different scales, I have normalized both of them (essentially get them on the same scale without changing the shape of the data).
 
-## How do Net Calories correlate with Weight?
+## How do Net Calories Correlate with Weight?
 
 <figure>
 <center>
