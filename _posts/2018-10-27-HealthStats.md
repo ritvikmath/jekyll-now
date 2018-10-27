@@ -23,7 +23,7 @@ Quick Links:
 * [Data Collection Notes](#not)    
 
 ---
-
+<a name="mot"></a>
 # Motivations
 
 One year ago, I was a few months into my first full-time job, was still learning how to be a funtional human being, and was one pound shy of having an obese BMI. Something needed to be done. 
@@ -33,7 +33,7 @@ So, I started tracking my calories in, calories out, and weight each day just as
 I wanted to talk about the biggest positives I've experienced from tracking my health as well as the biggest downsides I faced in this experience. Hopefully this helps you to decide whether or not health tracking is a good fit for you!
 
 ---
-
+<a name="kp1"></a>
 # Key Positive (+) : Measurable Progress Over Time
 
 The definite biggest postive from my health tracking was that it gave me the ability to **visually track my progress over time** and see if any changes I was making (positive or negative) were having any effects on my health. Since my primary objective in the beginning was to lose weight, that is the story I wanted to talk about here. 
@@ -82,7 +82,7 @@ Of course, we haven't seen net calories and weight on the same graph yet so let'
 * The really cool thing is that after the first month, these two lines seem to follow each other rather closesly, especially since this March! If you're wondering why there is no data past July, that's because I stopped tracking my daily weight in early August, but as promised, more on that soon
 
 ---
-
+<a name="kn1"></a>
 # Key Negative (-) : Health Became a Game
 
 Whenever you start intentionally and frequently keeping score of something, whether its your finances, your work performance or, in this case, your health, that thing can start to feel like a game. This seems like a potential positive since you want to score the most points and therefore stay motivated but it can also take a seious mental toll.
@@ -123,7 +123,7 @@ The nice thing was that I had all the information I needed to backfill the out-i
 Since April, I have found myself much less inclined to "hack" my own system and have felt more stable using both net calories and the out-in ratio to determine my healthiness for any given day.
 
 ---
-
+<a name="kp2"></a>
 # Key Positive (+) : Calories Become Currency
 
 One consistent positive through this past year has been that I have started to view calories as a form of currency. Before tracking my health, I would just eat what I wanted and periodically regret my decisions. Through the past year however, I have found myself thinking through my day ahead of time. Around lunchtime, I will start thinking about how much I want to eat based on whether I have plans for a big dinner, want to treat myself with a nice dessert, and whether I made it to my morning workout or not.
@@ -131,7 +131,7 @@ One consistent positive through this past year has been that I have started to v
 There are definitely moments where I have considered eating some birthday cake at work but have stoppoed myself because I don't have "enough calories to spend". Indeed, this shift in mentality, which took me several months to really solidify, helps me treat calories as the resource they are and helps me impose limits on my consumption.
 
 ---
-
+<a name="kn2"></a>
 # Key Negative (-) : Overaccountability
 
 One big goal at the beginning of my health tracking was to keep myself accountable if I ever failed to meet my goals. When net calories was still my primary performance metric, I had included a column in my data named "Reason". Any day where I went over 2000 net calories, I made myself write down the reason why I had failed. 
@@ -167,7 +167,7 @@ Also in early March, I started tracking my general mood at the end of each day, 
 More recently, in early August I became so fixated on losing weight that I found myself visiting the scale three or four times in a single day, often surprised when nothing had changed in two hours. I knew that weight was one of the biggest metrics that I wanted to track, but also that this daily tracking was morally killing me. I opted to forgoe the potentially useful data in favor of my sanity. I'm currently at a system where I just check my weight a few times a month and note it down rather than checking it every day.
 
 ---
-
+<a name="conc"></a>
 # Conclusions
 
 I think health tracking has been an overall positive for me in the last year, and something which does not take a lot of effort, especially with advanced health - monitoring apps thesedays. Still, it is important to note the negative toll that constantly monitoring your health can have on your ... well, health. As always, a good balance and trial and error are the best tools at your disposal.
@@ -177,7 +177,7 @@ I hope that some of the toughts and data above help you decide whether or not yo
 **Thanks for reading and please leave comments below!**
 
 ---
-
+<a name="not"></a>
 # Data Collection Notes
 
 As noted above, this project initially started by just measuring three metrics each day: calories in, calories out, and weight. 
