@@ -152,7 +152,7 @@ As my goals shifted a bit in early March to focus more on getting physical activ
 
 * The biggest takeaway from this graph are that my workout frequency has stabilized in the last few months but is much better than the low periods in June and July
 
-Also in early March, I **started tracking my general mood at the end of each day**, which I simply picked as either being **:), :|, or :(**. It was definitely my least "scientific" metric but nevertheless one which helped me think about why my day went the way that it did. Mood was definitely a function of so much more than my measured health statistics, but there was still a strong relationship between mood and calories as shown below:
+Also in early March, I **started tracking my general mood at the end of each day**, which I simply picked as either being **:), :\|, or :(**. It was definitely my least "scientific" metric but nevertheless one which helped me think about why my day went the way that it did. Mood was definitely a function of so much more than my measured health statistics, but there was still a strong relationship between mood and calories as shown below:
 
 ## Relationship Between Calories and Mood
 
