@@ -6,7 +6,7 @@ title: One Year of Calorie Counting &#58 Lessons and Results
 
 <figure>
 <center>
-   <a href="/images/header_option_1_healthstats.png"><img width="90%" src="/images/header_option_1_healthstats.png"></a>
+   <a href="/images/header_option_2_healthstats.png"><img width="90%" src="/images/header_option_2_healthstats.png"></a>
 </center>
 </figure>
 
