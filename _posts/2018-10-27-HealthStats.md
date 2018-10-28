@@ -49,8 +49,11 @@ While your rate of weight loss will depend on several other factors like genetic
 </figure>
 
 * While the raw data (in blue) is pretty noisy, once we take a rolling average (in red), the true trend becomes more apparent. My net calories had been steadily increasing since I started collecting data, eventually spiking at the end of April with around **3500 net calories per day (Yikes!)**
+
 * Honestly, at that point I remember consistently feeling tired and heavy all the time and realized that if I wanted to reduce my net calories I either needed to increase my calories out or decrease my calories in. The issue was clearly with my calories in (I was eating way too much), so I made a conscious effort to consume fewer calories
+
 * After that point, my net calories dipped towards the end of May and have since stabilized to just under 2000
+
 * An additional interesting point is that my net calorie volatility (how wild the blue graph is) has been reducing since the volatility peaked in April, meaning that I found myself with a more consistent caloric schedule between one day and the next
 
 Taking a look now at my weight in the same time period:
@@ -64,8 +67,11 @@ Taking a look now at my weight in the same time period:
 </figure>
 
 * I was really excited for that **initial dip from 180 to 165** which ended in mid-December. I thought that I would continue to lose weight at the same rate forever, but I was definitely wrong
+
 * After my initial weight loss sprint, I found my mentality relax and let myself eat more (as evidenced by the net calories graph above), which eventually cost me. By mid April, I was **pretty much might back where I started** at the beginning of all this
+
 * Even when I got my act together a little bit and started controlling my eating, my weight didn't really change and instead hovered around 175 for several months.
+
 * Only in the last two months (September and October) have I seen weights as low as those from last December. I think part of that is that I stopped tracking weight daily but more on that later!
 
 Of course, we haven't seen net calories and weight on the same graph yet so let's see how they compare. Since they are on different scales, I have **normalized both of them** (essentially get them on the same scale without changing the shape of the data).
@@ -79,6 +85,7 @@ Of course, we haven't seen net calories and weight on the same graph yet so let'
 </figure> 
 
 * The first month seems odd since my net calories are increasing while my weight is rapidly dropping, but I attribute this more to the fact that last November is when I first started seriously working out after several college years of relative inactivity. My body seemed to appreciate that
+
 * The really cool thing is that after the first month, these **two lines seem to follow each other rather closely**, especially since this March! If you're wondering why there is no data past July, that's because I stopped tracking my daily weight in early August, but as promised, more on that soon
 
 ---
@@ -118,6 +125,7 @@ The nice thing was that I had all the information I needed to backfill the out-i
 </figure>
 
 * This metric was stable around 0.1 for a long time until it spiked in late May, which is when I started working out more and eating less in response to the health flashpoint in late April
+
 * After a sharp dip in June and then again in July, the out-in ratio has been steadily rising for the past three months, **approaching 0.2**
 
 Since April, I have found myself much less inclined to "hack" my own system and have felt more stable using both net calories and the out-in ratio to determine my healthiness for any given day.
