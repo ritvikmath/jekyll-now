@@ -44,7 +44,7 @@ While your rate of weight loss will depend on several other factors like genetic
 
 <figure>
 <center>
-   <a href="/images/NetCalories.png"><img width="90%" src="/images/NetCalories.png"></a>
+   <a href="/images/NetCalories.png"><img width="100%" src="/images/NetCalories.png"></a>
 </center>
 </figure>
 
@@ -59,7 +59,7 @@ Taking a look now at my weight in the same time period:
 
 <figure>
 <center>
-   <a href="/images/Weight.png"><img width="90%" src="/images/Weight.png"></a>
+   <a href="/images/Weight.png"><img width="100%" src="/images/Weight.png"></a>
 </center>
 </figure>
 
@@ -74,7 +74,7 @@ Of course, we haven't seen net calories and weight on the same graph yet so let'
 
 <figure>
 <center>
-   <a href="/images/NCtoWeight.png"><img width="90%" src="/images/NCtoWeight.png"></a>
+   <a href="/images/NCtoWeight.png"><img width="100%" src="/images/NCtoWeight.png"></a>
 </center>
 </figure> 
 
@@ -99,7 +99,7 @@ Indeed, when I made a histogram of net calories, most of my days cluster tightly
 
 <figure>
 <center>
-   <a href="/images/NetCalHist.png"><img width="90%" src="/images/NetCalHist.png"></a>
+   <a href="/images/NetCalHist.png"><img width="100%" src="/images/NetCalHist.png"></a>
 </center>
 </figure>
 
@@ -113,7 +113,7 @@ The nice thing was that I had all the information I needed to backfill the out-i
 
 <figure>
 <center>
-   <a href="/images/OIR.png"><img width="90%" src="/images/OIR.png"></a>
+   <a href="/images/OIR.png"><img width="100%" src="/images/OIR.png"></a>
 </center>
 </figure>
 
@@ -146,7 +146,7 @@ As my goals shifted a bit in early March to focus more on getting physical activ
 
 <figure>
 <center>
-   <a href="/images/WorkoutPings.png"><img width="90%" src="/images/WorkoutPings.png"></a>
+   <a href="/images/WorkoutPings.png"><img width="100%" src="/images/WorkoutPings.png"></a>
 </center>
 </figure>
 
@@ -158,7 +158,7 @@ Also in early March, I **started tracking my general mood at the end of each day
 
 <figure>
 <center>
-   <a href="/images/MoodGroups.png"><img width="90%" src="/images/MoodGroups.png"></a>
+   <a href="/images/MoodGroups.png"><img width="100%" src="/images/MoodGroups.png"></a>
 </center>
 </figure>
 
