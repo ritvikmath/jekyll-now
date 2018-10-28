@@ -99,7 +99,7 @@ Indeed, when I made a histogram of net calories, most of my days cluster tightly
 
 <figure>
 <center>
-   <a href="/images/NetCalHist.png"><img width="75%" src="/images/NetCalHist.png"></a>
+   <a href="/images/NetCalHist.png"><img width="80%" src="/images/NetCalHist.png"></a>
 </center>
 </figure>
 
@@ -158,7 +158,7 @@ Also in early March, I **started tracking my general mood at the end of each day
 
 <figure>
 <center>
-   <a href="/images/MoodGroups.png"><img width="75%" src="/images/MoodGroups.png"></a>
+   <a href="/images/MoodGroups.png"><img width="80%" src="/images/MoodGroups.png"></a>
 </center>
 </figure>
 
