@@ -51,7 +51,7 @@ So we really want to find the U.S. cities where both **Housing Score** and **Avo
 
 <figure>
 <center>
-   <a href="/images/avoTutorial.png"><img width="100%" src="/images/avoTutorial.png"></a>
+   <a href="/images/avoTutorial.png"><img width="90%" src="/images/avoTutorial.png"></a>
 </center>
 </figure>
 
@@ -59,20 +59,20 @@ We see that City A has a *slightly higher* Housing Score than City B but City B 
 
 This is a good place to note that we will be **normalizing** the Housing Score and Avocado Score for this analysis. That is, for a fair comparison we will be bringing those two scores into the same ballpark since houses tend to be more expensive than avocados. 
 
-Let's see the results using our real data!
+**Let's see the results using our real data!**
 
 # Results
 ---
 
 <figure>
 <center>
-   <a href="/images/houseAvoToastGraphic.png"><img width="100%" src="/images/houseAvoToastGraphic.png"></a>
+   <a href="/images/houseAvoToastGraphic.png"><img width="95%" src="/images/houseAvoToastGraphic.png"></a>
 </center>
 </figure>
 
 We see here the five worst cities to live in when it comes to buying a house *and* avocado toast are closest to the origin and the five best cities are furthest from the origin. 
 
-A lot of this just confirms what y'all probably presumed already. I mean did you really expect to be able to buy a house *AND* avocado toast in SF? HA!
+A lot of this just confirms what y'all probably presumed already. I mean did you really expect to be able to buy a house *AND* avocado toast in SF? **HA!**
 
 So you should just move to Detroit then right?
 
@@ -82,7 +82,7 @@ We will look at data since the beginning of 2015 and calculate the **average rat
 
 <figure>
 <center>
-   <a href="/images/annualGrowth.png"><img width="100%" src="/images/annualGrowth.png"></a>
+   <a href="/images/annualGrowth.png"><img width="92%" src="/images/annualGrowth.png"></a>
 </center>
 </figure>
 
@@ -96,7 +96,7 @@ What about for other major U.S. cities? Let's look at the average annual price g
 </center>
 </figure>
 
-This makes it clear that Chicago is definitely an outlier in terms of avocado price growth with most cities under about 13 cents per year. With Houston and Dallas boasting some slow price growth, maybe Texas is your new home. 
+This makes it clear that Chicago is definitely an outlier in terms of avocado price growth with most cities under about **13 cents per year**. With Houston and Dallas boasting some slow price growth, maybe Texas is your new home. 
 
 Note that some populous U.S. cities were omitted because Hass did not specifically have avocado price information for these cities.
 
