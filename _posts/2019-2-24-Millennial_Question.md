@@ -17,6 +17,10 @@ title: Where Can You Afford Avocado Toast AND a House?
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
 </script>
 
+<center>
+<font size="4">Read Time: 5 min</font>
+</center>
+
 ---
 
 We all know that millennials **love avocado toast**. We all also know that millennials **can't afford a house**. Well worry not! This post will answer the question of where you should move for the best chances of buying both a house **AND** your precious avocado toast.
