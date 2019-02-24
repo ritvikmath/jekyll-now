@@ -6,7 +6,7 @@ title: Where Can You Afford Avocado Toast AND a House?
 
 <figure>
 <center>
-   <a href="/images/avoFbImg.png"><img width="100%" src="/images/avoFbImg.png"></a>
+   <a href="/images/avoCover.png"><img width="50%" src="/images/avoCover.png"></a>
 </center>
 </figure>
 
