@@ -30,7 +30,7 @@ We all know that millennials **love avocado toast**. We all also know that mille
 
 The dataset used in this post is a combination of data from three sources. 
 
-The first <a href="http://www.hassavocadoboard.com/retail/volume-and-price-data" target="_blank">dataset</a> is from the Hass avocado board and contains information about **avocado prices and quantities sold over time** and in each U.S. region 
+The first <a href="http://www.hassavocadoboard.com/retail/volume-and-price-data" target="_blank">dataset</a> is from the Hass avocado board and contains information about **avocado prices and quantities sold over time** and in each U.S. region. 
 
 The second two datasets come from the U.S. Census Bureau and contain information on **average income by U.S. county** and **average house price by U.S. county**.
 
@@ -70,7 +70,7 @@ This is a good place to note that we will be **normalizing** the Housing Score a
 
 <figure>
 <center>
-   <a href="/images/houseAvoToastGraphic.png"><img width="95%" src="/images/houseAvoToastGraphic.png"></a>
+   <a href="/images/houseAvoToastGraphic.png"><img width="90%" src="/images/houseAvoToastGraphic.png"></a>
 </center>
 </figure>
 
@@ -80,7 +80,7 @@ A lot of this just confirms what y'all probably presumed already. I mean did you
 
 So you should just move to Detroit then right?
 
-Not so fast! There's more to the story. We haven't even explored the time component yet. Let's ask one more question before we close: **Where are avocado prices rising the fastest?** 
+**Not so fast!** There's more to the story. We haven't even explored the time component yet. Let's ask one more question before we close: **Where are avocado prices rising the fastest?** 
 
 We will look at data since the beginning of 2015 and calculate the **average rate of increase in avocado price over time**. Below we show the city with the slowest increase in price, the one with the fastest increase, and one in the middle.
 
@@ -92,7 +92,7 @@ We will look at data since the beginning of 2015 and calculate the **average rat
 
 Definitely go live in Pittsburgh if you value stable avocado prices over time. And if you are scared of your avocado toast getting increasingly more expensive, you're definitely gonna want to avoid Chicago with an average **21 cent increase per year**!
 
-What about for other major U.S. cities? Let's look at the average annual price growth in avocadoes for the most populous U.S. cities.
+What about for other major U.S. cities? Let's look at the average annual price growth in avocados for the most populous U.S. cities.
 
 <figure>
 <center>
