@@ -86,7 +86,7 @@ We will look at data since the beginning of 2015 and calculate the **average rat
 
 <figure>
 <center>
-   <a href="/images/annualGrowth.png"><img width="92%" src="/images/annualGrowth.png"></a>
+   <a href="/images/annualGrowthFaster.png"><img width="92%" src="/images/annualGrowthFaster.png"></a>
 </center>
 </figure>
 
@@ -96,7 +96,7 @@ What about for other major U.S. cities? Let's look at the average annual price g
 
 <figure>
 <center>
-   <a href="/images/popularCityChange.png"><img width="100%" src="/images/popularCityChange.png"></a>
+   <a href="/images/popularCityChangeFaster.png"><img width="100%" src="/images/popularCityChangeFaster.png"></a>
 </center>
 </figure>
 
