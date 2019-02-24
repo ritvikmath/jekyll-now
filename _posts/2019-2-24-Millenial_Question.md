@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Where You Can Afford a House AND Avocado Toast
+title: Where Can You Afford a House AND Avocado Toast?
 ---
 
 <figure>
@@ -37,16 +37,36 @@ Note that we will be considering Large Hass Avocados here, as they are the most 
 # Methodology
 ---
 
-Let's start by recognizing that getting our answers isnt as simple as ranking each U.S. region by avocado price or house price. It really depends on your income too. For example, if avocados are twice as expensive in City B as in City A, but your income in City B would be four times as much, you'd be better off living in City B since you can afford twice as many avocados, all else held constant.
+Let's start by recognizing that getting our answers isn't as simple as ranking each U.S. region by avocado price or house price. It really depends on your income too. For example, if avocados are twice as expensive in City B as in City A, but your income in City B would be four times as much, you'd be better off living in City B since you can afford twice as many avocados, all else held constant.
 
 So let's define two sensible scores for each U.S. region:
 
 $$
-Housing Score = \frac{Average Income}{Average House Price}
+Housing Score = \frac{\text{Average Income}}{\text{Average House Price}}
 $$
 
 $$
-Avocado Score = \frac{Average Income}{Average Avocado Price}
+Avocado Score = \frac{\text{Average Income}}{\text{Average Avocado Price}}
 $$
 
+So we really want to find the U.S. cities where both **Housing Score** and **Avocado Score** are maximized. But how do we maximize two metrics at once? Well suppose we are comparing two cities, City A and City B and we plot their Housing Score and Avocado Score on a grid.
 
+<figure>
+<center>
+   <a href="/images/avoTutorial.png"><img width="100%" src="/images/avoTutorial.png"></a>
+</center>
+</figure>
+
+We see that City A has a *slightly higher* Housing Score than City B but City B has a *much higher* Avocado Score than City A. So, we go with City B here. Another, more graphical way, to describe our decision is that we went with the city which was furthest from the origin, (0,0).
+
+This is a good place to note that we will be normalizing the Housing Score and Avocado Score for this analysis. That is, for a fair comparrision we will be bringing those two scores into the same ballpark since houses tend to be more expensive than avocados. 
+
+Let's see the results using our real data!
+
+<figure>
+<center>
+   <a href="/images/houseAvoToastGraphic.png"><img width="100%" src="/images/houseAvoToastGraphic.png"></a>
+</center>
+</figure>
+
+We see here the five worst cities to live in when it comes to buying a house *and* avocado toast are cloest to the origin and the five *best* cities are furthest from the origin. Note that the top city, Detroit, is actually off this chart, which is why there are just four green points circled. 
