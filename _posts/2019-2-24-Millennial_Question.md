@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Where Can You Afford a House *and* Avocado Toast?
+title: Where Can You Afford Avocado Toast AND a House?
 ---
 
 <figure>
