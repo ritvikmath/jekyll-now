@@ -40,11 +40,11 @@ Let's start by recognizing that getting our answers isn't as simple as ranking e
 So let's define two sensible scores for each U.S. region:
 
 $$
-Housing Score = \frac{\text{Average Income}}{\text{Average House Price}}
+\text{Housing Score} = \frac{\text{Average Income}}{\text{Average House Price}}
 $$
 
 $$
-Avocado Score = \frac{\text{Average Income}}{\text{Average Avocado Price}}
+\text{Avocado Score} = \frac{\text{Average Income}}{\text{Average Avocado Price}}
 $$
 
 So we really want to find the U.S. cities where both **Housing Score** and **Avocado Score** are maximized. But how do we maximize two metrics at once? Well suppose we are comparing two cities, City A and City B and we plot their Housing Score and Avocado Score on a grid.
